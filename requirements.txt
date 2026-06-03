@@ -1,0 +1,13 @@
+accelerate==1.14.0
+fsspec==2026.6.0
+joblib==1.5.3
+matplotlib==3.11.1
+numpy==2.5.2
+pandas==3.0.5
+Pillow==12.3.0
+qwen-vl-utils==0.0.14
+requests==2.34.2
+scikit-learn==1.9.0
+scipy==1.18.1
+torch==2.11.0
+transformers==5.16.1
