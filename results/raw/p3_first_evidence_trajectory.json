@@ -1,0 +1,47 @@
+[
+  {
+    "severity": 0.0,
+    "image": "results\\figures\\p3_critical_lambda_0.00.png",
+    "question": "What color is the square? Answer with one word.",
+    "ground_truth": "red",
+    "answer": "Red",
+    "correct": true,
+    "c_seq": -0.18191689252853394,
+    "geometric_mean_probability": 0.8336706217942081,
+    "average_entropy": 0.47127026319503784,
+    "hidden_dimension": 2048,
+    "hidden_norm": 438.02374267578125,
+    "peak_vram_gb": 6.06,
+    "hidden_cosine_to_clean": 1.0000004768371582
+  },
+  {
+    "severity": 0.5,
+    "image": "results\\figures\\p3_critical_lambda_0.50.png",
+    "question": "What color is the square? Answer with one word.",
+    "ground_truth": "red",
+    "answer": "Red",
+    "correct": true,
+    "c_seq": -0.20282213389873505,
+    "geometric_mean_probability": 0.8164234425667574,
+    "average_entropy": 0.49101874232292175,
+    "hidden_dimension": 2048,
+    "hidden_norm": 421.65478515625,
+    "peak_vram_gb": 6.06,
+    "hidden_cosine_to_clean": 0.9927498698234558
+  },
+  {
+    "severity": 1.0,
+    "image": "results\\figures\\p3_critical_lambda_1.00.png",
+    "question": "What color is the square? Answer with one word.",
+    "ground_truth": "red",
+    "answer": "Blue",
+    "correct": false,
+    "c_seq": -0.1776435375213623,
+    "geometric_mean_probability": 0.8372408152390938,
+    "average_entropy": 0.908566951751709,
+    "hidden_dimension": 2048,
+    "hidden_norm": 508.71856689453125,
+    "peak_vram_gb": 6.06,
+    "hidden_cosine_to_clean": 0.9162752628326416
+  }
+]
