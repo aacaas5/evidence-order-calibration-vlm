@@ -1,0 +1,33 @@
+{
+  "total_questions": 132062,
+  "high_confidence_candidates": 39378,
+  "selected_pilot": 50,
+  "candidate_category_counts": {
+    "category": 6784,
+    "other": 3647,
+    "existence": 17477,
+    "color": 4247,
+    "spatial": 5815,
+    "material": 1118,
+    "count": 79,
+    "size": 154,
+    "shape": 57
+  },
+  "selected_category_counts": {
+    "color": 6,
+    "existence": 6,
+    "spatial": 6,
+    "count": 6,
+    "material": 6,
+    "shape": 5,
+    "size": 5,
+    "category": 5,
+    "other": 5
+  },
+  "reject_reasons": {
+    "object_too_small": 10910,
+    "no_explicit_object_id": 8326,
+    "multiple_critical_objects": 70709,
+    "object_too_large": 2739
+  }
+}

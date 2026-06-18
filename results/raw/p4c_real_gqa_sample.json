@@ -1,0 +1,320 @@
+{
+  "question_id": "05515938",
+  "image_id": "2405722",
+  "question": "What is this bird called?",
+  "answer": "parrot",
+  "question_record": {
+    "semantic": [
+      {
+        "operation": "select",
+        "dependencies": [],
+        "argument": "bird (329774)"
+      },
+      {
+        "operation": "query",
+        "dependencies": [
+          0
+        ],
+        "argument": "name"
+      }
+    ],
+    "entailed": [
+      "05515937",
+      "05515936",
+      "05515922",
+      "05515921"
+    ],
+    "equivalent": [
+      "05515938"
+    ],
+    "question": "What is this bird called?",
+    "imageId": "2405722",
+    "isBalanced": true,
+    "groups": {
+      "global": "bird",
+      "local": "11q-bird"
+    },
+    "answer": "parrot",
+    "semanticStr": "select: bird (329774)->query: name [0]",
+    "annotations": {
+      "answer": {
+        "0": "329774"
+      },
+      "question": {
+        "3": "329774"
+      },
+      "fullAnswer": {
+        "3": "329774"
+      }
+    },
+    "types": {
+      "detailed": "categoryThis",
+      "semantic": "cat",
+      "structural": "query"
+    },
+    "fullAnswer": "This is a parrot."
+  },
+  "scene_graph_source": "val_sceneGraphs.json",
+  "image_width": 500,
+  "image_height": 375,
+  "objects": [
+    {
+      "object_id": "329789",
+      "name": "palm tree",
+      "bbox_xywh": [
+        240,
+        109,
+        158,
+        189
+      ],
+      "attributes": []
+    },
+    {
+      "object_id": "329788",
+      "name": "leaves",
+      "bbox_xywh": [
+        357,
+        192,
+        27,
+        8
+      ],
+      "attributes": [
+        "green"
+      ]
+    },
+    {
+      "object_id": "329781",
+      "name": "bushes",
+      "bbox_xywh": [
+        452,
+        127,
+        47,
+        67
+      ],
+      "attributes": [
+        "tropical"
+      ]
+    },
+    {
+      "object_id": "329780",
+      "name": "eye",
+      "bbox_xywh": [
+        108,
+        101,
+        21,
+        17
+      ],
+      "attributes": [
+        "black"
+      ]
+    },
+    {
+      "object_id": "329783",
+      "name": "feathers",
+      "bbox_xywh": [
+        132,
+        225,
+        51,
+        25
+      ],
+      "attributes": [
+        "white",
+        "ruffled"
+      ]
+    },
+    {
+      "object_id": "329782",
+      "name": "fence",
+      "bbox_xywh": [
+        0,
+        65,
+        68,
+        35
+      ],
+      "attributes": [
+        "silver",
+        "chain-link"
+      ]
+    },
+    {
+      "object_id": "329785",
+      "name": "stone",
+      "bbox_xywh": [
+        9,
+        137,
+        10,
+        13
+      ],
+      "attributes": []
+    },
+    {
+      "object_id": "329784",
+      "name": "wall",
+      "bbox_xywh": [
+        7,
+        107,
+        41,
+        57
+      ],
+      "attributes": [
+        "stone",
+        "rock"
+      ]
+    },
+    {
+      "object_id": "329787",
+      "name": "stone",
+      "bbox_xywh": [
+        26,
+        147,
+        12,
+        9
+      ],
+      "attributes": []
+    },
+    {
+      "object_id": "329786",
+      "name": "stone",
+      "bbox_xywh": [
+        21,
+        135,
+        14,
+        12
+      ],
+      "attributes": []
+    },
+    {
+      "object_id": "329800",
+      "name": "ladder",
+      "bbox_xywh": [
+        2,
+        349,
+        57,
+        25
+      ],
+      "attributes": [
+        "blue",
+        "metal"
+      ]
+    },
+    {
+      "object_id": "329778",
+      "name": "palm tree",
+      "bbox_xywh": [
+        302,
+        29,
+        77,
+        38
+      ],
+      "attributes": [
+        "tall",
+        "green"
+      ]
+    },
+    {
+      "object_id": "329779",
+      "name": "beak",
+      "bbox_xywh": [
+        47,
+        102,
+        59,
+        76
+      ],
+      "attributes": [
+        "sharp",
+        "curved",
+        "black",
+        "open",
+        "pointy"
+      ]
+    },
+    {
+      "object_id": "329774",
+      "name": "parrot",
+      "bbox_xywh": [
+        45,
+        55,
+        219,
+        320
+      ],
+      "attributes": [
+        "white"
+      ]
+    },
+    {
+      "object_id": "329775",
+      "name": "clouds",
+      "bbox_xywh": [
+        441,
+        0,
+        34,
+        16
+      ],
+      "attributes": [
+        "small",
+        "white",
+        "puffy"
+      ]
+    },
+    {
+      "object_id": "329776",
+      "name": "sky",
+      "bbox_xywh": [
+        0,
+        3,
+        499,
+        109
+      ],
+      "attributes": [
+        "blue"
+      ]
+    },
+    {
+      "object_id": "329777",
+      "name": "palm tree",
+      "bbox_xywh": [
+        371,
+        0,
+        73,
+        62
+      ],
+      "attributes": [
+        "tall",
+        "green"
+      ]
+    },
+    {
+      "object_id": "329798",
+      "name": "palm tree",
+      "bbox_xywh": [
+        18,
+        30,
+        33,
+        68
+      ],
+      "attributes": []
+    },
+    {
+      "object_id": "329799",
+      "name": "bushes",
+      "bbox_xywh": [
+        372,
+        135,
+        77,
+        46
+      ],
+      "attributes": []
+    },
+    {
+      "object_id": "329793",
+      "name": "hillside",
+      "bbox_xywh": [
+        0,
+        92,
+        67,
+        194
+      ],
+      "attributes": []
+    }
+  ]
+}

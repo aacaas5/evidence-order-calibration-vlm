@@ -1,0 +1,261 @@
+{
+  "dataset": "Mineru/GQA",
+  "split": "val_balanced",
+  "requested_questions": 50,
+  "successful_rows": 0,
+  "unique_images_available": 0,
+  "failed_rows": 50,
+  "downloaded_megabytes": 0.0,
+  "results": [
+    {
+      "question_id": "001025475",
+      "image_id": "2379780",
+      "status": "http_500"
+    },
+    {
+      "question_id": "0010024",
+      "image_id": "2320346",
+      "status": "http_500"
+    },
+    {
+      "question_id": "001002646",
+      "image_id": "2416944",
+      "status": "http_500"
+    },
+    {
+      "question_id": "0057078",
+      "image_id": "2316504",
+      "status": "http_500"
+    },
+    {
+      "question_id": "001033834",
+      "image_id": "2405536",
+      "status": "not_found"
+    },
+    {
+      "question_id": "01182972",
+      "image_id": "2330776",
+      "status": "not_found"
+    },
+    {
+      "question_id": "00126839",
+      "image_id": "1159529",
+      "status": "not_found"
+    },
+    {
+      "question_id": "001006706",
+      "image_id": "2406957",
+      "status": "not_found"
+    },
+    {
+      "question_id": "001001666",
+      "image_id": "2320793",
+      "status": "not_found"
+    },
+    {
+      "question_id": "001035170",
+      "image_id": "2372009",
+      "status": "not_found"
+    },
+    {
+      "question_id": "001009964",
+      "image_id": "497933",
+      "status": "not_found"
+    },
+    {
+      "question_id": "001007719",
+      "image_id": "2357649",
+      "status": "not_found"
+    },
+    {
+      "question_id": "00665882",
+      "image_id": "2317322",
+      "status": "http_500"
+    },
+    {
+      "question_id": "001057955",
+      "image_id": "2380870",
+      "status": "not_found"
+    },
+    {
+      "question_id": "01225526",
+      "image_id": "2409534",
+      "status": "not_found"
+    },
+    {
+      "question_id": "0030820",
+      "image_id": "2365465",
+      "status": "http_500"
+    },
+    {
+      "question_id": "001017428",
+      "image_id": "2408028",
+      "status": "not_found"
+    },
+    {
+      "question_id": "001020546",
+      "image_id": "2403905",
+      "status": "not_found"
+    },
+    {
+      "question_id": "001050030",
+      "image_id": "2379785",
+      "status": "not_found"
+    },
+    {
+      "question_id": "00101393",
+      "image_id": "2356112",
+      "status": "not_found"
+    },
+    {
+      "question_id": "001038060",
+      "image_id": "2414039",
+      "status": "not_found"
+    },
+    {
+      "question_id": "00684268",
+      "image_id": "2410733",
+      "status": "not_found"
+    },
+    {
+      "question_id": "00106330",
+      "image_id": "2339651",
+      "status": "not_found"
+    },
+    {
+      "question_id": "01229011",
+      "image_id": "2406044",
+      "status": "http_500"
+    },
+    {
+      "question_id": "00314282",
+      "image_id": "2357167",
+      "status": "http_500"
+    },
+    {
+      "question_id": "001039573",
+      "image_id": "2329954",
+      "status": "http_500"
+    },
+    {
+      "question_id": "001040979",
+      "image_id": "2373399",
+      "status": "http_500"
+    },
+    {
+      "question_id": "001052980",
+      "image_id": "2401523",
+      "status": "not_found"
+    },
+    {
+      "question_id": "001036",
+      "image_id": "3455",
+      "status": "not_found"
+    },
+    {
+      "question_id": "001056218",
+      "image_id": "2412630",
+      "status": "not_found"
+    },
+    {
+      "question_id": "0172479",
+      "image_id": "2411058",
+      "status": "http_500"
+    },
+    {
+      "question_id": "00139706",
+      "image_id": "2354182",
+      "status": "not_found"
+    },
+    {
+      "question_id": "01475283",
+      "image_id": "2322391",
+      "status": "not_found"
+    },
+    {
+      "question_id": "00379979",
+      "image_id": "2381517",
+      "status": "http_500"
+    },
+    {
+      "question_id": "001058144",
+      "image_id": "2380873",
+      "status": "http_500"
+    },
+    {
+      "question_id": "00107064",
+      "image_id": "2352130",
+      "status": "not_found"
+    },
+    {
+      "question_id": "00126377",
+      "image_id": "2391854",
+      "status": "http_500"
+    },
+    {
+      "question_id": "00111323",
+      "image_id": "2388844",
+      "status": "not_found"
+    },
+    {
+      "question_id": "00115960",
+      "image_id": "2338636",
+      "status": "not_found"
+    },
+    {
+      "question_id": "01856385",
+      "image_id": "2413600",
+      "status": "not_found"
+    },
+    {
+      "question_id": "00184225",
+      "image_id": "2328765",
+      "status": "not_found"
+    },
+    {
+      "question_id": "01600602",
+      "image_id": "2388832",
+      "status": "not_found"
+    },
+    {
+      "question_id": "00577771",
+      "image_id": "2405118",
+      "status": "http_500"
+    },
+    {
+      "question_id": "00122889",
+      "image_id": "2338529",
+      "status": "http_500"
+    },
+    {
+      "question_id": "00132539",
+      "image_id": "2409884",
+      "status": "not_found"
+    },
+    {
+      "question_id": "00143916",
+      "image_id": "2382258",
+      "status": "not_found"
+    },
+    {
+      "question_id": "00113470",
+      "image_id": "2332841",
+      "status": "not_found"
+    },
+    {
+      "question_id": "00120202",
+      "image_id": "2348644",
+      "status": "not_found"
+    },
+    {
+      "question_id": "01904363",
+      "image_id": "2342674",
+      "status": "not_found"
+    },
+    {
+      "question_id": "00222370",
+      "image_id": "2370909",
+      "status": "not_found"
+    }
+  ]
+}

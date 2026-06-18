@@ -1,0 +1,1578 @@
+[
+  {
+    "question_id": "001025475",
+    "image_id": "2379780",
+    "question": "What color is the small elephant?",
+    "answer": "brown",
+    "full_answer": "The elephant is brown.",
+    "pilot_category": "color",
+    "gqa_types": {
+      "detailed": "directOf",
+      "semantic": "attr",
+      "structural": "query"
+    },
+    "critical_object_ids": [
+      "550364"
+    ],
+    "critical_objects": [
+      {
+        "object_id": "550364",
+        "name": "elephant",
+        "attributes": [
+          "small",
+          "brown",
+          "walking"
+        ],
+        "bbox_xywh": [
+          63,
+          11,
+          243,
+          319
+        ],
+        "bbox_xyxy": [
+          63,
+          11,
+          306,
+          330
+        ],
+        "area_fraction": 0.465568
+      }
+    ],
+    "image_width": 500,
+    "image_height": 333,
+    "semantic_program": [
+      {
+        "operation": "select",
+        "dependencies": [],
+        "argument": "elephant (550364)"
+      },
+      {
+        "operation": "filter size",
+        "dependencies": [
+          0
+        ],
+        "argument": "small"
+      },
+      {
+        "operation": "query",
+        "dependencies": [
+          1
+        ],
+        "argument": "color"
+      }
+    ],
+    "mapping_method": "explicit_semantic_object_id",
+    "mapping_confidence": "high",
+    "audit_status": "accept"
+  },
+  {
+    "question_id": "001002646",
+    "image_id": "2416944",
+    "question": "On which side is the frisbee, the right or the left?",
+    "answer": "right",
+    "full_answer": "The frisbee is on the right of the image.",
+    "pilot_category": "spatial",
+    "gqa_types": {
+      "detailed": "positionChoose",
+      "semantic": "attr",
+      "structural": "choose"
+    },
+    "critical_object_ids": [
+      "3785640"
+    ],
+    "critical_objects": [
+      {
+        "object_id": "3785640",
+        "name": "frisbee",
+        "attributes": [],
+        "bbox_xywh": [
+          405,
+          263,
+          72,
+          31
+        ],
+        "bbox_xyxy": [
+          405,
+          263,
+          477,
+          294
+        ],
+        "area_fraction": 0.012939
+      }
+    ],
+    "image_width": 500,
+    "image_height": 345,
+    "semantic_program": [
+      {
+        "operation": "select",
+        "dependencies": [],
+        "argument": "frisbee (3785640)"
+      },
+      {
+        "operation": "choose hposition",
+        "dependencies": [
+          0
+        ],
+        "argument": "right|left"
+      }
+    ],
+    "mapping_method": "explicit_semantic_object_id",
+    "mapping_confidence": "high",
+    "audit_status": "accept"
+  },
+  {
+    "question_id": "00126839",
+    "image_id": "1159529",
+    "question": "Which size is the blue cart, large or small?",
+    "answer": "large",
+    "full_answer": "The cart is large.",
+    "pilot_category": "size",
+    "gqa_types": {
+      "detailed": "chooseAttr",
+      "semantic": "attr",
+      "structural": "choose"
+    },
+    "critical_object_ids": [
+      "1039872"
+    ],
+    "critical_objects": [
+      {
+        "object_id": "1039872",
+        "name": "cart",
+        "attributes": [
+          "large",
+          "blue"
+        ],
+        "bbox_xywh": [
+          89,
+          273,
+          219,
+          63
+        ],
+        "bbox_xyxy": [
+          89,
+          273,
+          308,
+          336
+        ],
+        "area_fraction": 0.032357
+      }
+    ],
+    "image_width": 800,
+    "image_height": 533,
+    "semantic_program": [
+      {
+        "operation": "select",
+        "dependencies": [],
+        "argument": "cart (1039872)"
+      },
+      {
+        "operation": "filter color",
+        "dependencies": [
+          0
+        ],
+        "argument": "blue"
+      },
+      {
+        "operation": "choose size",
+        "dependencies": [
+          1
+        ],
+        "argument": "large|small"
+      }
+    ],
+    "mapping_method": "explicit_semantic_object_id",
+    "mapping_confidence": "high",
+    "audit_status": "accept"
+  },
+  {
+    "question_id": "001006706",
+    "image_id": "2406957",
+    "question": "What kind of fast food is that?",
+    "answer": "pizza",
+    "full_answer": "This is a pizza.",
+    "pilot_category": "category",
+    "gqa_types": {
+      "detailed": "categoryThis",
+      "semantic": "cat",
+      "structural": "query"
+    },
+    "critical_object_ids": [
+      "1099705"
+    ],
+    "critical_objects": [
+      {
+        "object_id": "1099705",
+        "name": "pizza",
+        "attributes": [
+          "large",
+          "thick",
+          "round",
+          "red",
+          "pizza"
+        ],
+        "bbox_xywh": [
+          0,
+          115,
+          497,
+          233
+        ],
+        "bbox_xyxy": [
+          0,
+          115,
+          497,
+          348
+        ],
+        "area_fraction": 0.619257
+      }
+    ],
+    "image_width": 500,
+    "image_height": 374,
+    "semantic_program": [
+      {
+        "operation": "select",
+        "dependencies": [],
+        "argument": "fast food (1099705)"
+      },
+      {
+        "operation": "query",
+        "dependencies": [
+          0
+        ],
+        "argument": "name"
+      }
+    ],
+    "mapping_method": "explicit_semantic_object_id",
+    "mapping_confidence": "high",
+    "audit_status": "accept"
+  },
+  {
+    "question_id": "001001666",
+    "image_id": "2320793",
+    "question": "How large is the white boat?",
+    "answer": "small",
+    "full_answer": "The boat is small.",
+    "pilot_category": "other",
+    "gqa_types": {
+      "detailed": "how",
+      "semantic": "attr",
+      "structural": "query"
+    },
+    "critical_object_ids": [
+      "3170263"
+    ],
+    "critical_objects": [
+      {
+        "object_id": "3170263",
+        "name": "boat",
+        "attributes": [
+          "small",
+          "white"
+        ],
+        "bbox_xywh": [
+          111,
+          100,
+          102,
+          158
+        ],
+        "bbox_xyxy": [
+          111,
+          100,
+          213,
+          258
+        ],
+        "area_fraction": 0.085952
+      }
+    ],
+    "image_width": 500,
+    "image_height": 375,
+    "semantic_program": [
+      {
+        "operation": "select",
+        "dependencies": [],
+        "argument": "boat (3170263)"
+      },
+      {
+        "operation": "filter color",
+        "dependencies": [
+          0
+        ],
+        "argument": "white"
+      },
+      {
+        "operation": "query",
+        "dependencies": [
+          1
+        ],
+        "argument": "size"
+      }
+    ],
+    "mapping_method": "explicit_semantic_object_id",
+    "mapping_confidence": "high",
+    "audit_status": "accept"
+  },
+  {
+    "question_id": "001035170",
+    "image_id": "2372009",
+    "question": "Which color is the chair that is made of wood, brown or green?",
+    "answer": "brown",
+    "full_answer": "The chair is brown.",
+    "pilot_category": "color",
+    "gqa_types": {
+      "detailed": "chooseAttr",
+      "semantic": "attr",
+      "structural": "choose"
+    },
+    "critical_object_ids": [
+      "2687938"
+    ],
+    "critical_objects": [
+      {
+        "object_id": "2687938",
+        "name": "chair",
+        "attributes": [
+          "brown",
+          "wood"
+        ],
+        "bbox_xywh": [
+          162,
+          250,
+          58,
+          86
+        ],
+        "bbox_xyxy": [
+          162,
+          250,
+          220,
+          336
+        ],
+        "area_fraction": 0.026603
+      }
+    ],
+    "image_width": 500,
+    "image_height": 375,
+    "semantic_program": [
+      {
+        "operation": "select",
+        "dependencies": [],
+        "argument": "chair (2687938)"
+      },
+      {
+        "operation": "filter material",
+        "dependencies": [
+          0
+        ],
+        "argument": "wood"
+      },
+      {
+        "operation": "choose color",
+        "dependencies": [
+          1
+        ],
+        "argument": "brown|green"
+      }
+    ],
+    "mapping_method": "explicit_semantic_object_id",
+    "mapping_confidence": "high",
+    "audit_status": "accept"
+  },
+  {
+    "question_id": "001007719",
+    "image_id": "2357649",
+    "question": "On which side of the photo is the woman?",
+    "answer": "left",
+    "full_answer": "The woman is on the left of the image.",
+    "pilot_category": "spatial",
+    "gqa_types": {
+      "detailed": "positionQuery",
+      "semantic": "attr",
+      "structural": "query"
+    },
+    "critical_object_ids": [
+      "3552232"
+    ],
+    "critical_objects": [
+      {
+        "object_id": "3552232",
+        "name": "woman",
+        "attributes": [],
+        "bbox_xywh": [
+          0,
+          156,
+          128,
+          341
+        ],
+        "bbox_xyxy": [
+          0,
+          156,
+          128,
+          497
+        ],
+        "area_fraction": 0.244527
+      }
+    ],
+    "image_width": 357,
+    "image_height": 500,
+    "semantic_program": [
+      {
+        "operation": "select",
+        "dependencies": [],
+        "argument": "woman (3552232)"
+      },
+      {
+        "operation": "query",
+        "dependencies": [
+          0
+        ],
+        "argument": "hposition"
+      }
+    ],
+    "mapping_method": "explicit_semantic_object_id",
+    "mapping_confidence": "high",
+    "audit_status": "accept"
+  },
+  {
+    "question_id": "001057955",
+    "image_id": "2380870",
+    "question": "What's the door made of?",
+    "answer": "wood",
+    "full_answer": "The door is made of wood.",
+    "pilot_category": "material",
+    "gqa_types": {
+      "detailed": "material",
+      "semantic": "attr",
+      "structural": "query"
+    },
+    "critical_object_ids": [
+      "1341531"
+    ],
+    "critical_objects": [
+      {
+        "object_id": "1341531",
+        "name": "door",
+        "attributes": [
+          "wood",
+          "open"
+        ],
+        "bbox_xywh": [
+          187,
+          47,
+          61,
+          174
+        ],
+        "bbox_xyxy": [
+          187,
+          47,
+          248,
+          221
+        ],
+        "area_fraction": 0.056608
+      }
+    ],
+    "image_width": 500,
+    "image_height": 375,
+    "semantic_program": [
+      {
+        "operation": "select",
+        "dependencies": [],
+        "argument": "door (1341531)"
+      },
+      {
+        "operation": "query",
+        "dependencies": [
+          0
+        ],
+        "argument": "material"
+      }
+    ],
+    "mapping_method": "explicit_semantic_object_id",
+    "mapping_confidence": "high",
+    "audit_status": "accept"
+  },
+  {
+    "question_id": "0030820",
+    "image_id": "2365465",
+    "question": "Which size is the vase that is not new, large or small?",
+    "answer": "large",
+    "full_answer": "The vase is large.",
+    "pilot_category": "size",
+    "gqa_types": {
+      "detailed": "chooseAttr",
+      "semantic": "attr",
+      "structural": "choose"
+    },
+    "critical_object_ids": [
+      "756894"
+    ],
+    "critical_objects": [
+      {
+        "object_id": "756894",
+        "name": "vase",
+        "attributes": [
+          "large",
+          "old",
+          "black",
+          "designed"
+        ],
+        "bbox_xywh": [
+          70,
+          113,
+          122,
+          253
+        ],
+        "bbox_xyxy": [
+          70,
+          113,
+          192,
+          366
+        ],
+        "area_fraction": 0.18594
+      }
+    ],
+    "image_width": 332,
+    "image_height": 500,
+    "semantic_program": [
+      {
+        "operation": "select",
+        "dependencies": [],
+        "argument": "vase (756894)"
+      },
+      {
+        "operation": "filter",
+        "dependencies": [
+          0
+        ],
+        "argument": "not(new)"
+      },
+      {
+        "operation": "choose size",
+        "dependencies": [
+          1
+        ],
+        "argument": "large|small"
+      }
+    ],
+    "mapping_method": "explicit_semantic_object_id",
+    "mapping_confidence": "high",
+    "audit_status": "accept"
+  },
+  {
+    "question_id": "001017428",
+    "image_id": "2408028",
+    "question": "What is the red vehicle called?",
+    "answer": "train",
+    "full_answer": "The vehicle is a train.",
+    "pilot_category": "category",
+    "gqa_types": {
+      "detailed": "categoryAttr",
+      "semantic": "cat",
+      "structural": "query"
+    },
+    "critical_object_ids": [
+      "269586"
+    ],
+    "critical_objects": [
+      {
+        "object_id": "269586",
+        "name": "train",
+        "attributes": [
+          "red"
+        ],
+        "bbox_xywh": [
+          103,
+          57,
+          360,
+          234
+        ],
+        "bbox_xyxy": [
+          103,
+          57,
+          463,
+          291
+        ],
+        "area_fraction": 0.505946
+      }
+    ],
+    "image_width": 500,
+    "image_height": 333,
+    "semantic_program": [
+      {
+        "operation": "select",
+        "dependencies": [],
+        "argument": "vehicle (269586)"
+      },
+      {
+        "operation": "filter color",
+        "dependencies": [
+          0
+        ],
+        "argument": "red"
+      },
+      {
+        "operation": "query",
+        "dependencies": [
+          1
+        ],
+        "argument": "name"
+      }
+    ],
+    "mapping_method": "explicit_semantic_object_id",
+    "mapping_confidence": "high",
+    "audit_status": "accept"
+  },
+  {
+    "question_id": "001050030",
+    "image_id": "2379785",
+    "question": "The bag in the bottom of the picture has what color?",
+    "answer": "gray",
+    "full_answer": "The purse is gray.",
+    "pilot_category": "color",
+    "gqa_types": {
+      "detailed": "directWhich",
+      "semantic": "attr",
+      "structural": "query"
+    },
+    "critical_object_ids": [
+      "711585"
+    ],
+    "critical_objects": [
+      {
+        "object_id": "711585",
+        "name": "purse",
+        "attributes": [
+          "gray"
+        ],
+        "bbox_xywh": [
+          132,
+          364,
+          53,
+          135
+        ],
+        "bbox_xyxy": [
+          132,
+          364,
+          185,
+          499
+        ],
+        "area_fraction": 0.043102
+      }
+    ],
+    "image_width": 332,
+    "image_height": 500,
+    "semantic_program": [
+      {
+        "operation": "select",
+        "dependencies": [],
+        "argument": "bag (711585)"
+      },
+      {
+        "operation": "filter vposition",
+        "dependencies": [
+          0
+        ],
+        "argument": "bottom"
+      },
+      {
+        "operation": "query",
+        "dependencies": [
+          1
+        ],
+        "argument": "color"
+      }
+    ],
+    "mapping_method": "explicit_semantic_object_id",
+    "mapping_confidence": "high",
+    "audit_status": "accept"
+  },
+  {
+    "question_id": "001038060",
+    "image_id": "2414039",
+    "question": "On which side of the photo are the spectators?",
+    "answer": "right",
+    "full_answer": "The spectators are on the right of the image.",
+    "pilot_category": "spatial",
+    "gqa_types": {
+      "detailed": "positionQuery",
+      "semantic": "attr",
+      "structural": "query"
+    },
+    "critical_object_ids": [
+      "161043"
+    ],
+    "critical_objects": [
+      {
+        "object_id": "161043",
+        "name": "spectators",
+        "attributes": [],
+        "bbox_xywh": [
+          311,
+          200,
+          174,
+          111
+        ],
+        "bbox_xyxy": [
+          311,
+          200,
+          485,
+          311
+        ],
+        "area_fraction": 0.103008
+      }
+    ],
+    "image_width": 500,
+    "image_height": 375,
+    "semantic_program": [
+      {
+        "operation": "select",
+        "dependencies": [],
+        "argument": "spectators (161043)"
+      },
+      {
+        "operation": "query",
+        "dependencies": [
+          0
+        ],
+        "argument": "hposition"
+      }
+    ],
+    "mapping_method": "explicit_semantic_object_id",
+    "mapping_confidence": "high",
+    "audit_status": "accept"
+  },
+  {
+    "question_id": "00314282",
+    "image_id": "2357167",
+    "question": "Which size are the letters, large or small?",
+    "answer": "large",
+    "full_answer": "The letters are large.",
+    "pilot_category": "size",
+    "gqa_types": {
+      "detailed": "chooseAttr",
+      "semantic": "attr",
+      "structural": "choose"
+    },
+    "critical_object_ids": [
+      "814321"
+    ],
+    "critical_objects": [
+      {
+        "object_id": "814321",
+        "name": "letters",
+        "attributes": [
+          "large",
+          "white"
+        ],
+        "bbox_xywh": [
+          30,
+          62,
+          261,
+          229
+        ],
+        "bbox_xyxy": [
+          30,
+          62,
+          291,
+          291
+        ],
+        "area_fraction": 0.35683
+      }
+    ],
+    "image_width": 500,
+    "image_height": 335,
+    "semantic_program": [
+      {
+        "operation": "select",
+        "dependencies": [],
+        "argument": "letters (814321)"
+      },
+      {
+        "operation": "choose size",
+        "dependencies": [
+          0
+        ],
+        "argument": "large|small"
+      }
+    ],
+    "mapping_method": "explicit_semantic_object_id",
+    "mapping_confidence": "high",
+    "audit_status": "accept"
+  },
+  {
+    "question_id": "001040979",
+    "image_id": "2373399",
+    "question": "What is the bear doing?",
+    "answer": "walking",
+    "full_answer": "The bear is walking.",
+    "pilot_category": "other",
+    "gqa_types": {
+      "detailed": "activity",
+      "semantic": "attr",
+      "structural": "query"
+    },
+    "critical_object_ids": [
+      "732716"
+    ],
+    "critical_objects": [
+      {
+        "object_id": "732716",
+        "name": "bear",
+        "attributes": [
+          "white",
+          "walking",
+          "wet"
+        ],
+        "bbox_xywh": [
+          226,
+          110,
+          202,
+          147
+        ],
+        "bbox_xyxy": [
+          226,
+          110,
+          428,
+          257
+        ],
+        "area_fraction": 0.178342
+      }
+    ],
+    "image_width": 500,
+    "image_height": 333,
+    "semantic_program": [
+      {
+        "operation": "select",
+        "dependencies": [],
+        "argument": "bear (732716)"
+      },
+      {
+        "operation": "query",
+        "dependencies": [
+          0
+        ],
+        "argument": "pose"
+      }
+    ],
+    "mapping_method": "explicit_semantic_object_id",
+    "mapping_confidence": "high",
+    "audit_status": "accept"
+  },
+  {
+    "question_id": "001036",
+    "image_id": "3455",
+    "question": "Is there any large door in the image?",
+    "answer": "yes",
+    "full_answer": "Yes, there is a large door.",
+    "pilot_category": "existence",
+    "gqa_types": {
+      "detailed": "existAttr",
+      "semantic": "obj",
+      "structural": "verify"
+    },
+    "critical_object_ids": [
+      "4340240"
+    ],
+    "critical_objects": [
+      {
+        "object_id": "4340240",
+        "name": "door",
+        "attributes": [
+          "large"
+        ],
+        "bbox_xywh": [
+          471,
+          176,
+          148,
+          222
+        ],
+        "bbox_xyxy": [
+          471,
+          176,
+          619,
+          398
+        ],
+        "area_fraction": 0.06845
+      }
+    ],
+    "image_width": 800,
+    "image_height": 600,
+    "semantic_program": [
+      {
+        "operation": "select",
+        "dependencies": [],
+        "argument": "door (4340240)"
+      },
+      {
+        "operation": "filter size",
+        "dependencies": [
+          0
+        ],
+        "argument": "large"
+      },
+      {
+        "operation": "exist",
+        "dependencies": [
+          1
+        ],
+        "argument": "?"
+      }
+    ],
+    "mapping_method": "explicit_semantic_object_id",
+    "mapping_confidence": "high",
+    "audit_status": "accept"
+  },
+  {
+    "question_id": "00107064",
+    "image_id": "2352130",
+    "question": "Does the tail look curled or straight?",
+    "answer": "curled",
+    "full_answer": "The tail is curled.",
+    "pilot_category": "other",
+    "gqa_types": {
+      "detailed": "chooseAttr",
+      "semantic": "attr",
+      "structural": "choose"
+    },
+    "critical_object_ids": [
+      "855850"
+    ],
+    "critical_objects": [
+      {
+        "object_id": "855850",
+        "name": "tail",
+        "attributes": [
+          "curled"
+        ],
+        "bbox_xywh": [
+          386,
+          248,
+          47,
+          46
+        ],
+        "bbox_xyxy": [
+          386,
+          248,
+          433,
+          294
+        ],
+        "area_fraction": 0.013024
+      }
+    ],
+    "image_width": 500,
+    "image_height": 332,
+    "semantic_program": [
+      {
+        "operation": "select",
+        "dependencies": [],
+        "argument": "tail (855850)"
+      },
+      {
+        "operation": "choose",
+        "dependencies": [
+          0
+        ],
+        "argument": "curled|straight"
+      }
+    ],
+    "mapping_method": "explicit_semantic_object_id",
+    "mapping_confidence": "high",
+    "audit_status": "accept"
+  },
+  {
+    "question_id": "00126377",
+    "image_id": "2391854",
+    "question": "Which color is the lid?",
+    "answer": "black",
+    "full_answer": "The lid is black.",
+    "pilot_category": "color",
+    "gqa_types": {
+      "detailed": "directWhich",
+      "semantic": "attr",
+      "structural": "query"
+    },
+    "critical_object_ids": [
+      "1236778"
+    ],
+    "critical_objects": [
+      {
+        "object_id": "1236778",
+        "name": "lid",
+        "attributes": [
+          "black"
+        ],
+        "bbox_xywh": [
+          221,
+          215,
+          103,
+          106
+        ],
+        "bbox_xyxy": [
+          221,
+          215,
+          324,
+          321
+        ],
+        "area_fraction": 0.058229
+      }
+    ],
+    "image_width": 375,
+    "image_height": 500,
+    "semantic_program": [
+      {
+        "operation": "select",
+        "dependencies": [],
+        "argument": "lid (1236778)"
+      },
+      {
+        "operation": "query",
+        "dependencies": [
+          0
+        ],
+        "argument": "color"
+      }
+    ],
+    "mapping_method": "explicit_semantic_object_id",
+    "mapping_confidence": "high",
+    "audit_status": "accept"
+  },
+  {
+    "question_id": "00111323",
+    "image_id": "2388844",
+    "question": "Is there either a fence or a giraffe in the picture?",
+    "answer": "yes",
+    "full_answer": "Yes, there is a giraffe.",
+    "pilot_category": "existence",
+    "gqa_types": {
+      "detailed": "existOr",
+      "semantic": "obj",
+      "structural": "logical"
+    },
+    "critical_object_ids": [
+      "3829076"
+    ],
+    "critical_objects": [
+      {
+        "object_id": "3829076",
+        "name": "giraffe",
+        "attributes": [
+          "patterned",
+          "brown"
+        ],
+        "bbox_xywh": [
+          33,
+          125,
+          269,
+          316
+        ],
+        "bbox_xyxy": [
+          33,
+          125,
+          302,
+          441
+        ],
+        "area_fraction": 0.510535
+      }
+    ],
+    "image_width": 333,
+    "image_height": 500,
+    "semantic_program": [
+      {
+        "operation": "select",
+        "dependencies": [],
+        "argument": "giraffe (3829076)"
+      },
+      {
+        "operation": "exist",
+        "dependencies": [
+          0
+        ],
+        "argument": "?"
+      },
+      {
+        "operation": "select",
+        "dependencies": [],
+        "argument": "fence (-) "
+      },
+      {
+        "operation": "exist",
+        "dependencies": [
+          2
+        ],
+        "argument": "?"
+      },
+      {
+        "operation": "or",
+        "dependencies": [
+          1,
+          3
+        ],
+        "argument": ""
+      }
+    ],
+    "mapping_method": "explicit_semantic_object_id",
+    "mapping_confidence": "high",
+    "audit_status": "accept"
+  },
+  {
+    "question_id": "01856385",
+    "image_id": "2413600",
+    "question": "Is this oven on a counter?",
+    "answer": "no",
+    "full_answer": "No, the oven is on a cart.",
+    "pilot_category": "count",
+    "gqa_types": {
+      "detailed": "relVerifyCo",
+      "semantic": "rel",
+      "structural": "verify"
+    },
+    "critical_object_ids": [
+      "170128"
+    ],
+    "critical_objects": [
+      {
+        "object_id": "170128",
+        "name": "oven",
+        "attributes": [
+          "old"
+        ],
+        "bbox_xywh": [
+          86,
+          104,
+          171,
+          185
+        ],
+        "bbox_xyxy": [
+          86,
+          104,
+          257,
+          289
+        ],
+        "area_fraction": 0.16872
+      }
+    ],
+    "image_width": 375,
+    "image_height": 500,
+    "semantic_program": [
+      {
+        "operation": "select",
+        "dependencies": [],
+        "argument": "oven (170128)"
+      },
+      {
+        "operation": "verify rel",
+        "dependencies": [
+          0
+        ],
+        "argument": "counter,on,o (-)"
+      }
+    ],
+    "mapping_method": "explicit_semantic_object_id",
+    "mapping_confidence": "high",
+    "audit_status": "accept"
+  },
+  {
+    "question_id": "00184225",
+    "image_id": "2328765",
+    "question": "What is the bag made of?",
+    "answer": "plastic",
+    "full_answer": "The bag is made of plastic.",
+    "pilot_category": "material",
+    "gqa_types": {
+      "detailed": "material",
+      "semantic": "attr",
+      "structural": "query"
+    },
+    "critical_object_ids": [
+      "976279"
+    ],
+    "critical_objects": [
+      {
+        "object_id": "976279",
+        "name": "bag",
+        "attributes": [
+          "plastic"
+        ],
+        "bbox_xywh": [
+          417,
+          106,
+          63,
+          32
+        ],
+        "bbox_xyxy": [
+          417,
+          106,
+          480,
+          138
+        ],
+        "area_fraction": 0.011016
+      }
+    ],
+    "image_width": 500,
+    "image_height": 366,
+    "semantic_program": [
+      {
+        "operation": "select",
+        "dependencies": [],
+        "argument": "bag (976279)"
+      },
+      {
+        "operation": "query",
+        "dependencies": [
+          0
+        ],
+        "argument": "material"
+      }
+    ],
+    "mapping_method": "explicit_semantic_object_id",
+    "mapping_confidence": "high",
+    "audit_status": "accept"
+  },
+  {
+    "question_id": "01600602",
+    "image_id": "2388832",
+    "question": "Which shape is the pizza, round or triangular?",
+    "answer": "round",
+    "full_answer": "The pizza is round.",
+    "pilot_category": "shape",
+    "gqa_types": {
+      "detailed": "chooseAttr",
+      "semantic": "attr",
+      "structural": "choose"
+    },
+    "critical_object_ids": [
+      "4508034"
+    ],
+    "critical_objects": [
+      {
+        "object_id": "4508034",
+        "name": "pizza",
+        "attributes": [
+          "large",
+          "round"
+        ],
+        "bbox_xywh": [
+          49,
+          208,
+          295,
+          261
+        ],
+        "bbox_xyxy": [
+          49,
+          208,
+          344,
+          469
+        ],
+        "area_fraction": 0.411738
+      }
+    ],
+    "image_width": 374,
+    "image_height": 500,
+    "semantic_program": [
+      {
+        "operation": "select",
+        "dependencies": [],
+        "argument": "pizza (4508034)"
+      },
+      {
+        "operation": "choose shape",
+        "dependencies": [
+          0
+        ],
+        "argument": "round|triangular"
+      }
+    ],
+    "mapping_method": "explicit_semantic_object_id",
+    "mapping_confidence": "high",
+    "audit_status": "accept"
+  },
+  {
+    "question_id": "00577771",
+    "image_id": "2405118",
+    "question": "Does the window have small size?",
+    "answer": "no",
+    "full_answer": "No, the window is large.",
+    "pilot_category": "size",
+    "gqa_types": {
+      "detailed": "verifyAttrC",
+      "semantic": "attr",
+      "structural": "verify"
+    },
+    "critical_object_ids": [
+      "374489"
+    ],
+    "critical_objects": [
+      {
+        "object_id": "374489",
+        "name": "window",
+        "attributes": [
+          "large"
+        ],
+        "bbox_xywh": [
+          0,
+          2,
+          166,
+          190
+        ],
+        "bbox_xyxy": [
+          0,
+          2,
+          166,
+          192
+        ],
+        "area_fraction": 0.189429
+      }
+    ],
+    "image_width": 500,
+    "image_height": 333,
+    "semantic_program": [
+      {
+        "operation": "select",
+        "dependencies": [],
+        "argument": "window (374489)"
+      },
+      {
+        "operation": "verify size",
+        "dependencies": [
+          0
+        ],
+        "argument": "small"
+      }
+    ],
+    "mapping_method": "explicit_semantic_object_id",
+    "mapping_confidence": "high",
+    "audit_status": "accept"
+  },
+  {
+    "question_id": "00122889",
+    "image_id": "2338529",
+    "question": "Which kind of animal is grazing?",
+    "answer": "zebra",
+    "full_answer": "The animal is a zebra.",
+    "pilot_category": "category",
+    "gqa_types": {
+      "detailed": "categoryThat",
+      "semantic": "cat",
+      "structural": "query"
+    },
+    "critical_object_ids": [
+      "2362275"
+    ],
+    "critical_objects": [
+      {
+        "object_id": "2362275",
+        "name": "zebra",
+        "attributes": [
+          "striped",
+          "grazing"
+        ],
+        "bbox_xywh": [
+          37,
+          65,
+          424,
+          368
+        ],
+        "bbox_xyxy": [
+          37,
+          65,
+          461,
+          433
+        ],
+        "area_fraction": 0.624128
+      }
+    ],
+    "image_width": 500,
+    "image_height": 500,
+    "semantic_program": [
+      {
+        "operation": "select",
+        "dependencies": [],
+        "argument": "animal (2362275)"
+      },
+      {
+        "operation": "filter",
+        "dependencies": [
+          0
+        ],
+        "argument": "grazing"
+      },
+      {
+        "operation": "query",
+        "dependencies": [
+          1
+        ],
+        "argument": "name"
+      }
+    ],
+    "mapping_method": "explicit_semantic_object_id",
+    "mapping_confidence": "high",
+    "audit_status": "accept"
+  },
+  {
+    "question_id": "00132539",
+    "image_id": "2409884",
+    "question": "Do the trousers look blue or black?",
+    "answer": "blue",
+    "full_answer": "The trousers are blue.",
+    "pilot_category": "other",
+    "gqa_types": {
+      "detailed": "chooseAttr",
+      "semantic": "attr",
+      "structural": "choose"
+    },
+    "critical_object_ids": [
+      "231183"
+    ],
+    "critical_objects": [
+      {
+        "object_id": "231183",
+        "name": "pants",
+        "attributes": [
+          "blue"
+        ],
+        "bbox_xywh": [
+          138,
+          235,
+          105,
+          165
+        ],
+        "bbox_xyxy": [
+          138,
+          235,
+          243,
+          400
+        ],
+        "area_fraction": 0.0924
+      }
+    ],
+    "image_width": 375,
+    "image_height": 500,
+    "semantic_program": [
+      {
+        "operation": "select",
+        "dependencies": [],
+        "argument": "pants (231183)"
+      },
+      {
+        "operation": "choose color",
+        "dependencies": [
+          0
+        ],
+        "argument": "blue|black"
+      }
+    ],
+    "mapping_method": "explicit_semantic_object_id",
+    "mapping_confidence": "high",
+    "audit_status": "accept"
+  },
+  {
+    "question_id": "00113470",
+    "image_id": "2332841",
+    "question": "Are the plates in the bottom part or in the top of the image?",
+    "answer": "top",
+    "full_answer": "The plates are in the top of the image.",
+    "pilot_category": "existence",
+    "gqa_types": {
+      "detailed": "positionChoose",
+      "semantic": "attr",
+      "structural": "choose"
+    },
+    "critical_object_ids": [
+      "4634441"
+    ],
+    "critical_objects": [
+      {
+        "object_id": "4634441",
+        "name": "plates",
+        "attributes": [
+          "white"
+        ],
+        "bbox_xywh": [
+          0,
+          0,
+          134,
+          44
+        ],
+        "bbox_xyxy": [
+          0,
+          0,
+          134,
+          44
+        ],
+        "area_fraction": 0.035411
+      }
+    ],
+    "image_width": 500,
+    "image_height": 333,
+    "semantic_program": [
+      {
+        "operation": "select",
+        "dependencies": [],
+        "argument": "plates (4634441)"
+      },
+      {
+        "operation": "choose vposition",
+        "dependencies": [
+          0
+        ],
+        "argument": "top|bottom"
+      }
+    ],
+    "mapping_method": "explicit_semantic_object_id",
+    "mapping_confidence": "high",
+    "audit_status": "accept"
+  },
+  {
+    "question_id": "00120202",
+    "image_id": "2348644",
+    "question": "On which side are the glasses?",
+    "answer": "left",
+    "full_answer": "The glasses are on the left of the image.",
+    "pilot_category": "spatial",
+    "gqa_types": {
+      "detailed": "positionQuery",
+      "semantic": "attr",
+      "structural": "query"
+    },
+    "critical_object_ids": [
+      "880773"
+    ],
+    "critical_objects": [
+      {
+        "object_id": "880773",
+        "name": "glasses",
+        "attributes": [],
+        "bbox_xywh": [
+          6,
+          164,
+          154,
+          57
+        ],
+        "bbox_xyxy": [
+          6,
+          164,
+          160,
+          221
+        ],
+        "area_fraction": 0.046816
+      }
+    ],
+    "image_width": 500,
+    "image_height": 375,
+    "semantic_program": [
+      {
+        "operation": "select",
+        "dependencies": [],
+        "argument": "glasses (880773)"
+      },
+      {
+        "operation": "query",
+        "dependencies": [
+          0
+        ],
+        "argument": "hposition"
+      }
+    ],
+    "mapping_method": "explicit_semantic_object_id",
+    "mapping_confidence": "high",
+    "audit_status": "accept"
+  }
+]
