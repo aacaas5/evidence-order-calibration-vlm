@@ -1,0 +1,27 @@
+question_id,question,ground_truth,clean_correct,violations,emvr,clean_c_seq,full_loss_c_seq,confidence_change,clean_answer,full_loss_answer,full_loss_correct
+001001666,How large is the white boat?,small,True,3,0.75,-0.3467918634414673,-0.07611400634050369,0.2706778571009636,small,small,True
+001002646,"On which side is the frisbee, the right or the left?",right,True,0,0.0,-2.253030106658116e-05,-0.1153048649430275,-0.11528233464196092,right,right,True
+001006706,What kind of fast food is that?,pizza,True,2,0.5,-0.29208800196647644,-1.0813294649124146,-0.7892414629459381,pizza,n/a,False
+001007719,On which side of the photo is the woman?,left,True,1,0.25,-0.0044417534954845905,-0.16654370725154877,-0.16210195375606418,left,right,False
+001017428,What is the red vehicle called?,train,True,3,0.75,-0.03208628669381142,-0.0946040153503418,-0.06251772865653038,train,train,True
+001025475,What color is the small elephant?,brown,False,3,0.75,-0.08918820321559906,-0.04085365682840347,0.04833454638719559,gray,gray,False
+001035170,"Which color is the chair that is made of wood, brown or green?",brown,True,2,0.5,-0.0002252801787108183,-0.00026603974401950836,-4.075956530869007e-05,brown,brown,True
+001036,Is there any large door in the image?,yes,True,3,0.75,-0.4259125590324402,-0.0862530767917633,0.3396594822406769,yes,no,False
+001038060,On which side of the photo are the spectators?,right,True,0,0.0,-0.01017750147730112,-0.3917429745197296,-0.3815654730424285,right,right,True
+001040979,What is the bear doing?,walking,True,2,0.5,-1.007275938987732,-0.9310550671070814,0.07622087188065052,walking,no bear,False
+001050030,The bag in the bottom of the picture has what color?,gray,True,2,0.5,-0.3373805284500122,-0.641650378704071,-0.30426985025405884,gray,gray,True
+001057955,What's the door made of?,wood,True,2,0.5,-0.01075684279203415,-0.02264917455613613,-0.011892331764101982,wood,wood,True
+00107064,Does the tail look curled or straight?,curled,True,1,0.25,-0.030560376588255167,-0.05449087917804718,-0.023930502589792013,curled,curled,True
+00111323,Is there either a fence or a giraffe in the picture?,yes,True,3,0.75,-0.15061216056346893,-0.01529476698487997,0.13531739357858896,yes,no,False
+00113470,Are the plates in the bottom part or in the top of the image?,top,True,0,0.0,-0.0006449526408687234,-0.04353715479373932,-0.042892202152870595,top,top,True
+00120202,On which side are the glasses?,left,True,0,0.0,-9.226373367710039e-05,-0.6662679314613342,-0.6661756677276571,left,left,True
+00122889,Which kind of animal is grazing?,zebra,True,1,0.25,-0.009700284979771823,-0.8171653747558594,-0.8074650897760876,zebra,goat,False
+00126377,Which color is the lid?,black,True,1,0.25,-0.07164736092090607,-0.35937264561653137,-0.2877252846956253,black,black,True
+00126839,"Which size is the blue cart, large or small?",large,True,2,0.5,-0.009160513989627361,-0.010224937461316586,-0.0010644234716892242,large,large,True
+00132539,Do the trousers look blue or black?,blue,False,2,0.5,-0.07096335291862488,-0.1294088363647461,-0.058445483446121216,black,black,False
+00184225,What is the bag made of?,plastic,False,2,0.5,-1.403854250907898,-1.281182050704956,0.1226722002029419,cloth,cloth,False
+0030820,"Which size is the vase that is not new, large or small?",large,True,1,0.25,-0.0010181248653680086,-0.03930068016052246,-0.03828255529515445,large,large,True
+00314282,"Which size are the letters, large or small?",large,True,2,0.5,-0.0005800233921036124,-0.0028839209116995335,-0.002303897519595921,large,large,True
+00577771,Does the window have small size?,no,True,0,0.0,-0.04883371293544769,-0.6940678954124451,-0.6452341824769974,no,no,True
+01600602,"Which shape is the pizza, round or triangular?",round,True,1,0.25,-0.00048387263086624444,-0.0050921509973704815,-0.004608278366504237,round,round,True
+01856385,Is this oven on a counter?,no,True,3,0.75,-0.11479176580905914,-0.10481292009353638,0.009978845715522766,no,no,True

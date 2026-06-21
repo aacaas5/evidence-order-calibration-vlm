@@ -1,0 +1,37 @@
+[
+  {
+    "severity": 0,
+    "answer": "gray",
+    "correct": false,
+    "c_seq": -0.070091612637043,
+    "entropy": 0.34293311834335327
+  },
+  {
+    "severity": 0.25,
+    "answer": "gray",
+    "correct": false,
+    "c_seq": -0.09130565077066422,
+    "entropy": 0.45446643233299255
+  },
+  {
+    "severity": 0.5,
+    "answer": "gray",
+    "correct": false,
+    "c_seq": -0.1504899114370346,
+    "entropy": 0.6843633651733398
+  },
+  {
+    "severity": 0.75,
+    "answer": "gray",
+    "correct": false,
+    "c_seq": -0.062236152589321136,
+    "entropy": 0.34389713406562805
+  },
+  {
+    "severity": 1.0,
+    "answer": "gray",
+    "correct": false,
+    "c_seq": -0.04228287190198898,
+    "entropy": 0.25124627351760864
+  }
+]

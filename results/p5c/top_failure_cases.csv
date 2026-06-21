@@ -1,0 +1,11 @@
+question_id,question,ground_truth,clean_correct,violations,emvr,clean_c_seq,full_loss_c_seq,confidence_change,clean_answer,full_loss_answer,full_loss_correct
+001036,Is there any large door in the image?,yes,True,3,0.75,-0.4259125590324402,-0.0862530767917633,0.3396594822406769,yes,no,False
+001001666,How large is the white boat?,small,True,3,0.75,-0.3467918634414673,-0.07611400634050369,0.2706778571009636,small,small,True
+00111323,Is there either a fence or a giraffe in the picture?,yes,True,3,0.75,-0.15061216056346893,-0.01529476698487997,0.13531739357858896,yes,no,False
+01856385,Is this oven on a counter?,no,True,3,0.75,-0.11479176580905914,-0.10481292009353638,0.009978845715522766,no,no,True
+001017428,What is the red vehicle called?,train,True,3,0.75,-0.03208628669381142,-0.0946040153503418,-0.06251772865653038,train,train,True
+001040979,What is the bear doing?,walking,True,2,0.5,-1.007275938987732,-0.9310550671070814,0.07622087188065052,walking,no bear,False
+001035170,"Which color is the chair that is made of wood, brown or green?",brown,True,2,0.5,-0.0002252801787108183,-0.00026603974401950836,-4.075956530869007e-05,brown,brown,True
+00126839,"Which size is the blue cart, large or small?",large,True,2,0.5,-0.009160513989627361,-0.010224937461316586,-0.0010644234716892242,large,large,True
+00314282,"Which size are the letters, large or small?",large,True,2,0.5,-0.0005800233921036124,-0.0028839209116995335,-0.002303897519595921,large,large,True
+001057955,What's the door made of?,wood,True,2,0.5,-0.01075684279203415,-0.02264917455613613,-0.011892331764101982,wood,wood,True

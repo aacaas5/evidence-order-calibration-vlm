@@ -1,0 +1,42 @@
+{
+  "accepted_samples": 26,
+  "conditions": 130,
+  "complete_trajectories": 26,
+  "severity_summary": {
+    "0.0": {
+      "n": 26,
+      "accuracy": 0.8846153846153846,
+      "mean_c_seq": -0.1718957810349261,
+      "mean_entropy": 0.4774489493530172
+    },
+    "0.25": {
+      "n": 26,
+      "accuracy": 0.8461538461538461,
+      "mean_c_seq": -0.22370656275709805,
+      "mean_entropy": 0.5682065122304126
+    },
+    "0.5": {
+      "n": 26,
+      "accuracy": 0.8461538461538461,
+      "mean_c_seq": -0.23849617571361775,
+      "mean_entropy": 0.5624171766685322
+    },
+    "0.75": {
+      "n": 26,
+      "accuracy": 0.7692307692307693,
+      "mean_c_seq": -0.3111291516408808,
+      "mean_entropy": 0.6827669360477907
+    },
+    "1.0": {
+      "n": 26,
+      "accuracy": 0.6538461538461539,
+      "mean_c_seq": -0.30274879122869325,
+      "mean_entropy": 0.764286313411923
+    }
+  },
+  "adjacent_pairs": 104,
+  "adjacent_violations": 42,
+  "emvr": 0.40384615384615385,
+  "trajectories_with_violation": 21,
+  "trajectory_violation_rate": 0.8076923076923077
+}

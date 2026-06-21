@@ -1,0 +1,8 @@
+{
+  "total_trajectories": 26,
+  "clean_correct_trajectories": 23,
+  "all_emvr": 0.40384615384615385,
+  "clean_correct_emvr": 0.3804347826086957,
+  "trajectories_with_violation": 21,
+  "clean_correct_with_violation": 18
+}
