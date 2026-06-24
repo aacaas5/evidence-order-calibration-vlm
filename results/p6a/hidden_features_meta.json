@@ -1,0 +1,1042 @@
+[
+  {
+    "question_id": "001025475",
+    "image_id": "2379780",
+    "severity": 0.0,
+    "correct": false,
+    "answer": "gray",
+    "ground_truth": "brown"
+  },
+  {
+    "question_id": "001025475",
+    "image_id": "2379780",
+    "severity": 0.25,
+    "correct": false,
+    "answer": "gray",
+    "ground_truth": "brown"
+  },
+  {
+    "question_id": "001025475",
+    "image_id": "2379780",
+    "severity": 0.5,
+    "correct": false,
+    "answer": "gray",
+    "ground_truth": "brown"
+  },
+  {
+    "question_id": "001025475",
+    "image_id": "2379780",
+    "severity": 0.75,
+    "correct": false,
+    "answer": "gray",
+    "ground_truth": "brown"
+  },
+  {
+    "question_id": "001025475",
+    "image_id": "2379780",
+    "severity": 1.0,
+    "correct": false,
+    "answer": "gray",
+    "ground_truth": "brown"
+  },
+  {
+    "question_id": "001002646",
+    "image_id": "2416944",
+    "severity": 0.0,
+    "correct": true,
+    "answer": "right",
+    "ground_truth": "right"
+  },
+  {
+    "question_id": "001002646",
+    "image_id": "2416944",
+    "severity": 0.25,
+    "correct": true,
+    "answer": "right",
+    "ground_truth": "right"
+  },
+  {
+    "question_id": "001002646",
+    "image_id": "2416944",
+    "severity": 0.5,
+    "correct": true,
+    "answer": "right",
+    "ground_truth": "right"
+  },
+  {
+    "question_id": "001002646",
+    "image_id": "2416944",
+    "severity": 0.75,
+    "correct": true,
+    "answer": "right",
+    "ground_truth": "right"
+  },
+  {
+    "question_id": "001002646",
+    "image_id": "2416944",
+    "severity": 1.0,
+    "correct": true,
+    "answer": "right",
+    "ground_truth": "right"
+  },
+  {
+    "question_id": "00126839",
+    "image_id": "1159529",
+    "severity": 0.0,
+    "correct": true,
+    "answer": "large",
+    "ground_truth": "large"
+  },
+  {
+    "question_id": "00126839",
+    "image_id": "1159529",
+    "severity": 0.25,
+    "correct": true,
+    "answer": "large",
+    "ground_truth": "large"
+  },
+  {
+    "question_id": "00126839",
+    "image_id": "1159529",
+    "severity": 0.5,
+    "correct": true,
+    "answer": "large",
+    "ground_truth": "large"
+  },
+  {
+    "question_id": "00126839",
+    "image_id": "1159529",
+    "severity": 0.75,
+    "correct": true,
+    "answer": "large",
+    "ground_truth": "large"
+  },
+  {
+    "question_id": "00126839",
+    "image_id": "1159529",
+    "severity": 1.0,
+    "correct": true,
+    "answer": "large",
+    "ground_truth": "large"
+  },
+  {
+    "question_id": "001006706",
+    "image_id": "2406957",
+    "severity": 0.0,
+    "correct": true,
+    "answer": "pizza",
+    "ground_truth": "pizza"
+  },
+  {
+    "question_id": "001006706",
+    "image_id": "2406957",
+    "severity": 0.25,
+    "correct": true,
+    "answer": "pizza",
+    "ground_truth": "pizza"
+  },
+  {
+    "question_id": "001006706",
+    "image_id": "2406957",
+    "severity": 0.5,
+    "correct": true,
+    "answer": "Pizza",
+    "ground_truth": "pizza"
+  },
+  {
+    "question_id": "001006706",
+    "image_id": "2406957",
+    "severity": 0.75,
+    "correct": true,
+    "answer": "pizza",
+    "ground_truth": "pizza"
+  },
+  {
+    "question_id": "001006706",
+    "image_id": "2406957",
+    "severity": 1.0,
+    "correct": false,
+    "answer": "n/a",
+    "ground_truth": "pizza"
+  },
+  {
+    "question_id": "001001666",
+    "image_id": "2320793",
+    "severity": 0.0,
+    "correct": true,
+    "answer": "small",
+    "ground_truth": "small"
+  },
+  {
+    "question_id": "001001666",
+    "image_id": "2320793",
+    "severity": 0.25,
+    "correct": true,
+    "answer": "small",
+    "ground_truth": "small"
+  },
+  {
+    "question_id": "001001666",
+    "image_id": "2320793",
+    "severity": 0.5,
+    "correct": true,
+    "answer": "small",
+    "ground_truth": "small"
+  },
+  {
+    "question_id": "001001666",
+    "image_id": "2320793",
+    "severity": 0.75,
+    "correct": true,
+    "answer": "small",
+    "ground_truth": "small"
+  },
+  {
+    "question_id": "001001666",
+    "image_id": "2320793",
+    "severity": 1.0,
+    "correct": true,
+    "answer": "small",
+    "ground_truth": "small"
+  },
+  {
+    "question_id": "001035170",
+    "image_id": "2372009",
+    "severity": 0.0,
+    "correct": true,
+    "answer": "brown",
+    "ground_truth": "brown"
+  },
+  {
+    "question_id": "001035170",
+    "image_id": "2372009",
+    "severity": 0.25,
+    "correct": true,
+    "answer": "brown",
+    "ground_truth": "brown"
+  },
+  {
+    "question_id": "001035170",
+    "image_id": "2372009",
+    "severity": 0.5,
+    "correct": true,
+    "answer": "brown",
+    "ground_truth": "brown"
+  },
+  {
+    "question_id": "001035170",
+    "image_id": "2372009",
+    "severity": 0.75,
+    "correct": true,
+    "answer": "brown",
+    "ground_truth": "brown"
+  },
+  {
+    "question_id": "001035170",
+    "image_id": "2372009",
+    "severity": 1.0,
+    "correct": true,
+    "answer": "brown",
+    "ground_truth": "brown"
+  },
+  {
+    "question_id": "001007719",
+    "image_id": "2357649",
+    "severity": 0.0,
+    "correct": true,
+    "answer": "left",
+    "ground_truth": "left"
+  },
+  {
+    "question_id": "001007719",
+    "image_id": "2357649",
+    "severity": 0.25,
+    "correct": true,
+    "answer": "left",
+    "ground_truth": "left"
+  },
+  {
+    "question_id": "001007719",
+    "image_id": "2357649",
+    "severity": 0.5,
+    "correct": true,
+    "answer": "left",
+    "ground_truth": "left"
+  },
+  {
+    "question_id": "001007719",
+    "image_id": "2357649",
+    "severity": 0.75,
+    "correct": false,
+    "answer": "right",
+    "ground_truth": "left"
+  },
+  {
+    "question_id": "001007719",
+    "image_id": "2357649",
+    "severity": 1.0,
+    "correct": false,
+    "answer": "right",
+    "ground_truth": "left"
+  },
+  {
+    "question_id": "001057955",
+    "image_id": "2380870",
+    "severity": 0.0,
+    "correct": true,
+    "answer": "wood",
+    "ground_truth": "wood"
+  },
+  {
+    "question_id": "001057955",
+    "image_id": "2380870",
+    "severity": 0.25,
+    "correct": true,
+    "answer": "wood",
+    "ground_truth": "wood"
+  },
+  {
+    "question_id": "001057955",
+    "image_id": "2380870",
+    "severity": 0.5,
+    "correct": true,
+    "answer": "wood",
+    "ground_truth": "wood"
+  },
+  {
+    "question_id": "001057955",
+    "image_id": "2380870",
+    "severity": 0.75,
+    "correct": true,
+    "answer": "wood",
+    "ground_truth": "wood"
+  },
+  {
+    "question_id": "001057955",
+    "image_id": "2380870",
+    "severity": 1.0,
+    "correct": true,
+    "answer": "wood",
+    "ground_truth": "wood"
+  },
+  {
+    "question_id": "0030820",
+    "image_id": "2365465",
+    "severity": 0.0,
+    "correct": true,
+    "answer": "large",
+    "ground_truth": "large"
+  },
+  {
+    "question_id": "0030820",
+    "image_id": "2365465",
+    "severity": 0.25,
+    "correct": true,
+    "answer": "large",
+    "ground_truth": "large"
+  },
+  {
+    "question_id": "0030820",
+    "image_id": "2365465",
+    "severity": 0.5,
+    "correct": true,
+    "answer": "large",
+    "ground_truth": "large"
+  },
+  {
+    "question_id": "0030820",
+    "image_id": "2365465",
+    "severity": 0.75,
+    "correct": true,
+    "answer": "large",
+    "ground_truth": "large"
+  },
+  {
+    "question_id": "0030820",
+    "image_id": "2365465",
+    "severity": 1.0,
+    "correct": true,
+    "answer": "large",
+    "ground_truth": "large"
+  },
+  {
+    "question_id": "001017428",
+    "image_id": "2408028",
+    "severity": 0.0,
+    "correct": true,
+    "answer": "train",
+    "ground_truth": "train"
+  },
+  {
+    "question_id": "001017428",
+    "image_id": "2408028",
+    "severity": 0.25,
+    "correct": true,
+    "answer": "train",
+    "ground_truth": "train"
+  },
+  {
+    "question_id": "001017428",
+    "image_id": "2408028",
+    "severity": 0.5,
+    "correct": true,
+    "answer": "train",
+    "ground_truth": "train"
+  },
+  {
+    "question_id": "001017428",
+    "image_id": "2408028",
+    "severity": 0.75,
+    "correct": true,
+    "answer": "train",
+    "ground_truth": "train"
+  },
+  {
+    "question_id": "001017428",
+    "image_id": "2408028",
+    "severity": 1.0,
+    "correct": true,
+    "answer": "train",
+    "ground_truth": "train"
+  },
+  {
+    "question_id": "001050030",
+    "image_id": "2379785",
+    "severity": 0.0,
+    "correct": true,
+    "answer": "gray",
+    "ground_truth": "gray"
+  },
+  {
+    "question_id": "001050030",
+    "image_id": "2379785",
+    "severity": 0.25,
+    "correct": true,
+    "answer": "gray",
+    "ground_truth": "gray"
+  },
+  {
+    "question_id": "001050030",
+    "image_id": "2379785",
+    "severity": 0.5,
+    "correct": true,
+    "answer": "gray",
+    "ground_truth": "gray"
+  },
+  {
+    "question_id": "001050030",
+    "image_id": "2379785",
+    "severity": 0.75,
+    "correct": true,
+    "answer": "gray",
+    "ground_truth": "gray"
+  },
+  {
+    "question_id": "001050030",
+    "image_id": "2379785",
+    "severity": 1.0,
+    "correct": true,
+    "answer": "gray",
+    "ground_truth": "gray"
+  },
+  {
+    "question_id": "001038060",
+    "image_id": "2414039",
+    "severity": 0.0,
+    "correct": true,
+    "answer": "right",
+    "ground_truth": "right"
+  },
+  {
+    "question_id": "001038060",
+    "image_id": "2414039",
+    "severity": 0.25,
+    "correct": true,
+    "answer": "right",
+    "ground_truth": "right"
+  },
+  {
+    "question_id": "001038060",
+    "image_id": "2414039",
+    "severity": 0.5,
+    "correct": true,
+    "answer": "right",
+    "ground_truth": "right"
+  },
+  {
+    "question_id": "001038060",
+    "image_id": "2414039",
+    "severity": 0.75,
+    "correct": true,
+    "answer": "right",
+    "ground_truth": "right"
+  },
+  {
+    "question_id": "001038060",
+    "image_id": "2414039",
+    "severity": 1.0,
+    "correct": true,
+    "answer": "right",
+    "ground_truth": "right"
+  },
+  {
+    "question_id": "00314282",
+    "image_id": "2357167",
+    "severity": 0.0,
+    "correct": true,
+    "answer": "large",
+    "ground_truth": "large"
+  },
+  {
+    "question_id": "00314282",
+    "image_id": "2357167",
+    "severity": 0.25,
+    "correct": true,
+    "answer": "large",
+    "ground_truth": "large"
+  },
+  {
+    "question_id": "00314282",
+    "image_id": "2357167",
+    "severity": 0.5,
+    "correct": true,
+    "answer": "large",
+    "ground_truth": "large"
+  },
+  {
+    "question_id": "00314282",
+    "image_id": "2357167",
+    "severity": 0.75,
+    "correct": true,
+    "answer": "large",
+    "ground_truth": "large"
+  },
+  {
+    "question_id": "00314282",
+    "image_id": "2357167",
+    "severity": 1.0,
+    "correct": true,
+    "answer": "large",
+    "ground_truth": "large"
+  },
+  {
+    "question_id": "001040979",
+    "image_id": "2373399",
+    "severity": 0.0,
+    "correct": true,
+    "answer": "walking",
+    "ground_truth": "walking"
+  },
+  {
+    "question_id": "001040979",
+    "image_id": "2373399",
+    "severity": 0.25,
+    "correct": false,
+    "answer": "standing",
+    "ground_truth": "walking"
+  },
+  {
+    "question_id": "001040979",
+    "image_id": "2373399",
+    "severity": 0.5,
+    "correct": false,
+    "answer": "sleeping",
+    "ground_truth": "walking"
+  },
+  {
+    "question_id": "001040979",
+    "image_id": "2373399",
+    "severity": 0.75,
+    "correct": false,
+    "answer": "burrowing",
+    "ground_truth": "walking"
+  },
+  {
+    "question_id": "001040979",
+    "image_id": "2373399",
+    "severity": 1.0,
+    "correct": false,
+    "answer": "no bear",
+    "ground_truth": "walking"
+  },
+  {
+    "question_id": "001036",
+    "image_id": "3455",
+    "severity": 0.0,
+    "correct": true,
+    "answer": "yes",
+    "ground_truth": "yes"
+  },
+  {
+    "question_id": "001036",
+    "image_id": "3455",
+    "severity": 0.25,
+    "correct": true,
+    "answer": "yes",
+    "ground_truth": "yes"
+  },
+  {
+    "question_id": "001036",
+    "image_id": "3455",
+    "severity": 0.5,
+    "correct": false,
+    "answer": "no",
+    "ground_truth": "yes"
+  },
+  {
+    "question_id": "001036",
+    "image_id": "3455",
+    "severity": 0.75,
+    "correct": false,
+    "answer": "no",
+    "ground_truth": "yes"
+  },
+  {
+    "question_id": "001036",
+    "image_id": "3455",
+    "severity": 1.0,
+    "correct": false,
+    "answer": "no",
+    "ground_truth": "yes"
+  },
+  {
+    "question_id": "00107064",
+    "image_id": "2352130",
+    "severity": 0.0,
+    "correct": true,
+    "answer": "curled",
+    "ground_truth": "curled"
+  },
+  {
+    "question_id": "00107064",
+    "image_id": "2352130",
+    "severity": 0.25,
+    "correct": true,
+    "answer": "curled",
+    "ground_truth": "curled"
+  },
+  {
+    "question_id": "00107064",
+    "image_id": "2352130",
+    "severity": 0.5,
+    "correct": true,
+    "answer": "curled",
+    "ground_truth": "curled"
+  },
+  {
+    "question_id": "00107064",
+    "image_id": "2352130",
+    "severity": 0.75,
+    "correct": true,
+    "answer": "curled",
+    "ground_truth": "curled"
+  },
+  {
+    "question_id": "00107064",
+    "image_id": "2352130",
+    "severity": 1.0,
+    "correct": true,
+    "answer": "curled",
+    "ground_truth": "curled"
+  },
+  {
+    "question_id": "00126377",
+    "image_id": "2391854",
+    "severity": 0.0,
+    "correct": true,
+    "answer": "black",
+    "ground_truth": "black"
+  },
+  {
+    "question_id": "00126377",
+    "image_id": "2391854",
+    "severity": 0.25,
+    "correct": true,
+    "answer": "black",
+    "ground_truth": "black"
+  },
+  {
+    "question_id": "00126377",
+    "image_id": "2391854",
+    "severity": 0.5,
+    "correct": true,
+    "answer": "black",
+    "ground_truth": "black"
+  },
+  {
+    "question_id": "00126377",
+    "image_id": "2391854",
+    "severity": 0.75,
+    "correct": true,
+    "answer": "black",
+    "ground_truth": "black"
+  },
+  {
+    "question_id": "00126377",
+    "image_id": "2391854",
+    "severity": 1.0,
+    "correct": true,
+    "answer": "black",
+    "ground_truth": "black"
+  },
+  {
+    "question_id": "00111323",
+    "image_id": "2388844",
+    "severity": 0.0,
+    "correct": true,
+    "answer": "yes",
+    "ground_truth": "yes"
+  },
+  {
+    "question_id": "00111323",
+    "image_id": "2388844",
+    "severity": 0.25,
+    "correct": true,
+    "answer": "yes",
+    "ground_truth": "yes"
+  },
+  {
+    "question_id": "00111323",
+    "image_id": "2388844",
+    "severity": 0.5,
+    "correct": true,
+    "answer": "yes",
+    "ground_truth": "yes"
+  },
+  {
+    "question_id": "00111323",
+    "image_id": "2388844",
+    "severity": 0.75,
+    "correct": false,
+    "answer": "no",
+    "ground_truth": "yes"
+  },
+  {
+    "question_id": "00111323",
+    "image_id": "2388844",
+    "severity": 1.0,
+    "correct": false,
+    "answer": "no",
+    "ground_truth": "yes"
+  },
+  {
+    "question_id": "01856385",
+    "image_id": "2413600",
+    "severity": 0.0,
+    "correct": true,
+    "answer": "no",
+    "ground_truth": "no"
+  },
+  {
+    "question_id": "01856385",
+    "image_id": "2413600",
+    "severity": 0.25,
+    "correct": true,
+    "answer": "no",
+    "ground_truth": "no"
+  },
+  {
+    "question_id": "01856385",
+    "image_id": "2413600",
+    "severity": 0.5,
+    "correct": true,
+    "answer": "no",
+    "ground_truth": "no"
+  },
+  {
+    "question_id": "01856385",
+    "image_id": "2413600",
+    "severity": 0.75,
+    "correct": true,
+    "answer": "no",
+    "ground_truth": "no"
+  },
+  {
+    "question_id": "01856385",
+    "image_id": "2413600",
+    "severity": 1.0,
+    "correct": true,
+    "answer": "no",
+    "ground_truth": "no"
+  },
+  {
+    "question_id": "00184225",
+    "image_id": "2328765",
+    "severity": 0.0,
+    "correct": false,
+    "answer": "cloth",
+    "ground_truth": "plastic"
+  },
+  {
+    "question_id": "00184225",
+    "image_id": "2328765",
+    "severity": 0.25,
+    "correct": false,
+    "answer": "cloth",
+    "ground_truth": "plastic"
+  },
+  {
+    "question_id": "00184225",
+    "image_id": "2328765",
+    "severity": 0.5,
+    "correct": false,
+    "answer": "cloth",
+    "ground_truth": "plastic"
+  },
+  {
+    "question_id": "00184225",
+    "image_id": "2328765",
+    "severity": 0.75,
+    "correct": true,
+    "answer": "plastic",
+    "ground_truth": "plastic"
+  },
+  {
+    "question_id": "00184225",
+    "image_id": "2328765",
+    "severity": 1.0,
+    "correct": false,
+    "answer": "cloth",
+    "ground_truth": "plastic"
+  },
+  {
+    "question_id": "01600602",
+    "image_id": "2388832",
+    "severity": 0.0,
+    "correct": true,
+    "answer": "round",
+    "ground_truth": "round"
+  },
+  {
+    "question_id": "01600602",
+    "image_id": "2388832",
+    "severity": 0.25,
+    "correct": true,
+    "answer": "round",
+    "ground_truth": "round"
+  },
+  {
+    "question_id": "01600602",
+    "image_id": "2388832",
+    "severity": 0.5,
+    "correct": true,
+    "answer": "round",
+    "ground_truth": "round"
+  },
+  {
+    "question_id": "01600602",
+    "image_id": "2388832",
+    "severity": 0.75,
+    "correct": true,
+    "answer": "round",
+    "ground_truth": "round"
+  },
+  {
+    "question_id": "01600602",
+    "image_id": "2388832",
+    "severity": 1.0,
+    "correct": true,
+    "answer": "round",
+    "ground_truth": "round"
+  },
+  {
+    "question_id": "00577771",
+    "image_id": "2405118",
+    "severity": 0.0,
+    "correct": true,
+    "answer": "no",
+    "ground_truth": "no"
+  },
+  {
+    "question_id": "00577771",
+    "image_id": "2405118",
+    "severity": 0.25,
+    "correct": true,
+    "answer": "no",
+    "ground_truth": "no"
+  },
+  {
+    "question_id": "00577771",
+    "image_id": "2405118",
+    "severity": 0.5,
+    "correct": true,
+    "answer": "no",
+    "ground_truth": "no"
+  },
+  {
+    "question_id": "00577771",
+    "image_id": "2405118",
+    "severity": 0.75,
+    "correct": true,
+    "answer": "no",
+    "ground_truth": "no"
+  },
+  {
+    "question_id": "00577771",
+    "image_id": "2405118",
+    "severity": 1.0,
+    "correct": true,
+    "answer": "no",
+    "ground_truth": "no"
+  },
+  {
+    "question_id": "00122889",
+    "image_id": "2338529",
+    "severity": 0.0,
+    "correct": true,
+    "answer": "zebra",
+    "ground_truth": "zebra"
+  },
+  {
+    "question_id": "00122889",
+    "image_id": "2338529",
+    "severity": 0.25,
+    "correct": true,
+    "answer": "zebra",
+    "ground_truth": "zebra"
+  },
+  {
+    "question_id": "00122889",
+    "image_id": "2338529",
+    "severity": 0.5,
+    "correct": true,
+    "answer": "zebra",
+    "ground_truth": "zebra"
+  },
+  {
+    "question_id": "00122889",
+    "image_id": "2338529",
+    "severity": 0.75,
+    "correct": false,
+    "answer": "goat",
+    "ground_truth": "zebra"
+  },
+  {
+    "question_id": "00122889",
+    "image_id": "2338529",
+    "severity": 1.0,
+    "correct": false,
+    "answer": "goat",
+    "ground_truth": "zebra"
+  },
+  {
+    "question_id": "00132539",
+    "image_id": "2409884",
+    "severity": 0.0,
+    "correct": false,
+    "answer": "black",
+    "ground_truth": "blue"
+  },
+  {
+    "question_id": "00132539",
+    "image_id": "2409884",
+    "severity": 0.25,
+    "correct": false,
+    "answer": "black",
+    "ground_truth": "blue"
+  },
+  {
+    "question_id": "00132539",
+    "image_id": "2409884",
+    "severity": 0.5,
+    "correct": true,
+    "answer": "blue",
+    "ground_truth": "blue"
+  },
+  {
+    "question_id": "00132539",
+    "image_id": "2409884",
+    "severity": 0.75,
+    "correct": true,
+    "answer": "blue",
+    "ground_truth": "blue"
+  },
+  {
+    "question_id": "00132539",
+    "image_id": "2409884",
+    "severity": 1.0,
+    "correct": false,
+    "answer": "black",
+    "ground_truth": "blue"
+  },
+  {
+    "question_id": "00113470",
+    "image_id": "2332841",
+    "severity": 0.0,
+    "correct": true,
+    "answer": "top",
+    "ground_truth": "top"
+  },
+  {
+    "question_id": "00113470",
+    "image_id": "2332841",
+    "severity": 0.25,
+    "correct": true,
+    "answer": "top",
+    "ground_truth": "top"
+  },
+  {
+    "question_id": "00113470",
+    "image_id": "2332841",
+    "severity": 0.5,
+    "correct": true,
+    "answer": "top",
+    "ground_truth": "top"
+  },
+  {
+    "question_id": "00113470",
+    "image_id": "2332841",
+    "severity": 0.75,
+    "correct": true,
+    "answer": "top",
+    "ground_truth": "top"
+  },
+  {
+    "question_id": "00113470",
+    "image_id": "2332841",
+    "severity": 1.0,
+    "correct": true,
+    "answer": "top",
+    "ground_truth": "top"
+  },
+  {
+    "question_id": "00120202",
+    "image_id": "2348644",
+    "severity": 0.0,
+    "correct": true,
+    "answer": "left",
+    "ground_truth": "left"
+  },
+  {
+    "question_id": "00120202",
+    "image_id": "2348644",
+    "severity": 0.25,
+    "correct": true,
+    "answer": "left",
+    "ground_truth": "left"
+  },
+  {
+    "question_id": "00120202",
+    "image_id": "2348644",
+    "severity": 0.5,
+    "correct": true,
+    "answer": "left",
+    "ground_truth": "left"
+  },
+  {
+    "question_id": "00120202",
+    "image_id": "2348644",
+    "severity": 0.75,
+    "correct": true,
+    "answer": "left",
+    "ground_truth": "left"
+  },
+  {
+    "question_id": "00120202",
+    "image_id": "2348644",
+    "severity": 1.0,
+    "correct": true,
+    "answer": "left",
+    "ground_truth": "left"
+  }
+]
