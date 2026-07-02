@@ -1,0 +1,72 @@
+question_id,image_id,category,question,answer,audit_status,audit_reason,auditor
+04285321,2374871,material,What is the color of the fence made of metal?,green,reject,"Box is too broad or fragmentary, or substantial equivalent evidence remains visible outside it.",codex_visual_audit
+10590269,2385222,color,What color is the tablecloth?,blue,reject,"Box is too broad or fragmentary, or substantial equivalent evidence remains visible outside it.",codex_visual_audit
+13151561,2410936,color,What color is the hair that is not small?,white,reject,"Box is too broad or fragmentary, or substantial equivalent evidence remains visible outside it.",codex_visual_audit
+171006215,1159461,material,Is the plate made of plastic?,no,reject,Question/object reference is ambiguous or depends on broader/multiple visual evidence.,codex_visual_audit
+11705481,2344018,material,What's the bottle made of?,plastic,reject,"Critical object is too small, distant, occluded, or weakly visible for a reliable localized intervention.",codex_visual_audit
+16819806,61562,color,"What color is the blanket, blue or tan?",blue,reject,"Box is too broad or fragmentary, or substantial equivalent evidence remains visible outside it.",codex_visual_audit
+11719760,2333753,material,What is the fence made of?,wood,reject,Box is misplaced or captures content that does not correspond to the named critical object.,codex_visual_audit
+05522255,2340141,material,What is the fence made of?,wood,reject,"Box is too broad or fragmentary, or substantial equivalent evidence remains visible outside it.",codex_visual_audit
+07603560,2381360,shape,What shape do you think is the small table?,round,reject,Box is misplaced or captures content that does not correspond to the named critical object.,codex_visual_audit
+11629358,2365689,identity,What type of device is pictured?,camera,reject,"Critical object is too small, distant, occluded, or weakly visible for a reliable localized intervention.",codex_visual_audit
+00805634,2381239,color,What color do you think the bus is?,white,reject,"Critical object is too small, distant, occluded, or weakly visible for a reliable localized intervention.",codex_visual_audit
+0975492,2350216,shape,What shape do the stones have?,square,reject,Box is misplaced or captures content that does not correspond to the named critical object.,codex_visual_audit
+1993295,2385977,material,What's the fence made of?,wood,reject,"Box is too broad or fragmentary, or substantial equivalent evidence remains visible outside it.",codex_visual_audit
+00672063,2325349,material,What is the sidewalk made of?,concrete,reject,"Box is too broad or fragmentary, or substantial equivalent evidence remains visible outside it.",codex_visual_audit
+14869908,2390025,color,What color is the road?,tan,reject,"Box is too broad or fragmentary, or substantial equivalent evidence remains visible outside it.",codex_visual_audit
+14297463,2369899,material,"Which material is the cabinet made of, wood or glass?",wood,reject,"Critical object is too small, distant, occluded, or weakly visible for a reliable localized intervention.",codex_visual_audit
+1768305,2317428,material,What's the cup made of?,glass,reject,"Critical object is too small, distant, occluded, or weakly visible for a reliable localized intervention.",codex_visual_audit
+144958,2345950,shape,The street sign is what shape?,square,reject,"Critical object is too small, distant, occluded, or weakly visible for a reliable localized intervention.",codex_visual_audit
+181006826,2368098,material,Is there a chair or a bag that is made of leather?,yes,reject,"Critical object is too small, distant, occluded, or weakly visible for a reliable localized intervention.",codex_visual_audit
+19702140,2345527,color,What color is the bird in the top part of the picture?,brown,reject,"Critical object is too small, distant, occluded, or weakly visible for a reliable localized intervention.",codex_visual_audit
+02931698,2315383,color,What color is the kite on the right side?,blue,reject,"Critical object is too small, distant, occluded, or weakly visible for a reliable localized intervention.",codex_visual_audit
+01530372,4426,material,What is the fence made of?,metal,reject,"Box is too broad or fragmentary, or substantial equivalent evidence remains visible outside it.",codex_visual_audit
+03686217,2377938,color,That newspaper is of what color?,gray,reject,"Critical object is too small, distant, occluded, or weakly visible for a reliable localized intervention.",codex_visual_audit
+07937045,2344009,material,What's the crate made of?,plastic,reject,"Critical object is too small, distant, occluded, or weakly visible for a reliable localized intervention.",codex_visual_audit
+10423700,1723,color,What color is the grass?,green,reject,"Box is too broad or fragmentary, or substantial equivalent evidence remains visible outside it.",codex_visual_audit
+11364114,2336932,material,"What is the tray made of, glass or paper?",glass,reject,"Critical object is too small, distant, occluded, or weakly visible for a reliable localized intervention.",codex_visual_audit
+16901298,2343787,color,What color is the mane?,red,reject,"Box is too broad or fragmentary, or substantial equivalent evidence remains visible outside it.",codex_visual_audit
+14201001,2992,material,Is the fence made of wire?,no,reject,"Critical object is too small, distant, occluded, or weakly visible for a reliable localized intervention.",codex_visual_audit
+03813915,2318945,material,What is the door made of?,wood,reject,"Critical object is too small, distant, occluded, or weakly visible for a reliable localized intervention.",codex_visual_audit
+05957406,2417911,color,Of what color is the shirt?,white,reject,Box is misplaced or captures content that does not correspond to the named critical object.,codex_visual_audit
+07624096,2338200,identity,What is the color of the trunks that are not dry?,gray,reject,Box is misplaced or captures content that does not correspond to the named critical object.,codex_visual_audit
+08223880,2400861,material,What's the floor made of?,wood,reject,"Box is too broad or fragmentary, or substantial equivalent evidence remains visible outside it.",codex_visual_audit
+0337851,2369595,material,What kind of furniture is made of wood?,chair,reject,Box is misplaced or captures content that does not correspond to the named critical object.,codex_visual_audit
+02162579,2345741,color,What color is the sidewalk?,brown,reject,"Box is too broad or fragmentary, or substantial equivalent evidence remains visible outside it.",codex_visual_audit
+17455861,2403572,material,Of what material the barn?,brick,reject,Question/object reference is ambiguous or depends on broader/multiple visual evidence.,codex_visual_audit
+05531455,2390727,material,Does the fence made of metal look small and black?,yes,reject,"Box is too broad or fragmentary, or substantial equivalent evidence remains visible outside it.",codex_visual_audit
+10298770,2331201,color,What color is the mailbox on the right side?,green,reject,"Critical object is too small, distant, occluded, or weakly visible for a reliable localized intervention.",codex_visual_audit
+16409206,2397884,material,Is the long road made of concrete or cobblestone?,concrete,reject,"Box is too broad or fragmentary, or substantial equivalent evidence remains visible outside it.",codex_visual_audit
+1996747,2355725,material,What is the path made of?,brick,reject,"Box is too broad or fragmentary, or substantial equivalent evidence remains visible outside it.",codex_visual_audit
+08875290,2367256,color,What color is the rope that is not big?,pink,reject,Question/object reference is ambiguous or depends on broader/multiple visual evidence.,codex_visual_audit
+18775181,2392049,material,Is the door made of metal or wood?,metal,reject,Box is misplaced or captures content that does not correspond to the named critical object.,codex_visual_audit
+066268,2392888,color,What color is the jacket?,red,reject,Box is misplaced or captures content that does not correspond to the named critical object.,codex_visual_audit
+16803037,2397498,material,What is the fence made of?,wood,reject,"Box is too broad or fragmentary, or substantial equivalent evidence remains visible outside it.",codex_visual_audit
+07977187,2411961,material,Is the fence made of metal red or black?,black,reject,"Box is too broad or fragmentary, or substantial equivalent evidence remains visible outside it.",codex_visual_audit
+13278258,2389819,material,Which color is the sink that is made of marble?,gray,reject,Box is misplaced or captures content that does not correspond to the named critical object.,codex_visual_audit
+19900123,2316836,identity,What is the color of the animal in the bottom of the photo?,gold,reject,"Critical object is too small, distant, occluded, or weakly visible for a reliable localized intervention.",codex_visual_audit
+07237804,2380953,material,Is there a chair that is not made of wood?,yes,reject,"Critical object is too small, distant, occluded, or weakly visible for a reliable localized intervention.",codex_visual_audit
+021067065,1295,material,What is the chair made of?,plastic,reject,"Critical object is too small, distant, occluded, or weakly visible for a reliable localized intervention.",codex_visual_audit
+17848501,2363956,color,What color do you think the figure is?,green,reject,"Critical object is too small, distant, occluded, or weakly visible for a reliable localized intervention.",codex_visual_audit
+08365426,2362675,identity,What is the color of the pillow in the bottom part of the photo?,gray,reject,"Critical object is too small, distant, occluded, or weakly visible for a reliable localized intervention.",codex_visual_audit
+1168027,1575,color,What color is the garage?,white,reject,"Critical object is too small, distant, occluded, or weakly visible for a reliable localized intervention.",codex_visual_audit
+08198301,2387143,color,What color is the leather couch?,white,reject,"Critical object is too small, distant, occluded, or weakly visible for a reliable localized intervention.",codex_visual_audit
+10472187,463,material,What's the sidewalk made of?,brick,reject,"Box is too broad or fragmentary, or substantial equivalent evidence remains visible outside it.",codex_visual_audit
+1771040,2411252,material,How large is the bench made of wood?,small,reject,"Critical object is too small, distant, occluded, or weakly visible for a reliable localized intervention.",codex_visual_audit
+1861677,2323457,material,What's the fence made of?,wood,reject,"Box is too broad or fragmentary, or substantial equivalent evidence remains visible outside it.",codex_visual_audit
+03353804,2401863,identity,What kind of furniture is not stained?,chair,reject,Box is misplaced or captures content that does not correspond to the named critical object.,codex_visual_audit
+0832901,2414605,color,What color is the rubber boot?,red,reject,"Critical object is too small, distant, occluded, or weakly visible for a reliable localized intervention.",codex_visual_audit
+16481406,2335246,color,What color is the screen that is on the right side?,green,reject,"Critical object is too small, distant, occluded, or weakly visible for a reliable localized intervention.",codex_visual_audit
+14266380,529,material,Is the brown floor made of cement?,no,reject,"Box is too broad or fragmentary, or substantial equivalent evidence remains visible outside it.",codex_visual_audit
+06970679,2374309,identity,What is the white item of furniture in this image?,chair,reject,Box is misplaced or captures content that does not correspond to the named critical object.,codex_visual_audit
+0693401,2370435,material,What material is that sink made of?,metal,reject,Box is misplaced or captures content that does not correspond to the named critical object.,codex_visual_audit
+06347645,2395361,material,What is the cutting board made of?,plastic,reject,Box is misplaced or captures content that does not correspond to the named critical object.,codex_visual_audit
+02590871,2320327,color,The appliance that is on the left is what color?,silver,reject,Box is misplaced or captures content that does not correspond to the named critical object.,codex_visual_audit
+05687840,2385306,color,What color is the vehicle in the top?,silver,reject,Box is misplaced or captures content that does not correspond to the named critical object.,codex_visual_audit
+09298902,2357363,material,Is the sidewalk made of brick narrow or wide?,wide,reject,"Box is too broad or fragmentary, or substantial equivalent evidence remains visible outside it.",codex_visual_audit
+19457284,2397532,identity,What is the color of the container that is not little?,white,reject,"Critical object is too small, distant, occluded, or weakly visible for a reliable localized intervention.",codex_visual_audit
+03618696,2411522,material,What is the brown floor made of?,wood,reject,"Box is too broad or fragmentary, or substantial equivalent evidence remains visible outside it.",codex_visual_audit
+1399382,498126,color,What color is the floor?,gray,reject,"Box is too broad or fragmentary, or substantial equivalent evidence remains visible outside it.",codex_visual_audit
+03102024,2384976,material,What is the patio made of?,wood,reject,Box is misplaced or captures content that does not correspond to the named critical object.,codex_visual_audit
+00945744,2391364,color,What color is the drink?,brown,reject,"Critical object is too small, distant, occluded, or weakly visible for a reliable localized intervention.",codex_visual_audit
+19540103,2375878,color,What color is the countertop?,gray,reject,"Box is too broad or fragmentary, or substantial equivalent evidence remains visible outside it.",codex_visual_audit

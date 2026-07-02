@@ -1,0 +1,4402 @@
+[
+  {
+    "question_id": "08621661",
+    "image_id": "2344819",
+    "question": "What color is the device on the right?",
+    "answer": "black",
+    "category": "color",
+    "critical_objects": [
+      {
+        "object_id": "1043210",
+        "name": "phone",
+        "bbox_xyxy": [
+          267.0,
+          118.0,
+          324.0,
+          213.0
+        ],
+        "area_ratio": 0.028957
+      }
+    ],
+    "image_width": 374,
+    "image_height": 500,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "10983653",
+    "image_id": "2342530",
+    "question": "What shape is the tub?",
+    "answer": "rectangular",
+    "category": "shape",
+    "critical_objects": [
+      {
+        "object_id": "3440261",
+        "name": "bathtub",
+        "bbox_xyxy": [
+          281.0,
+          234.0,
+          429.0,
+          333.0
+        ],
+        "area_ratio": 0.088
+      }
+    ],
+    "image_width": 500,
+    "image_height": 333,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "06435607",
+    "image_id": "2317733",
+    "question": "What is the name of the food that is not white?",
+    "answer": "hot dog",
+    "category": "identity",
+    "critical_objects": [
+      {
+        "object_id": "1017945",
+        "name": "hot dog",
+        "bbox_xyxy": [
+          175.0,
+          157.0,
+          357.0,
+          222.0
+        ],
+        "area_ratio": 0.070417
+      }
+    ],
+    "image_width": 500,
+    "image_height": 336,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "19388466",
+    "image_id": "2325119",
+    "question": "What color is that shirt, brown or white?",
+    "answer": "brown",
+    "category": "color",
+    "critical_objects": [
+      {
+        "object_id": "3261887",
+        "name": "shirt",
+        "bbox_xyxy": [
+          127.0,
+          19.0,
+          338.0,
+          269.0
+        ],
+        "area_ratio": 0.281333
+      }
+    ],
+    "image_width": 375,
+    "image_height": 500,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "1425112",
+    "image_id": "2404639",
+    "question": "What is the chair made of?",
+    "answer": "wood",
+    "category": "material",
+    "critical_objects": [
+      {
+        "object_id": "340095",
+        "name": "chair",
+        "bbox_xyxy": [
+          87.0,
+          57.0,
+          445.0,
+          224.0
+        ],
+        "area_ratio": 0.239144
+      }
+    ],
+    "image_width": 500,
+    "image_height": 500,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "08775086",
+    "image_id": "2388994",
+    "question": "What shape does the empty sink have?",
+    "answer": "round",
+    "category": "shape",
+    "critical_objects": [
+      {
+        "object_id": "1264956",
+        "name": "sink",
+        "bbox_xyxy": [
+          132.0,
+          404.0,
+          273.0,
+          500.0
+        ],
+        "area_ratio": 0.072192
+      }
+    ],
+    "image_width": 375,
+    "image_height": 500,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "10433179",
+    "image_id": "2367895",
+    "question": "What kind of vehicle is yellow?",
+    "answer": "bus",
+    "category": "identity",
+    "critical_objects": [
+      {
+        "object_id": "1898629",
+        "name": "bus",
+        "bbox_xyxy": [
+          60.0,
+          112.0,
+          282.0,
+          274.0
+        ],
+        "area_ratio": 0.216
+      }
+    ],
+    "image_width": 333,
+    "image_height": 500,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "02655551",
+    "image_id": "2354629",
+    "question": "What color do you think the t-shirt is?",
+    "answer": "green",
+    "category": "color",
+    "critical_objects": [
+      {
+        "object_id": "2625654",
+        "name": "t-shirt",
+        "bbox_xyxy": [
+          103.0,
+          182.0,
+          194.0,
+          244.0
+        ],
+        "area_ratio": 0.030091
+      }
+    ],
+    "image_width": 500,
+    "image_height": 375,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "06503451",
+    "image_id": "2329386",
+    "question": "Is the motorcycle that is made of metal small or large?",
+    "answer": "small",
+    "category": "material",
+    "critical_objects": [
+      {
+        "object_id": "4674673",
+        "name": "motorcycle",
+        "bbox_xyxy": [
+          147.0,
+          213.0,
+          225.0,
+          344.0
+        ],
+        "area_ratio": 0.054496
+      }
+    ],
+    "image_width": 500,
+    "image_height": 375,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "07142526",
+    "image_id": "2392341",
+    "question": "What shape is the large mirror?",
+    "answer": "rectangular",
+    "category": "shape",
+    "critical_objects": [
+      {
+        "object_id": "1231208",
+        "name": "mirror",
+        "bbox_xyxy": [
+          157.0,
+          72.0,
+          332.0,
+          287.0
+        ],
+        "area_ratio": 0.225976
+      }
+    ],
+    "image_width": 333,
+    "image_height": 500,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "01125115",
+    "image_id": "2383075",
+    "question": "What is the color of the large umbrella?",
+    "answer": "orange",
+    "category": "identity",
+    "critical_objects": [
+      {
+        "object_id": "535158",
+        "name": "umbrella",
+        "bbox_xyxy": [
+          54.0,
+          38.0,
+          324.0,
+          163.0
+        ],
+        "area_ratio": 0.203927
+      }
+    ],
+    "image_width": 500,
+    "image_height": 331,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "18717754",
+    "image_id": "2364364",
+    "question": "What is the table made of?",
+    "answer": "glass",
+    "category": "material",
+    "critical_objects": [
+      {
+        "object_id": "1724970",
+        "name": "table",
+        "bbox_xyxy": [
+          11.0,
+          318.0,
+          191.0,
+          478.0
+        ],
+        "area_ratio": 0.1536
+      }
+    ],
+    "image_width": 375,
+    "image_height": 500,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "19315625",
+    "image_id": "2381993",
+    "question": "What shape is the window?",
+    "answer": "round",
+    "category": "shape",
+    "critical_objects": [
+      {
+        "object_id": "1332290",
+        "name": "window",
+        "bbox_xyxy": [
+          37.0,
+          43.0,
+          129.0,
+          149.0
+        ],
+        "area_ratio": 0.058571
+      }
+    ],
+    "image_width": 333,
+    "image_height": 500,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "09993325",
+    "image_id": "2373967",
+    "question": "What kind of clothing isn't short sleeved?",
+    "answer": "cap",
+    "category": "identity",
+    "critical_objects": [
+      {
+        "object_id": "729648",
+        "name": "cap",
+        "bbox_xyxy": [
+          138.0,
+          66.0,
+          245.0,
+          122.0
+        ],
+        "area_ratio": 0.031957
+      }
+    ],
+    "image_width": 500,
+    "image_height": 375,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "17954994",
+    "image_id": "2355312",
+    "question": "The shirt has what color?",
+    "answer": "black",
+    "category": "color",
+    "critical_objects": [
+      {
+        "object_id": "1912449",
+        "name": "shirt",
+        "bbox_xyxy": [
+          0.0,
+          220.0,
+          119.0,
+          373.0
+        ],
+        "area_ratio": 0.097104
+      }
+    ],
+    "image_width": 500,
+    "image_height": 375,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "10956782",
+    "image_id": "2361328",
+    "question": "What is the box made of?",
+    "answer": "plastic",
+    "category": "material",
+    "critical_objects": [
+      {
+        "object_id": "2330237",
+        "name": "box",
+        "bbox_xyxy": [
+          39.0,
+          1.0,
+          92.0,
+          143.0
+        ],
+        "area_ratio": 0.030104
+      }
+    ],
+    "image_width": 500,
+    "image_height": 500,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "04251940",
+    "image_id": "2373119",
+    "question": "What shape does the white plate have?",
+    "answer": "square",
+    "category": "shape",
+    "critical_objects": [
+      {
+        "object_id": "1847545",
+        "name": "plate",
+        "bbox_xyxy": [
+          190.0,
+          57.0,
+          360.0,
+          117.0
+        ],
+        "area_ratio": 0.061261
+      }
+    ],
+    "image_width": 500,
+    "image_height": 333,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "14705211",
+    "image_id": "2371481",
+    "question": "What type of toy is presented in the image?",
+    "answer": "doll",
+    "category": "identity",
+    "critical_objects": [
+      {
+        "object_id": "3521216",
+        "name": "doll",
+        "bbox_xyxy": [
+          31.0,
+          149.0,
+          141.0,
+          360.0
+        ],
+        "area_ratio": 0.123787
+      }
+    ],
+    "image_width": 375,
+    "image_height": 500,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "15599995",
+    "image_id": "2390229",
+    "question": "What color is the tank top?",
+    "answer": "white",
+    "category": "color",
+    "critical_objects": [
+      {
+        "object_id": "499378",
+        "name": "tank top",
+        "bbox_xyxy": [
+          116.0,
+          85.0,
+          213.0,
+          221.0
+        ],
+        "area_ratio": 0.073493
+      }
+    ],
+    "image_width": 359,
+    "image_height": 500,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "10755150",
+    "image_id": "2391950",
+    "question": "Which kind of clothing is made of leather?",
+    "answer": "pants",
+    "category": "material",
+    "critical_objects": [
+      {
+        "object_id": "1235737",
+        "name": "pants",
+        "bbox_xyxy": [
+          48.0,
+          218.0,
+          208.0,
+          351.0
+        ],
+        "area_ratio": 0.127808
+      }
+    ],
+    "image_width": 333,
+    "image_height": 500,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "141024691",
+    "image_id": "2363539",
+    "question": "What shape is the silver door?",
+    "answer": "rectangular",
+    "category": "shape",
+    "critical_objects": [
+      {
+        "object_id": "3745361",
+        "name": "door",
+        "bbox_xyxy": [
+          64.0,
+          153.0,
+          163.0,
+          397.0
+        ],
+        "area_ratio": 0.145518
+      }
+    ],
+    "image_width": 332,
+    "image_height": 500,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "13598461",
+    "image_id": "2399127",
+    "question": "What is the device that is not on called?",
+    "answer": "remote control",
+    "category": "identity",
+    "critical_objects": [
+      {
+        "object_id": "418896",
+        "name": "remote control",
+        "bbox_xyxy": [
+          219.0,
+          169.0,
+          327.0,
+          288.0
+        ],
+        "area_ratio": 0.077189
+      }
+    ],
+    "image_width": 500,
+    "image_height": 333,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "13777356",
+    "image_id": "2403093",
+    "question": "Is the platter made of wood round and brown?",
+    "answer": "yes",
+    "category": "material",
+    "critical_objects": [
+      {
+        "object_id": "383677",
+        "name": "platter",
+        "bbox_xyxy": [
+          45.0,
+          83.0,
+          297.0,
+          266.0
+        ],
+        "area_ratio": 0.2562
+      }
+    ],
+    "image_width": 500,
+    "image_height": 360,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "12366048",
+    "image_id": "2390293",
+    "question": "What type of animal is this, a donkey or a horse?",
+    "answer": "horse",
+    "category": "identity",
+    "critical_objects": [
+      {
+        "object_id": "499033",
+        "name": "horse",
+        "bbox_xyxy": [
+          164.0,
+          110.0,
+          430.0,
+          259.0
+        ],
+        "area_ratio": 0.238042
+      }
+    ],
+    "image_width": 500,
+    "image_height": 333,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "081005615",
+    "image_id": "2391197",
+    "question": "What color is the frisbee in the top of the picture?",
+    "answer": "purple",
+    "category": "color",
+    "critical_objects": [
+      {
+        "object_id": "1242907",
+        "name": "frisbee",
+        "bbox_xyxy": [
+          113.0,
+          44.0,
+          182.0,
+          106.0
+        ],
+        "area_ratio": 0.024586
+      }
+    ],
+    "image_width": 348,
+    "image_height": 500,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "01389513",
+    "image_id": "2364527",
+    "question": "The plate on the right is what shape?",
+    "answer": "square",
+    "category": "shape",
+    "critical_objects": [
+      {
+        "object_id": "2165850",
+        "name": "plate",
+        "bbox_xyxy": [
+          368.0,
+          153.0,
+          491.0,
+          355.0
+        ],
+        "area_ratio": 0.099384
+      }
+    ],
+    "image_width": 500,
+    "image_height": 500,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "0526849",
+    "image_id": "2413799",
+    "question": "What is the fluffy animal called?",
+    "answer": "bear",
+    "category": "identity",
+    "critical_objects": [
+      {
+        "object_id": "165987",
+        "name": "bear",
+        "bbox_xyxy": [
+          104.0,
+          66.0,
+          244.0,
+          311.0
+        ],
+        "area_ratio": 0.201765
+      }
+    ],
+    "image_width": 500,
+    "image_height": 340,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "10324248",
+    "image_id": "2408676",
+    "question": "What color is the helmet?",
+    "answer": "red",
+    "category": "color",
+    "critical_objects": [
+      {
+        "object_id": "257022",
+        "name": "helmet",
+        "bbox_xyxy": [
+          196.0,
+          19.0,
+          273.0,
+          83.0
+        ],
+        "area_ratio": 0.029598
+      }
+    ],
+    "image_width": 500,
+    "image_height": 333,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "04110778",
+    "image_id": "2322532",
+    "question": "What shape do you think the blue pillow is?",
+    "answer": "square",
+    "category": "shape",
+    "critical_objects": [
+      {
+        "object_id": "991470",
+        "name": "pillow",
+        "bbox_xyxy": [
+          139.0,
+          160.0,
+          234.0,
+          198.0
+        ],
+        "area_ratio": 0.019253
+      }
+    ],
+    "image_width": 375,
+    "image_height": 500,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "04706818",
+    "image_id": "2378857",
+    "question": "What is this, a bus or a train?",
+    "answer": "bus",
+    "category": "identity",
+    "critical_objects": [
+      {
+        "object_id": "556917",
+        "name": "bus",
+        "bbox_xyxy": [
+          87.0,
+          111.0,
+          253.0,
+          266.0
+        ],
+        "area_ratio": 0.154072
+      }
+    ],
+    "image_width": 500,
+    "image_height": 334,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "01229011",
+    "image_id": "2406044",
+    "question": "What shape do you think the clock is?",
+    "answer": "square",
+    "category": "shape",
+    "critical_objects": [
+      {
+        "object_id": "370751",
+        "name": "clock",
+        "bbox_xyxy": [
+          211.0,
+          220.0,
+          271.0,
+          285.0
+        ],
+        "area_ratio": 0.0208
+      }
+    ],
+    "image_width": 375,
+    "image_height": 500,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "08858518",
+    "image_id": "2384518",
+    "question": "What kind of food is flat?",
+    "answer": "pancakes",
+    "category": "identity",
+    "critical_objects": [
+      {
+        "object_id": "526218",
+        "name": "pancakes",
+        "bbox_xyxy": [
+          81.0,
+          157.0,
+          279.0,
+          289.0
+        ],
+        "area_ratio": 0.127804
+      }
+    ],
+    "image_width": 500,
+    "image_height": 409,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "16652947",
+    "image_id": "2417941",
+    "question": "Does the television made of plastic look small and black?",
+    "answer": "yes",
+    "category": "material",
+    "critical_objects": [
+      {
+        "object_id": "2837880",
+        "name": "television",
+        "bbox_xyxy": [
+          97.0,
+          198.0,
+          298.0,
+          380.0
+        ],
+        "area_ratio": 0.153706
+      }
+    ],
+    "image_width": 500,
+    "image_height": 476,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "18192074",
+    "image_id": "2359926",
+    "question": "What is the color of the trousers?",
+    "answer": "khaki",
+    "category": "identity",
+    "critical_objects": [
+      {
+        "object_id": "2419315",
+        "name": "pants",
+        "bbox_xyxy": [
+          423.0,
+          217.0,
+          487.0,
+          333.0
+        ],
+        "area_ratio": 0.044589
+      }
+    ],
+    "image_width": 500,
+    "image_height": 333,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "18281934",
+    "image_id": "2358172",
+    "question": "What color is the headboard?",
+    "answer": "black",
+    "category": "color",
+    "critical_objects": [
+      {
+        "object_id": "805380",
+        "name": "headboard",
+        "bbox_xyxy": [
+          51.0,
+          194.0,
+          293.0,
+          322.0
+        ],
+        "area_ratio": 0.186042
+      }
+    ],
+    "image_width": 333,
+    "image_height": 500,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "08924895",
+    "image_id": "2365711",
+    "question": "What shape do you think the chair is?",
+    "answer": "triangular",
+    "category": "shape",
+    "critical_objects": [
+      {
+        "object_id": "2080193",
+        "name": "chair",
+        "bbox_xyxy": [
+          180.0,
+          269.0,
+          240.0,
+          367.0
+        ],
+        "area_ratio": 0.03136
+      }
+    ],
+    "image_width": 500,
+    "image_height": 375,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "02965895",
+    "image_id": "2384743",
+    "question": "What the gray item of clothing is called?",
+    "answer": "shirt",
+    "category": "identity",
+    "critical_objects": [
+      {
+        "object_id": "524656",
+        "name": "shirt",
+        "bbox_xyxy": [
+          304.0,
+          71.0,
+          467.0,
+          243.0
+        ],
+        "area_ratio": 0.149525
+      }
+    ],
+    "image_width": 500,
+    "image_height": 375,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "03495642",
+    "image_id": "2410346",
+    "question": "What color is that jacket?",
+    "answer": "gray",
+    "category": "color",
+    "critical_objects": [
+      {
+        "object_id": "219920",
+        "name": "jacket",
+        "bbox_xyxy": [
+          68.0,
+          70.0,
+          294.0,
+          276.0
+        ],
+        "area_ratio": 0.248299
+      }
+    ],
+    "image_width": 375,
+    "image_height": 500,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "17888876",
+    "image_id": "2387990",
+    "question": "What shape is the plate?",
+    "answer": "square",
+    "category": "shape",
+    "critical_objects": [
+      {
+        "object_id": "676079",
+        "name": "plate",
+        "bbox_xyxy": [
+          114.0,
+          288.0,
+          407.0,
+          357.0
+        ],
+        "area_ratio": 0.107824
+      }
+    ],
+    "image_width": 500,
+    "image_height": 375,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "19425852",
+    "image_id": "2342045",
+    "question": "What kind of fruit is round?",
+    "answer": "orange",
+    "category": "identity",
+    "critical_objects": [
+      {
+        "object_id": "937760",
+        "name": "orange",
+        "bbox_xyxy": [
+          186.0,
+          148.0,
+          341.0,
+          289.0
+        ],
+        "area_ratio": 0.11656
+      }
+    ],
+    "image_width": 500,
+    "image_height": 375,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "05199500",
+    "image_id": "2413903",
+    "question": "What shape is the table?",
+    "answer": "rectangular",
+    "category": "shape",
+    "critical_objects": [
+      {
+        "object_id": "163818",
+        "name": "table",
+        "bbox_xyxy": [
+          163.0,
+          182.0,
+          499.0,
+          374.0
+        ],
+        "area_ratio": 0.343149
+      }
+    ],
+    "image_width": 500,
+    "image_height": 376,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "18175256",
+    "image_id": "2382716",
+    "question": "What is the man doing?",
+    "answer": "talking",
+    "category": "identity",
+    "critical_objects": [
+      {
+        "object_id": "537604",
+        "name": "man",
+        "bbox_xyxy": [
+          263.0,
+          0.0,
+          357.0,
+          147.0
+        ],
+        "area_ratio": 0.073696
+      }
+    ],
+    "image_width": 500,
+    "image_height": 375,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "04104534",
+    "image_id": "2319689",
+    "question": "What color does the dress have?",
+    "answer": "white",
+    "category": "color",
+    "critical_objects": [
+      {
+        "object_id": "999689",
+        "name": "dress",
+        "bbox_xyxy": [
+          196.0,
+          172.0,
+          290.0,
+          337.0
+        ],
+        "area_ratio": 0.063306
+      }
+    ],
+    "image_width": 500,
+    "image_height": 490,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "13764265",
+    "image_id": "2401635",
+    "question": "What is the color of the lamp?",
+    "answer": "gold",
+    "category": "identity",
+    "critical_objects": [
+      {
+        "object_id": "397479",
+        "name": "lamp",
+        "bbox_xyxy": [
+          263.0,
+          97.0,
+          314.0,
+          200.0
+        ],
+        "area_ratio": 0.028016
+      }
+    ],
+    "image_width": 500,
+    "image_height": 375,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "10302229",
+    "image_id": "2382646",
+    "question": "What color is the bookshelf on the left?",
+    "answer": "black",
+    "category": "color",
+    "critical_objects": [
+      {
+        "object_id": "696254",
+        "name": "bookshelf",
+        "bbox_xyxy": [
+          11.0,
+          60.0,
+          155.0,
+          331.0
+        ],
+        "area_ratio": 0.208128
+      }
+    ],
+    "image_width": 500,
+    "image_height": 375,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "13637218",
+    "image_id": "2320853",
+    "question": "What shape is the sandwich in the center?",
+    "answer": "triangular",
+    "category": "shape",
+    "critical_objects": [
+      {
+        "object_id": "4223017",
+        "name": "sandwich",
+        "bbox_xyxy": [
+          255.0,
+          108.0,
+          360.0,
+          163.0
+        ],
+        "area_ratio": 0.0308
+      }
+    ],
+    "image_width": 500,
+    "image_height": 375,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "11985368",
+    "image_id": "2386099",
+    "question": "What kind of clothing in the scene is blue?",
+    "answer": "dress",
+    "category": "identity",
+    "critical_objects": [
+      {
+        "object_id": "1289468",
+        "name": "dress",
+        "bbox_xyxy": [
+          93.0,
+          99.0,
+          204.0,
+          333.0
+        ],
+        "area_ratio": 0.155533
+      }
+    ],
+    "image_width": 500,
+    "image_height": 334,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "061006816",
+    "image_id": "2343256",
+    "question": "Is the fence made of metal?",
+    "answer": "no",
+    "category": "material",
+    "critical_objects": [
+      {
+        "object_id": "925717",
+        "name": "fence",
+        "bbox_xyxy": [
+          245.0,
+          85.0,
+          500.0,
+          138.0
+        ],
+        "area_ratio": 0.05406
+      }
+    ],
+    "image_width": 500,
+    "image_height": 500,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "1297276",
+    "image_id": "2385826",
+    "question": "What is the black piece of clothing?",
+    "answer": "coat",
+    "category": "identity",
+    "critical_objects": [
+      {
+        "object_id": "1292607",
+        "name": "coat",
+        "bbox_xyxy": [
+          184.0,
+          220.0,
+          307.0,
+          380.0
+        ],
+        "area_ratio": 0.10496
+      }
+    ],
+    "image_width": 375,
+    "image_height": 500,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "09961673",
+    "image_id": "2381915",
+    "question": "What kind of animal is white?",
+    "answer": "polar bear",
+    "category": "identity",
+    "critical_objects": [
+      {
+        "object_id": "700822",
+        "name": "polar bear",
+        "bbox_xyxy": [
+          129.0,
+          123.0,
+          441.0,
+          280.0
+        ],
+        "area_ratio": 0.295084
+      }
+    ],
+    "image_width": 500,
+    "image_height": 332,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "13831014",
+    "image_id": "2406789",
+    "question": "What the clothing item that is white is called?",
+    "answer": "uniform",
+    "category": "identity",
+    "critical_objects": [
+      {
+        "object_id": "1100359",
+        "name": "uniform",
+        "bbox_xyxy": [
+          56.0,
+          89.0,
+          274.0,
+          249.0
+        ],
+        "area_ratio": 0.213988
+      }
+    ],
+    "image_width": 500,
+    "image_height": 326,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "09743894",
+    "image_id": "2315900",
+    "question": "Is the counter made of steel?",
+    "answer": "no",
+    "category": "material",
+    "critical_objects": [
+      {
+        "object_id": "3575196",
+        "name": "counter",
+        "bbox_xyxy": [
+          140.0,
+          329.0,
+          287.0,
+          371.0
+        ],
+        "area_ratio": 0.03686
+      }
+    ],
+    "image_width": 335,
+    "image_height": 500,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "02513848",
+    "image_id": "2406874",
+    "question": "What type of animal is brown?",
+    "answer": "giraffe",
+    "category": "identity",
+    "critical_objects": [
+      {
+        "object_id": "1100019",
+        "name": "giraffe",
+        "bbox_xyxy": [
+          136.0,
+          103.0,
+          331.0,
+          311.0
+        ],
+        "area_ratio": 0.21632
+      }
+    ],
+    "image_width": 500,
+    "image_height": 375,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "04468135",
+    "image_id": "1987",
+    "question": "What color is that chair?",
+    "answer": "dark",
+    "category": "color",
+    "critical_objects": [
+      {
+        "object_id": "1645507",
+        "name": "chair",
+        "bbox_xyxy": [
+          0.0,
+          266.0,
+          247.0,
+          586.0
+        ],
+        "area_ratio": 0.164667
+      }
+    ],
+    "image_width": 800,
+    "image_height": 600,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "1616401",
+    "image_id": "2321508",
+    "question": "What is the color of the cake?",
+    "answer": "white",
+    "category": "identity",
+    "critical_objects": [
+      {
+        "object_id": "2849772",
+        "name": "cake",
+        "bbox_xyxy": [
+          131.0,
+          212.0,
+          344.0,
+          324.0
+        ],
+        "area_ratio": 0.144145
+      }
+    ],
+    "image_width": 500,
+    "image_height": 331,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "01738786",
+    "image_id": "2334150",
+    "question": "What type of clothing in the picture is black?",
+    "answer": "coat",
+    "category": "identity",
+    "critical_objects": [
+      {
+        "object_id": "3926780",
+        "name": "coat",
+        "bbox_xyxy": [
+          21.0,
+          164.0,
+          159.0,
+          333.0
+        ],
+        "area_ratio": 0.140072
+      }
+    ],
+    "image_width": 500,
+    "image_height": 333,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "00255101",
+    "image_id": "2410643",
+    "question": "What color is the small hat?",
+    "answer": "black",
+    "category": "color",
+    "critical_objects": [
+      {
+        "object_id": "1619118",
+        "name": "hat",
+        "bbox_xyxy": [
+          193.0,
+          32.0,
+          305.0,
+          119.0
+        ],
+        "area_ratio": 0.058523
+      }
+    ],
+    "image_width": 500,
+    "image_height": 333,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "15284589",
+    "image_id": "2367184",
+    "question": "What is the pattern of the tail?",
+    "answer": "checkered",
+    "category": "identity",
+    "critical_objects": [
+      {
+        "object_id": "624096",
+        "name": "tail",
+        "bbox_xyxy": [
+          202.0,
+          70.0,
+          242.0,
+          140.0
+        ],
+        "area_ratio": 0.023932
+      }
+    ],
+    "image_width": 500,
+    "image_height": 234,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "07604306",
+    "image_id": "2373891",
+    "question": "Is the brown bottle made of glass?",
+    "answer": "yes",
+    "category": "material",
+    "critical_objects": [
+      {
+        "object_id": "2189274",
+        "name": "bottle",
+        "bbox_xyxy": [
+          166.0,
+          59.0,
+          292.0,
+          396.0
+        ],
+        "area_ratio": 0.25275
+      }
+    ],
+    "image_width": 336,
+    "image_height": 500,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "181061102",
+    "image_id": "2337884",
+    "question": "What is the white sign called?",
+    "answer": "stop sign",
+    "category": "identity",
+    "critical_objects": [
+      {
+        "object_id": "2572948",
+        "name": "stop sign",
+        "bbox_xyxy": [
+          18.0,
+          16.0,
+          187.0,
+          164.0
+        ],
+        "area_ratio": 0.149772
+      }
+    ],
+    "image_width": 500,
+    "image_height": 334,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "17444087",
+    "image_id": "2371945",
+    "question": "The shirt has what color?",
+    "answer": "tan",
+    "category": "color",
+    "critical_objects": [
+      {
+        "object_id": "595067",
+        "name": "shirt",
+        "bbox_xyxy": [
+          280.0,
+          86.0,
+          500.0,
+          319.0
+        ],
+        "area_ratio": 0.274118
+      }
+    ],
+    "image_width": 500,
+    "image_height": 374,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "15975535",
+    "image_id": "2392397",
+    "question": "Which kind of furniture is made of wood?",
+    "answer": "coffee table",
+    "category": "material",
+    "critical_objects": [
+      {
+        "object_id": "480304",
+        "name": "coffee table",
+        "bbox_xyxy": [
+          151.0,
+          186.0,
+          353.0,
+          300.0
+        ],
+        "area_ratio": 0.122816
+      }
+    ],
+    "image_width": 500,
+    "image_height": 375,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "03716175",
+    "image_id": "2387346",
+    "question": "What is the color of the jacket?",
+    "answer": "gray",
+    "category": "identity",
+    "critical_objects": [
+      {
+        "object_id": "1276778",
+        "name": "jacket",
+        "bbox_xyxy": [
+          248.0,
+          112.0,
+          445.0,
+          268.0
+        ],
+        "area_ratio": 0.163904
+      }
+    ],
+    "image_width": 500,
+    "image_height": 375,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "13483094",
+    "image_id": "2380691",
+    "question": "What color are the shorts, black or white?",
+    "answer": "black",
+    "category": "color",
+    "critical_objects": [
+      {
+        "object_id": "709678",
+        "name": "shorts",
+        "bbox_xyxy": [
+          249.0,
+          210.0,
+          331.0,
+          295.0
+        ],
+        "area_ratio": 0.041862
+      }
+    ],
+    "image_width": 500,
+    "image_height": 333,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "09937806",
+    "image_id": "2348458",
+    "question": "Is the brown chair made of wood?",
+    "answer": "yes",
+    "category": "material",
+    "critical_objects": [
+      {
+        "object_id": "881929",
+        "name": "chair",
+        "bbox_xyxy": [
+          5.0,
+          1.0,
+          148.0,
+          156.0
+        ],
+        "area_ratio": 0.12079
+      }
+    ],
+    "image_width": 500,
+    "image_height": 367,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "111055030",
+    "image_id": "2386495",
+    "question": "What color do you think the curtains on the right side are?",
+    "answer": "beige",
+    "category": "color",
+    "critical_objects": [
+      {
+        "object_id": "518303",
+        "name": "curtains",
+        "bbox_xyxy": [
+          416.0,
+          47.0,
+          458.0,
+          169.0
+        ],
+        "area_ratio": 0.036731
+      }
+    ],
+    "image_width": 500,
+    "image_height": 279,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "06805699",
+    "image_id": "2354794",
+    "question": "What is the color of the shirt?",
+    "answer": "black",
+    "category": "identity",
+    "critical_objects": [
+      {
+        "object_id": "835482",
+        "name": "shirt",
+        "bbox_xyxy": [
+          46.0,
+          91.0,
+          227.0,
+          207.0
+        ],
+        "area_ratio": 0.08676
+      }
+    ],
+    "image_width": 484,
+    "image_height": 500,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "08237593",
+    "image_id": "2315465",
+    "question": "What color do the trousers have?",
+    "answer": "black",
+    "category": "color",
+    "critical_objects": [
+      {
+        "object_id": "3359406",
+        "name": "pants",
+        "bbox_xyxy": [
+          345.0,
+          127.0,
+          408.0,
+          202.0
+        ],
+        "area_ratio": 0.027551
+      }
+    ],
+    "image_width": 500,
+    "image_height": 343,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "15586319",
+    "image_id": "2352617",
+    "question": "What material is the armchair made of?",
+    "answer": "leather",
+    "category": "material",
+    "critical_objects": [
+      {
+        "object_id": "1742009",
+        "name": "armchair",
+        "bbox_xyxy": [
+          376.0,
+          103.0,
+          480.0,
+          179.0
+        ],
+        "area_ratio": 0.042155
+      }
+    ],
+    "image_width": 500,
+    "image_height": 375,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "13541187",
+    "image_id": "2372439",
+    "question": "What kind of clothing is white?",
+    "answer": "outfit",
+    "category": "identity",
+    "critical_objects": [
+      {
+        "object_id": "1968651",
+        "name": "outfit",
+        "bbox_xyxy": [
+          117.0,
+          165.0,
+          256.0,
+          500.0
+        ],
+        "area_ratio": 0.248347
+      }
+    ],
+    "image_width": 375,
+    "image_height": 500,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "01275423",
+    "image_id": "3716",
+    "question": "What color is the tower, white or red?",
+    "answer": "white",
+    "category": "color",
+    "critical_objects": [
+      {
+        "object_id": "4554557",
+        "name": "tower",
+        "bbox_xyxy": [
+          189.0,
+          97.0,
+          345.0,
+          474.0
+        ],
+        "area_ratio": 0.137669
+      }
+    ],
+    "image_width": 800,
+    "image_height": 534,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "19443493",
+    "image_id": "2378689",
+    "question": "What is the umpire doing?",
+    "answer": "waiting",
+    "category": "identity",
+    "critical_objects": [
+      {
+        "object_id": "1366122",
+        "name": "umpire",
+        "bbox_xyxy": [
+          0.0,
+          94.0,
+          101.0,
+          256.0
+        ],
+        "area_ratio": 0.097684
+      }
+    ],
+    "image_width": 500,
+    "image_height": 335,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "18252583",
+    "image_id": "2406434",
+    "question": "What color is the train in the center of the image?",
+    "answer": "red",
+    "category": "color",
+    "critical_objects": [
+      {
+        "object_id": "4089032",
+        "name": "train",
+        "bbox_xyxy": [
+          205.0,
+          114.0,
+          292.0,
+          173.0
+        ],
+        "area_ratio": 0.0354
+      }
+    ],
+    "image_width": 500,
+    "image_height": 290,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "1116252",
+    "image_id": "2407974",
+    "question": "What's the mirror made of?",
+    "answer": "wood",
+    "category": "material",
+    "critical_objects": [
+      {
+        "object_id": "650319",
+        "name": "mirror",
+        "bbox_xyxy": [
+          290.0,
+          12.0,
+          465.0,
+          196.0
+        ],
+        "area_ratio": 0.172193
+      }
+    ],
+    "image_width": 500,
+    "image_height": 374,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "13945801",
+    "image_id": "2408291",
+    "question": "What is the zebra doing?",
+    "answer": "standing",
+    "category": "identity",
+    "critical_objects": [
+      {
+        "object_id": "649985",
+        "name": "zebra",
+        "bbox_xyxy": [
+          181.0,
+          205.0,
+          266.0,
+          264.0
+        ],
+        "area_ratio": 0.03012
+      }
+    ],
+    "image_width": 500,
+    "image_height": 333,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "13356863",
+    "image_id": "2373271",
+    "question": "What is the color of that chair?",
+    "answer": "gray",
+    "category": "identity",
+    "critical_objects": [
+      {
+        "object_id": "733414",
+        "name": "chair",
+        "bbox_xyxy": [
+          49.0,
+          50.0,
+          192.0,
+          293.0
+        ],
+        "area_ratio": 0.185328
+      }
+    ],
+    "image_width": 375,
+    "image_height": 500,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "17468425",
+    "image_id": "2346705",
+    "question": "What color is that hair?",
+    "answer": "gray",
+    "category": "color",
+    "critical_objects": [
+      {
+        "object_id": "3615586",
+        "name": "hair",
+        "bbox_xyxy": [
+          218.0,
+          97.0,
+          334.0,
+          208.0
+        ],
+        "area_ratio": 0.068672
+      }
+    ],
+    "image_width": 375,
+    "image_height": 500,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "12476717",
+    "image_id": "4094",
+    "question": "What is the mirror made of?",
+    "answer": "wood",
+    "category": "material",
+    "critical_objects": [
+      {
+        "object_id": "1071041",
+        "name": "mirror",
+        "bbox_xyxy": [
+          275.0,
+          126.0,
+          373.0,
+          249.0
+        ],
+        "area_ratio": 0.039238
+      }
+    ],
+    "image_width": 640,
+    "image_height": 480,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "17134462",
+    "image_id": "2404079",
+    "question": "What is the color of the fruit in the middle?",
+    "answer": "purple",
+    "category": "identity",
+    "critical_objects": [
+      {
+        "object_id": "1118993",
+        "name": "fruit",
+        "bbox_xyxy": [
+          232.0,
+          131.0,
+          361.0,
+          268.0
+        ],
+        "area_ratio": 0.108092
+      }
+    ],
+    "image_width": 500,
+    "image_height": 327,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "07732990",
+    "image_id": "2329133",
+    "question": "What color is the bench?",
+    "answer": "green",
+    "category": "color",
+    "critical_objects": [
+      {
+        "object_id": "3138993",
+        "name": "bench",
+        "bbox_xyxy": [
+          171.0,
+          121.0,
+          323.0,
+          256.0
+        ],
+        "area_ratio": 0.123243
+      }
+    ],
+    "image_width": 333,
+    "image_height": 500,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "14144547",
+    "image_id": "2324283",
+    "question": "What kind of vehicle is it?",
+    "answer": "car",
+    "category": "identity",
+    "critical_objects": [
+      {
+        "object_id": "3043116",
+        "name": "car",
+        "bbox_xyxy": [
+          0.0,
+          1.0,
+          110.0,
+          197.0
+        ],
+        "area_ratio": 0.114987
+      }
+    ],
+    "image_width": 500,
+    "image_height": 375,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "17877969",
+    "image_id": "2326665",
+    "question": "What kind of vegetable is green?",
+    "answer": "peas",
+    "category": "identity",
+    "critical_objects": [
+      {
+        "object_id": "4132793",
+        "name": "peas",
+        "bbox_xyxy": [
+          203.0,
+          1.0,
+          344.0,
+          120.0
+        ],
+        "area_ratio": 0.119423
+      }
+    ],
+    "image_width": 500,
+    "image_height": 281,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "14696378",
+    "image_id": "2401700",
+    "question": "What color is the food in the middle of the picture?",
+    "answer": "yellow",
+    "category": "color",
+    "critical_objects": [
+      {
+        "object_id": "396766",
+        "name": "soup",
+        "bbox_xyxy": [
+          232.0,
+          121.0,
+          399.0,
+          164.0
+        ],
+        "area_ratio": 0.038299
+      }
+    ],
+    "image_width": 500,
+    "image_height": 375,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "04819551",
+    "image_id": "4912",
+    "question": "What is the name of the item of furniture that is not white?",
+    "answer": "couch",
+    "category": "identity",
+    "critical_objects": [
+      {
+        "object_id": "1564420",
+        "name": "couch",
+        "bbox_xyxy": [
+          191.0,
+          256.0,
+          269.0,
+          378.0
+        ],
+        "area_ratio": 0.030977
+      }
+    ],
+    "image_width": 640,
+    "image_height": 480,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "01998367",
+    "image_id": "2408244",
+    "question": "What color is the short shirt?",
+    "answer": "gray",
+    "category": "color",
+    "critical_objects": [
+      {
+        "object_id": "265508",
+        "name": "shirt",
+        "bbox_xyxy": [
+          144.0,
+          122.0,
+          239.0,
+          233.0
+        ],
+        "area_ratio": 0.05624
+      }
+    ],
+    "image_width": 375,
+    "image_height": 500,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "15700256",
+    "image_id": "2387817",
+    "question": "Is the tee shirt made of cotton black or blue?",
+    "answer": "black",
+    "category": "material",
+    "critical_objects": [
+      {
+        "object_id": "676954",
+        "name": "t-shirt",
+        "bbox_xyxy": [
+          186.0,
+          37.0,
+          308.0,
+          153.0
+        ],
+        "area_ratio": 0.084997
+      }
+    ],
+    "image_width": 500,
+    "image_height": 333,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "19648772",
+    "image_id": "2415698",
+    "question": "What is the color of the large hair?",
+    "answer": "tan",
+    "category": "identity",
+    "critical_objects": [
+      {
+        "object_id": "2937234",
+        "name": "hair",
+        "bbox_xyxy": [
+          159.0,
+          51.0,
+          243.0,
+          143.0
+        ],
+        "area_ratio": 0.046414
+      }
+    ],
+    "image_width": 333,
+    "image_height": 500,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "19803395",
+    "image_id": "2330010",
+    "question": "What is the color of the rose?",
+    "answer": "pink",
+    "category": "identity",
+    "critical_objects": [
+      {
+        "object_id": "2985987",
+        "name": "rose",
+        "bbox_xyxy": [
+          27.0,
+          24.0,
+          107.0,
+          102.0
+        ],
+        "area_ratio": 0.037477
+      }
+    ],
+    "image_width": 500,
+    "image_height": 333,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "132554",
+    "image_id": "2324466",
+    "question": "What color is the shirt, black or pink?",
+    "answer": "black",
+    "category": "color",
+    "critical_objects": [
+      {
+        "object_id": "4078782",
+        "name": "shirt",
+        "bbox_xyxy": [
+          239.0,
+          114.0,
+          304.0,
+          179.0
+        ],
+        "area_ratio": 0.025375
+      }
+    ],
+    "image_width": 500,
+    "image_height": 333,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "0677905",
+    "image_id": "2407766",
+    "question": "What is the sink made of?",
+    "answer": "porcelain",
+    "category": "material",
+    "critical_objects": [
+      {
+        "object_id": "273973",
+        "name": "sink",
+        "bbox_xyxy": [
+          108.0,
+          149.0,
+          180.0,
+          206.0
+        ],
+        "area_ratio": 0.021888
+      }
+    ],
+    "image_width": 375,
+    "image_height": 500,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "09282266",
+    "image_id": "2393663",
+    "question": "What is the dotted clothing item?",
+    "answer": "skirt",
+    "category": "identity",
+    "critical_objects": [
+      {
+        "object_id": "1217945",
+        "name": "skirt",
+        "bbox_xyxy": [
+          40.0,
+          274.0,
+          196.0,
+          384.0
+        ],
+        "area_ratio": 0.105276
+      }
+    ],
+    "image_width": 326,
+    "image_height": 500,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "06600330",
+    "image_id": "2387492",
+    "question": "What type of vehicle is in this photo?",
+    "answer": "suv",
+    "category": "identity",
+    "critical_objects": [
+      {
+        "object_id": "512982",
+        "name": "suv",
+        "bbox_xyxy": [
+          67.0,
+          85.0,
+          356.0,
+          222.0
+        ],
+        "area_ratio": 0.25299
+      }
+    ],
+    "image_width": 500,
+    "image_height": 313,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "1188149",
+    "image_id": "2409685",
+    "question": "What color is the helmet in the top?",
+    "answer": "blue",
+    "category": "color",
+    "critical_objects": [
+      {
+        "object_id": "236156",
+        "name": "helmet",
+        "bbox_xyxy": [
+          212.0,
+          48.0,
+          274.0,
+          106.0
+        ],
+        "area_ratio": 0.021598
+      }
+    ],
+    "image_width": 500,
+    "image_height": 333,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "10204459",
+    "image_id": "2380934",
+    "question": "What is the color of the zebra in the middle of the picture?",
+    "answer": "black",
+    "category": "identity",
+    "critical_objects": [
+      {
+        "object_id": "708352",
+        "name": "zebra",
+        "bbox_xyxy": [
+          183.0,
+          152.0,
+          315.0,
+          253.0
+        ],
+        "area_ratio": 0.071104
+      }
+    ],
+    "image_width": 500,
+    "image_height": 375,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "11392858",
+    "image_id": "2377598",
+    "question": "What color is the necklace, blue or black?",
+    "answer": "blue",
+    "category": "color",
+    "critical_objects": [
+      {
+        "object_id": "3297528",
+        "name": "necklace",
+        "bbox_xyxy": [
+          188.0,
+          179.0,
+          274.0,
+          333.0
+        ],
+        "area_ratio": 0.079544
+      }
+    ],
+    "image_width": 500,
+    "image_height": 333,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "13420243",
+    "image_id": "2335072",
+    "question": "Which kind of furniture is made of wood?",
+    "answer": "chair",
+    "category": "material",
+    "critical_objects": [
+      {
+        "object_id": "3075410",
+        "name": "chair",
+        "bbox_xyxy": [
+          10.0,
+          286.0,
+          131.0,
+          494.0
+        ],
+        "area_ratio": 0.133872
+      }
+    ],
+    "image_width": 376,
+    "image_height": 500,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "16184856",
+    "image_id": "2356100",
+    "question": "What is the striped animal called?",
+    "answer": "zebra",
+    "category": "identity",
+    "critical_objects": [
+      {
+        "object_id": "823430",
+        "name": "zebra",
+        "bbox_xyxy": [
+          314.0,
+          197.0,
+          475.0,
+          319.0
+        ],
+        "area_ratio": 0.11797
+      }
+    ],
+    "image_width": 500,
+    "image_height": 333,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "02251016",
+    "image_id": "2335043",
+    "question": "What color does the food in the bottom of the picture have?",
+    "answer": "green",
+    "category": "color",
+    "critical_objects": [
+      {
+        "object_id": "2365679",
+        "name": "food",
+        "bbox_xyxy": [
+          118.0,
+          223.0,
+          193.0,
+          288.0
+        ],
+        "area_ratio": 0.029367
+      }
+    ],
+    "image_width": 500,
+    "image_height": 332,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "081030138",
+    "image_id": "2382268",
+    "question": "What kind of clothing is not white?",
+    "answer": "coat",
+    "category": "identity",
+    "critical_objects": [
+      {
+        "object_id": "697880",
+        "name": "coat",
+        "bbox_xyxy": [
+          132.0,
+          130.0,
+          304.0,
+          335.0
+        ],
+        "area_ratio": 0.211138
+      }
+    ],
+    "image_width": 500,
+    "image_height": 334,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "14451054",
+    "image_id": "2402483",
+    "question": "What color are the traffic lights on the right?",
+    "answer": "gray",
+    "category": "color",
+    "critical_objects": [
+      {
+        "object_id": "389267",
+        "name": "traffic lights",
+        "bbox_xyxy": [
+          373.0,
+          247.0,
+          428.0,
+          341.0
+        ],
+        "area_ratio": 0.027573
+      }
+    ],
+    "image_width": 500,
+    "image_height": 375,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "04132070",
+    "image_id": "2326282",
+    "question": "What color is the couch?",
+    "answer": "white",
+    "category": "color",
+    "critical_objects": [
+      {
+        "object_id": "982806",
+        "name": "couch",
+        "bbox_xyxy": [
+          161.0,
+          125.0,
+          271.0,
+          180.0
+        ],
+        "area_ratio": 0.049794
+      }
+    ],
+    "image_width": 500,
+    "image_height": 243,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "1827566",
+    "image_id": "2321180",
+    "question": "What is the color of the kettle?",
+    "answer": "black",
+    "category": "identity",
+    "critical_objects": [
+      {
+        "object_id": "4209941",
+        "name": "kettle",
+        "bbox_xyxy": [
+          451.0,
+          165.0,
+          500.0,
+          245.0
+        ],
+        "area_ratio": 0.020963
+      }
+    ],
+    "image_width": 500,
+    "image_height": 374,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "06121366",
+    "image_id": "2388285",
+    "question": "What color does the motorbike have?",
+    "answer": "silver",
+    "category": "color",
+    "critical_objects": [
+      {
+        "object_id": "509239",
+        "name": "motorcycle",
+        "bbox_xyxy": [
+          257.0,
+          124.0,
+          358.0,
+          232.0
+        ],
+        "area_ratio": 0.065711
+      }
+    ],
+    "image_width": 500,
+    "image_height": 332,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "00729416",
+    "image_id": "2391042",
+    "question": "What's the bridge made of?",
+    "answer": "concrete",
+    "category": "material",
+    "critical_objects": [
+      {
+        "object_id": "1244465",
+        "name": "bridge",
+        "bbox_xyxy": [
+          0.0,
+          0.0,
+          230.0,
+          62.0
+        ],
+        "area_ratio": 0.085646
+      }
+    ],
+    "image_width": 500,
+    "image_height": 333,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "19417601",
+    "image_id": "2390215",
+    "question": "What kind of clothing is not green?",
+    "answer": "hat",
+    "category": "identity",
+    "critical_objects": [
+      {
+        "object_id": "499499",
+        "name": "hat",
+        "bbox_xyxy": [
+          195.0,
+          56.0,
+          326.0,
+          146.0
+        ],
+        "area_ratio": 0.06288
+      }
+    ],
+    "image_width": 375,
+    "image_height": 500,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "16161462",
+    "image_id": "2376280",
+    "question": "What color are the pants?",
+    "answer": "black",
+    "category": "color",
+    "critical_objects": [
+      {
+        "object_id": "3686394",
+        "name": "pants",
+        "bbox_xyxy": [
+          33.0,
+          0.0,
+          233.0,
+          146.0
+        ],
+        "area_ratio": 0.178593
+      }
+    ],
+    "image_width": 500,
+    "image_height": 327,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "08529419",
+    "image_id": "2348614",
+    "question": "Of which color is the boat made of plastic?",
+    "answer": "gray",
+    "category": "material",
+    "critical_objects": [
+      {
+        "object_id": "2615099",
+        "name": "boat",
+        "bbox_xyxy": [
+          101.0,
+          126.0,
+          258.0,
+          162.0
+        ],
+        "area_ratio": 0.033946
+      }
+    ],
+    "image_width": 333,
+    "image_height": 500,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "00416722",
+    "image_id": "2399079",
+    "question": "What kind of animal is green?",
+    "answer": "bird",
+    "category": "identity",
+    "critical_objects": [
+      {
+        "object_id": "1172500",
+        "name": "bird",
+        "bbox_xyxy": [
+          215.0,
+          108.0,
+          377.0,
+          313.0
+        ],
+        "area_ratio": 0.162794
+      }
+    ],
+    "image_width": 500,
+    "image_height": 408,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "08249762",
+    "image_id": "2386080",
+    "question": "What color is the arrow?",
+    "answer": "white",
+    "category": "color",
+    "critical_objects": [
+      {
+        "object_id": "519868",
+        "name": "arrow",
+        "bbox_xyxy": [
+          97.0,
+          10.0,
+          234.0,
+          58.0
+        ],
+        "area_ratio": 0.039377
+      }
+    ],
+    "image_width": 500,
+    "image_height": 334,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "05179205",
+    "image_id": "2388018",
+    "question": "Which kind of material is the bottle that is not empty made of?",
+    "answer": "glass",
+    "category": "material",
+    "critical_objects": [
+      {
+        "object_id": "1271073",
+        "name": "bottle",
+        "bbox_xyxy": [
+          310.0,
+          203.0,
+          361.0,
+          374.0
+        ],
+        "area_ratio": 0.046512
+      }
+    ],
+    "image_width": 500,
+    "image_height": 375,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "187362",
+    "image_id": "2374944",
+    "question": "What type of clothing is white, the cap or the shirt?",
+    "answer": "shirt",
+    "category": "identity",
+    "critical_objects": [
+      {
+        "object_id": "2561674",
+        "name": "shirt",
+        "bbox_xyxy": [
+          88.0,
+          113.0,
+          232.0,
+          342.0
+        ],
+        "area_ratio": 0.16488
+      }
+    ],
+    "image_width": 500,
+    "image_height": 400,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "13421344",
+    "image_id": "2324093",
+    "question": "What color is the box?",
+    "answer": "white",
+    "category": "color",
+    "critical_objects": [
+      {
+        "object_id": "4507216",
+        "name": "box",
+        "bbox_xyxy": [
+          128.0,
+          275.0,
+          207.0,
+          332.0
+        ],
+        "area_ratio": 0.027045
+      }
+    ],
+    "image_width": 500,
+    "image_height": 333,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "06774702",
+    "image_id": "2349504",
+    "question": "What is the white bag made of?",
+    "answer": "plastic",
+    "category": "material",
+    "critical_objects": [
+      {
+        "object_id": "3598875",
+        "name": "bag",
+        "bbox_xyxy": [
+          199.0,
+          328.0,
+          324.0,
+          374.0
+        ],
+        "area_ratio": 0.030667
+      }
+    ],
+    "image_width": 500,
+    "image_height": 375,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "11430770",
+    "image_id": "2143",
+    "question": "What kind of vehicle is parked?",
+    "answer": "car",
+    "category": "identity",
+    "critical_objects": [
+      {
+        "object_id": "4322424",
+        "name": "car",
+        "bbox_xyxy": [
+          0.0,
+          378.0,
+          463.0,
+          582.0
+        ],
+        "area_ratio": 0.196775
+      }
+    ],
+    "image_width": 800,
+    "image_height": 600,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "19273561",
+    "image_id": "2410351",
+    "question": "What color is the sink, silver or black?",
+    "answer": "silver",
+    "category": "color",
+    "critical_objects": [
+      {
+        "object_id": "1087040",
+        "name": "sink",
+        "bbox_xyxy": [
+          257.0,
+          346.0,
+          345.0,
+          383.0
+        ],
+        "area_ratio": 0.01628
+      }
+    ],
+    "image_width": 500,
+    "image_height": 400,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "01582909",
+    "image_id": "2378055",
+    "question": "Is the white gown made of lace?",
+    "answer": "yes",
+    "category": "material",
+    "critical_objects": [
+      {
+        "object_id": "562320",
+        "name": "gown",
+        "bbox_xyxy": [
+          108.0,
+          145.0,
+          209.0,
+          438.0
+        ],
+        "area_ratio": 0.177736
+      }
+    ],
+    "image_width": 333,
+    "image_height": 500,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "16747825",
+    "image_id": "2350808",
+    "question": "What is the name of the dark clothing item?",
+    "answer": "wetsuit",
+    "category": "identity",
+    "critical_objects": [
+      {
+        "object_id": "865295",
+        "name": "wetsuit",
+        "bbox_xyxy": [
+          170.0,
+          91.0,
+          298.0,
+          296.0
+        ],
+        "area_ratio": 0.140321
+      }
+    ],
+    "image_width": 500,
+    "image_height": 374,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "04969151",
+    "image_id": "2371677",
+    "question": "What color do you think the box is?",
+    "answer": "white",
+    "category": "color",
+    "critical_objects": [
+      {
+        "object_id": "1737491",
+        "name": "box",
+        "bbox_xyxy": [
+          120.0,
+          174.0,
+          315.0,
+          357.0
+        ],
+        "area_ratio": 0.19032
+      }
+    ],
+    "image_width": 500,
+    "image_height": 375,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "05454766",
+    "image_id": "2354146",
+    "question": "What is the tower made of?",
+    "answer": "brick",
+    "category": "material",
+    "critical_objects": [
+      {
+        "object_id": "1884860",
+        "name": "tower",
+        "bbox_xyxy": [
+          79.0,
+          126.0,
+          177.0,
+          409.0
+        ],
+        "area_ratio": 0.166571
+      }
+    ],
+    "image_width": 333,
+    "image_height": 500,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "01297407",
+    "image_id": "2363316",
+    "question": "What kind of food is not cooked?",
+    "answer": "onion",
+    "category": "identity",
+    "critical_objects": [
+      {
+        "object_id": "766030",
+        "name": "onion",
+        "bbox_xyxy": [
+          120.0,
+          102.0,
+          404.0,
+          409.0
+        ],
+        "area_ratio": 0.348752
+      }
+    ],
+    "image_width": 500,
+    "image_height": 500,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "00866375",
+    "image_id": "2360132",
+    "question": "What color is the headboard?",
+    "answer": "gray",
+    "category": "color",
+    "critical_objects": [
+      {
+        "object_id": "3535284",
+        "name": "headboard",
+        "bbox_xyxy": [
+          291.0,
+          129.0,
+          499.0,
+          281.0
+        ],
+        "area_ratio": 0.168619
+      }
+    ],
+    "image_width": 500,
+    "image_height": 375,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "14223248",
+    "image_id": "2395951",
+    "question": "What is the green vegetable in the scene?",
+    "answer": "lettuce",
+    "category": "identity",
+    "critical_objects": [
+      {
+        "object_id": "1201814",
+        "name": "lettuce",
+        "bbox_xyxy": [
+          0.0,
+          180.0,
+          258.0,
+          332.0
+        ],
+        "area_ratio": 0.235532
+      }
+    ],
+    "image_width": 500,
+    "image_height": 333,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "00324617",
+    "image_id": "2378916",
+    "question": "The computer mouse has what color?",
+    "answer": "blue",
+    "category": "color",
+    "critical_objects": [
+      {
+        "object_id": "556572",
+        "name": "computer mouse",
+        "bbox_xyxy": [
+          131.0,
+          219.0,
+          297.0,
+          358.0
+        ],
+        "area_ratio": 0.123061
+      }
+    ],
+    "image_width": 500,
+    "image_height": 375,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "18546994",
+    "image_id": "2366467",
+    "question": "What type of material is the bowl made of?",
+    "answer": "wood",
+    "category": "material",
+    "critical_objects": [
+      {
+        "object_id": "2371234",
+        "name": "bowl",
+        "bbox_xyxy": [
+          370.0,
+          19.0,
+          500.0,
+          136.0
+        ],
+        "area_ratio": 0.08112
+      }
+    ],
+    "image_width": 500,
+    "image_height": 375,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "02625059",
+    "image_id": "2411437",
+    "question": "What kind of furniture is not white?",
+    "answer": "drawer",
+    "category": "identity",
+    "critical_objects": [
+      {
+        "object_id": "1079895",
+        "name": "drawer",
+        "bbox_xyxy": [
+          209.0,
+          255.0,
+          340.0,
+          327.0
+        ],
+        "area_ratio": 0.050439
+      }
+    ],
+    "image_width": 374,
+    "image_height": 500,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "14803789",
+    "image_id": "2318376",
+    "question": "Is the basket made of wicker?",
+    "answer": "no",
+    "category": "material",
+    "critical_objects": [
+      {
+        "object_id": "1011320",
+        "name": "basket",
+        "bbox_xyxy": [
+          285.0,
+          257.0,
+          500.0,
+          346.0
+        ],
+        "area_ratio": 0.110607
+      }
+    ],
+    "image_width": 500,
+    "image_height": 346,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "09161863",
+    "image_id": "2416885",
+    "question": "What is the man doing?",
+    "answer": "surfing",
+    "category": "identity",
+    "critical_objects": [
+      {
+        "object_id": "2796923",
+        "name": "man",
+        "bbox_xyxy": [
+          228.0,
+          137.0,
+          381.0,
+          223.0
+        ],
+        "area_ratio": 0.079027
+      }
+    ],
+    "image_width": 500,
+    "image_height": 333,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "18503824",
+    "image_id": "498069",
+    "question": "What color is the mailbox?",
+    "answer": "blue",
+    "category": "color",
+    "critical_objects": [
+      {
+        "object_id": "4419090",
+        "name": "mailbox",
+        "bbox_xyxy": [
+          369.0,
+          369.0,
+          462.0,
+          522.0
+        ],
+        "area_ratio": 0.024124
+      }
+    ],
+    "image_width": 1024,
+    "image_height": 576,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "00935826",
+    "image_id": "2362947",
+    "question": "What is the nightstand made of?",
+    "answer": "metal",
+    "category": "material",
+    "critical_objects": [
+      {
+        "object_id": "1857706",
+        "name": "nightstand",
+        "bbox_xyxy": [
+          53.0,
+          227.0,
+          177.0,
+          332.0
+        ],
+        "area_ratio": 0.078198
+      }
+    ],
+    "image_width": 500,
+    "image_height": 333,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "06519869",
+    "image_id": "2406004",
+    "question": "What kind of appliance is it?",
+    "answer": "heater",
+    "category": "identity",
+    "critical_objects": [
+      {
+        "object_id": "653155",
+        "name": "heater",
+        "bbox_xyxy": [
+          232.0,
+          237.0,
+          342.0,
+          500.0
+        ],
+        "area_ratio": 0.154293
+      }
+    ],
+    "image_width": 375,
+    "image_height": 500,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "01945269",
+    "image_id": "2375580",
+    "question": "What color does that keyboard have?",
+    "answer": "black",
+    "category": "color",
+    "critical_objects": [
+      {
+        "object_id": "581422",
+        "name": "keyboard",
+        "bbox_xyxy": [
+          278.0,
+          180.0,
+          344.0,
+          213.0
+        ],
+        "area_ratio": 0.01989
+      }
+    ],
+    "image_width": 500,
+    "image_height": 219,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "15813958",
+    "image_id": "2353354",
+    "question": "What is the sink made of?",
+    "answer": "porcelain",
+    "category": "material",
+    "critical_objects": [
+      {
+        "object_id": "846815",
+        "name": "sink",
+        "bbox_xyxy": [
+          134.0,
+          198.0,
+          240.0,
+          321.0
+        ],
+        "area_ratio": 0.169766
+      }
+    ],
+    "image_width": 240,
+    "image_height": 320,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "09226921",
+    "image_id": "713157",
+    "question": "What is the color of the statue?",
+    "answer": "white",
+    "category": "identity",
+    "critical_objects": [
+      {
+        "object_id": "1579882",
+        "name": "statue",
+        "bbox_xyxy": [
+          148.0,
+          146.0,
+          433.0,
+          654.0
+        ],
+        "area_ratio": 0.207008
+      }
+    ],
+    "image_width": 1024,
+    "image_height": 683,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "011021063",
+    "image_id": "2327592",
+    "question": "What color is the cart?",
+    "answer": "white",
+    "category": "color",
+    "critical_objects": [
+      {
+        "object_id": "4683600",
+        "name": "cart",
+        "bbox_xyxy": [
+          157.0,
+          172.0,
+          261.0,
+          310.0
+        ],
+        "area_ratio": 0.086198
+      }
+    ],
+    "image_width": 500,
+    "image_height": 333,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "03625313",
+    "image_id": "1054",
+    "question": "What type of furniture is made of wood?",
+    "answer": "table",
+    "category": "material",
+    "critical_objects": [
+      {
+        "object_id": "1541149",
+        "name": "table",
+        "bbox_xyxy": [
+          28.0,
+          189.0,
+          230.0,
+          255.0
+        ],
+        "area_ratio": 0.138976
+      }
+    ],
+    "image_width": 362,
+    "image_height": 265,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "17397322",
+    "image_id": "2343353",
+    "question": "The bag on the right has what color?",
+    "answer": "black",
+    "category": "color",
+    "critical_objects": [
+      {
+        "object_id": "2692032",
+        "name": "bag",
+        "bbox_xyxy": [
+          238.0,
+          344.0,
+          372.0,
+          473.0
+        ],
+        "area_ratio": 0.092192
+      }
+    ],
+    "image_width": 375,
+    "image_height": 500,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "15569549",
+    "image_id": "2369303",
+    "question": "Is the dispenser made of bronze brown and large?",
+    "answer": "no",
+    "category": "material",
+    "critical_objects": [
+      {
+        "object_id": "743726",
+        "name": "dispenser",
+        "bbox_xyxy": [
+          344.0,
+          91.0,
+          392.0,
+          160.0
+        ],
+        "area_ratio": 0.019892
+      }
+    ],
+    "image_width": 500,
+    "image_height": 333,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "08816090",
+    "image_id": "2375806",
+    "question": "What kind of furniture is it?",
+    "answer": "cabinet",
+    "category": "identity",
+    "critical_objects": [
+      {
+        "object_id": "3689534",
+        "name": "cabinet",
+        "bbox_xyxy": [
+          201.0,
+          68.0,
+          366.0,
+          209.0
+        ],
+        "area_ratio": 0.12408
+      }
+    ],
+    "image_width": 375,
+    "image_height": 500,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "01179301",
+    "image_id": "2401028",
+    "question": "What's the cabinet made of?",
+    "answer": "glass",
+    "category": "material",
+    "critical_objects": [
+      {
+        "object_id": "1152437",
+        "name": "cabinet",
+        "bbox_xyxy": [
+          80.0,
+          0.0,
+          184.0,
+          120.0
+        ],
+        "area_ratio": 0.089143
+      }
+    ],
+    "image_width": 500,
+    "image_height": 280,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "02639683",
+    "image_id": "2358464",
+    "question": "What type of food is not green, the stew or the rice?",
+    "answer": "rice",
+    "category": "identity",
+    "critical_objects": [
+      {
+        "object_id": "802488",
+        "name": "rice",
+        "bbox_xyxy": [
+          45.0,
+          59.0,
+          186.0,
+          123.0
+        ],
+        "area_ratio": 0.048128
+      }
+    ],
+    "image_width": 375,
+    "image_height": 500,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "01671289",
+    "image_id": "1159457",
+    "question": "What is the pink clothing item?",
+    "answer": "jacket",
+    "category": "identity",
+    "critical_objects": [
+      {
+        "object_id": "4038681",
+        "name": "jacket",
+        "bbox_xyxy": [
+          0.0,
+          225.0,
+          381.0,
+          687.0
+        ],
+        "area_ratio": 0.250213
+      }
+    ],
+    "image_width": 1024,
+    "image_height": 687,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "10222743",
+    "image_id": "2395223",
+    "question": "What color does the jacket have?",
+    "answer": "red",
+    "category": "color",
+    "critical_objects": [
+      {
+        "object_id": "456846",
+        "name": "jacket",
+        "bbox_xyxy": [
+          0.0,
+          22.0,
+          55.0,
+          94.0
+        ],
+        "area_ratio": 0.023784
+      }
+    ],
+    "image_width": 500,
+    "image_height": 333,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "14354734",
+    "image_id": "2391318",
+    "question": "What is the man doing?",
+    "answer": "running",
+    "category": "identity",
+    "critical_objects": [
+      {
+        "object_id": "489987",
+        "name": "man",
+        "bbox_xyxy": [
+          154.0,
+          127.0,
+          216.0,
+          323.0
+        ],
+        "area_ratio": 0.070243
+      }
+    ],
+    "image_width": 500,
+    "image_height": 346,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "04274699",
+    "image_id": "2367475",
+    "question": "What color is the uniform, white or orange?",
+    "answer": "white",
+    "category": "color",
+    "critical_objects": [
+      {
+        "object_id": "1812737",
+        "name": "uniform",
+        "bbox_xyxy": [
+          44.0,
+          105.0,
+          193.0,
+          387.0
+        ],
+        "area_ratio": 0.25236
+      }
+    ],
+    "image_width": 333,
+    "image_height": 500,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "14270377",
+    "image_id": "2366508",
+    "question": "What's the bridge made of?",
+    "answer": "metal",
+    "category": "material",
+    "critical_objects": [
+      {
+        "object_id": "754120",
+        "name": "bridge",
+        "bbox_xyxy": [
+          210.0,
+          218.0,
+          499.0,
+          374.0
+        ],
+        "area_ratio": 0.240448
+      }
+    ],
+    "image_width": 500,
+    "image_height": 375,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "15283508",
+    "image_id": "2367181",
+    "question": "What kind of clothing is short sleeved?",
+    "answer": "uniform",
+    "category": "identity",
+    "critical_objects": [
+      {
+        "object_id": "2044124",
+        "name": "uniform",
+        "bbox_xyxy": [
+          78.0,
+          74.0,
+          279.0,
+          287.0
+        ],
+        "area_ratio": 0.297312
+      }
+    ],
+    "image_width": 500,
+    "image_height": 288,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "01873723",
+    "image_id": "2409967",
+    "question": "What color is that table?",
+    "answer": "white",
+    "category": "color",
+    "critical_objects": [
+      {
+        "object_id": "229220",
+        "name": "table",
+        "bbox_xyxy": [
+          206.0,
+          286.0,
+          500.0,
+          375.0
+        ],
+        "area_ratio": 0.139552
+      }
+    ],
+    "image_width": 500,
+    "image_height": 375,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "17726086",
+    "image_id": "2349040",
+    "question": "Is the hat that is made of straw tall and red?",
+    "answer": "no",
+    "category": "material",
+    "critical_objects": [
+      {
+        "object_id": "877900",
+        "name": "hat",
+        "bbox_xyxy": [
+          142.0,
+          29.0,
+          329.0,
+          143.0
+        ],
+        "area_ratio": 0.128036
+      }
+    ],
+    "image_width": 500,
+    "image_height": 333,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "10558851",
+    "image_id": "2391457",
+    "question": "What is the color of the bowl?",
+    "answer": "yellow",
+    "category": "identity",
+    "critical_objects": [
+      {
+        "object_id": "4431647",
+        "name": "bowl",
+        "bbox_xyxy": [
+          142.0,
+          376.0,
+          238.0,
+          447.0
+        ],
+        "area_ratio": 0.036352
+      }
+    ],
+    "image_width": 375,
+    "image_height": 500,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "0912046",
+    "image_id": "2406404",
+    "question": "What kind of vehicle is made of metal?",
+    "answer": "bus",
+    "category": "material",
+    "critical_objects": [
+      {
+        "object_id": "369272",
+        "name": "bus",
+        "bbox_xyxy": [
+          323.0,
+          111.0,
+          487.0,
+          252.0
+        ],
+        "area_ratio": 0.138467
+      }
+    ],
+    "image_width": 500,
+    "image_height": 334,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "12953597",
+    "image_id": "285868",
+    "question": "What type of clothing is black?",
+    "answer": "jacket",
+    "category": "identity",
+    "critical_objects": [
+      {
+        "object_id": "1570233",
+        "name": "jacket",
+        "bbox_xyxy": [
+          101.0,
+          313.0,
+          643.0,
+          935.0
+        ],
+        "area_ratio": 0.257205
+      }
+    ],
+    "image_width": 1280,
+    "image_height": 1024,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "021054250",
+    "image_id": "2332297",
+    "question": "What color is the toy that is in the middle?",
+    "answer": "white",
+    "category": "color",
+    "critical_objects": [
+      {
+        "object_id": "2788263",
+        "name": "stuffed bear",
+        "bbox_xyxy": [
+          204.0,
+          124.0,
+          307.0,
+          278.0
+        ],
+        "area_ratio": 0.080314
+      }
+    ],
+    "image_width": 500,
+    "image_height": 395,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "12140355",
+    "image_id": "2359333",
+    "question": "What is the color of the laptop computer that is made of plastic?",
+    "answer": "white",
+    "category": "material",
+    "critical_objects": [
+      {
+        "object_id": "794213",
+        "name": "laptop",
+        "bbox_xyxy": [
+          291.0,
+          21.0,
+          464.0,
+          200.0
+        ],
+        "area_ratio": 0.165157
+      }
+    ],
+    "image_width": 500,
+    "image_height": 375,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "06183018",
+    "image_id": "2395834",
+    "question": "What is the orange piece of furniture called?",
+    "answer": "bed",
+    "category": "identity",
+    "critical_objects": [
+      {
+        "object_id": "665647",
+        "name": "bed",
+        "bbox_xyxy": [
+          213.0,
+          112.0,
+          471.0,
+          189.0
+        ],
+        "area_ratio": 0.102402
+      }
+    ],
+    "image_width": 500,
+    "image_height": 388,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "09302219",
+    "image_id": "2371685",
+    "question": "What color is the screen?",
+    "answer": "red",
+    "category": "color",
+    "critical_objects": [
+      {
+        "object_id": "596329",
+        "name": "screen",
+        "bbox_xyxy": [
+          122.0,
+          272.0,
+          201.0,
+          320.0
+        ],
+        "area_ratio": 0.020224
+      }
+    ],
+    "image_width": 500,
+    "image_height": 375,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "08471223",
+    "image_id": "2386203",
+    "question": "What color are the shorts?",
+    "answer": "pink",
+    "category": "color",
+    "critical_objects": [
+      {
+        "object_id": "1288423",
+        "name": "shorts",
+        "bbox_xyxy": [
+          152.0,
+          257.0,
+          300.0,
+          321.0
+        ],
+        "area_ratio": 0.037888
+      }
+    ],
+    "image_width": 500,
+    "image_height": 500,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "01178812",
+    "image_id": "2386472",
+    "question": "What kind of furniture is not gray?",
+    "answer": "drawer",
+    "category": "identity",
+    "critical_objects": [
+      {
+        "object_id": "1285727",
+        "name": "drawer",
+        "bbox_xyxy": [
+          62.0,
+          234.0,
+          342.0,
+          347.0
+        ],
+        "area_ratio": 0.168747
+      }
+    ],
+    "image_width": 500,
+    "image_height": 375,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "18874420",
+    "image_id": "2403581",
+    "question": "What color is the meat that is not little?",
+    "answer": "brown",
+    "category": "color",
+    "critical_objects": [
+      {
+        "object_id": "351723",
+        "name": "meat",
+        "bbox_xyxy": [
+          114.0,
+          112.0,
+          339.0,
+          321.0
+        ],
+        "area_ratio": 0.2508
+      }
+    ],
+    "image_width": 500,
+    "image_height": 375,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "19351376",
+    "image_id": "2383947",
+    "question": "What is the food that is mixed?",
+    "answer": "soup",
+    "category": "identity",
+    "critical_objects": [
+      {
+        "object_id": "1315055",
+        "name": "soup",
+        "bbox_xyxy": [
+          110.0,
+          114.0,
+          390.0,
+          298.0
+        ],
+        "area_ratio": 0.308503
+      }
+    ],
+    "image_width": 500,
+    "image_height": 334,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "13810963",
+    "image_id": "2402632",
+    "question": "What is the fireplace made of, steel or maybe brick?",
+    "answer": "steel",
+    "category": "material",
+    "critical_objects": [
+      {
+        "object_id": "387962",
+        "name": "fireplace",
+        "bbox_xyxy": [
+          425.0,
+          167.0,
+          499.0,
+          332.0
+        ],
+        "area_ratio": 0.060148
+      }
+    ],
+    "image_width": 500,
+    "image_height": 406,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "13483129",
+    "image_id": "2403364",
+    "question": "What kind of fruit is hanging?",
+    "answer": "apple",
+    "category": "identity",
+    "critical_objects": [
+      {
+        "object_id": "657316",
+        "name": "apple",
+        "bbox_xyxy": [
+          158.0,
+          91.0,
+          330.0,
+          265.0
+        ],
+        "area_ratio": 0.159616
+      }
+    ],
+    "image_width": 500,
+    "image_height": 375,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "01494763",
+    "image_id": "2376882",
+    "question": "The ear buds have what color?",
+    "answer": "black",
+    "category": "color",
+    "critical_objects": [
+      {
+        "object_id": "2843351",
+        "name": "ear buds",
+        "bbox_xyxy": [
+          27.0,
+          33.0,
+          114.0,
+          304.0
+        ],
+        "area_ratio": 0.117885
+      }
+    ],
+    "image_width": 500,
+    "image_height": 400,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "01775293",
+    "image_id": "2346673",
+    "question": "What is the shelf made of?",
+    "answer": "glass",
+    "category": "material",
+    "critical_objects": [
+      {
+        "object_id": "897202",
+        "name": "shelf",
+        "bbox_xyxy": [
+          243.0,
+          89.0,
+          462.0,
+          227.0
+        ],
+        "area_ratio": 0.125925
+      }
+    ],
+    "image_width": 500,
+    "image_height": 480,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "03492559",
+    "image_id": "2409876",
+    "question": "What is the vegetable called?",
+    "answer": "pumpkin",
+    "category": "identity",
+    "critical_objects": [
+      {
+        "object_id": "231423",
+        "name": "pumpkin",
+        "bbox_xyxy": [
+          145.0,
+          218.0,
+          282.0,
+          366.0
+        ],
+        "area_ratio": 0.101127
+      }
+    ],
+    "image_width": 500,
+    "image_height": 401,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "161036612",
+    "image_id": "2368963",
+    "question": "What color is the curtain in the center?",
+    "answer": "blue",
+    "category": "color",
+    "critical_objects": [
+      {
+        "object_id": "614773",
+        "name": "curtain",
+        "bbox_xyxy": [
+          172.0,
+          93.0,
+          259.0,
+          348.0
+        ],
+        "area_ratio": 0.107433
+      }
+    ],
+    "image_width": 500,
+    "image_height": 413,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "13376811",
+    "image_id": "2322673",
+    "question": "How the white vehicle is called?",
+    "answer": "carriage",
+    "category": "identity",
+    "critical_objects": [
+      {
+        "object_id": "3494934",
+        "name": "carriage",
+        "bbox_xyxy": [
+          0.0,
+          169.0,
+          199.0,
+          332.0
+        ],
+        "area_ratio": 0.194234
+      }
+    ],
+    "image_width": 500,
+    "image_height": 334,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "0699037",
+    "image_id": "150543",
+    "question": "What are the doors made of?",
+    "answer": "glass",
+    "category": "material",
+    "critical_objects": [
+      {
+        "object_id": "4071723",
+        "name": "doors",
+        "bbox_xyxy": [
+          272.0,
+          102.0,
+          365.0,
+          320.0
+        ],
+        "area_ratio": 0.04229
+      }
+    ],
+    "image_width": 799,
+    "image_height": 600,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "07696704",
+    "image_id": "2388377",
+    "question": "How the wooden item of furniture is called?",
+    "answer": "chair",
+    "category": "identity",
+    "critical_objects": [
+      {
+        "object_id": "673735",
+        "name": "chair",
+        "bbox_xyxy": [
+          321.0,
+          171.0,
+          477.0,
+          359.0
+        ],
+        "area_ratio": 0.156416
+      }
+    ],
+    "image_width": 500,
+    "image_height": 375,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "161037470",
+    "image_id": "2342838",
+    "question": "What color are the speakers?",
+    "answer": "white",
+    "category": "color",
+    "critical_objects": [
+      {
+        "object_id": "930298",
+        "name": "speakers",
+        "bbox_xyxy": [
+          65.0,
+          242.0,
+          242.0,
+          323.0
+        ],
+        "area_ratio": 0.076464
+      }
+    ],
+    "image_width": 500,
+    "image_height": 375,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "00362278",
+    "image_id": "2372454",
+    "question": "What is the item of furniture that is green called?",
+    "answer": "chair",
+    "category": "identity",
+    "critical_objects": [
+      {
+        "object_id": "1993368",
+        "name": "chair",
+        "bbox_xyxy": [
+          81.0,
+          28.0,
+          265.0,
+          221.0
+        ],
+        "area_ratio": 0.189397
+      }
+    ],
+    "image_width": 375,
+    "image_height": 500,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "03101593",
+    "image_id": "2384975",
+    "question": "What piece of furniture is made of wood?",
+    "answer": "dresser",
+    "category": "material",
+    "critical_objects": [
+      {
+        "object_id": "1302583",
+        "name": "dresser",
+        "bbox_xyxy": [
+          154.0,
+          132.0,
+          332.0,
+          451.0
+        ],
+        "area_ratio": 0.341033
+      }
+    ],
+    "image_width": 333,
+    "image_height": 500,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "18922746",
+    "image_id": "2358811",
+    "question": "What kind of vehicle is it?",
+    "answer": "van",
+    "category": "identity",
+    "critical_objects": [
+      {
+        "object_id": "3542114",
+        "name": "van",
+        "bbox_xyxy": [
+          203.0,
+          50.0,
+          385.0,
+          178.0
+        ],
+        "area_ratio": 0.141188
+      }
+    ],
+    "image_width": 500,
+    "image_height": 330,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "16922097",
+    "image_id": "2378471",
+    "question": "What color are the shorts?",
+    "answer": "gray",
+    "category": "color",
+    "critical_objects": [
+      {
+        "object_id": "559576",
+        "name": "shorts",
+        "bbox_xyxy": [
+          333.0,
+          134.0,
+          392.0,
+          217.0
+        ],
+        "area_ratio": 0.026117
+      }
+    ],
+    "image_width": 500,
+    "image_height": 375,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "121032292",
+    "image_id": "2390282",
+    "question": "Which type of clothing is made of leather, the vest or the man hat?",
+    "answer": "vest",
+    "category": "material",
+    "critical_objects": [
+      {
+        "object_id": "1251950",
+        "name": "vest",
+        "bbox_xyxy": [
+          226.0,
+          209.0,
+          380.0,
+          346.0
+        ],
+        "area_ratio": 0.121602
+      }
+    ],
+    "image_width": 500,
+    "image_height": 347,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "12588508",
+    "image_id": "2323989",
+    "question": "What is the color of that necktie?",
+    "answer": "black",
+    "category": "identity",
+    "critical_objects": [
+      {
+        "object_id": "4091037",
+        "name": "tie",
+        "bbox_xyxy": [
+          126.0,
+          263.0,
+          162.0,
+          421.0
+        ],
+        "area_ratio": 0.034162
+      }
+    ],
+    "image_width": 333,
+    "image_height": 500,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "17184616",
+    "image_id": "4290",
+    "question": "What is the coffee table made of?",
+    "answer": "glass",
+    "category": "material",
+    "critical_objects": [
+      {
+        "object_id": "1655736",
+        "name": "coffee table",
+        "bbox_xyxy": [
+          332.0,
+          274.0,
+          512.0,
+          340.0
+        ],
+        "area_ratio": 0.068244
+      }
+    ],
+    "image_width": 512,
+    "image_height": 340,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  }
+]

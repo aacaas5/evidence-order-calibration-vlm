@@ -1,0 +1,1510 @@
+{
+  "source": "https://downloads.cs.stanford.edu/nlp/data/gqa/images.zip",
+  "method": "selective_http_range_extraction",
+  "requested": 250,
+  "valid_images": 250,
+  "missing": 0,
+  "missing_ids": [],
+  "results": [
+    {
+      "question_id": "08621661",
+      "image_id": "2344819",
+      "status": "existing",
+      "bytes": 138010
+    },
+    {
+      "question_id": "04285321",
+      "image_id": "2374871",
+      "status": "existing",
+      "bytes": 205559
+    },
+    {
+      "question_id": "10983653",
+      "image_id": "2342530",
+      "status": "existing",
+      "bytes": 91509
+    },
+    {
+      "question_id": "06435607",
+      "image_id": "2317733",
+      "status": "existing",
+      "bytes": 118141
+    },
+    {
+      "question_id": "1425112",
+      "image_id": "2404639",
+      "status": "existing",
+      "bytes": 117488
+    },
+    {
+      "question_id": "19388466",
+      "image_id": "2325119",
+      "status": "existing",
+      "bytes": 125844
+    },
+    {
+      "question_id": "08775086",
+      "image_id": "2388994",
+      "status": "existing",
+      "bytes": 110107
+    },
+    {
+      "question_id": "10433179",
+      "image_id": "2367895",
+      "status": "existing",
+      "bytes": 142220
+    },
+    {
+      "question_id": "02655551",
+      "image_id": "2354629",
+      "status": "existing",
+      "bytes": 119669
+    },
+    {
+      "question_id": "06503451",
+      "image_id": "2329386",
+      "status": "existing",
+      "bytes": 160930
+    },
+    {
+      "question_id": "10590269",
+      "image_id": "2385222",
+      "status": "existing",
+      "bytes": 120404
+    },
+    {
+      "question_id": "01125115",
+      "image_id": "2383075",
+      "status": "existing",
+      "bytes": 72105
+    },
+    {
+      "question_id": "07142526",
+      "image_id": "2392341",
+      "status": "existing",
+      "bytes": 119270
+    },
+    {
+      "question_id": "18717754",
+      "image_id": "2364364",
+      "status": "existing",
+      "bytes": 105520
+    },
+    {
+      "question_id": "19315625",
+      "image_id": "2381993",
+      "status": "existing",
+      "bytes": 101561
+    },
+    {
+      "question_id": "09993325",
+      "image_id": "2373967",
+      "status": "existing",
+      "bytes": 68184
+    },
+    {
+      "question_id": "10956782",
+      "image_id": "2361328",
+      "status": "existing",
+      "bytes": 136309
+    },
+    {
+      "question_id": "17954994",
+      "image_id": "2355312",
+      "status": "existing",
+      "bytes": 149767
+    },
+    {
+      "question_id": "14705211",
+      "image_id": "2371481",
+      "status": "existing",
+      "bytes": 194090
+    },
+    {
+      "question_id": "15599995",
+      "image_id": "2390229",
+      "status": "existing",
+      "bytes": 152141
+    },
+    {
+      "question_id": "04251940",
+      "image_id": "2373119",
+      "status": "existing",
+      "bytes": 94160
+    },
+    {
+      "question_id": "13598461",
+      "image_id": "2399127",
+      "status": "existing",
+      "bytes": 74503
+    },
+    {
+      "question_id": "10755150",
+      "image_id": "2391950",
+      "status": "existing",
+      "bytes": 103997
+    },
+    {
+      "question_id": "13151561",
+      "image_id": "2410936",
+      "status": "existing",
+      "bytes": 87259
+    },
+    {
+      "question_id": "141024691",
+      "image_id": "2363539",
+      "status": "existing",
+      "bytes": 122198
+    },
+    {
+      "question_id": "13777356",
+      "image_id": "2403093",
+      "status": "existing",
+      "bytes": 191465
+    },
+    {
+      "question_id": "12366048",
+      "image_id": "2390293",
+      "status": "existing",
+      "bytes": 141323
+    },
+    {
+      "question_id": "12804639",
+      "image_id": "2402996",
+      "status": "existing",
+      "bytes": 94200
+    },
+    {
+      "question_id": "01389513",
+      "image_id": "2364527",
+      "status": "downloaded",
+      "bytes": 139039
+    },
+    {
+      "question_id": "0526849",
+      "image_id": "2413799",
+      "status": "downloaded",
+      "bytes": 211836
+    },
+    {
+      "question_id": "081005615",
+      "image_id": "2391197",
+      "status": "downloaded",
+      "bytes": 120515
+    },
+    {
+      "question_id": "11705481",
+      "image_id": "2344018",
+      "status": "downloaded",
+      "bytes": 172476
+    },
+    {
+      "question_id": "10324248",
+      "image_id": "2408676",
+      "status": "downloaded",
+      "bytes": 84937
+    },
+    {
+      "question_id": "171006215",
+      "image_id": "1159461",
+      "status": "downloaded",
+      "bytes": 399168
+    },
+    {
+      "question_id": "04110778",
+      "image_id": "2322532",
+      "status": "downloaded",
+      "bytes": 130561
+    },
+    {
+      "question_id": "04706818",
+      "image_id": "2378857",
+      "status": "downloaded",
+      "bytes": 122302
+    },
+    {
+      "question_id": "01229011",
+      "image_id": "2406044",
+      "status": "downloaded",
+      "bytes": 187102
+    },
+    {
+      "question_id": "11719760",
+      "image_id": "2333753",
+      "status": "downloaded",
+      "bytes": 131079
+    },
+    {
+      "question_id": "08858518",
+      "image_id": "2384518",
+      "status": "downloaded",
+      "bytes": 136634
+    },
+    {
+      "question_id": "16819806",
+      "image_id": "61562",
+      "status": "downloaded",
+      "bytes": 681999
+    },
+    {
+      "question_id": "05522255",
+      "image_id": "2340141",
+      "status": "downloaded",
+      "bytes": 178316
+    },
+    {
+      "question_id": "07603560",
+      "image_id": "2381360",
+      "status": "downloaded",
+      "bytes": 72193
+    },
+    {
+      "question_id": "11629358",
+      "image_id": "2365689",
+      "status": "downloaded",
+      "bytes": 105446
+    },
+    {
+      "question_id": "11661712",
+      "image_id": "2347670",
+      "status": "downloaded",
+      "bytes": 146861
+    },
+    {
+      "question_id": "16652947",
+      "image_id": "2417941",
+      "status": "downloaded",
+      "bytes": 69882
+    },
+    {
+      "question_id": "00805634",
+      "image_id": "2381239",
+      "status": "downloaded",
+      "bytes": 130228
+    },
+    {
+      "question_id": "0975492",
+      "image_id": "2350216",
+      "status": "downloaded",
+      "bytes": 155199
+    },
+    {
+      "question_id": "1993295",
+      "image_id": "2385977",
+      "status": "downloaded",
+      "bytes": 176522
+    },
+    {
+      "question_id": "18192074",
+      "image_id": "2359926",
+      "status": "downloaded",
+      "bytes": 106551
+    },
+    {
+      "question_id": "18281934",
+      "image_id": "2358172",
+      "status": "downloaded",
+      "bytes": 78598
+    },
+    {
+      "question_id": "02965895",
+      "image_id": "2384743",
+      "status": "downloaded",
+      "bytes": 132300
+    },
+    {
+      "question_id": "08924895",
+      "image_id": "2365711",
+      "status": "downloaded",
+      "bytes": 118909
+    },
+    {
+      "question_id": "03495642",
+      "image_id": "2410346",
+      "status": "downloaded",
+      "bytes": 148493
+    },
+    {
+      "question_id": "00672063",
+      "image_id": "2325349",
+      "status": "downloaded",
+      "bytes": 156332
+    },
+    {
+      "question_id": "17888876",
+      "image_id": "2387990",
+      "status": "downloaded",
+      "bytes": 132868
+    },
+    {
+      "question_id": "19425852",
+      "image_id": "2342045",
+      "status": "downloaded",
+      "bytes": 210313
+    },
+    {
+      "question_id": "14297463",
+      "image_id": "2369899",
+      "status": "downloaded",
+      "bytes": 151031
+    },
+    {
+      "question_id": "05199500",
+      "image_id": "2413903",
+      "status": "downloaded",
+      "bytes": 135683
+    },
+    {
+      "question_id": "14869908",
+      "image_id": "2390025",
+      "status": "downloaded",
+      "bytes": 152018
+    },
+    {
+      "question_id": "18175256",
+      "image_id": "2382716",
+      "status": "downloaded",
+      "bytes": 109920
+    },
+    {
+      "question_id": "04104534",
+      "image_id": "2319689",
+      "status": "downloaded",
+      "bytes": 142186
+    },
+    {
+      "question_id": "13764265",
+      "image_id": "2401635",
+      "status": "downloaded",
+      "bytes": 73750
+    },
+    {
+      "question_id": "10302229",
+      "image_id": "2382646",
+      "status": "downloaded",
+      "bytes": 142995
+    },
+    {
+      "question_id": "1768305",
+      "image_id": "2317428",
+      "status": "downloaded",
+      "bytes": 121307
+    },
+    {
+      "question_id": "144958",
+      "image_id": "2345950",
+      "status": "downloaded",
+      "bytes": 63095
+    },
+    {
+      "question_id": "181006826",
+      "image_id": "2368098",
+      "status": "downloaded",
+      "bytes": 240322
+    },
+    {
+      "question_id": "11985368",
+      "image_id": "2386099",
+      "status": "downloaded",
+      "bytes": 139430
+    },
+    {
+      "question_id": "13637218",
+      "image_id": "2320853",
+      "status": "downloaded",
+      "bytes": 140001
+    },
+    {
+      "question_id": "061006816",
+      "image_id": "2343256",
+      "status": "downloaded",
+      "bytes": 239873
+    },
+    {
+      "question_id": "1297276",
+      "image_id": "2385826",
+      "status": "downloaded",
+      "bytes": 132751
+    },
+    {
+      "question_id": "19702140",
+      "image_id": "2345527",
+      "status": "downloaded",
+      "bytes": 105727
+    },
+    {
+      "question_id": "09961673",
+      "image_id": "2381915",
+      "status": "downloaded",
+      "bytes": 141973
+    },
+    {
+      "question_id": "01530372",
+      "image_id": "4426",
+      "status": "downloaded",
+      "bytes": 88522
+    },
+    {
+      "question_id": "03686217",
+      "image_id": "2377938",
+      "status": "downloaded",
+      "bytes": 114560
+    },
+    {
+      "question_id": "07937045",
+      "image_id": "2344009",
+      "status": "downloaded",
+      "bytes": 171376
+    },
+    {
+      "question_id": "13831014",
+      "image_id": "2406789",
+      "status": "downloaded",
+      "bytes": 90010
+    },
+    {
+      "question_id": "02931698",
+      "image_id": "2315383",
+      "status": "downloaded",
+      "bytes": 98980
+    },
+    {
+      "question_id": "10423700",
+      "image_id": "1723",
+      "status": "downloaded",
+      "bytes": 75164
+    },
+    {
+      "question_id": "09743894",
+      "image_id": "2315900",
+      "status": "downloaded",
+      "bytes": 78057
+    },
+    {
+      "question_id": "02513848",
+      "image_id": "2406874",
+      "status": "downloaded",
+      "bytes": 203480
+    },
+    {
+      "question_id": "04468135",
+      "image_id": "1987",
+      "status": "downloaded",
+      "bytes": 43315
+    },
+    {
+      "question_id": "16901298",
+      "image_id": "2343787",
+      "status": "downloaded",
+      "bytes": 174832
+    },
+    {
+      "question_id": "1616401",
+      "image_id": "2321508",
+      "status": "downloaded",
+      "bytes": 90339
+    },
+    {
+      "question_id": "11364114",
+      "image_id": "2336932",
+      "status": "downloaded",
+      "bytes": 180850
+    },
+    {
+      "question_id": "14201001",
+      "image_id": "2992",
+      "status": "downloaded",
+      "bytes": 52250
+    },
+    {
+      "question_id": "00255101",
+      "image_id": "2410643",
+      "status": "downloaded",
+      "bytes": 98989
+    },
+    {
+      "question_id": "01738786",
+      "image_id": "2334150",
+      "status": "downloaded",
+      "bytes": 127562
+    },
+    {
+      "question_id": "03813915",
+      "image_id": "2318945",
+      "status": "downloaded",
+      "bytes": 142170
+    },
+    {
+      "question_id": "15284589",
+      "image_id": "2367184",
+      "status": "downloaded",
+      "bytes": 97569
+    },
+    {
+      "question_id": "17444087",
+      "image_id": "2371945",
+      "status": "downloaded",
+      "bytes": 44102
+    },
+    {
+      "question_id": "181061102",
+      "image_id": "2337884",
+      "status": "downloaded",
+      "bytes": 122198
+    },
+    {
+      "question_id": "05957406",
+      "image_id": "2417911",
+      "status": "downloaded",
+      "bytes": 326098
+    },
+    {
+      "question_id": "13483094",
+      "image_id": "2380691",
+      "status": "downloaded",
+      "bytes": 109736
+    },
+    {
+      "question_id": "15975535",
+      "image_id": "2392397",
+      "status": "downloaded",
+      "bytes": 36220
+    },
+    {
+      "question_id": "07604306",
+      "image_id": "2373891",
+      "status": "downloaded",
+      "bytes": 156105
+    },
+    {
+      "question_id": "09937806",
+      "image_id": "2348458",
+      "status": "downloaded",
+      "bytes": 104289
+    },
+    {
+      "question_id": "07624096",
+      "image_id": "2338200",
+      "status": "downloaded",
+      "bytes": 107684
+    },
+    {
+      "question_id": "111055030",
+      "image_id": "2386495",
+      "status": "downloaded",
+      "bytes": 94903
+    },
+    {
+      "question_id": "08223880",
+      "image_id": "2400861",
+      "status": "downloaded",
+      "bytes": 84049
+    },
+    {
+      "question_id": "03716175",
+      "image_id": "2387346",
+      "status": "downloaded",
+      "bytes": 104875
+    },
+    {
+      "question_id": "06805699",
+      "image_id": "2354794",
+      "status": "downloaded",
+      "bytes": 136241
+    },
+    {
+      "question_id": "08237593",
+      "image_id": "2315465",
+      "status": "downloaded",
+      "bytes": 140035
+    },
+    {
+      "question_id": "15586319",
+      "image_id": "2352617",
+      "status": "downloaded",
+      "bytes": 154515
+    },
+    {
+      "question_id": "0337851",
+      "image_id": "2369595",
+      "status": "downloaded",
+      "bytes": 90250
+    },
+    {
+      "question_id": "01275423",
+      "image_id": "3716",
+      "status": "downloaded",
+      "bytes": 50227
+    },
+    {
+      "question_id": "18252583",
+      "image_id": "2406434",
+      "status": "downloaded",
+      "bytes": 105266
+    },
+    {
+      "question_id": "13541187",
+      "image_id": "2372439",
+      "status": "downloaded",
+      "bytes": 134037
+    },
+    {
+      "question_id": "1116252",
+      "image_id": "2407974",
+      "status": "downloaded",
+      "bytes": 138265
+    },
+    {
+      "question_id": "19443493",
+      "image_id": "2378689",
+      "status": "downloaded",
+      "bytes": 111926
+    },
+    {
+      "question_id": "13945801",
+      "image_id": "2408291",
+      "status": "downloaded",
+      "bytes": 143188
+    },
+    {
+      "question_id": "02162579",
+      "image_id": "2345741",
+      "status": "downloaded",
+      "bytes": 239075
+    },
+    {
+      "question_id": "17455861",
+      "image_id": "2403572",
+      "status": "downloaded",
+      "bytes": 92802
+    },
+    {
+      "question_id": "13356863",
+      "image_id": "2373271",
+      "status": "downloaded",
+      "bytes": 128547
+    },
+    {
+      "question_id": "17134462",
+      "image_id": "2404079",
+      "status": "downloaded",
+      "bytes": 171159
+    },
+    {
+      "question_id": "17468425",
+      "image_id": "2346705",
+      "status": "downloaded",
+      "bytes": 169466
+    },
+    {
+      "question_id": "12476717",
+      "image_id": "4094",
+      "status": "downloaded",
+      "bytes": 140962
+    },
+    {
+      "question_id": "07732990",
+      "image_id": "2329133",
+      "status": "downloaded",
+      "bytes": 119291
+    },
+    {
+      "question_id": "14144547",
+      "image_id": "2324283",
+      "status": "downloaded",
+      "bytes": 181177
+    },
+    {
+      "question_id": "17877969",
+      "image_id": "2326665",
+      "status": "downloaded",
+      "bytes": 101410
+    },
+    {
+      "question_id": "10298770",
+      "image_id": "2331201",
+      "status": "downloaded",
+      "bytes": 116752
+    },
+    {
+      "question_id": "05531455",
+      "image_id": "2390727",
+      "status": "downloaded",
+      "bytes": 137342
+    },
+    {
+      "question_id": "16409206",
+      "image_id": "2397884",
+      "status": "downloaded",
+      "bytes": 140626
+    },
+    {
+      "question_id": "04819551",
+      "image_id": "4912",
+      "status": "downloaded",
+      "bytes": 79236
+    },
+    {
+      "question_id": "14696378",
+      "image_id": "2401700",
+      "status": "downloaded",
+      "bytes": 113021
+    },
+    {
+      "question_id": "1996747",
+      "image_id": "2355725",
+      "status": "downloaded",
+      "bytes": 141943
+    },
+    {
+      "question_id": "15700256",
+      "image_id": "2387817",
+      "status": "downloaded",
+      "bytes": 78169
+    },
+    {
+      "question_id": "18775181",
+      "image_id": "2392049",
+      "status": "downloaded",
+      "bytes": 156149
+    },
+    {
+      "question_id": "19648772",
+      "image_id": "2415698",
+      "status": "downloaded",
+      "bytes": 156347
+    },
+    {
+      "question_id": "01998367",
+      "image_id": "2408244",
+      "status": "downloaded",
+      "bytes": 137901
+    },
+    {
+      "question_id": "132554",
+      "image_id": "2324466",
+      "status": "downloaded",
+      "bytes": 122286
+    },
+    {
+      "question_id": "08875290",
+      "image_id": "2367256",
+      "status": "downloaded",
+      "bytes": 141737
+    },
+    {
+      "question_id": "09282266",
+      "image_id": "2393663",
+      "status": "downloaded",
+      "bytes": 92685
+    },
+    {
+      "question_id": "19803395",
+      "image_id": "2330010",
+      "status": "downloaded",
+      "bytes": 139272
+    },
+    {
+      "question_id": "0677905",
+      "image_id": "2407766",
+      "status": "downloaded",
+      "bytes": 94448
+    },
+    {
+      "question_id": "066268",
+      "image_id": "2392888",
+      "status": "downloaded",
+      "bytes": 67460
+    },
+    {
+      "question_id": "06600330",
+      "image_id": "2387492",
+      "status": "downloaded",
+      "bytes": 97304
+    },
+    {
+      "question_id": "16803037",
+      "image_id": "2397498",
+      "status": "downloaded",
+      "bytes": 93770
+    },
+    {
+      "question_id": "07977187",
+      "image_id": "2411961",
+      "status": "downloaded",
+      "bytes": 135116
+    },
+    {
+      "question_id": "1188149",
+      "image_id": "2409685",
+      "status": "downloaded",
+      "bytes": 116612
+    },
+    {
+      "question_id": "10204459",
+      "image_id": "2380934",
+      "status": "downloaded",
+      "bytes": 201840
+    },
+    {
+      "question_id": "11392858",
+      "image_id": "2377598",
+      "status": "downloaded",
+      "bytes": 119236
+    },
+    {
+      "question_id": "16184856",
+      "image_id": "2356100",
+      "status": "downloaded",
+      "bytes": 64261
+    },
+    {
+      "question_id": "13420243",
+      "image_id": "2335072",
+      "status": "downloaded",
+      "bytes": 154938
+    },
+    {
+      "question_id": "02251016",
+      "image_id": "2335043",
+      "status": "downloaded",
+      "bytes": 148388
+    },
+    {
+      "question_id": "13278258",
+      "image_id": "2389819",
+      "status": "downloaded",
+      "bytes": 94330
+    },
+    {
+      "question_id": "14451054",
+      "image_id": "2402483",
+      "status": "downloaded",
+      "bytes": 90847
+    },
+    {
+      "question_id": "081030138",
+      "image_id": "2382268",
+      "status": "downloaded",
+      "bytes": 96868
+    },
+    {
+      "question_id": "03975365",
+      "image_id": "2371451",
+      "status": "downloaded",
+      "bytes": 135133
+    },
+    {
+      "question_id": "19900123",
+      "image_id": "2316836",
+      "status": "downloaded",
+      "bytes": 115893
+    },
+    {
+      "question_id": "04132070",
+      "image_id": "2326282",
+      "status": "downloaded",
+      "bytes": 73395
+    },
+    {
+      "question_id": "1827566",
+      "image_id": "2321180",
+      "status": "downloaded",
+      "bytes": 154368
+    },
+    {
+      "question_id": "06121366",
+      "image_id": "2388285",
+      "status": "downloaded",
+      "bytes": 48731
+    },
+    {
+      "question_id": "00729416",
+      "image_id": "2391042",
+      "status": "downloaded",
+      "bytes": 161382
+    },
+    {
+      "question_id": "07237804",
+      "image_id": "2380953",
+      "status": "downloaded",
+      "bytes": 137744
+    },
+    {
+      "question_id": "16161462",
+      "image_id": "2376280",
+      "status": "downloaded",
+      "bytes": 113214
+    },
+    {
+      "question_id": "19417601",
+      "image_id": "2390215",
+      "status": "downloaded",
+      "bytes": 127016
+    },
+    {
+      "question_id": "00416722",
+      "image_id": "2399079",
+      "status": "downloaded",
+      "bytes": 205984
+    },
+    {
+      "question_id": "08529419",
+      "image_id": "2348614",
+      "status": "downloaded",
+      "bytes": 155416
+    },
+    {
+      "question_id": "05179205",
+      "image_id": "2388018",
+      "status": "downloaded",
+      "bytes": 149369
+    },
+    {
+      "question_id": "187362",
+      "image_id": "2374944",
+      "status": "downloaded",
+      "bytes": 129800
+    },
+    {
+      "question_id": "13421344",
+      "image_id": "2324093",
+      "status": "downloaded",
+      "bytes": 77104
+    },
+    {
+      "question_id": "08249762",
+      "image_id": "2386080",
+      "status": "downloaded",
+      "bytes": 96707
+    },
+    {
+      "question_id": "06774702",
+      "image_id": "2349504",
+      "status": "downloaded",
+      "bytes": 105322
+    },
+    {
+      "question_id": "11430770",
+      "image_id": "2143",
+      "status": "downloaded",
+      "bytes": 103190
+    },
+    {
+      "question_id": "19273561",
+      "image_id": "2410351",
+      "status": "downloaded",
+      "bytes": 104578
+    },
+    {
+      "question_id": "01582909",
+      "image_id": "2378055",
+      "status": "downloaded",
+      "bytes": 168458
+    },
+    {
+      "question_id": "16747825",
+      "image_id": "2350808",
+      "status": "downloaded",
+      "bytes": 127313
+    },
+    {
+      "question_id": "04969151",
+      "image_id": "2371677",
+      "status": "downloaded",
+      "bytes": 108356
+    },
+    {
+      "question_id": "05454766",
+      "image_id": "2354146",
+      "status": "downloaded",
+      "bytes": 111737
+    },
+    {
+      "question_id": "00866375",
+      "image_id": "2360132",
+      "status": "downloaded",
+      "bytes": 96650
+    },
+    {
+      "question_id": "14223248",
+      "image_id": "2395951",
+      "status": "downloaded",
+      "bytes": 105202
+    },
+    {
+      "question_id": "01297407",
+      "image_id": "2363316",
+      "status": "downloaded",
+      "bytes": 179122
+    },
+    {
+      "question_id": "02625059",
+      "image_id": "2411437",
+      "status": "downloaded",
+      "bytes": 122309
+    },
+    {
+      "question_id": "00324617",
+      "image_id": "2378916",
+      "status": "downloaded",
+      "bytes": 223220
+    },
+    {
+      "question_id": "18546994",
+      "image_id": "2366467",
+      "status": "downloaded",
+      "bytes": 180257
+    },
+    {
+      "question_id": "021067065",
+      "image_id": "1295",
+      "status": "downloaded",
+      "bytes": 93092
+    },
+    {
+      "question_id": "14803789",
+      "image_id": "2318376",
+      "status": "downloaded",
+      "bytes": 205781
+    },
+    {
+      "question_id": "17848501",
+      "image_id": "2363956",
+      "status": "downloaded",
+      "bytes": 140299
+    },
+    {
+      "question_id": "06519869",
+      "image_id": "2406004",
+      "status": "downloaded",
+      "bytes": 90303
+    },
+    {
+      "question_id": "18503824",
+      "image_id": "498069",
+      "status": "downloaded",
+      "bytes": 355443
+    },
+    {
+      "question_id": "00935826",
+      "image_id": "2362947",
+      "status": "downloaded",
+      "bytes": 83691
+    },
+    {
+      "question_id": "09161863",
+      "image_id": "2416885",
+      "status": "downloaded",
+      "bytes": 140567
+    },
+    {
+      "question_id": "01945269",
+      "image_id": "2375580",
+      "status": "downloaded",
+      "bytes": 65152
+    },
+    {
+      "question_id": "15813958",
+      "image_id": "2353354",
+      "status": "downloaded",
+      "bytes": 36048
+    },
+    {
+      "question_id": "09226921",
+      "image_id": "713157",
+      "status": "downloaded",
+      "bytes": 383960
+    },
+    {
+      "question_id": "08365426",
+      "image_id": "2362675",
+      "status": "downloaded",
+      "bytes": 57904
+    },
+    {
+      "question_id": "011021063",
+      "image_id": "2327592",
+      "status": "downloaded",
+      "bytes": 169339
+    },
+    {
+      "question_id": "03625313",
+      "image_id": "1054",
+      "status": "downloaded",
+      "bytes": 34415
+    },
+    {
+      "question_id": "1168027",
+      "image_id": "1575",
+      "status": "downloaded",
+      "bytes": 56632
+    },
+    {
+      "question_id": "17397322",
+      "image_id": "2343353",
+      "status": "downloaded",
+      "bytes": 104918
+    },
+    {
+      "question_id": "15569549",
+      "image_id": "2369303",
+      "status": "downloaded",
+      "bytes": 115171
+    },
+    {
+      "question_id": "08816090",
+      "image_id": "2375806",
+      "status": "downloaded",
+      "bytes": 117705
+    },
+    {
+      "question_id": "10472187",
+      "image_id": "463",
+      "status": "downloaded",
+      "bytes": 65472
+    },
+    {
+      "question_id": "01179301",
+      "image_id": "2401028",
+      "status": "downloaded",
+      "bytes": 86666
+    },
+    {
+      "question_id": "02639683",
+      "image_id": "2358464",
+      "status": "downloaded",
+      "bytes": 188940
+    },
+    {
+      "question_id": "08198301",
+      "image_id": "2387143",
+      "status": "downloaded",
+      "bytes": 121073
+    },
+    {
+      "question_id": "1771040",
+      "image_id": "2411252",
+      "status": "downloaded",
+      "bytes": 119792
+    },
+    {
+      "question_id": "14354734",
+      "image_id": "2391318",
+      "status": "downloaded",
+      "bytes": 216538
+    },
+    {
+      "question_id": "10222743",
+      "image_id": "2395223",
+      "status": "downloaded",
+      "bytes": 208548
+    },
+    {
+      "question_id": "04274699",
+      "image_id": "2367475",
+      "status": "downloaded",
+      "bytes": 152104
+    },
+    {
+      "question_id": "14270377",
+      "image_id": "2366508",
+      "status": "downloaded",
+      "bytes": 142551
+    },
+    {
+      "question_id": "01671289",
+      "image_id": "1159457",
+      "status": "downloaded",
+      "bytes": 505604
+    },
+    {
+      "question_id": "15283508",
+      "image_id": "2367181",
+      "status": "downloaded",
+      "bytes": 93437
+    },
+    {
+      "question_id": "01873723",
+      "image_id": "2409967",
+      "status": "downloaded",
+      "bytes": 108540
+    },
+    {
+      "question_id": "0832901",
+      "image_id": "2414605",
+      "status": "downloaded",
+      "bytes": 155491
+    },
+    {
+      "question_id": "1861677",
+      "image_id": "2323457",
+      "status": "downloaded",
+      "bytes": 186980
+    },
+    {
+      "question_id": "16481406",
+      "image_id": "2335246",
+      "status": "downloaded",
+      "bytes": 74422
+    },
+    {
+      "question_id": "10558851",
+      "image_id": "2391457",
+      "status": "downloaded",
+      "bytes": 149094
+    },
+    {
+      "question_id": "17726086",
+      "image_id": "2349040",
+      "status": "downloaded",
+      "bytes": 137064
+    },
+    {
+      "question_id": "03353804",
+      "image_id": "2401863",
+      "status": "downloaded",
+      "bytes": 190671
+    },
+    {
+      "question_id": "0912046",
+      "image_id": "2406404",
+      "status": "downloaded",
+      "bytes": 121522
+    },
+    {
+      "question_id": "12953597",
+      "image_id": "285868",
+      "status": "downloaded",
+      "bytes": 115363
+    },
+    {
+      "question_id": "021054250",
+      "image_id": "2332297",
+      "status": "downloaded",
+      "bytes": 145154
+    },
+    {
+      "question_id": "06183018",
+      "image_id": "2395834",
+      "status": "downloaded",
+      "bytes": 205531
+    },
+    {
+      "question_id": "12140355",
+      "image_id": "2359333",
+      "status": "downloaded",
+      "bytes": 57625
+    },
+    {
+      "question_id": "09302219",
+      "image_id": "2371685",
+      "status": "downloaded",
+      "bytes": 112403
+    },
+    {
+      "question_id": "06970679",
+      "image_id": "2374309",
+      "status": "downloaded",
+      "bytes": 181492
+    },
+    {
+      "question_id": "08471223",
+      "image_id": "2386203",
+      "status": "downloaded",
+      "bytes": 185962
+    },
+    {
+      "question_id": "14266380",
+      "image_id": "529",
+      "status": "downloaded",
+      "bytes": 55840
+    },
+    {
+      "question_id": "01178812",
+      "image_id": "2386472",
+      "status": "downloaded",
+      "bytes": 118497
+    },
+    {
+      "question_id": "19351376",
+      "image_id": "2383947",
+      "status": "downloaded",
+      "bytes": 92832
+    },
+    {
+      "question_id": "18874420",
+      "image_id": "2403581",
+      "status": "downloaded",
+      "bytes": 108462
+    },
+    {
+      "question_id": "06347645",
+      "image_id": "2395361",
+      "status": "downloaded",
+      "bytes": 157361
+    },
+    {
+      "question_id": "0693401",
+      "image_id": "2370435",
+      "status": "downloaded",
+      "bytes": 97439
+    },
+    {
+      "question_id": "02590871",
+      "image_id": "2320327",
+      "status": "downloaded",
+      "bytes": 132812
+    },
+    {
+      "question_id": "13810963",
+      "image_id": "2402632",
+      "status": "downloaded",
+      "bytes": 141492
+    },
+    {
+      "question_id": "05687840",
+      "image_id": "2385306",
+      "status": "downloaded",
+      "bytes": 145683
+    },
+    {
+      "question_id": "13483129",
+      "image_id": "2403364",
+      "status": "downloaded",
+      "bytes": 134211
+    },
+    {
+      "question_id": "09298902",
+      "image_id": "2357363",
+      "status": "downloaded",
+      "bytes": 108231
+    },
+    {
+      "question_id": "01494763",
+      "image_id": "2376882",
+      "status": "downloaded",
+      "bytes": 106979
+    },
+    {
+      "question_id": "19457284",
+      "image_id": "2397532",
+      "status": "downloaded",
+      "bytes": 143218
+    },
+    {
+      "question_id": "01775293",
+      "image_id": "2346673",
+      "status": "downloaded",
+      "bytes": 194001
+    },
+    {
+      "question_id": "03492559",
+      "image_id": "2409876",
+      "status": "downloaded",
+      "bytes": 210326
+    },
+    {
+      "question_id": "161036612",
+      "image_id": "2368963",
+      "status": "downloaded",
+      "bytes": 108752
+    },
+    {
+      "question_id": "03618696",
+      "image_id": "2411522",
+      "status": "downloaded",
+      "bytes": 124692
+    },
+    {
+      "question_id": "13376811",
+      "image_id": "2322673",
+      "status": "downloaded",
+      "bytes": 144528
+    },
+    {
+      "question_id": "1399382",
+      "image_id": "498126",
+      "status": "downloaded",
+      "bytes": 343595
+    },
+    {
+      "question_id": "07696704",
+      "image_id": "2388377",
+      "status": "downloaded",
+      "bytes": 121518
+    },
+    {
+      "question_id": "03102024",
+      "image_id": "2384976",
+      "status": "downloaded",
+      "bytes": 118472
+    },
+    {
+      "question_id": "161037470",
+      "image_id": "2342838",
+      "status": "downloaded",
+      "bytes": 115580
+    },
+    {
+      "question_id": "00362278",
+      "image_id": "2372454",
+      "status": "downloaded",
+      "bytes": 123212
+    },
+    {
+      "question_id": "03101593",
+      "image_id": "2384975",
+      "status": "downloaded",
+      "bytes": 146832
+    },
+    {
+      "question_id": "18922746",
+      "image_id": "2358811",
+      "status": "downloaded",
+      "bytes": 171131
+    },
+    {
+      "question_id": "0699037",
+      "image_id": "150543",
+      "status": "downloaded",
+      "bytes": 82576
+    },
+    {
+      "question_id": "00945744",
+      "image_id": "2391364",
+      "status": "downloaded",
+      "bytes": 157221
+    },
+    {
+      "question_id": "16922097",
+      "image_id": "2378471",
+      "status": "downloaded",
+      "bytes": 102459
+    },
+    {
+      "question_id": "121032292",
+      "image_id": "2390282",
+      "status": "downloaded",
+      "bytes": 103644
+    },
+    {
+      "question_id": "12588508",
+      "image_id": "2323989",
+      "status": "downloaded",
+      "bytes": 45045
+    },
+    {
+      "question_id": "19540103",
+      "image_id": "2375878",
+      "status": "downloaded",
+      "bytes": 139375
+    },
+    {
+      "question_id": "17184616",
+      "image_id": "4290",
+      "status": "downloaded",
+      "bytes": 121568
+    }
+  ]
+}

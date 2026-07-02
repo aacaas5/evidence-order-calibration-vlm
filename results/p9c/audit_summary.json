@@ -1,0 +1,39 @@
+{
+  "audit_type": "automated_visual_audit",
+  "auditor": "codex_visual_audit",
+  "total": 250,
+  "accept": 176,
+  "reject": 71,
+  "unsure": 3,
+  "acceptance_rate": 0.704,
+  "by_category": {
+    "color": {
+      "total": 78,
+      "accept": 52,
+      "reject": 25,
+      "unsure": 1,
+      "acceptance_rate": 0.6666666666666666
+    },
+    "identity": {
+      "total": 77,
+      "accept": 70,
+      "reject": 7,
+      "unsure": 0,
+      "acceptance_rate": 0.9090909090909091
+    },
+    "material": {
+      "total": 78,
+      "accept": 41,
+      "reject": 36,
+      "unsure": 1,
+      "acceptance_rate": 0.5256410256410257
+    },
+    "shape": {
+      "total": 17,
+      "accept": 13,
+      "reject": 3,
+      "unsure": 1,
+      "acceptance_rate": 0.7647058823529411
+    }
+  }
+}

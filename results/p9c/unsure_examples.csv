@@ -1,0 +1,4 @@
+question_id,image_id,category,question,answer,audit_status,audit_reason,auditor
+12804639,2402996,shape,What shape is the garbage can?,round,unsure,"The small garbage-can region is visible, but its shape and localization are weak at this scale.",codex_visual_audit
+11661712,2347670,color,What color is the sweater?,blue,unsure,"The sweater region is a small sleeve fragment, so evidence removal may be incomplete.",codex_visual_audit
+03975365,2371451,material,Does the door made of aluminum look brown?,no,unsure,The door is visible only as a narrow edge; material evidence localization is debatable.,codex_visual_audit

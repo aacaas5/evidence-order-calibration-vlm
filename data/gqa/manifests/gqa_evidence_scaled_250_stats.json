@@ -1,0 +1,20 @@
+{
+  "target": 250,
+  "selected": 250,
+  "unique_images": 250,
+  "selected_by_category": {
+    "color": 78,
+    "material": 78,
+    "shape": 17,
+    "identity": 77
+  },
+  "filter_stats": {
+    "bad_area": 3575,
+    "unsupported_type": 104381,
+    "not_single_object": 9899,
+    "eligible": 5098,
+    "relational_or_global": 8335,
+    "too_broad": 683,
+    "extreme_aspect": 91
+  }
+}
