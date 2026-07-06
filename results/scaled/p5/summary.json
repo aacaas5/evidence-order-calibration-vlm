@@ -1,0 +1,98 @@
+{
+  "accepted_samples": 176,
+  "conditions": 880,
+  "planned_conditions": 880,
+  "severity_summary": {
+    "0.0": {
+      "n": 176,
+      "accuracy": 0.6420454545454546,
+      "mean_c_seq": -0.3181975849868374,
+      "mean_entropy": 0.8256504081747568
+    },
+    "0.25": {
+      "n": 176,
+      "accuracy": 0.6079545454545454,
+      "mean_c_seq": -0.3676544634483166,
+      "mean_entropy": 0.9327673917577517
+    },
+    "0.5": {
+      "n": 176,
+      "accuracy": 0.5625,
+      "mean_c_seq": -0.3876038715736499,
+      "mean_entropy": 1.003482662944407
+    },
+    "0.75": {
+      "n": 176,
+      "accuracy": 0.4431818181818182,
+      "mean_c_seq": -0.5179278429025674,
+      "mean_entropy": 1.2530743110292502
+    },
+    "1.0": {
+      "n": 176,
+      "accuracy": 0.35795454545454547,
+      "mean_c_seq": -0.5698946651425489,
+      "mean_entropy": 1.3818776384496507
+    }
+  },
+  "complete_trajectories": 176,
+  "adjacent_pairs": 704,
+  "adjacent_violations": 307,
+  "emvr": 0.43607954545454547,
+  "trajectories_with_violation": 162,
+  "trajectory_violation_rate": 0.9204545454545454,
+  "category_emvr": {
+    "color": {
+      "violations": 96,
+      "pairs": 208,
+      "emvr": 0.46153846153846156
+    },
+    "identity": {
+      "violations": 125,
+      "pairs": 280,
+      "emvr": 0.44642857142857145
+    },
+    "material": {
+      "violations": 65,
+      "pairs": 164,
+      "emvr": 0.39634146341463417
+    },
+    "shape": {
+      "violations": 21,
+      "pairs": 52,
+      "emvr": 0.40384615384615385
+    }
+  },
+  "clean_correct_trajectories": 113,
+  "clean_correct_emvr": 0.3827433628318584,
+  "clean_correct_trajectory_violation_rate": 0.8849557522123894,
+  "clean_correct_details": {
+    "complete_trajectories": 113,
+    "adjacent_pairs": 452,
+    "adjacent_violations": 173,
+    "emvr": 0.3827433628318584,
+    "trajectories_with_violation": 100,
+    "trajectory_violation_rate": 0.8849557522123894,
+    "category_emvr": {
+      "color": {
+        "violations": 54,
+        "pairs": 136,
+        "emvr": 0.39705882352941174
+      },
+      "identity": {
+        "violations": 61,
+        "pairs": 160,
+        "emvr": 0.38125
+      },
+      "material": {
+        "violations": 51,
+        "pairs": 132,
+        "emvr": 0.38636363636363635
+      },
+      "shape": {
+        "violations": 7,
+        "pairs": 24,
+        "emvr": 0.2916666666666667
+      }
+    }
+  }
+}
