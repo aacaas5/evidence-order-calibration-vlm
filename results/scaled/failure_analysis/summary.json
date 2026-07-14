@@ -1,0 +1,11 @@
+{
+  "trajectories": 176,
+  "representative_rows": 15,
+  "order_helps_count": 25,
+  "order_hurts_count": 7,
+  "order_equal_count": 144,
+  "outputs": [
+    "results\\scaled\\failure_analysis\\representative_cases.csv",
+    "results\\scaled\\failure_analysis\\qualitative_cases.png"
+  ]
+}
