@@ -1,0 +1,40 @@
+{
+  "rows": 880,
+  "trajectories": 176,
+  "old_category_counts": {
+    "color": 260,
+    "identity": 350,
+    "material": 205,
+    "shape": 65
+  },
+  "new_category_counts": {
+    "color": 315,
+    "identity": 400,
+    "shape": 60,
+    "material": 105
+  },
+  "category_changes": 205,
+  "correctness_changes": 0,
+  "category_emvr": {
+    "color": {
+      "violations": 114,
+      "pairs": 252,
+      "emvr": 0.4523809523809524
+    },
+    "identity": {
+      "violations": 142,
+      "pairs": 320,
+      "emvr": 0.44375
+    },
+    "shape": {
+      "violations": 20,
+      "pairs": 48,
+      "emvr": 0.4166666666666667
+    },
+    "material": {
+      "violations": 31,
+      "pairs": 84,
+      "emvr": 0.36904761904761907
+    }
+  }
+}

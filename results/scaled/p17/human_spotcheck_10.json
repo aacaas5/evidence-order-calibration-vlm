@@ -1,0 +1,252 @@
+[
+  {
+    "question_id": "11430770",
+    "image_id": "2143",
+    "question": "What kind of vehicle is parked?",
+    "answer": "car",
+    "category": "identity",
+    "critical_objects": [
+      {
+        "object_id": "4322424",
+        "name": "car",
+        "bbox_xyxy": [
+          0.0,
+          378.0,
+          463.0,
+          582.0
+        ],
+        "area_ratio": 0.196775
+      }
+    ],
+    "image_width": 800,
+    "image_height": 600,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "081005615",
+    "image_id": "2391197",
+    "question": "What color is the frisbee in the top of the picture?",
+    "answer": "purple",
+    "category": "color",
+    "critical_objects": [
+      {
+        "object_id": "1242907",
+        "name": "frisbee",
+        "bbox_xyxy": [
+          113.0,
+          44.0,
+          182.0,
+          106.0
+        ],
+        "area_ratio": 0.024586
+      }
+    ],
+    "image_width": 348,
+    "image_height": 500,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "08775086",
+    "image_id": "2388994",
+    "question": "What shape does the empty sink have?",
+    "answer": "round",
+    "category": "shape",
+    "critical_objects": [
+      {
+        "object_id": "1264956",
+        "name": "sink",
+        "bbox_xyxy": [
+          132.0,
+          404.0,
+          273.0,
+          500.0
+        ],
+        "area_ratio": 0.072192
+      }
+    ],
+    "image_width": 375,
+    "image_height": 500,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "15569549",
+    "image_id": "2369303",
+    "question": "Is the dispenser made of bronze brown and large?",
+    "answer": "no",
+    "category": "material",
+    "critical_objects": [
+      {
+        "object_id": "743726",
+        "name": "dispenser",
+        "bbox_xyxy": [
+          344.0,
+          91.0,
+          392.0,
+          160.0
+        ],
+        "area_ratio": 0.019892
+      }
+    ],
+    "image_width": 500,
+    "image_height": 333,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "1297276",
+    "image_id": "2385826",
+    "question": "What is the black piece of clothing?",
+    "answer": "coat",
+    "category": "identity",
+    "critical_objects": [
+      {
+        "object_id": "1292607",
+        "name": "coat",
+        "bbox_xyxy": [
+          184.0,
+          220.0,
+          307.0,
+          380.0
+        ],
+        "area_ratio": 0.10496
+      }
+    ],
+    "image_width": 375,
+    "image_height": 500,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "144958",
+    "image_id": "2345950",
+    "question": "The street sign is what shape?",
+    "answer": "square",
+    "category": "shape",
+    "critical_objects": [
+      {
+        "object_id": "903716",
+        "name": "street sign",
+        "bbox_xyxy": [
+          90.0,
+          177.0,
+          128.0,
+          305.0
+        ],
+        "area_ratio": 0.028279
+      }
+    ],
+    "image_width": 500,
+    "image_height": 344,
+    "audit_status": "reject",
+    "audit_reason": "Critical object is too small, distant, occluded, or weakly visible for a reliable localized intervention.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "14297463",
+    "image_id": "2369899",
+    "question": "Which material is the cabinet made of, wood or glass?",
+    "answer": "wood",
+    "category": "material",
+    "critical_objects": [
+      {
+        "object_id": "608253",
+        "name": "cabinet",
+        "bbox_xyxy": [
+          26.0,
+          17.0,
+          60.0,
+          125.0
+        ],
+        "area_ratio": 0.019584
+      }
+    ],
+    "image_width": 500,
+    "image_height": 375,
+    "audit_status": "reject",
+    "audit_reason": "Critical object is too small, distant, occluded, or weakly visible for a reliable localized intervention.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "04706818",
+    "image_id": "2378857",
+    "question": "What is this, a bus or a train?",
+    "answer": "bus",
+    "category": "identity",
+    "critical_objects": [
+      {
+        "object_id": "556917",
+        "name": "bus",
+        "bbox_xyxy": [
+          87.0,
+          111.0,
+          253.0,
+          266.0
+        ],
+        "area_ratio": 0.154072
+      }
+    ],
+    "image_width": 500,
+    "image_height": 334,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "17397322",
+    "image_id": "2343353",
+    "question": "The bag on the right has what color?",
+    "answer": "black",
+    "category": "color",
+    "critical_objects": [
+      {
+        "object_id": "2692032",
+        "name": "bag",
+        "bbox_xyxy": [
+          238.0,
+          344.0,
+          372.0,
+          473.0
+        ],
+        "area_ratio": 0.092192
+      }
+    ],
+    "image_width": 375,
+    "image_height": 500,
+    "audit_status": "accept",
+    "audit_reason": "Box clearly localizes the visible question-critical object; masking it meaningfully removes the main evidence.",
+    "auditor": "codex_visual_audit"
+  },
+  {
+    "question_id": "12804639",
+    "image_id": "2402996",
+    "question": "What shape is the garbage can?",
+    "answer": "round",
+    "category": "shape",
+    "critical_objects": [
+      {
+        "object_id": "1129022",
+        "name": "trash can",
+        "bbox_xyxy": [
+          337.0,
+          225.0,
+          380.0,
+          311.0
+        ],
+        "area_ratio": 0.019723
+      }
+    ],
+    "image_width": 500,
+    "image_height": 375,
+    "audit_status": "unsure",
+    "audit_reason": "The small garbage-can region is visible, but its shape and localization are weak at this scale.",
+    "auditor": "codex_visual_audit"
+  }
+]
