@@ -1,0 +1,12 @@
+{
+  "seed": 42,
+  "selection_uses_randomness": false,
+  "grid_steps_per_axis": 41,
+  "overlap_score_definition": "sum of intersection_area/control_box_area over all non-critical scene-graph objects",
+  "total_samples": 176,
+  "valid_matched_controls": 170,
+  "invalid_controls": 6,
+  "mean_control_overlap_score": 0.8158201601078907,
+  "zero_overlap_controls": 32,
+  "mean_critical_control_iou": 0.005058975263842409
+}

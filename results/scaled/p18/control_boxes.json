@@ -1,0 +1,3656 @@
+[
+  {
+    "question_id": "08621661",
+    "image_id": "2344819",
+    "critical_bbox": [
+      267.0,
+      118.0,
+      324.0,
+      213.0
+    ],
+    "control_bbox": [
+      317.0,
+      405.0,
+      374.0,
+      500.0
+    ],
+    "control_overlap_score": 1.3606648199445983,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 2,
+    "annotated_noncritical_objects": 3
+  },
+  {
+    "question_id": "10983653",
+    "image_id": "2342530",
+    "critical_bbox": [
+      281.0,
+      234.0,
+      429.0,
+      333.0
+    ],
+    "control_bbox": [
+      352.0,
+      0.0,
+      500.0,
+      99.0
+    ],
+    "control_overlap_score": 1.864864864864865,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 2,
+    "annotated_noncritical_objects": 16
+  },
+  {
+    "question_id": "06435607",
+    "image_id": "2317733",
+    "critical_bbox": [
+      175.0,
+      157.0,
+      357.0,
+      222.0
+    ],
+    "control_bbox": [
+      318.0,
+      0.0,
+      500.0,
+      65.0
+    ],
+    "control_overlap_score": 1.0,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 1,
+    "annotated_noncritical_objects": 5
+  },
+  {
+    "question_id": "19388466",
+    "image_id": "2325119",
+    "critical_bbox": [
+      127.0,
+      19.0,
+      338.0,
+      269.0
+    ],
+    "control_bbox": [
+      0.0,
+      250.0,
+      211.0,
+      500.0
+    ],
+    "control_overlap_score": 2.4755829383886256,
+    "control_valid": true,
+    "critical_control_iou": 0.015360332614721282,
+    "overlapping_noncritical_objects": 18,
+    "annotated_noncritical_objects": 24
+  },
+  {
+    "question_id": "1425112",
+    "image_id": "2404639",
+    "critical_bbox": [
+      87.0,
+      57.0,
+      445.0,
+      224.0
+    ],
+    "control_bbox": [
+      142.0,
+      333.0,
+      500.0,
+      500.0
+    ],
+    "control_overlap_score": 1.853176328906433,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 6,
+    "annotated_noncritical_objects": 16
+  },
+  {
+    "question_id": "08775086",
+    "image_id": "2388994",
+    "critical_bbox": [
+      132.0,
+      404.0,
+      273.0,
+      500.0
+    ],
+    "control_bbox": [
+      0.0,
+      0.0,
+      141.0,
+      96.0
+    ],
+    "control_overlap_score": 1.0,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 1,
+    "annotated_noncritical_objects": 11
+  },
+  {
+    "question_id": "10433179",
+    "image_id": "2367895",
+    "critical_bbox": [
+      60.0,
+      112.0,
+      282.0,
+      274.0
+    ],
+    "control_bbox": [
+      111.0,
+      338.0,
+      333.0,
+      500.0
+    ],
+    "control_overlap_score": 1.347847847847848,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 4,
+    "annotated_noncritical_objects": 19
+  },
+  {
+    "question_id": "02655551",
+    "image_id": "2354629",
+    "critical_bbox": [
+      103.0,
+      182.0,
+      194.0,
+      244.0
+    ],
+    "control_bbox": [
+      0.0,
+      313.0,
+      91.0,
+      375.0
+    ],
+    "control_overlap_score": 0.5604395604395604,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 1,
+    "annotated_noncritical_objects": 28
+  },
+  {
+    "question_id": "06503451",
+    "image_id": "2329386",
+    "critical_bbox": [
+      147.0,
+      213.0,
+      225.0,
+      344.0
+    ],
+    "control_bbox": [
+      316.5,
+      0.0,
+      394.5,
+      131.0
+    ],
+    "control_overlap_score": 0.0,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 0,
+    "annotated_noncritical_objects": 9
+  },
+  {
+    "question_id": "07142526",
+    "image_id": "2392341",
+    "critical_bbox": [
+      157.0,
+      72.0,
+      332.0,
+      287.0
+    ],
+    "control_bbox": [
+      0.0,
+      0.0,
+      175.0,
+      215.0
+    ],
+    "control_overlap_score": 2.1917076411960132,
+    "control_valid": true,
+    "critical_control_iou": 0.035417469315867686,
+    "overlapping_noncritical_objects": 5,
+    "annotated_noncritical_objects": 14
+  },
+  {
+    "question_id": "01125115",
+    "image_id": "2383075",
+    "critical_bbox": [
+      54.0,
+      38.0,
+      324.0,
+      163.0
+    ],
+    "control_bbox": [
+      230.0,
+      133.9,
+      500.0,
+      258.9
+    ],
+    "control_overlap_score": 1.009176296296296,
+    "control_valid": true,
+    "critical_control_iou": 0.042236036353192945,
+    "overlapping_noncritical_objects": 3,
+    "annotated_noncritical_objects": 8
+  },
+  {
+    "question_id": "18717754",
+    "image_id": "2364364",
+    "critical_bbox": [
+      11.0,
+      318.0,
+      191.0,
+      478.0
+    ],
+    "control_bbox": [
+      195.0,
+      340.0,
+      375.0,
+      500.0
+    ],
+    "control_overlap_score": 1.5286458333333333,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 4,
+    "annotated_noncritical_objects": 22
+  },
+  {
+    "question_id": "19315625",
+    "image_id": "2381993",
+    "critical_bbox": [
+      37.0,
+      43.0,
+      129.0,
+      149.0
+    ],
+    "control_bbox": [
+      0.0,
+      187.15,
+      92.0,
+      293.15
+    ],
+    "control_overlap_score": 0.9633408531583263,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 3,
+    "annotated_noncritical_objects": 13
+  },
+  {
+    "question_id": "09993325",
+    "image_id": "2373967",
+    "critical_bbox": [
+      138.0,
+      66.0,
+      245.0,
+      122.0
+    ],
+    "control_bbox": [
+      0.0,
+      0.0,
+      107.0,
+      56.0
+    ],
+    "control_overlap_score": 0.0,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 0,
+    "annotated_noncritical_objects": 24
+  },
+  {
+    "question_id": "17954994",
+    "image_id": "2355312",
+    "critical_bbox": [
+      0.0,
+      220.0,
+      119.0,
+      373.0
+    ],
+    "control_bbox": [
+      381.0,
+      0.0,
+      500.0,
+      153.0
+    ],
+    "control_overlap_score": 0.49211841599384853,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 2,
+    "annotated_noncritical_objects": 13
+  },
+  {
+    "question_id": "10956782",
+    "image_id": "2361328",
+    "critical_bbox": [
+      39.0,
+      1.0,
+      92.0,
+      143.0
+    ],
+    "control_bbox": [
+      447.0,
+      0.0,
+      500.0,
+      142.0
+    ],
+    "control_overlap_score": 0.19000797236247674,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 2,
+    "annotated_noncritical_objects": 9
+  },
+  {
+    "question_id": "04251940",
+    "image_id": "2373119",
+    "critical_bbox": [
+      190.0,
+      57.0,
+      360.0,
+      117.0
+    ],
+    "control_bbox": [
+      115.5,
+      0.0,
+      285.5,
+      60.0
+    ],
+    "control_overlap_score": 0.058333333333333334,
+    "control_valid": true,
+    "critical_control_iou": 0.01424416436721605,
+    "overlapping_noncritical_objects": 1,
+    "annotated_noncritical_objects": 28
+  },
+  {
+    "question_id": "14705211",
+    "image_id": "2371481",
+    "critical_bbox": [
+      31.0,
+      149.0,
+      141.0,
+      360.0
+    ],
+    "control_bbox": [
+      265.0,
+      0.0,
+      375.0,
+      211.0
+    ],
+    "control_overlap_score": 0.6022834984920293,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 3,
+    "annotated_noncritical_objects": 25
+  },
+  {
+    "question_id": "15599995",
+    "image_id": "2390229",
+    "critical_bbox": [
+      116.0,
+      85.0,
+      213.0,
+      221.0
+    ],
+    "control_bbox": [
+      262.0,
+      364.0,
+      359.0,
+      500.0
+    ],
+    "control_overlap_score": 0.2692540933899333,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 1,
+    "annotated_noncritical_objects": 14
+  },
+  {
+    "question_id": "10755150",
+    "image_id": "2391950",
+    "critical_bbox": [
+      48.0,
+      218.0,
+      208.0,
+      351.0
+    ],
+    "control_bbox": [
+      173.0,
+      0.0,
+      333.0,
+      133.0
+    ],
+    "control_overlap_score": 0.6647086466165414,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 7,
+    "annotated_noncritical_objects": 17
+  },
+  {
+    "question_id": "141024691",
+    "image_id": "2363539",
+    "critical_bbox": [
+      64.0,
+      153.0,
+      163.0,
+      397.0
+    ],
+    "control_bbox": [
+      233.0,
+      0.0,
+      332.0,
+      244.0
+    ],
+    "control_overlap_score": 1.425939725120053,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 5,
+    "annotated_noncritical_objects": 16
+  },
+  {
+    "question_id": "13598461",
+    "image_id": "2399127",
+    "critical_bbox": [
+      219.0,
+      169.0,
+      327.0,
+      288.0
+    ],
+    "control_bbox": [
+      0.0,
+      214.0,
+      108.0,
+      333.0
+    ],
+    "control_overlap_score": 0.008325552443199501,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 1,
+    "annotated_noncritical_objects": 6
+  },
+  {
+    "question_id": "13777356",
+    "image_id": "2403093",
+    "critical_bbox": [
+      45.0,
+      83.0,
+      297.0,
+      266.0
+    ],
+    "control_bbox": [
+      248.0,
+      177.0,
+      500.0,
+      360.0
+    ],
+    "control_overlap_score": 4.099184664758435,
+    "control_valid": true,
+    "critical_control_iou": 0.04962957062056879,
+    "overlapping_noncritical_objects": 11,
+    "annotated_noncritical_objects": 13
+  },
+  {
+    "question_id": "12366048",
+    "image_id": "2390293",
+    "critical_bbox": [
+      164.0,
+      110.0,
+      430.0,
+      259.0
+    ],
+    "control_bbox": null,
+    "control_overlap_score": null,
+    "control_valid": false,
+    "invalid_reason": "Missing scene graph or no same-size in-bounds candidate satisfying IoU <= 0.05"
+  },
+  {
+    "question_id": "081005615",
+    "image_id": "2391197",
+    "critical_bbox": [
+      113.0,
+      44.0,
+      182.0,
+      106.0
+    ],
+    "control_bbox": [
+      0.0,
+      0.0,
+      69.0,
+      62.0
+    ],
+    "control_overlap_score": 1.0596072931276297,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 2,
+    "annotated_noncritical_objects": 26
+  },
+  {
+    "question_id": "01389513",
+    "image_id": "2364527",
+    "critical_bbox": [
+      368.0,
+      153.0,
+      491.0,
+      355.0
+    ],
+    "control_bbox": [
+      0.0,
+      298.0,
+      123.0,
+      500.0
+    ],
+    "control_overlap_score": 3.066006600660066,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 13,
+    "annotated_noncritical_objects": 32
+  },
+  {
+    "question_id": "0526849",
+    "image_id": "2413799",
+    "critical_bbox": [
+      104.0,
+      66.0,
+      244.0,
+      311.0
+    ],
+    "control_bbox": [
+      360.0,
+      0.0,
+      500.0,
+      245.0
+    ],
+    "control_overlap_score": 0.2271137026239067,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 2,
+    "annotated_noncritical_objects": 8
+  },
+  {
+    "question_id": "10324248",
+    "image_id": "2408676",
+    "critical_bbox": [
+      196.0,
+      19.0,
+      273.0,
+      83.0
+    ],
+    "control_bbox": [
+      423.0,
+      269.0,
+      500.0,
+      333.0
+    ],
+    "control_overlap_score": 0.0,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 0,
+    "annotated_noncritical_objects": 11
+  },
+  {
+    "question_id": "04110778",
+    "image_id": "2322532",
+    "critical_bbox": [
+      139.0,
+      160.0,
+      234.0,
+      198.0
+    ],
+    "control_bbox": [
+      280.0,
+      0.0,
+      375.0,
+      38.0
+    ],
+    "control_overlap_score": 0.18947368421052632,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 1,
+    "annotated_noncritical_objects": 12
+  },
+  {
+    "question_id": "04706818",
+    "image_id": "2378857",
+    "critical_bbox": [
+      87.0,
+      111.0,
+      253.0,
+      266.0
+    ],
+    "control_bbox": [
+      334.0,
+      40.275,
+      500.0,
+      195.275
+    ],
+    "control_overlap_score": 0.030949280994947537,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 3,
+    "annotated_noncritical_objects": 14
+  },
+  {
+    "question_id": "01229011",
+    "image_id": "2406044",
+    "critical_bbox": [
+      211.0,
+      220.0,
+      271.0,
+      285.0
+    ],
+    "control_bbox": [
+      0.0,
+      435.0,
+      60.0,
+      500.0
+    ],
+    "control_overlap_score": 0.0,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 0,
+    "annotated_noncritical_objects": 8
+  },
+  {
+    "question_id": "08858518",
+    "image_id": "2384518",
+    "critical_bbox": [
+      81.0,
+      157.0,
+      279.0,
+      289.0
+    ],
+    "control_bbox": [
+      0.0,
+      0.0,
+      198.0,
+      132.0
+    ],
+    "control_overlap_score": 0.9924242424242424,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 1,
+    "annotated_noncritical_objects": 8
+  },
+  {
+    "question_id": "16652947",
+    "image_id": "2417941",
+    "critical_bbox": [
+      97.0,
+      198.0,
+      298.0,
+      380.0
+    ],
+    "control_bbox": [
+      0.0,
+      0.0,
+      201.0,
+      182.0
+    ],
+    "control_overlap_score": 0.0,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 0,
+    "annotated_noncritical_objects": 11
+  },
+  {
+    "question_id": "18192074",
+    "image_id": "2359926",
+    "critical_bbox": [
+      423.0,
+      217.0,
+      487.0,
+      333.0
+    ],
+    "control_bbox": [
+      0.0,
+      217.0,
+      64.0,
+      333.0
+    ],
+    "control_overlap_score": 0.9913793103448276,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 1,
+    "annotated_noncritical_objects": 12
+  },
+  {
+    "question_id": "18281934",
+    "image_id": "2358172",
+    "critical_bbox": [
+      51.0,
+      194.0,
+      293.0,
+      322.0
+    ],
+    "control_bbox": [
+      0.0,
+      0.0,
+      242.0,
+      128.0
+    ],
+    "control_overlap_score": 0.6366219008264462,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 2,
+    "annotated_noncritical_objects": 25
+  },
+  {
+    "question_id": "08924895",
+    "image_id": "2365711",
+    "critical_bbox": [
+      180.0,
+      269.0,
+      240.0,
+      367.0
+    ],
+    "control_bbox": [
+      0.0,
+      0.0,
+      60.0,
+      98.0
+    ],
+    "control_overlap_score": 0.3637755102040816,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 1,
+    "annotated_noncritical_objects": 18
+  },
+  {
+    "question_id": "02965895",
+    "image_id": "2384743",
+    "critical_bbox": [
+      304.0,
+      71.0,
+      467.0,
+      243.0
+    ],
+    "control_bbox": [
+      92.675,
+      25.375,
+      255.675,
+      197.375
+    ],
+    "control_overlap_score": 1.048838992723641,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 5,
+    "annotated_noncritical_objects": 15
+  },
+  {
+    "question_id": "03495642",
+    "image_id": "2410346",
+    "critical_bbox": [
+      68.0,
+      70.0,
+      294.0,
+      276.0
+    ],
+    "control_bbox": [
+      0.0,
+      294.0,
+      226.0,
+      500.0
+    ],
+    "control_overlap_score": 1.184551937451671,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 3,
+    "annotated_noncritical_objects": 18
+  },
+  {
+    "question_id": "17888876",
+    "image_id": "2387990",
+    "critical_bbox": [
+      114.0,
+      288.0,
+      407.0,
+      357.0
+    ],
+    "control_bbox": [
+      207.0,
+      30.6,
+      500.0,
+      99.6
+    ],
+    "control_overlap_score": 0.4069842211999802,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 6,
+    "annotated_noncritical_objects": 24
+  },
+  {
+    "question_id": "19425852",
+    "image_id": "2342045",
+    "critical_bbox": [
+      186.0,
+      148.0,
+      341.0,
+      289.0
+    ],
+    "control_bbox": [
+      181.125,
+      0.0,
+      336.125,
+      141.0
+    ],
+    "control_overlap_score": 1.2231583161747883,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 2,
+    "annotated_noncritical_objects": 9
+  },
+  {
+    "question_id": "05199500",
+    "image_id": "2413903",
+    "critical_bbox": [
+      163.0,
+      182.0,
+      499.0,
+      374.0
+    ],
+    "control_bbox": [
+      164.0,
+      0.0,
+      500.0,
+      192.0
+    ],
+    "control_overlap_score": 2.7880859375,
+    "control_valid": true,
+    "critical_control_iou": 0.026656269395419895,
+    "overlapping_noncritical_objects": 13,
+    "annotated_noncritical_objects": 18
+  },
+  {
+    "question_id": "18175256",
+    "image_id": "2382716",
+    "critical_bbox": [
+      263.0,
+      0.0,
+      357.0,
+      147.0
+    ],
+    "control_bbox": [
+      0.0,
+      228.0,
+      94.0,
+      375.0
+    ],
+    "control_overlap_score": 0.0,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 0,
+    "annotated_noncritical_objects": 19
+  },
+  {
+    "question_id": "04104534",
+    "image_id": "2319689",
+    "critical_bbox": [
+      196.0,
+      172.0,
+      290.0,
+      337.0
+    ],
+    "control_bbox": [
+      0.0,
+      32.5,
+      94.0,
+      197.5
+    ],
+    "control_overlap_score": 1.2236621534493874,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 4,
+    "annotated_noncritical_objects": 16
+  },
+  {
+    "question_id": "13764265",
+    "image_id": "2401635",
+    "critical_bbox": [
+      263.0,
+      97.0,
+      314.0,
+      200.0
+    ],
+    "control_bbox": [
+      449.0,
+      0.0,
+      500.0,
+      103.0
+    ],
+    "control_overlap_score": 0.9607843137254902,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 1,
+    "annotated_noncritical_objects": 17
+  },
+  {
+    "question_id": "10302229",
+    "image_id": "2382646",
+    "critical_bbox": [
+      11.0,
+      60.0,
+      155.0,
+      331.0
+    ],
+    "control_bbox": [
+      195.8,
+      0.0,
+      339.8,
+      271.0
+    ],
+    "control_overlap_score": 0.44672509225092255,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 5,
+    "annotated_noncritical_objects": 17
+  },
+  {
+    "question_id": "13637218",
+    "image_id": "2320853",
+    "critical_bbox": [
+      255.0,
+      108.0,
+      360.0,
+      163.0
+    ],
+    "control_bbox": [
+      395.0,
+      320.0,
+      500.0,
+      375.0
+    ],
+    "control_overlap_score": 0.9452813852813853,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 1,
+    "annotated_noncritical_objects": 27
+  },
+  {
+    "question_id": "11985368",
+    "image_id": "2386099",
+    "critical_bbox": [
+      93.0,
+      99.0,
+      204.0,
+      333.0
+    ],
+    "control_bbox": [
+      0.0,
+      0.0,
+      111.0,
+      234.0
+    ],
+    "control_overlap_score": 1.7866327866327867,
+    "control_valid": true,
+    "critical_control_iou": 0.04907306434023991,
+    "overlapping_noncritical_objects": 5,
+    "annotated_noncritical_objects": 25
+  },
+  {
+    "question_id": "061006816",
+    "image_id": "2343256",
+    "critical_bbox": [
+      245.0,
+      85.0,
+      500.0,
+      138.0
+    ],
+    "control_bbox": [
+      0.0,
+      44.7,
+      255.0,
+      97.7
+    ],
+    "control_overlap_score": 1.6555234924158342,
+    "control_valid": true,
+    "critical_control_iou": 0.0047206631230717775,
+    "overlapping_noncritical_objects": 4,
+    "annotated_noncritical_objects": 19
+  },
+  {
+    "question_id": "1297276",
+    "image_id": "2385826",
+    "critical_bbox": [
+      184.0,
+      220.0,
+      307.0,
+      380.0
+    ],
+    "control_bbox": [
+      126.0,
+      0.0,
+      249.0,
+      160.0
+    ],
+    "control_overlap_score": 0.9875,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 1,
+    "annotated_noncritical_objects": 22
+  },
+  {
+    "question_id": "09961673",
+    "image_id": "2381915",
+    "critical_bbox": [
+      129.0,
+      123.0,
+      441.0,
+      280.0
+    ],
+    "control_bbox": null,
+    "control_overlap_score": null,
+    "control_valid": false,
+    "invalid_reason": "Missing scene graph or no same-size in-bounds candidate satisfying IoU <= 0.05"
+  },
+  {
+    "question_id": "13831014",
+    "image_id": "2406789",
+    "critical_bbox": [
+      56.0,
+      89.0,
+      274.0,
+      249.0
+    ],
+    "control_bbox": [
+      282.0,
+      166.0,
+      500.0,
+      326.0
+    ],
+    "control_overlap_score": 1.0479357798165139,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 2,
+    "annotated_noncritical_objects": 7
+  },
+  {
+    "question_id": "09743894",
+    "image_id": "2315900",
+    "critical_bbox": [
+      140.0,
+      329.0,
+      287.0,
+      371.0
+    ],
+    "control_bbox": [
+      0.0,
+      0.0,
+      147.0,
+      42.0
+    ],
+    "control_overlap_score": 0.0,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 0,
+    "annotated_noncritical_objects": 15
+  },
+  {
+    "question_id": "02513848",
+    "image_id": "2406874",
+    "critical_bbox": [
+      136.0,
+      103.0,
+      331.0,
+      311.0
+    ],
+    "control_bbox": [
+      305.0,
+      167.0,
+      500.0,
+      375.0
+    ],
+    "control_overlap_score": 0.12771203155818542,
+    "control_valid": true,
+    "critical_control_iou": 0.04838709677419355,
+    "overlapping_noncritical_objects": 1,
+    "annotated_noncritical_objects": 3
+  },
+  {
+    "question_id": "04468135",
+    "image_id": "1987",
+    "critical_bbox": [
+      0.0,
+      266.0,
+      247.0,
+      586.0
+    ],
+    "control_bbox": [
+      553.0,
+      0.0,
+      800.0,
+      320.0
+    ],
+    "control_overlap_score": 1.527580971659919,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 4,
+    "annotated_noncritical_objects": 12
+  },
+  {
+    "question_id": "1616401",
+    "image_id": "2321508",
+    "critical_bbox": [
+      131.0,
+      212.0,
+      344.0,
+      324.0
+    ],
+    "control_bbox": [
+      0.0,
+      0.0,
+      213.0,
+      112.0
+    ],
+    "control_overlap_score": 0.0,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 0,
+    "annotated_noncritical_objects": 4
+  },
+  {
+    "question_id": "01738786",
+    "image_id": "2334150",
+    "critical_bbox": [
+      21.0,
+      164.0,
+      159.0,
+      333.0
+    ],
+    "control_bbox": [
+      271.5,
+      164.0,
+      409.5,
+      333.0
+    ],
+    "control_overlap_score": 0.14449875653889033,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 2,
+    "annotated_noncritical_objects": 7
+  },
+  {
+    "question_id": "00255101",
+    "image_id": "2410643",
+    "critical_bbox": [
+      193.0,
+      32.0,
+      305.0,
+      119.0
+    ],
+    "control_bbox": [
+      0.0,
+      246.0,
+      112.0,
+      333.0
+    ],
+    "control_overlap_score": 0.9979474548440066,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 2,
+    "annotated_noncritical_objects": 14
+  },
+  {
+    "question_id": "15284589",
+    "image_id": "2367184",
+    "critical_bbox": [
+      202.0,
+      70.0,
+      242.0,
+      140.0
+    ],
+    "control_bbox": [
+      0.0,
+      82.0,
+      40.0,
+      152.0
+    ],
+    "control_overlap_score": 0.5828571428571429,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 2,
+    "annotated_noncritical_objects": 18
+  },
+  {
+    "question_id": "07604306",
+    "image_id": "2373891",
+    "critical_bbox": [
+      166.0,
+      59.0,
+      292.0,
+      396.0
+    ],
+    "control_bbox": [
+      52.5,
+      0.0,
+      178.5,
+      337.0
+    ],
+    "control_overlap_score": 1.2619989637793794,
+    "control_valid": true,
+    "critical_control_iou": 0.042664734987538214,
+    "overlapping_noncritical_objects": 11,
+    "annotated_noncritical_objects": 11
+  },
+  {
+    "question_id": "181061102",
+    "image_id": "2337884",
+    "critical_bbox": [
+      18.0,
+      16.0,
+      187.0,
+      164.0
+    ],
+    "control_bbox": [
+      331.0,
+      32.55,
+      500.0,
+      180.55
+    ],
+    "control_overlap_score": 0.0,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 0,
+    "annotated_noncritical_objects": 5
+  },
+  {
+    "question_id": "17444087",
+    "image_id": "2371945",
+    "critical_bbox": [
+      280.0,
+      86.0,
+      500.0,
+      319.0
+    ],
+    "control_bbox": [
+      0.0,
+      0.0,
+      220.0,
+      233.0
+    ],
+    "control_overlap_score": 1.0417674600078033,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 9,
+    "annotated_noncritical_objects": 18
+  },
+  {
+    "question_id": "15975535",
+    "image_id": "2392397",
+    "critical_bbox": [
+      151.0,
+      186.0,
+      353.0,
+      300.0
+    ],
+    "control_bbox": [
+      0.0,
+      0.0,
+      202.0,
+      114.0
+    ],
+    "control_overlap_score": 1.3701580684384227,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 4,
+    "annotated_noncritical_objects": 22
+  },
+  {
+    "question_id": "03716175",
+    "image_id": "2387346",
+    "critical_bbox": [
+      248.0,
+      112.0,
+      445.0,
+      268.0
+    ],
+    "control_bbox": [
+      0.0,
+      0.0,
+      197.0,
+      156.0
+    ],
+    "control_overlap_score": 1.369517115710009,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 7,
+    "annotated_noncritical_objects": 16
+  },
+  {
+    "question_id": "13483094",
+    "image_id": "2380691",
+    "critical_bbox": [
+      249.0,
+      210.0,
+      331.0,
+      295.0
+    ],
+    "control_bbox": [
+      418.0,
+      0.0,
+      500.0,
+      85.0
+    ],
+    "control_overlap_score": 0.0,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 0,
+    "annotated_noncritical_objects": 9
+  },
+  {
+    "question_id": "09937806",
+    "image_id": "2348458",
+    "critical_bbox": [
+      5.0,
+      1.0,
+      148.0,
+      156.0
+    ],
+    "control_bbox": [
+      240.975,
+      0.0,
+      383.975,
+      155.0
+    ],
+    "control_overlap_score": 0.8036803519061585,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 2,
+    "annotated_noncritical_objects": 7
+  },
+  {
+    "question_id": "111055030",
+    "image_id": "2386495",
+    "critical_bbox": [
+      416.0,
+      47.0,
+      458.0,
+      169.0
+    ],
+    "control_bbox": [
+      354.95,
+      0.0,
+      396.95,
+      122.0
+    ],
+    "control_overlap_score": 1.0081967213114753,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 2,
+    "annotated_noncritical_objects": 35
+  },
+  {
+    "question_id": "06805699",
+    "image_id": "2354794",
+    "critical_bbox": [
+      46.0,
+      91.0,
+      227.0,
+      207.0
+    ],
+    "control_bbox": [
+      303.0,
+      384.0,
+      484.0,
+      500.0
+    ],
+    "control_overlap_score": 1.041626976566965,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 2,
+    "annotated_noncritical_objects": 11
+  },
+  {
+    "question_id": "08237593",
+    "image_id": "2315465",
+    "critical_bbox": [
+      345.0,
+      127.0,
+      408.0,
+      202.0
+    ],
+    "control_bbox": [
+      437.0,
+      268.0,
+      500.0,
+      343.0
+    ],
+    "control_overlap_score": 0.12571428571428572,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 1,
+    "annotated_noncritical_objects": 11
+  },
+  {
+    "question_id": "15586319",
+    "image_id": "2352617",
+    "critical_bbox": [
+      376.0,
+      103.0,
+      480.0,
+      179.0
+    ],
+    "control_bbox": [
+      59.4,
+      0.0,
+      163.4,
+      76.0
+    ],
+    "control_overlap_score": 0.5263157894736842,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 1,
+    "annotated_noncritical_objects": 17
+  },
+  {
+    "question_id": "13541187",
+    "image_id": "2372439",
+    "critical_bbox": [
+      117.0,
+      165.0,
+      256.0,
+      500.0
+    ],
+    "control_bbox": [
+      236.0,
+      0.0,
+      375.0,
+      335.0
+    ],
+    "control_overlap_score": 1.5145280790293139,
+    "control_valid": true,
+    "critical_control_iou": 0.03789145213418032,
+    "overlapping_noncritical_objects": 8,
+    "annotated_noncritical_objects": 21
+  },
+  {
+    "question_id": "01275423",
+    "image_id": "3716",
+    "critical_bbox": [
+      189.0,
+      97.0,
+      345.0,
+      474.0
+    ],
+    "control_bbox": [
+      644.0,
+      157.0,
+      800.0,
+      534.0
+    ],
+    "control_overlap_score": 1.3689723185744407,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 3,
+    "annotated_noncritical_objects": 19
+  },
+  {
+    "question_id": "19443493",
+    "image_id": "2378689",
+    "critical_bbox": [
+      0.0,
+      94.0,
+      101.0,
+      256.0
+    ],
+    "control_bbox": [
+      169.575,
+      0.0,
+      270.575,
+      162.0
+    ],
+    "control_overlap_score": 0.13519129690746853,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 3,
+    "annotated_noncritical_objects": 17
+  },
+  {
+    "question_id": "18252583",
+    "image_id": "2406434",
+    "critical_bbox": [
+      205.0,
+      114.0,
+      292.0,
+      173.0
+    ],
+    "control_bbox": [
+      413.0,
+      231.0,
+      500.0,
+      290.0
+    ],
+    "control_overlap_score": 0.0,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 0,
+    "annotated_noncritical_objects": 16
+  },
+  {
+    "question_id": "1116252",
+    "image_id": "2407974",
+    "critical_bbox": [
+      290.0,
+      12.0,
+      465.0,
+      196.0
+    ],
+    "control_bbox": [
+      0.0,
+      76.0,
+      175.0,
+      260.0
+    ],
+    "control_overlap_score": 0.5485714285714286,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 1,
+    "annotated_noncritical_objects": 12
+  },
+  {
+    "question_id": "13945801",
+    "image_id": "2408291",
+    "critical_bbox": [
+      181.0,
+      205.0,
+      266.0,
+      264.0
+    ],
+    "control_bbox": [
+      415.0,
+      0.0,
+      500.0,
+      59.0
+    ],
+    "control_overlap_score": 0.0,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 0,
+    "annotated_noncritical_objects": 3
+  },
+  {
+    "question_id": "13356863",
+    "image_id": "2373271",
+    "critical_bbox": [
+      49.0,
+      50.0,
+      192.0,
+      293.0
+    ],
+    "control_bbox": [
+      232.0,
+      0.0,
+      375.0,
+      243.0
+    ],
+    "control_overlap_score": 1.9517108405997294,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 6,
+    "annotated_noncritical_objects": 15
+  },
+  {
+    "question_id": "17468425",
+    "image_id": "2346705",
+    "critical_bbox": [
+      218.0,
+      97.0,
+      334.0,
+      208.0
+    ],
+    "control_bbox": [
+      187.775,
+      0.0,
+      303.775,
+      111.0
+    ],
+    "control_overlap_score": 1.1176335818577199,
+    "control_valid": true,
+    "critical_control_iou": 0.04891216908372926,
+    "overlapping_noncritical_objects": 4,
+    "annotated_noncritical_objects": 15
+  },
+  {
+    "question_id": "12476717",
+    "image_id": "4094",
+    "critical_bbox": [
+      275.0,
+      126.0,
+      373.0,
+      249.0
+    ],
+    "control_bbox": [
+      542.0,
+      89.25,
+      640.0,
+      212.25
+    ],
+    "control_overlap_score": 0.0,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 0,
+    "annotated_noncritical_objects": 10
+  },
+  {
+    "question_id": "17134462",
+    "image_id": "2404079",
+    "critical_bbox": [
+      232.0,
+      131.0,
+      361.0,
+      268.0
+    ],
+    "control_bbox": [
+      371.0,
+      190.0,
+      500.0,
+      327.0
+    ],
+    "control_overlap_score": 1.8056357154982177,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 4,
+    "annotated_noncritical_objects": 14
+  },
+  {
+    "question_id": "07732990",
+    "image_id": "2329133",
+    "critical_bbox": [
+      171.0,
+      121.0,
+      323.0,
+      256.0
+    ],
+    "control_bbox": [
+      0.0,
+      355.875,
+      152.0,
+      490.875
+    ],
+    "control_overlap_score": 0.03544103313840156,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 3,
+    "annotated_noncritical_objects": 14
+  },
+  {
+    "question_id": "14144547",
+    "image_id": "2324283",
+    "critical_bbox": [
+      0.0,
+      1.0,
+      110.0,
+      197.0
+    ],
+    "control_bbox": [
+      390.0,
+      0.0,
+      500.0,
+      196.0
+    ],
+    "control_overlap_score": 0.27300556586270874,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 1,
+    "annotated_noncritical_objects": 3
+  },
+  {
+    "question_id": "17877969",
+    "image_id": "2326665",
+    "critical_bbox": [
+      203.0,
+      1.0,
+      344.0,
+      120.0
+    ],
+    "control_bbox": [
+      359.0,
+      0.0,
+      500.0,
+      119.0
+    ],
+    "control_overlap_score": 1.9215686274509804,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 5,
+    "annotated_noncritical_objects": 20
+  },
+  {
+    "question_id": "14696378",
+    "image_id": "2401700",
+    "critical_bbox": [
+      232.0,
+      121.0,
+      399.0,
+      164.0
+    ],
+    "control_bbox": [
+      333.0,
+      0.0,
+      500.0,
+      43.0
+    ],
+    "control_overlap_score": 0.27906976744186046,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 1,
+    "annotated_noncritical_objects": 18
+  },
+  {
+    "question_id": "04819551",
+    "image_id": "4912",
+    "critical_bbox": [
+      191.0,
+      256.0,
+      269.0,
+      378.0
+    ],
+    "control_bbox": [
+      562.0,
+      71.6,
+      640.0,
+      193.6
+    ],
+    "control_overlap_score": 0.0,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 0,
+    "annotated_noncritical_objects": 12
+  },
+  {
+    "question_id": "01998367",
+    "image_id": "2408244",
+    "critical_bbox": [
+      144.0,
+      122.0,
+      239.0,
+      233.0
+    ],
+    "control_bbox": [
+      280.0,
+      145.875,
+      375.0,
+      256.875
+    ],
+    "control_overlap_score": 0.8102062588904694,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 2,
+    "annotated_noncritical_objects": 14
+  },
+  {
+    "question_id": "15700256",
+    "image_id": "2387817",
+    "critical_bbox": [
+      186.0,
+      37.0,
+      308.0,
+      153.0
+    ],
+    "control_bbox": [
+      378.0,
+      113.925,
+      500.0,
+      229.925
+    ],
+    "control_overlap_score": 0.0,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 0,
+    "annotated_noncritical_objects": 16
+  },
+  {
+    "question_id": "19648772",
+    "image_id": "2415698",
+    "critical_bbox": [
+      159.0,
+      51.0,
+      243.0,
+      143.0
+    ],
+    "control_bbox": [
+      249.0,
+      408.0,
+      333.0,
+      500.0
+    ],
+    "control_overlap_score": 1.3625776397515528,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 2,
+    "annotated_noncritical_objects": 9
+  },
+  {
+    "question_id": "19803395",
+    "image_id": "2330010",
+    "critical_bbox": [
+      27.0,
+      24.0,
+      107.0,
+      102.0
+    ],
+    "control_bbox": [
+      105.0,
+      0.0,
+      185.0,
+      78.0
+    ],
+    "control_overlap_score": 0.011217948717948718,
+    "control_valid": true,
+    "critical_control_iou": 0.008729388942774006,
+    "overlapping_noncritical_objects": 1,
+    "annotated_noncritical_objects": 17
+  },
+  {
+    "question_id": "132554",
+    "image_id": "2324466",
+    "critical_bbox": [
+      239.0,
+      114.0,
+      304.0,
+      179.0
+    ],
+    "control_bbox": [
+      54.375,
+      0.0,
+      119.375,
+      65.0
+    ],
+    "control_overlap_score": 1.0,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 1,
+    "annotated_noncritical_objects": 24
+  },
+  {
+    "question_id": "0677905",
+    "image_id": "2407766",
+    "critical_bbox": [
+      108.0,
+      149.0,
+      180.0,
+      206.0
+    ],
+    "control_bbox": [
+      303.0,
+      22.15,
+      375.0,
+      79.15
+    ],
+    "control_overlap_score": 1.4722222222222225,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 2,
+    "annotated_noncritical_objects": 7
+  },
+  {
+    "question_id": "09282266",
+    "image_id": "2393663",
+    "critical_bbox": [
+      40.0,
+      274.0,
+      196.0,
+      384.0
+    ],
+    "control_bbox": [
+      170.0,
+      0.0,
+      326.0,
+      110.0
+    ],
+    "control_overlap_score": 1.2045454545454546,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 3,
+    "annotated_noncritical_objects": 10
+  },
+  {
+    "question_id": "06600330",
+    "image_id": "2387492",
+    "critical_bbox": [
+      67.0,
+      85.0,
+      356.0,
+      222.0
+    ],
+    "control_bbox": null,
+    "control_overlap_score": null,
+    "control_valid": false,
+    "invalid_reason": "Missing scene graph or no same-size in-bounds candidate satisfying IoU <= 0.05"
+  },
+  {
+    "question_id": "1188149",
+    "image_id": "2409685",
+    "critical_bbox": [
+      212.0,
+      48.0,
+      274.0,
+      106.0
+    ],
+    "control_bbox": [
+      0.0,
+      275.0,
+      62.0,
+      333.0
+    ],
+    "control_overlap_score": 0.0,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 0,
+    "annotated_noncritical_objects": 14
+  },
+  {
+    "question_id": "10204459",
+    "image_id": "2380934",
+    "critical_bbox": [
+      183.0,
+      152.0,
+      315.0,
+      253.0
+    ],
+    "control_bbox": [
+      0.0,
+      0.0,
+      132.0,
+      101.0
+    ],
+    "control_overlap_score": 0.46767176717671766,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 3,
+    "annotated_noncritical_objects": 14
+  },
+  {
+    "question_id": "11392858",
+    "image_id": "2377598",
+    "critical_bbox": [
+      188.0,
+      179.0,
+      274.0,
+      333.0
+    ],
+    "control_bbox": [
+      0.0,
+      0.0,
+      86.0,
+      154.0
+    ],
+    "control_overlap_score": 0.8733766233766234,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 2,
+    "annotated_noncritical_objects": 24
+  },
+  {
+    "question_id": "13420243",
+    "image_id": "2335072",
+    "critical_bbox": [
+      10.0,
+      286.0,
+      131.0,
+      494.0
+    ],
+    "control_bbox": [
+      255.0,
+      21.9,
+      376.0,
+      229.9
+    ],
+    "control_overlap_score": 1.0096431977113796,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 7,
+    "annotated_noncritical_objects": 28
+  },
+  {
+    "question_id": "16184856",
+    "image_id": "2356100",
+    "critical_bbox": [
+      314.0,
+      197.0,
+      475.0,
+      319.0
+    ],
+    "control_bbox": [
+      339.0,
+      84.4,
+      500.0,
+      206.4
+    ],
+    "control_overlap_score": 1.3127074635984115,
+    "control_valid": true,
+    "critical_control_iou": 0.03363714820973753,
+    "overlapping_noncritical_objects": 11,
+    "annotated_noncritical_objects": 28
+  },
+  {
+    "question_id": "02251016",
+    "image_id": "2335043",
+    "critical_bbox": [
+      118.0,
+      223.0,
+      193.0,
+      288.0
+    ],
+    "control_bbox": [
+      425.0,
+      0.0,
+      500.0,
+      65.0
+    ],
+    "control_overlap_score": 0.9866666666666667,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 1,
+    "annotated_noncritical_objects": 17
+  },
+  {
+    "question_id": "081030138",
+    "image_id": "2382268",
+    "critical_bbox": [
+      132.0,
+      130.0,
+      304.0,
+      335.0
+    ],
+    "control_bbox": [
+      0.0,
+      0.0,
+      172.0,
+      205.0
+    ],
+    "control_overlap_score": 0.19171866137266025,
+    "control_valid": true,
+    "critical_control_iou": 0.04443127962085308,
+    "overlapping_noncritical_objects": 1,
+    "annotated_noncritical_objects": 7
+  },
+  {
+    "question_id": "14451054",
+    "image_id": "2402483",
+    "critical_bbox": [
+      373.0,
+      247.0,
+      428.0,
+      341.0
+    ],
+    "control_bbox": [
+      200.25,
+      281.0,
+      255.25,
+      375.0
+    ],
+    "control_overlap_score": 0.0,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 0,
+    "annotated_noncritical_objects": 12
+  },
+  {
+    "question_id": "04132070",
+    "image_id": "2326282",
+    "critical_bbox": [
+      161.0,
+      125.0,
+      271.0,
+      180.0
+    ],
+    "control_bbox": [
+      390.0,
+      0.0,
+      500.0,
+      55.0
+    ],
+    "control_overlap_score": 0.9727272727272728,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 1,
+    "annotated_noncritical_objects": 17
+  },
+  {
+    "question_id": "1827566",
+    "image_id": "2321180",
+    "critical_bbox": [
+      451.0,
+      165.0,
+      500.0,
+      245.0
+    ],
+    "control_bbox": [
+      157.85,
+      294.0,
+      206.85,
+      374.0
+    ],
+    "control_overlap_score": 0.0,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 0,
+    "annotated_noncritical_objects": 26
+  },
+  {
+    "question_id": "06121366",
+    "image_id": "2388285",
+    "critical_bbox": [
+      257.0,
+      124.0,
+      358.0,
+      232.0
+    ],
+    "control_bbox": [
+      399.0,
+      0.0,
+      500.0,
+      108.0
+    ],
+    "control_overlap_score": 0.0,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 0,
+    "annotated_noncritical_objects": 10
+  },
+  {
+    "question_id": "00729416",
+    "image_id": "2391042",
+    "critical_bbox": [
+      0.0,
+      0.0,
+      230.0,
+      62.0
+    ],
+    "control_bbox": [
+      270.0,
+      88.075,
+      500.0,
+      150.075
+    ],
+    "control_overlap_score": 0.2845196353436184,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 4,
+    "annotated_noncritical_objects": 18
+  },
+  {
+    "question_id": "19417601",
+    "image_id": "2390215",
+    "critical_bbox": [
+      195.0,
+      56.0,
+      326.0,
+      146.0
+    ],
+    "control_bbox": [
+      0.0,
+      410.0,
+      131.0,
+      500.0
+    ],
+    "control_overlap_score": 0.2203562340966921,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 3,
+    "annotated_noncritical_objects": 15
+  },
+  {
+    "question_id": "16161462",
+    "image_id": "2376280",
+    "critical_bbox": [
+      33.0,
+      0.0,
+      233.0,
+      146.0
+    ],
+    "control_bbox": [
+      0.0,
+      181.0,
+      200.0,
+      327.0
+    ],
+    "control_overlap_score": 1.7986643835616438,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 6,
+    "annotated_noncritical_objects": 15
+  },
+  {
+    "question_id": "08529419",
+    "image_id": "2348614",
+    "critical_bbox": [
+      101.0,
+      126.0,
+      258.0,
+      162.0
+    ],
+    "control_bbox": [
+      0.0,
+      464.0,
+      157.0,
+      500.0
+    ],
+    "control_overlap_score": 0.0,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 0,
+    "annotated_noncritical_objects": 22
+  },
+  {
+    "question_id": "00416722",
+    "image_id": "2399079",
+    "critical_bbox": [
+      215.0,
+      108.0,
+      377.0,
+      313.0
+    ],
+    "control_bbox": [
+      0.0,
+      203.0,
+      162.0,
+      408.0
+    ],
+    "control_overlap_score": 0.6643781993375489,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 3,
+    "annotated_noncritical_objects": 14
+  },
+  {
+    "question_id": "08249762",
+    "image_id": "2386080",
+    "critical_bbox": [
+      97.0,
+      10.0,
+      234.0,
+      58.0
+    ],
+    "control_bbox": [
+      145.2,
+      128.7,
+      282.2,
+      176.7
+    ],
+    "control_overlap_score": 0.0,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 0,
+    "annotated_noncritical_objects": 22
+  },
+  {
+    "question_id": "05179205",
+    "image_id": "2388018",
+    "critical_bbox": [
+      310.0,
+      203.0,
+      361.0,
+      374.0
+    ],
+    "control_bbox": [
+      0.0,
+      0.0,
+      51.0,
+      171.0
+    ],
+    "control_overlap_score": 0.0,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 0,
+    "annotated_noncritical_objects": 10
+  },
+  {
+    "question_id": "187362",
+    "image_id": "2374944",
+    "critical_bbox": [
+      88.0,
+      113.0,
+      232.0,
+      342.0
+    ],
+    "control_bbox": [
+      222.5,
+      171.0,
+      366.5,
+      400.0
+    ],
+    "control_overlap_score": 0.9432162785055798,
+    "control_valid": true,
+    "critical_control_iou": 0.025253585169639735,
+    "overlapping_noncritical_objects": 8,
+    "annotated_noncritical_objects": 24
+  },
+  {
+    "question_id": "13421344",
+    "image_id": "2324093",
+    "critical_bbox": [
+      128.0,
+      275.0,
+      207.0,
+      332.0
+    ],
+    "control_bbox": [
+      421.0,
+      0.0,
+      500.0,
+      57.0
+    ],
+    "control_overlap_score": 0.3924050632911392,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 2,
+    "annotated_noncritical_objects": 19
+  },
+  {
+    "question_id": "06774702",
+    "image_id": "2349504",
+    "critical_bbox": [
+      199.0,
+      328.0,
+      324.0,
+      374.0
+    ],
+    "control_bbox": [
+      0.0,
+      0.0,
+      125.0,
+      46.0
+    ],
+    "control_overlap_score": 0.3615652173913043,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 2,
+    "annotated_noncritical_objects": 11
+  },
+  {
+    "question_id": "11430770",
+    "image_id": "2143",
+    "critical_bbox": [
+      0.0,
+      378.0,
+      463.0,
+      582.0
+    ],
+    "control_bbox": [
+      0.0,
+      99.0,
+      463.0,
+      303.0
+    ],
+    "control_overlap_score": 0.7934294668191251,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 6,
+    "annotated_noncritical_objects": 20
+  },
+  {
+    "question_id": "19273561",
+    "image_id": "2410351",
+    "critical_bbox": [
+      257.0,
+      346.0,
+      345.0,
+      383.0
+    ],
+    "control_bbox": [
+      412.0,
+      0.0,
+      500.0,
+      37.0
+    ],
+    "control_overlap_score": 0.0,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 0,
+    "annotated_noncritical_objects": 14
+  },
+  {
+    "question_id": "01582909",
+    "image_id": "2378055",
+    "critical_bbox": [
+      108.0,
+      145.0,
+      209.0,
+      438.0
+    ],
+    "control_bbox": [
+      203.0,
+      207.0,
+      304.0,
+      500.0
+    ],
+    "control_overlap_score": 0.9148447267934985,
+    "control_valid": true,
+    "critical_control_iou": 0.02397923875432526,
+    "overlapping_noncritical_objects": 6,
+    "annotated_noncritical_objects": 22
+  },
+  {
+    "question_id": "16747825",
+    "image_id": "2350808",
+    "critical_bbox": [
+      170.0,
+      91.0,
+      298.0,
+      296.0
+    ],
+    "control_bbox": [
+      372.0,
+      0.0,
+      500.0,
+      205.0
+    ],
+    "control_overlap_score": 0.7778963414634147,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 1,
+    "annotated_noncritical_objects": 9
+  },
+  {
+    "question_id": "04969151",
+    "image_id": "2371677",
+    "critical_bbox": [
+      120.0,
+      174.0,
+      315.0,
+      357.0
+    ],
+    "control_bbox": [
+      305.0,
+      0.0,
+      500.0,
+      183.0
+    ],
+    "control_overlap_score": 1.059885105786745,
+    "control_valid": true,
+    "critical_control_iou": 0.0012626262626262627,
+    "overlapping_noncritical_objects": 4,
+    "annotated_noncritical_objects": 21
+  },
+  {
+    "question_id": "05454766",
+    "image_id": "2354146",
+    "critical_bbox": [
+      79.0,
+      126.0,
+      177.0,
+      409.0
+    ],
+    "control_bbox": [
+      235.0,
+      0.0,
+      333.0,
+      283.0
+    ],
+    "control_overlap_score": 0.9795918367346939,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 1,
+    "annotated_noncritical_objects": 16
+  },
+  {
+    "question_id": "01297407",
+    "image_id": "2363316",
+    "critical_bbox": [
+      120.0,
+      102.0,
+      404.0,
+      409.0
+    ],
+    "control_bbox": null,
+    "control_overlap_score": null,
+    "control_valid": false,
+    "invalid_reason": "Missing scene graph or no same-size in-bounds candidate satisfying IoU <= 0.05"
+  },
+  {
+    "question_id": "00866375",
+    "image_id": "2360132",
+    "critical_bbox": [
+      291.0,
+      129.0,
+      499.0,
+      281.0
+    ],
+    "control_bbox": [
+      0.0,
+      0.0,
+      208.0,
+      152.0
+    ],
+    "control_overlap_score": 1.1049152327935223,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 3,
+    "annotated_noncritical_objects": 10
+  },
+  {
+    "question_id": "14223248",
+    "image_id": "2395951",
+    "critical_bbox": [
+      0.0,
+      180.0,
+      258.0,
+      332.0
+    ],
+    "control_bbox": [
+      242.0,
+      181.0,
+      500.0,
+      333.0
+    ],
+    "control_overlap_score": 2.2154987760097917,
+    "control_valid": true,
+    "critical_control_iou": 0.031782782572090086,
+    "overlapping_noncritical_objects": 4,
+    "annotated_noncritical_objects": 7
+  },
+  {
+    "question_id": "00324617",
+    "image_id": "2378916",
+    "critical_bbox": [
+      131.0,
+      219.0,
+      297.0,
+      358.0
+    ],
+    "control_bbox": [
+      334.0,
+      236.0,
+      500.0,
+      375.0
+    ],
+    "control_overlap_score": 0.3237410071942446,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 1,
+    "annotated_noncritical_objects": 3
+  },
+  {
+    "question_id": "18546994",
+    "image_id": "2366467",
+    "critical_bbox": [
+      370.0,
+      19.0,
+      500.0,
+      136.0
+    ],
+    "control_bbox": [
+      0.0,
+      0.0,
+      130.0,
+      117.0
+    ],
+    "control_overlap_score": 2.4932281393819857,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 4,
+    "annotated_noncritical_objects": 31
+  },
+  {
+    "question_id": "02625059",
+    "image_id": "2411437",
+    "critical_bbox": [
+      209.0,
+      255.0,
+      340.0,
+      327.0
+    ],
+    "control_bbox": [
+      243.0,
+      181.9,
+      374.0,
+      253.9
+    ],
+    "control_overlap_score": 0.2570186598812553,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 4,
+    "annotated_noncritical_objects": 17
+  },
+  {
+    "question_id": "14803789",
+    "image_id": "2318376",
+    "critical_bbox": [
+      285.0,
+      257.0,
+      500.0,
+      346.0
+    ],
+    "control_bbox": [
+      263.625,
+      0.0,
+      478.625,
+      89.0
+    ],
+    "control_overlap_score": 0.9887640449438202,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 1,
+    "annotated_noncritical_objects": 20
+  },
+  {
+    "question_id": "09161863",
+    "image_id": "2416885",
+    "critical_bbox": [
+      228.0,
+      137.0,
+      381.0,
+      223.0
+    ],
+    "control_bbox": [
+      347.0,
+      0.0,
+      500.0,
+      86.0
+    ],
+    "control_overlap_score": 1.4131326949384406,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 2,
+    "annotated_noncritical_objects": 9
+  },
+  {
+    "question_id": "18503824",
+    "image_id": "498069",
+    "critical_bbox": [
+      369.0,
+      369.0,
+      462.0,
+      522.0
+    ],
+    "control_bbox": [
+      931.0,
+      0.0,
+      1024.0,
+      153.0
+    ],
+    "control_overlap_score": 0.0,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 0,
+    "annotated_noncritical_objects": 32
+  },
+  {
+    "question_id": "00935826",
+    "image_id": "2362947",
+    "critical_bbox": [
+      53.0,
+      227.0,
+      177.0,
+      332.0
+    ],
+    "control_bbox": [
+      0.0,
+      0.0,
+      124.0,
+      105.0
+    ],
+    "control_overlap_score": 0.9695084485407066,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 2,
+    "annotated_noncritical_objects": 10
+  },
+  {
+    "question_id": "06519869",
+    "image_id": "2406004",
+    "critical_bbox": [
+      232.0,
+      237.0,
+      342.0,
+      500.0
+    ],
+    "control_bbox": [
+      265.0,
+      0.0,
+      375.0,
+      263.0
+    ],
+    "control_overlap_score": 0.0,
+    "control_valid": true,
+    "critical_control_iou": 0.03584088223710122,
+    "overlapping_noncritical_objects": 0,
+    "annotated_noncritical_objects": 5
+  },
+  {
+    "question_id": "01945269",
+    "image_id": "2375580",
+    "critical_bbox": [
+      278.0,
+      180.0,
+      344.0,
+      213.0
+    ],
+    "control_bbox": [
+      65.1,
+      0.0,
+      131.1,
+      33.0
+    ],
+    "control_overlap_score": 0.0,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 0,
+    "annotated_noncritical_objects": 21
+  },
+  {
+    "question_id": "15813958",
+    "image_id": "2353354",
+    "critical_bbox": [
+      134.0,
+      198.0,
+      240.0,
+      321.0
+    ],
+    "control_bbox": [
+      53.6,
+      0.0,
+      159.6,
+      123.0
+    ],
+    "control_overlap_score": 1.176806258628624,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 4,
+    "annotated_noncritical_objects": 19
+  },
+  {
+    "question_id": "09226921",
+    "image_id": "713157",
+    "critical_bbox": [
+      148.0,
+      146.0,
+      433.0,
+      654.0
+    ],
+    "control_bbox": [
+      406.45,
+      0.0,
+      691.45,
+      508.0
+    ],
+    "control_overlap_score": 0.2941607956900125,
+    "control_valid": true,
+    "critical_control_iou": 0.03433162266399326,
+    "overlapping_noncritical_objects": 3,
+    "annotated_noncritical_objects": 4
+  },
+  {
+    "question_id": "011021063",
+    "image_id": "2327592",
+    "critical_bbox": [
+      157.0,
+      172.0,
+      261.0,
+      310.0
+    ],
+    "control_bbox": [
+      396.0,
+      195.0,
+      500.0,
+      333.0
+    ],
+    "control_overlap_score": 0.38614827201783725,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 3,
+    "annotated_noncritical_objects": 29
+  },
+  {
+    "question_id": "03625313",
+    "image_id": "1054",
+    "critical_bbox": [
+      28.0,
+      189.0,
+      230.0,
+      255.0
+    ],
+    "control_bbox": [
+      160.0,
+      0.0,
+      362.0,
+      66.0
+    ],
+    "control_overlap_score": 0.0,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 0,
+    "annotated_noncritical_objects": 11
+  },
+  {
+    "question_id": "17397322",
+    "image_id": "2343353",
+    "critical_bbox": [
+      238.0,
+      344.0,
+      372.0,
+      473.0
+    ],
+    "control_bbox": [
+      0.0,
+      166.95,
+      134.0,
+      295.95
+    ],
+    "control_overlap_score": 1.879442901770219,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 3,
+    "annotated_noncritical_objects": 16
+  },
+  {
+    "question_id": "15569549",
+    "image_id": "2369303",
+    "critical_bbox": [
+      344.0,
+      91.0,
+      392.0,
+      160.0
+    ],
+    "control_bbox": [
+      67.8,
+      0.0,
+      115.8,
+      69.0
+    ],
+    "control_overlap_score": 0.0,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 0,
+    "annotated_noncritical_objects": 18
+  },
+  {
+    "question_id": "08816090",
+    "image_id": "2375806",
+    "critical_bbox": [
+      201.0,
+      68.0,
+      366.0,
+      209.0
+    ],
+    "control_bbox": [
+      63.0,
+      0.0,
+      228.0,
+      141.0
+    ],
+    "control_overlap_score": 1.4977433913604126,
+    "control_valid": true,
+    "critical_control_iou": 0.04423348818420521,
+    "overlapping_noncritical_objects": 3,
+    "annotated_noncritical_objects": 23
+  },
+  {
+    "question_id": "01179301",
+    "image_id": "2401028",
+    "critical_bbox": [
+      80.0,
+      0.0,
+      184.0,
+      120.0
+    ],
+    "control_bbox": [
+      396.0,
+      0.0,
+      500.0,
+      120.0
+    ],
+    "control_overlap_score": 0.13533653846153845,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 2,
+    "annotated_noncritical_objects": 17
+  },
+  {
+    "question_id": "02639683",
+    "image_id": "2358464",
+    "critical_bbox": [
+      45.0,
+      59.0,
+      186.0,
+      123.0
+    ],
+    "control_bbox": [
+      234.0,
+      207.1,
+      375.0,
+      271.1
+    ],
+    "control_overlap_score": 1.0000000000000004,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 1,
+    "annotated_noncritical_objects": 28
+  },
+  {
+    "question_id": "01671289",
+    "image_id": "1159457",
+    "critical_bbox": [
+      0.0,
+      225.0,
+      381.0,
+      687.0
+    ],
+    "control_bbox": [
+      643.0,
+      0.0,
+      1024.0,
+      462.0
+    ],
+    "control_overlap_score": 1.7181829544034268,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 6,
+    "annotated_noncritical_objects": 10
+  },
+  {
+    "question_id": "10222743",
+    "image_id": "2395223",
+    "critical_bbox": [
+      0.0,
+      22.0,
+      55.0,
+      94.0
+    ],
+    "control_bbox": [
+      445.0,
+      261.0,
+      500.0,
+      333.0
+    ],
+    "control_overlap_score": 0.9454545454545454,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 1,
+    "annotated_noncritical_objects": 16
+  },
+  {
+    "question_id": "14354734",
+    "image_id": "2391318",
+    "critical_bbox": [
+      154.0,
+      127.0,
+      216.0,
+      323.0
+    ],
+    "control_bbox": [
+      438.0,
+      0.0,
+      500.0,
+      196.0
+    ],
+    "control_overlap_score": 0.0,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 0,
+    "annotated_noncritical_objects": 13
+  },
+  {
+    "question_id": "04274699",
+    "image_id": "2367475",
+    "critical_bbox": [
+      44.0,
+      105.0,
+      193.0,
+      387.0
+    ],
+    "control_bbox": [
+      184.0,
+      218.0,
+      333.0,
+      500.0
+    ],
+    "control_overlap_score": 2.316364415250607,
+    "control_valid": true,
+    "critical_control_iou": 0.01843301217960371,
+    "overlapping_noncritical_objects": 6,
+    "annotated_noncritical_objects": 22
+  },
+  {
+    "question_id": "14270377",
+    "image_id": "2366508",
+    "critical_bbox": [
+      210.0,
+      218.0,
+      499.0,
+      374.0
+    ],
+    "control_bbox": [
+      211.0,
+      0.0,
+      500.0,
+      156.0
+    ],
+    "control_overlap_score": 1.7908570668086239,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 6,
+    "annotated_noncritical_objects": 34
+  },
+  {
+    "question_id": "15283508",
+    "image_id": "2367181",
+    "critical_bbox": [
+      78.0,
+      74.0,
+      279.0,
+      287.0
+    ],
+    "control_bbox": [
+      299.0,
+      75.0,
+      500.0,
+      288.0
+    ],
+    "control_overlap_score": 0.8586177095741947,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 8,
+    "annotated_noncritical_objects": 14
+  },
+  {
+    "question_id": "01873723",
+    "image_id": "2409967",
+    "critical_bbox": [
+      206.0,
+      286.0,
+      500.0,
+      375.0
+    ],
+    "control_bbox": [
+      103.0,
+      0.0,
+      397.0,
+      89.0
+    ],
+    "control_overlap_score": 0.8086830237713062,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 5,
+    "annotated_noncritical_objects": 19
+  },
+  {
+    "question_id": "17726086",
+    "image_id": "2349040",
+    "critical_bbox": [
+      142.0,
+      29.0,
+      329.0,
+      143.0
+    ],
+    "control_bbox": [
+      313.0,
+      219.0,
+      500.0,
+      333.0
+    ],
+    "control_overlap_score": 1.2228163992869874,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 4,
+    "annotated_noncritical_objects": 18
+  },
+  {
+    "question_id": "10558851",
+    "image_id": "2391457",
+    "critical_bbox": [
+      142.0,
+      376.0,
+      238.0,
+      447.0
+    ],
+    "control_bbox": [
+      0.0,
+      107.25,
+      96.0,
+      178.25
+    ],
+    "control_overlap_score": 0.9841549295774648,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 2,
+    "annotated_noncritical_objects": 16
+  },
+  {
+    "question_id": "0912046",
+    "image_id": "2406404",
+    "critical_bbox": [
+      323.0,
+      111.0,
+      487.0,
+      252.0
+    ],
+    "control_bbox": [
+      176.4,
+      96.5,
+      340.4,
+      237.5
+    ],
+    "control_overlap_score": 0.5589863345441964,
+    "control_valid": true,
+    "critical_control_iou": 0.04997173467372271,
+    "overlapping_noncritical_objects": 3,
+    "annotated_noncritical_objects": 6
+  },
+  {
+    "question_id": "12953597",
+    "image_id": "285868",
+    "critical_bbox": [
+      101.0,
+      313.0,
+      643.0,
+      935.0
+    ],
+    "control_bbox": [
+      738.0,
+      0.0,
+      1280.0,
+      622.0
+    ],
+    "control_overlap_score": 0.34534473962102963,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 1,
+    "annotated_noncritical_objects": 1
+  },
+  {
+    "question_id": "021054250",
+    "image_id": "2332297",
+    "critical_bbox": [
+      204.0,
+      124.0,
+      307.0,
+      278.0
+    ],
+    "control_bbox": [
+      0.0,
+      0.0,
+      103.0,
+      154.0
+    ],
+    "control_overlap_score": 1.0,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 1,
+    "annotated_noncritical_objects": 14
+  },
+  {
+    "question_id": "12140355",
+    "image_id": "2359333",
+    "critical_bbox": [
+      291.0,
+      21.0,
+      464.0,
+      200.0
+    ],
+    "control_bbox": [
+      327.0,
+      196.0,
+      500.0,
+      375.0
+    ],
+    "control_overlap_score": 1.7198630800529595,
+    "control_valid": true,
+    "critical_control_iou": 0.008927116932199525,
+    "overlapping_noncritical_objects": 8,
+    "annotated_noncritical_objects": 14
+  },
+  {
+    "question_id": "06183018",
+    "image_id": "2395834",
+    "critical_bbox": [
+      213.0,
+      112.0,
+      471.0,
+      189.0
+    ],
+    "control_bbox": [
+      0.0,
+      0.0,
+      258.0,
+      77.0
+    ],
+    "control_overlap_score": 0.3269908386187456,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 9,
+    "annotated_noncritical_objects": 32
+  },
+  {
+    "question_id": "09302219",
+    "image_id": "2371685",
+    "critical_bbox": [
+      122.0,
+      272.0,
+      201.0,
+      320.0
+    ],
+    "control_bbox": [
+      421.0,
+      0.0,
+      500.0,
+      48.0
+    ],
+    "control_overlap_score": 0.0,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 0,
+    "annotated_noncritical_objects": 25
+  },
+  {
+    "question_id": "08471223",
+    "image_id": "2386203",
+    "critical_bbox": [
+      152.0,
+      257.0,
+      300.0,
+      321.0
+    ],
+    "control_bbox": [
+      0.0,
+      0.0,
+      148.0,
+      64.0
+    ],
+    "control_overlap_score": 0.9273648648648649,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 1,
+    "annotated_noncritical_objects": 14
+  },
+  {
+    "question_id": "01178812",
+    "image_id": "2386472",
+    "critical_bbox": [
+      62.0,
+      234.0,
+      342.0,
+      347.0
+    ],
+    "control_bbox": [
+      0.0,
+      26.2,
+      280.0,
+      139.2
+    ],
+    "control_overlap_score": 0.33320480404551195,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 5,
+    "annotated_noncritical_objects": 23
+  },
+  {
+    "question_id": "18874420",
+    "image_id": "2403581",
+    "critical_bbox": [
+      114.0,
+      112.0,
+      339.0,
+      321.0
+    ],
+    "control_bbox": null,
+    "control_overlap_score": null,
+    "control_valid": false,
+    "invalid_reason": "Missing scene graph or no same-size in-bounds candidate satisfying IoU <= 0.05"
+  },
+  {
+    "question_id": "19351376",
+    "image_id": "2383947",
+    "critical_bbox": [
+      110.0,
+      114.0,
+      390.0,
+      298.0
+    ],
+    "control_bbox": null,
+    "control_overlap_score": null,
+    "control_valid": false,
+    "invalid_reason": "Missing scene graph or no same-size in-bounds candidate satisfying IoU <= 0.05"
+  },
+  {
+    "question_id": "13810963",
+    "image_id": "2402632",
+    "critical_bbox": [
+      425.0,
+      167.0,
+      499.0,
+      332.0
+    ],
+    "control_bbox": [
+      85.2,
+      0.0,
+      159.2,
+      165.0
+    ],
+    "control_overlap_score": 0.9420311220311219,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 2,
+    "annotated_noncritical_objects": 16
+  },
+  {
+    "question_id": "13483129",
+    "image_id": "2403364",
+    "critical_bbox": [
+      158.0,
+      91.0,
+      330.0,
+      265.0
+    ],
+    "control_bbox": [
+      328.0,
+      0.0,
+      500.0,
+      174.0
+    ],
+    "control_overlap_score": 0.15517241379310345,
+    "control_valid": true,
+    "critical_control_iou": 0.0027810353493047412,
+    "overlapping_noncritical_objects": 1,
+    "annotated_noncritical_objects": 2
+  },
+  {
+    "question_id": "01494763",
+    "image_id": "2376882",
+    "critical_bbox": [
+      27.0,
+      33.0,
+      114.0,
+      304.0
+    ],
+    "control_bbox": [
+      413.0,
+      0.0,
+      500.0,
+      271.0
+    ],
+    "control_overlap_score": 1.44687619289986,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 3,
+    "annotated_noncritical_objects": 17
+  },
+  {
+    "question_id": "01775293",
+    "image_id": "2346673",
+    "critical_bbox": [
+      243.0,
+      89.0,
+      462.0,
+      227.0
+    ],
+    "control_bbox": [
+      0.0,
+      0.0,
+      219.0,
+      138.0
+    ],
+    "control_overlap_score": 1.0078419694262457,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 2,
+    "annotated_noncritical_objects": 17
+  },
+  {
+    "question_id": "03492559",
+    "image_id": "2409876",
+    "critical_bbox": [
+      145.0,
+      218.0,
+      282.0,
+      366.0
+    ],
+    "control_bbox": [
+      363.0,
+      0.0,
+      500.0,
+      148.0
+    ],
+    "control_overlap_score": 1.7688893272834878,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 4,
+    "annotated_noncritical_objects": 10
+  },
+  {
+    "question_id": "161036612",
+    "image_id": "2368963",
+    "critical_bbox": [
+      172.0,
+      93.0,
+      259.0,
+      348.0
+    ],
+    "control_bbox": [
+      0.0,
+      158.0,
+      87.0,
+      413.0
+    ],
+    "control_overlap_score": 0.01721884155961235,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 1,
+    "annotated_noncritical_objects": 26
+  },
+  {
+    "question_id": "13376811",
+    "image_id": "2322673",
+    "critical_bbox": [
+      0.0,
+      169.0,
+      199.0,
+      332.0
+    ],
+    "control_bbox": [
+      301.0,
+      0.0,
+      500.0,
+      163.0
+    ],
+    "control_overlap_score": 0.06560409409008232,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 1,
+    "annotated_noncritical_objects": 1
+  },
+  {
+    "question_id": "0699037",
+    "image_id": "150543",
+    "critical_bbox": [
+      272.0,
+      102.0,
+      365.0,
+      320.0
+    ],
+    "control_bbox": [
+      706.0,
+      382.0,
+      799.0,
+      600.0
+    ],
+    "control_overlap_score": 0.0,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 0,
+    "annotated_noncritical_objects": 6
+  },
+  {
+    "question_id": "07696704",
+    "image_id": "2388377",
+    "critical_bbox": [
+      321.0,
+      171.0,
+      477.0,
+      359.0
+    ],
+    "control_bbox": [
+      344.0,
+      0.0,
+      500.0,
+      188.0
+    ],
+    "control_overlap_score": 1.9534233496999454,
+    "control_valid": true,
+    "critical_control_iou": 0.040092206755918076,
+    "overlapping_noncritical_objects": 2,
+    "annotated_noncritical_objects": 17
+  },
+  {
+    "question_id": "161037470",
+    "image_id": "2342838",
+    "critical_bbox": [
+      65.0,
+      242.0,
+      242.0,
+      323.0
+    ],
+    "control_bbox": [
+      323.0,
+      95.55,
+      500.0,
+      176.55
+    ],
+    "control_overlap_score": 0.6118713817395551,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 3,
+    "annotated_noncritical_objects": 11
+  },
+  {
+    "question_id": "00362278",
+    "image_id": "2372454",
+    "critical_bbox": [
+      81.0,
+      28.0,
+      265.0,
+      221.0
+    ],
+    "control_bbox": [
+      191.0,
+      307.0,
+      375.0,
+      500.0
+    ],
+    "control_overlap_score": 1.9788240594728541,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 2,
+    "annotated_noncritical_objects": 14
+  },
+  {
+    "question_id": "03101593",
+    "image_id": "2384975",
+    "critical_bbox": [
+      154.0,
+      132.0,
+      332.0,
+      451.0
+    ],
+    "control_bbox": [
+      0.0,
+      0.0,
+      178.0,
+      319.0
+    ],
+    "control_overlap_score": 1.0202352858300165,
+    "control_valid": true,
+    "critical_control_iou": 0.041145623235175476,
+    "overlapping_noncritical_objects": 8,
+    "annotated_noncritical_objects": 12
+  },
+  {
+    "question_id": "18922746",
+    "image_id": "2358811",
+    "critical_bbox": [
+      203.0,
+      50.0,
+      385.0,
+      178.0
+    ],
+    "control_bbox": [
+      0.0,
+      25.25,
+      182.0,
+      153.25
+    ],
+    "control_overlap_score": 2.2108301854395607,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 10,
+    "annotated_noncritical_objects": 18
+  },
+  {
+    "question_id": "16922097",
+    "image_id": "2378471",
+    "critical_bbox": [
+      333.0,
+      134.0,
+      392.0,
+      217.0
+    ],
+    "control_bbox": [
+      0.0,
+      292.0,
+      59.0,
+      375.0
+    ],
+    "control_overlap_score": 0.0,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 0,
+    "annotated_noncritical_objects": 19
+  },
+  {
+    "question_id": "121032292",
+    "image_id": "2390282",
+    "critical_bbox": [
+      226.0,
+      209.0,
+      380.0,
+      346.0
+    ],
+    "control_bbox": [
+      346.0,
+      0.0,
+      500.0,
+      137.0
+    ],
+    "control_overlap_score": 0.5057351407716372,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 3,
+    "annotated_noncritical_objects": 15
+  },
+  {
+    "question_id": "12588508",
+    "image_id": "2323989",
+    "critical_bbox": [
+      126.0,
+      263.0,
+      162.0,
+      421.0
+    ],
+    "control_bbox": [
+      0.0,
+      342.0,
+      36.0,
+      500.0
+    ],
+    "control_overlap_score": 0.04254571026722925,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 1,
+    "annotated_noncritical_objects": 13
+  },
+  {
+    "question_id": "17184616",
+    "image_id": "4290",
+    "critical_bbox": [
+      332.0,
+      274.0,
+      512.0,
+      340.0
+    ],
+    "control_bbox": [
+      332.0,
+      0.0,
+      512.0,
+      66.0
+    ],
+    "control_overlap_score": 0.9944444444444445,
+    "control_valid": true,
+    "critical_control_iou": 0.0,
+    "overlapping_noncritical_objects": 1,
+    "annotated_noncritical_objects": 16
+  }
+]
