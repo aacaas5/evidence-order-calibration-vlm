@@ -1,0 +1,37 @@
+{
+  "seed": 42,
+  "bootstrap_resamples": 1000,
+  "resampling_unit": "question_trajectory",
+  "difference_direction": "critical minus matched irrelevant",
+  "accuracy_drop_definition": "clean correctness minus full-mask correctness",
+  "metrics": {
+    "critical_minus_irrelevant_accuracy_drop": {
+      "point_estimate": 0.27647058823529413,
+      "lower_95": 0.2,
+      "upper_95": 0.34720588235294103,
+      "bootstrap_mean": 0.27653529411764705,
+      "valid_resamples": 1000
+    },
+    "critical_minus_irrelevant_confidence_change": {
+      "point_estimate": -0.2527545135566249,
+      "lower_95": -0.32149957516173633,
+      "upper_95": -0.18934803677059472,
+      "bootstrap_mean": -0.2532985489308488,
+      "valid_resamples": 1000
+    },
+    "critical_minus_irrelevant_entropy_change": {
+      "point_estimate": 0.5428717608836607,
+      "lower_95": 0.42337908240107364,
+      "upper_95": 0.6677685544887515,
+      "bootstrap_mean": 0.5432731688206659,
+      "valid_resamples": 1000
+    },
+    "critical_minus_irrelevant_emvr": {
+      "point_estimate": -0.09411764705882353,
+      "lower_95": -0.13823529411764707,
+      "upper_95": -0.054411764705882354,
+      "bootstrap_mean": -0.09516029411764705,
+      "valid_resamples": 1000
+    }
+  }
+}
