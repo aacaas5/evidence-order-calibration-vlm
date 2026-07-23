@@ -1,0 +1,3522 @@
+[
+  {
+    "question_id": "08621661",
+    "image_id": "2344819",
+    "question": "What color is the device on the right?",
+    "ground_truth": "black",
+    "category": "color",
+    "critical_bbox": [
+      267.0,
+      118.0,
+      324.0,
+      213.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 2.1375,
+      "0.5": 4.275,
+      "0.75": 6.4125,
+      "1.0": 8.55
+    }
+  },
+  {
+    "question_id": "10983653",
+    "image_id": "2342530",
+    "question": "What shape is the tub?",
+    "ground_truth": "rectangular",
+    "category": "shape",
+    "critical_bbox": [
+      281.0,
+      234.0,
+      429.0,
+      333.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 3.7125,
+      "0.5": 7.425,
+      "0.75": 11.1375,
+      "1.0": 14.85
+    }
+  },
+  {
+    "question_id": "06435607",
+    "image_id": "2317733",
+    "question": "What is the name of the food that is not white?",
+    "ground_truth": "hot dog",
+    "category": "identity",
+    "critical_bbox": [
+      175.0,
+      157.0,
+      357.0,
+      222.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 2.4375,
+      "0.5": 4.875,
+      "0.75": 7.3125,
+      "1.0": 9.75
+    }
+  },
+  {
+    "question_id": "19388466",
+    "image_id": "2325119",
+    "question": "What color is that shirt, brown or white?",
+    "ground_truth": "brown",
+    "category": "color",
+    "critical_bbox": [
+      127.0,
+      19.0,
+      338.0,
+      269.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 7.9125,
+      "0.5": 15.825,
+      "0.75": 23.7375,
+      "1.0": 24.0
+    }
+  },
+  {
+    "question_id": "1425112",
+    "image_id": "2404639",
+    "question": "What is the chair made of?",
+    "ground_truth": "wood",
+    "category": "material",
+    "critical_bbox": [
+      87.0,
+      57.0,
+      445.0,
+      224.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 6.2625,
+      "0.5": 12.525,
+      "0.75": 18.7875,
+      "1.0": 24.0
+    }
+  },
+  {
+    "question_id": "08775086",
+    "image_id": "2388994",
+    "question": "What shape does the empty sink have?",
+    "ground_truth": "round",
+    "category": "shape",
+    "critical_bbox": [
+      132.0,
+      404.0,
+      273.0,
+      500.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 3.6,
+      "0.5": 7.2,
+      "0.75": 10.8,
+      "1.0": 14.4
+    }
+  },
+  {
+    "question_id": "10433179",
+    "image_id": "2367895",
+    "question": "What kind of vehicle is yellow?",
+    "ground_truth": "bus",
+    "category": "identity",
+    "critical_bbox": [
+      60.0,
+      112.0,
+      282.0,
+      274.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 6.075,
+      "0.5": 12.15,
+      "0.75": 18.225,
+      "1.0": 24.0
+    }
+  },
+  {
+    "question_id": "02655551",
+    "image_id": "2354629",
+    "question": "What color do you think the t-shirt is?",
+    "ground_truth": "green",
+    "category": "color",
+    "critical_bbox": [
+      103.0,
+      182.0,
+      194.0,
+      244.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 2.325,
+      "0.5": 4.65,
+      "0.75": 6.975,
+      "1.0": 9.3
+    }
+  },
+  {
+    "question_id": "06503451",
+    "image_id": "2329386",
+    "question": "Is the motorcycle that is made of metal small or large?",
+    "ground_truth": "small",
+    "category": "material",
+    "critical_bbox": [
+      147.0,
+      213.0,
+      225.0,
+      344.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 2.925,
+      "0.5": 5.85,
+      "0.75": 8.775,
+      "1.0": 11.7
+    }
+  },
+  {
+    "question_id": "07142526",
+    "image_id": "2392341",
+    "question": "What shape is the large mirror?",
+    "ground_truth": "rectangular",
+    "category": "shape",
+    "critical_bbox": [
+      157.0,
+      72.0,
+      332.0,
+      287.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 6.5625,
+      "0.5": 13.125,
+      "0.75": 19.6875,
+      "1.0": 24.0
+    }
+  },
+  {
+    "question_id": "01125115",
+    "image_id": "2383075",
+    "question": "What is the color of the large umbrella?",
+    "ground_truth": "orange",
+    "category": "identity",
+    "critical_bbox": [
+      54.0,
+      38.0,
+      324.0,
+      163.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 4.6875,
+      "0.5": 9.375,
+      "0.75": 14.0625,
+      "1.0": 18.75
+    }
+  },
+  {
+    "question_id": "18717754",
+    "image_id": "2364364",
+    "question": "What is the table made of?",
+    "ground_truth": "glass",
+    "category": "material",
+    "critical_bbox": [
+      11.0,
+      318.0,
+      191.0,
+      478.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 6.0,
+      "0.5": 12.0,
+      "0.75": 18.0,
+      "1.0": 24.0
+    }
+  },
+  {
+    "question_id": "19315625",
+    "image_id": "2381993",
+    "question": "What shape is the window?",
+    "ground_truth": "round",
+    "category": "shape",
+    "critical_bbox": [
+      37.0,
+      43.0,
+      129.0,
+      149.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 3.45,
+      "0.5": 6.9,
+      "0.75": 10.35,
+      "1.0": 13.8
+    }
+  },
+  {
+    "question_id": "09993325",
+    "image_id": "2373967",
+    "question": "What kind of clothing isn't short sleeved?",
+    "ground_truth": "cap",
+    "category": "identity",
+    "critical_bbox": [
+      138.0,
+      66.0,
+      245.0,
+      122.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 2.1,
+      "0.5": 4.2,
+      "0.75": 6.3,
+      "1.0": 8.4
+    }
+  },
+  {
+    "question_id": "17954994",
+    "image_id": "2355312",
+    "question": "The shirt has what color?",
+    "ground_truth": "black",
+    "category": "color",
+    "critical_bbox": [
+      0.0,
+      220.0,
+      119.0,
+      373.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 4.4625,
+      "0.5": 8.925,
+      "0.75": 13.3875,
+      "1.0": 17.85
+    }
+  },
+  {
+    "question_id": "10956782",
+    "image_id": "2361328",
+    "question": "What is the box made of?",
+    "ground_truth": "plastic",
+    "category": "material",
+    "critical_bbox": [
+      39.0,
+      1.0,
+      92.0,
+      143.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 1.9875,
+      "0.5": 3.975,
+      "0.75": 5.9625,
+      "1.0": 7.95
+    }
+  },
+  {
+    "question_id": "04251940",
+    "image_id": "2373119",
+    "question": "What shape does the white plate have?",
+    "ground_truth": "square",
+    "category": "shape",
+    "critical_bbox": [
+      190.0,
+      57.0,
+      360.0,
+      117.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 2.25,
+      "0.5": 4.5,
+      "0.75": 6.75,
+      "1.0": 9.0
+    }
+  },
+  {
+    "question_id": "14705211",
+    "image_id": "2371481",
+    "question": "What type of toy is presented in the image?",
+    "ground_truth": "doll",
+    "category": "identity",
+    "critical_bbox": [
+      31.0,
+      149.0,
+      141.0,
+      360.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 4.125,
+      "0.5": 8.25,
+      "0.75": 12.375,
+      "1.0": 16.5
+    }
+  },
+  {
+    "question_id": "15599995",
+    "image_id": "2390229",
+    "question": "What color is the tank top?",
+    "ground_truth": "white",
+    "category": "color",
+    "critical_bbox": [
+      116.0,
+      85.0,
+      213.0,
+      221.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 3.6375,
+      "0.5": 7.275,
+      "0.75": 10.9125,
+      "1.0": 14.55
+    }
+  },
+  {
+    "question_id": "10755150",
+    "image_id": "2391950",
+    "question": "Which kind of clothing is made of leather?",
+    "ground_truth": "pants",
+    "category": "material",
+    "critical_bbox": [
+      48.0,
+      218.0,
+      208.0,
+      351.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 4.9875,
+      "0.5": 9.975,
+      "0.75": 14.9625,
+      "1.0": 19.95
+    }
+  },
+  {
+    "question_id": "141024691",
+    "image_id": "2363539",
+    "question": "What shape is the silver door?",
+    "ground_truth": "rectangular",
+    "category": "shape",
+    "critical_bbox": [
+      64.0,
+      153.0,
+      163.0,
+      397.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 3.7125,
+      "0.5": 7.425,
+      "0.75": 11.1375,
+      "1.0": 14.85
+    }
+  },
+  {
+    "question_id": "13598461",
+    "image_id": "2399127",
+    "question": "What is the device that is not on called?",
+    "ground_truth": "remote control",
+    "category": "identity",
+    "critical_bbox": [
+      219.0,
+      169.0,
+      327.0,
+      288.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 4.05,
+      "0.5": 8.1,
+      "0.75": 12.15,
+      "1.0": 16.2
+    }
+  },
+  {
+    "question_id": "13777356",
+    "image_id": "2403093",
+    "question": "Is the platter made of wood round and brown?",
+    "ground_truth": "yes",
+    "category": "material",
+    "critical_bbox": [
+      45.0,
+      83.0,
+      297.0,
+      266.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 6.8625,
+      "0.5": 13.725,
+      "0.75": 20.5875,
+      "1.0": 24.0
+    }
+  },
+  {
+    "question_id": "12366048",
+    "image_id": "2390293",
+    "question": "What type of animal is this, a donkey or a horse?",
+    "ground_truth": "horse",
+    "category": "identity",
+    "critical_bbox": [
+      164.0,
+      110.0,
+      430.0,
+      259.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 5.5875,
+      "0.5": 11.175,
+      "0.75": 16.7625,
+      "1.0": 22.35
+    }
+  },
+  {
+    "question_id": "081005615",
+    "image_id": "2391197",
+    "question": "What color is the frisbee in the top of the picture?",
+    "ground_truth": "purple",
+    "category": "color",
+    "critical_bbox": [
+      113.0,
+      44.0,
+      182.0,
+      106.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 2.325,
+      "0.5": 4.65,
+      "0.75": 6.975,
+      "1.0": 9.3
+    }
+  },
+  {
+    "question_id": "01389513",
+    "image_id": "2364527",
+    "question": "The plate on the right is what shape?",
+    "ground_truth": "square",
+    "category": "shape",
+    "critical_bbox": [
+      368.0,
+      153.0,
+      491.0,
+      355.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 4.6125,
+      "0.5": 9.225,
+      "0.75": 13.8375,
+      "1.0": 18.45
+    }
+  },
+  {
+    "question_id": "0526849",
+    "image_id": "2413799",
+    "question": "What is the fluffy animal called?",
+    "ground_truth": "bear",
+    "category": "identity",
+    "critical_bbox": [
+      104.0,
+      66.0,
+      244.0,
+      311.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 5.25,
+      "0.5": 10.5,
+      "0.75": 15.75,
+      "1.0": 21.0
+    }
+  },
+  {
+    "question_id": "10324248",
+    "image_id": "2408676",
+    "question": "What color is the helmet?",
+    "ground_truth": "red",
+    "category": "color",
+    "critical_bbox": [
+      196.0,
+      19.0,
+      273.0,
+      83.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 2.4,
+      "0.5": 4.8,
+      "0.75": 7.2,
+      "1.0": 9.6
+    }
+  },
+  {
+    "question_id": "04110778",
+    "image_id": "2322532",
+    "question": "What shape do you think the blue pillow is?",
+    "ground_truth": "square",
+    "category": "shape",
+    "critical_bbox": [
+      139.0,
+      160.0,
+      234.0,
+      198.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 1.425,
+      "0.5": 2.85,
+      "0.75": 4.275,
+      "1.0": 5.7
+    }
+  },
+  {
+    "question_id": "04706818",
+    "image_id": "2378857",
+    "question": "What is this, a bus or a train?",
+    "ground_truth": "bus",
+    "category": "identity",
+    "critical_bbox": [
+      87.0,
+      111.0,
+      253.0,
+      266.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 5.8125,
+      "0.5": 11.625,
+      "0.75": 17.4375,
+      "1.0": 23.25
+    }
+  },
+  {
+    "question_id": "01229011",
+    "image_id": "2406044",
+    "question": "What shape do you think the clock is?",
+    "ground_truth": "square",
+    "category": "shape",
+    "critical_bbox": [
+      211.0,
+      220.0,
+      271.0,
+      285.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 2.25,
+      "0.5": 4.5,
+      "0.75": 6.75,
+      "1.0": 9.0
+    }
+  },
+  {
+    "question_id": "08858518",
+    "image_id": "2384518",
+    "question": "What kind of food is flat?",
+    "ground_truth": "pancakes",
+    "category": "identity",
+    "critical_bbox": [
+      81.0,
+      157.0,
+      279.0,
+      289.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 4.95,
+      "0.5": 9.9,
+      "0.75": 14.85,
+      "1.0": 19.8
+    }
+  },
+  {
+    "question_id": "16652947",
+    "image_id": "2417941",
+    "question": "Does the television made of plastic look small and black?",
+    "ground_truth": "yes",
+    "category": "material",
+    "critical_bbox": [
+      97.0,
+      198.0,
+      298.0,
+      380.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 6.825,
+      "0.5": 13.65,
+      "0.75": 20.475,
+      "1.0": 24.0
+    }
+  },
+  {
+    "question_id": "18192074",
+    "image_id": "2359926",
+    "question": "What is the color of the trousers?",
+    "ground_truth": "khaki",
+    "category": "identity",
+    "critical_bbox": [
+      423.0,
+      217.0,
+      487.0,
+      333.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 2.4,
+      "0.5": 4.8,
+      "0.75": 7.2,
+      "1.0": 9.6
+    }
+  },
+  {
+    "question_id": "18281934",
+    "image_id": "2358172",
+    "question": "What color is the headboard?",
+    "ground_truth": "black",
+    "category": "color",
+    "critical_bbox": [
+      51.0,
+      194.0,
+      293.0,
+      322.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 4.8,
+      "0.5": 9.6,
+      "0.75": 14.4,
+      "1.0": 19.2
+    }
+  },
+  {
+    "question_id": "08924895",
+    "image_id": "2365711",
+    "question": "What shape do you think the chair is?",
+    "ground_truth": "triangular",
+    "category": "shape",
+    "critical_bbox": [
+      180.0,
+      269.0,
+      240.0,
+      367.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 2.25,
+      "0.5": 4.5,
+      "0.75": 6.75,
+      "1.0": 9.0
+    }
+  },
+  {
+    "question_id": "02965895",
+    "image_id": "2384743",
+    "question": "What the gray item of clothing is called?",
+    "ground_truth": "shirt",
+    "category": "identity",
+    "critical_bbox": [
+      304.0,
+      71.0,
+      467.0,
+      243.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 6.1125,
+      "0.5": 12.225,
+      "0.75": 18.3375,
+      "1.0": 24.0
+    }
+  },
+  {
+    "question_id": "03495642",
+    "image_id": "2410346",
+    "question": "What color is that jacket?",
+    "ground_truth": "gray",
+    "category": "color",
+    "critical_bbox": [
+      68.0,
+      70.0,
+      294.0,
+      276.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 7.725,
+      "0.5": 15.45,
+      "0.75": 23.175,
+      "1.0": 24.0
+    }
+  },
+  {
+    "question_id": "17888876",
+    "image_id": "2387990",
+    "question": "What shape is the plate?",
+    "ground_truth": "square",
+    "category": "shape",
+    "critical_bbox": [
+      114.0,
+      288.0,
+      407.0,
+      357.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 2.5875,
+      "0.5": 5.175,
+      "0.75": 7.7625,
+      "1.0": 10.35
+    }
+  },
+  {
+    "question_id": "19425852",
+    "image_id": "2342045",
+    "question": "What kind of fruit is round?",
+    "ground_truth": "orange",
+    "category": "identity",
+    "critical_bbox": [
+      186.0,
+      148.0,
+      341.0,
+      289.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 5.2875,
+      "0.5": 10.575,
+      "0.75": 15.8625,
+      "1.0": 21.15
+    }
+  },
+  {
+    "question_id": "05199500",
+    "image_id": "2413903",
+    "question": "What shape is the table?",
+    "ground_truth": "rectangular",
+    "category": "shape",
+    "critical_bbox": [
+      163.0,
+      182.0,
+      499.0,
+      374.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 7.2,
+      "0.5": 14.4,
+      "0.75": 21.6,
+      "1.0": 24.0
+    }
+  },
+  {
+    "question_id": "18175256",
+    "image_id": "2382716",
+    "question": "What is the man doing?",
+    "ground_truth": "talking",
+    "category": "identity",
+    "critical_bbox": [
+      263.0,
+      0.0,
+      357.0,
+      147.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 3.525,
+      "0.5": 7.05,
+      "0.75": 10.575,
+      "1.0": 14.1
+    }
+  },
+  {
+    "question_id": "04104534",
+    "image_id": "2319689",
+    "question": "What color does the dress have?",
+    "ground_truth": "white",
+    "category": "color",
+    "critical_bbox": [
+      196.0,
+      172.0,
+      290.0,
+      337.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 3.525,
+      "0.5": 7.05,
+      "0.75": 10.575,
+      "1.0": 14.1
+    }
+  },
+  {
+    "question_id": "13764265",
+    "image_id": "2401635",
+    "question": "What is the color of the lamp?",
+    "ground_truth": "gold",
+    "category": "identity",
+    "critical_bbox": [
+      263.0,
+      97.0,
+      314.0,
+      200.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 1.9125,
+      "0.5": 3.825,
+      "0.75": 5.7375,
+      "1.0": 7.65
+    }
+  },
+  {
+    "question_id": "10302229",
+    "image_id": "2382646",
+    "question": "What color is the bookshelf on the left?",
+    "ground_truth": "black",
+    "category": "color",
+    "critical_bbox": [
+      11.0,
+      60.0,
+      155.0,
+      331.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 5.4,
+      "0.5": 10.8,
+      "0.75": 16.2,
+      "1.0": 21.6
+    }
+  },
+  {
+    "question_id": "13637218",
+    "image_id": "2320853",
+    "question": "What shape is the sandwich in the center?",
+    "ground_truth": "triangular",
+    "category": "shape",
+    "critical_bbox": [
+      255.0,
+      108.0,
+      360.0,
+      163.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 2.0625,
+      "0.5": 4.125,
+      "0.75": 6.1875,
+      "1.0": 8.25
+    }
+  },
+  {
+    "question_id": "11985368",
+    "image_id": "2386099",
+    "question": "What kind of clothing in the scene is blue?",
+    "ground_truth": "dress",
+    "category": "identity",
+    "critical_bbox": [
+      93.0,
+      99.0,
+      204.0,
+      333.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 4.1625,
+      "0.5": 8.325,
+      "0.75": 12.4875,
+      "1.0": 16.65
+    }
+  },
+  {
+    "question_id": "061006816",
+    "image_id": "2343256",
+    "question": "Is the fence made of metal?",
+    "ground_truth": "no",
+    "category": "material",
+    "critical_bbox": [
+      245.0,
+      85.0,
+      500.0,
+      138.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 1.9875,
+      "0.5": 3.975,
+      "0.75": 5.9625,
+      "1.0": 7.95
+    }
+  },
+  {
+    "question_id": "1297276",
+    "image_id": "2385826",
+    "question": "What is the black piece of clothing?",
+    "ground_truth": "coat",
+    "category": "identity",
+    "critical_bbox": [
+      184.0,
+      220.0,
+      307.0,
+      380.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 4.6125,
+      "0.5": 9.225,
+      "0.75": 13.8375,
+      "1.0": 18.45
+    }
+  },
+  {
+    "question_id": "09961673",
+    "image_id": "2381915",
+    "question": "What kind of animal is white?",
+    "ground_truth": "polar bear",
+    "category": "identity",
+    "critical_bbox": [
+      129.0,
+      123.0,
+      441.0,
+      280.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 5.8875,
+      "0.5": 11.775,
+      "0.75": 17.6625,
+      "1.0": 23.55
+    }
+  },
+  {
+    "question_id": "13831014",
+    "image_id": "2406789",
+    "question": "What the clothing item that is white is called?",
+    "ground_truth": "uniform",
+    "category": "identity",
+    "critical_bbox": [
+      56.0,
+      89.0,
+      274.0,
+      249.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 6.0,
+      "0.5": 12.0,
+      "0.75": 18.0,
+      "1.0": 24.0
+    }
+  },
+  {
+    "question_id": "09743894",
+    "image_id": "2315900",
+    "question": "Is the counter made of steel?",
+    "ground_truth": "no",
+    "category": "material",
+    "critical_bbox": [
+      140.0,
+      329.0,
+      287.0,
+      371.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 1.575,
+      "0.5": 3.15,
+      "0.75": 4.725,
+      "1.0": 6.3
+    }
+  },
+  {
+    "question_id": "02513848",
+    "image_id": "2406874",
+    "question": "What type of animal is brown?",
+    "ground_truth": "giraffe",
+    "category": "identity",
+    "critical_bbox": [
+      136.0,
+      103.0,
+      331.0,
+      311.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 7.3125,
+      "0.5": 14.625,
+      "0.75": 21.9375,
+      "1.0": 24.0
+    }
+  },
+  {
+    "question_id": "04468135",
+    "image_id": "1987",
+    "question": "What color is that chair?",
+    "ground_truth": "dark",
+    "category": "color",
+    "critical_bbox": [
+      0.0,
+      266.0,
+      247.0,
+      586.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 9.2625,
+      "0.5": 18.525,
+      "0.75": 24.0,
+      "1.0": 24.0
+    }
+  },
+  {
+    "question_id": "1616401",
+    "image_id": "2321508",
+    "question": "What is the color of the cake?",
+    "ground_truth": "white",
+    "category": "identity",
+    "critical_bbox": [
+      131.0,
+      212.0,
+      344.0,
+      324.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 4.2,
+      "0.5": 8.4,
+      "0.75": 12.6,
+      "1.0": 16.8
+    }
+  },
+  {
+    "question_id": "01738786",
+    "image_id": "2334150",
+    "question": "What type of clothing in the picture is black?",
+    "ground_truth": "coat",
+    "category": "identity",
+    "critical_bbox": [
+      21.0,
+      164.0,
+      159.0,
+      333.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 5.175,
+      "0.5": 10.35,
+      "0.75": 15.525,
+      "1.0": 20.7
+    }
+  },
+  {
+    "question_id": "00255101",
+    "image_id": "2410643",
+    "question": "What color is the small hat?",
+    "ground_truth": "black",
+    "category": "color",
+    "critical_bbox": [
+      193.0,
+      32.0,
+      305.0,
+      119.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 3.2625,
+      "0.5": 6.525,
+      "0.75": 9.7875,
+      "1.0": 13.05
+    }
+  },
+  {
+    "question_id": "15284589",
+    "image_id": "2367184",
+    "question": "What is the pattern of the tail?",
+    "ground_truth": "checkered",
+    "category": "identity",
+    "critical_bbox": [
+      202.0,
+      70.0,
+      242.0,
+      140.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 1.5,
+      "0.5": 3.0,
+      "0.75": 4.5,
+      "1.0": 6.0
+    }
+  },
+  {
+    "question_id": "07604306",
+    "image_id": "2373891",
+    "question": "Is the brown bottle made of glass?",
+    "ground_truth": "yes",
+    "category": "material",
+    "critical_bbox": [
+      166.0,
+      59.0,
+      292.0,
+      396.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 4.725,
+      "0.5": 9.45,
+      "0.75": 14.175,
+      "1.0": 18.9
+    }
+  },
+  {
+    "question_id": "181061102",
+    "image_id": "2337884",
+    "question": "What is the white sign called?",
+    "ground_truth": "stop sign",
+    "category": "identity",
+    "critical_bbox": [
+      18.0,
+      16.0,
+      187.0,
+      164.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 5.55,
+      "0.5": 11.1,
+      "0.75": 16.65,
+      "1.0": 22.2
+    }
+  },
+  {
+    "question_id": "17444087",
+    "image_id": "2371945",
+    "question": "The shirt has what color?",
+    "ground_truth": "tan",
+    "category": "color",
+    "critical_bbox": [
+      280.0,
+      86.0,
+      500.0,
+      319.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 8.25,
+      "0.5": 16.5,
+      "0.75": 24.0,
+      "1.0": 24.0
+    }
+  },
+  {
+    "question_id": "15975535",
+    "image_id": "2392397",
+    "question": "Which kind of furniture is made of wood?",
+    "ground_truth": "coffee table",
+    "category": "material",
+    "critical_bbox": [
+      151.0,
+      186.0,
+      353.0,
+      300.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 4.275,
+      "0.5": 8.55,
+      "0.75": 12.825,
+      "1.0": 17.1
+    }
+  },
+  {
+    "question_id": "03716175",
+    "image_id": "2387346",
+    "question": "What is the color of the jacket?",
+    "ground_truth": "gray",
+    "category": "identity",
+    "critical_bbox": [
+      248.0,
+      112.0,
+      445.0,
+      268.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 5.85,
+      "0.5": 11.7,
+      "0.75": 17.55,
+      "1.0": 23.4
+    }
+  },
+  {
+    "question_id": "13483094",
+    "image_id": "2380691",
+    "question": "What color are the shorts, black or white?",
+    "ground_truth": "black",
+    "category": "color",
+    "critical_bbox": [
+      249.0,
+      210.0,
+      331.0,
+      295.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 3.075,
+      "0.5": 6.15,
+      "0.75": 9.225,
+      "1.0": 12.3
+    }
+  },
+  {
+    "question_id": "09937806",
+    "image_id": "2348458",
+    "question": "Is the brown chair made of wood?",
+    "ground_truth": "yes",
+    "category": "material",
+    "critical_bbox": [
+      5.0,
+      1.0,
+      148.0,
+      156.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 5.3625,
+      "0.5": 10.725,
+      "0.75": 16.0875,
+      "1.0": 21.45
+    }
+  },
+  {
+    "question_id": "111055030",
+    "image_id": "2386495",
+    "question": "What color do you think the curtains on the right side are?",
+    "ground_truth": "beige",
+    "category": "color",
+    "critical_bbox": [
+      416.0,
+      47.0,
+      458.0,
+      169.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 1.575,
+      "0.5": 3.15,
+      "0.75": 4.725,
+      "1.0": 6.3
+    }
+  },
+  {
+    "question_id": "06805699",
+    "image_id": "2354794",
+    "question": "What is the color of the shirt?",
+    "ground_truth": "black",
+    "category": "identity",
+    "critical_bbox": [
+      46.0,
+      91.0,
+      227.0,
+      207.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 4.35,
+      "0.5": 8.7,
+      "0.75": 13.05,
+      "1.0": 17.4
+    }
+  },
+  {
+    "question_id": "08237593",
+    "image_id": "2315465",
+    "question": "What color do the trousers have?",
+    "ground_truth": "black",
+    "category": "color",
+    "critical_bbox": [
+      345.0,
+      127.0,
+      408.0,
+      202.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 2.3625,
+      "0.5": 4.725,
+      "0.75": 7.0875,
+      "1.0": 9.45
+    }
+  },
+  {
+    "question_id": "15586319",
+    "image_id": "2352617",
+    "question": "What material is the armchair made of?",
+    "ground_truth": "leather",
+    "category": "material",
+    "critical_bbox": [
+      376.0,
+      103.0,
+      480.0,
+      179.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 2.85,
+      "0.5": 5.7,
+      "0.75": 8.55,
+      "1.0": 11.4
+    }
+  },
+  {
+    "question_id": "13541187",
+    "image_id": "2372439",
+    "question": "What kind of clothing is white?",
+    "ground_truth": "outfit",
+    "category": "identity",
+    "critical_bbox": [
+      117.0,
+      165.0,
+      256.0,
+      500.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 5.2125,
+      "0.5": 10.425,
+      "0.75": 15.6375,
+      "1.0": 20.85
+    }
+  },
+  {
+    "question_id": "01275423",
+    "image_id": "3716",
+    "question": "What color is the tower, white or red?",
+    "ground_truth": "white",
+    "category": "color",
+    "critical_bbox": [
+      189.0,
+      97.0,
+      345.0,
+      474.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 5.85,
+      "0.5": 11.7,
+      "0.75": 17.55,
+      "1.0": 23.4
+    }
+  },
+  {
+    "question_id": "19443493",
+    "image_id": "2378689",
+    "question": "What is the umpire doing?",
+    "ground_truth": "waiting",
+    "category": "identity",
+    "critical_bbox": [
+      0.0,
+      94.0,
+      101.0,
+      256.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 3.7875,
+      "0.5": 7.575,
+      "0.75": 11.3625,
+      "1.0": 15.15
+    }
+  },
+  {
+    "question_id": "18252583",
+    "image_id": "2406434",
+    "question": "What color is the train in the center of the image?",
+    "ground_truth": "red",
+    "category": "color",
+    "critical_bbox": [
+      205.0,
+      114.0,
+      292.0,
+      173.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 2.2125,
+      "0.5": 4.425,
+      "0.75": 6.6375,
+      "1.0": 8.85
+    }
+  },
+  {
+    "question_id": "1116252",
+    "image_id": "2407974",
+    "question": "What's the mirror made of?",
+    "ground_truth": "wood",
+    "category": "material",
+    "critical_bbox": [
+      290.0,
+      12.0,
+      465.0,
+      196.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 6.5625,
+      "0.5": 13.125,
+      "0.75": 19.6875,
+      "1.0": 24.0
+    }
+  },
+  {
+    "question_id": "13945801",
+    "image_id": "2408291",
+    "question": "What is the zebra doing?",
+    "ground_truth": "standing",
+    "category": "identity",
+    "critical_bbox": [
+      181.0,
+      205.0,
+      266.0,
+      264.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 2.2125,
+      "0.5": 4.425,
+      "0.75": 6.6375,
+      "1.0": 8.85
+    }
+  },
+  {
+    "question_id": "13356863",
+    "image_id": "2373271",
+    "question": "What is the color of that chair?",
+    "ground_truth": "gray",
+    "category": "identity",
+    "critical_bbox": [
+      49.0,
+      50.0,
+      192.0,
+      293.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 5.3625,
+      "0.5": 10.725,
+      "0.75": 16.0875,
+      "1.0": 21.45
+    }
+  },
+  {
+    "question_id": "17468425",
+    "image_id": "2346705",
+    "question": "What color is that hair?",
+    "ground_truth": "gray",
+    "category": "color",
+    "critical_bbox": [
+      218.0,
+      97.0,
+      334.0,
+      208.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 4.1625,
+      "0.5": 8.325,
+      "0.75": 12.4875,
+      "1.0": 16.65
+    }
+  },
+  {
+    "question_id": "12476717",
+    "image_id": "4094",
+    "question": "What is the mirror made of?",
+    "ground_truth": "wood",
+    "category": "material",
+    "critical_bbox": [
+      275.0,
+      126.0,
+      373.0,
+      249.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 3.675,
+      "0.5": 7.35,
+      "0.75": 11.025,
+      "1.0": 14.7
+    }
+  },
+  {
+    "question_id": "17134462",
+    "image_id": "2404079",
+    "question": "What is the color of the fruit in the middle?",
+    "ground_truth": "purple",
+    "category": "identity",
+    "critical_bbox": [
+      232.0,
+      131.0,
+      361.0,
+      268.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 4.8375,
+      "0.5": 9.675,
+      "0.75": 14.5125,
+      "1.0": 19.35
+    }
+  },
+  {
+    "question_id": "07732990",
+    "image_id": "2329133",
+    "question": "What color is the bench?",
+    "ground_truth": "green",
+    "category": "color",
+    "critical_bbox": [
+      171.0,
+      121.0,
+      323.0,
+      256.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 5.0625,
+      "0.5": 10.125,
+      "0.75": 15.1875,
+      "1.0": 20.25
+    }
+  },
+  {
+    "question_id": "14144547",
+    "image_id": "2324283",
+    "question": "What kind of vehicle is it?",
+    "ground_truth": "car",
+    "category": "identity",
+    "critical_bbox": [
+      0.0,
+      1.0,
+      110.0,
+      197.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 4.125,
+      "0.5": 8.25,
+      "0.75": 12.375,
+      "1.0": 16.5
+    }
+  },
+  {
+    "question_id": "17877969",
+    "image_id": "2326665",
+    "question": "What kind of vegetable is green?",
+    "ground_truth": "peas",
+    "category": "identity",
+    "critical_bbox": [
+      203.0,
+      1.0,
+      344.0,
+      120.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 4.4625,
+      "0.5": 8.925,
+      "0.75": 13.3875,
+      "1.0": 17.85
+    }
+  },
+  {
+    "question_id": "14696378",
+    "image_id": "2401700",
+    "question": "What color is the food in the middle of the picture?",
+    "ground_truth": "yellow",
+    "category": "color",
+    "critical_bbox": [
+      232.0,
+      121.0,
+      399.0,
+      164.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 1.6125,
+      "0.5": 3.225,
+      "0.75": 4.8375,
+      "1.0": 6.45
+    }
+  },
+  {
+    "question_id": "04819551",
+    "image_id": "4912",
+    "question": "What is the name of the item of furniture that is not white?",
+    "ground_truth": "couch",
+    "category": "identity",
+    "critical_bbox": [
+      191.0,
+      256.0,
+      269.0,
+      378.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 2.925,
+      "0.5": 5.85,
+      "0.75": 8.775,
+      "1.0": 11.7
+    }
+  },
+  {
+    "question_id": "01998367",
+    "image_id": "2408244",
+    "question": "What color is the short shirt?",
+    "ground_truth": "gray",
+    "category": "color",
+    "critical_bbox": [
+      144.0,
+      122.0,
+      239.0,
+      233.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 3.5625,
+      "0.5": 7.125,
+      "0.75": 10.6875,
+      "1.0": 14.25
+    }
+  },
+  {
+    "question_id": "15700256",
+    "image_id": "2387817",
+    "question": "Is the tee shirt made of cotton black or blue?",
+    "ground_truth": "black",
+    "category": "material",
+    "critical_bbox": [
+      186.0,
+      37.0,
+      308.0,
+      153.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 4.35,
+      "0.5": 8.7,
+      "0.75": 13.05,
+      "1.0": 17.4
+    }
+  },
+  {
+    "question_id": "19648772",
+    "image_id": "2415698",
+    "question": "What is the color of the large hair?",
+    "ground_truth": "tan",
+    "category": "identity",
+    "critical_bbox": [
+      159.0,
+      51.0,
+      243.0,
+      143.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 3.15,
+      "0.5": 6.3,
+      "0.75": 9.45,
+      "1.0": 12.6
+    }
+  },
+  {
+    "question_id": "19803395",
+    "image_id": "2330010",
+    "question": "What is the color of the rose?",
+    "ground_truth": "pink",
+    "category": "identity",
+    "critical_bbox": [
+      27.0,
+      24.0,
+      107.0,
+      102.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 2.925,
+      "0.5": 5.85,
+      "0.75": 8.775,
+      "1.0": 11.7
+    }
+  },
+  {
+    "question_id": "132554",
+    "image_id": "2324466",
+    "question": "What color is the shirt, black or pink?",
+    "ground_truth": "black",
+    "category": "color",
+    "critical_bbox": [
+      239.0,
+      114.0,
+      304.0,
+      179.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 2.4375,
+      "0.5": 4.875,
+      "0.75": 7.3125,
+      "1.0": 9.75
+    }
+  },
+  {
+    "question_id": "0677905",
+    "image_id": "2407766",
+    "question": "What is the sink made of?",
+    "ground_truth": "porcelain",
+    "category": "material",
+    "critical_bbox": [
+      108.0,
+      149.0,
+      180.0,
+      206.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 2.1375,
+      "0.5": 4.275,
+      "0.75": 6.4125,
+      "1.0": 8.55
+    }
+  },
+  {
+    "question_id": "09282266",
+    "image_id": "2393663",
+    "question": "What is the dotted clothing item?",
+    "ground_truth": "skirt",
+    "category": "identity",
+    "critical_bbox": [
+      40.0,
+      274.0,
+      196.0,
+      384.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 4.125,
+      "0.5": 8.25,
+      "0.75": 12.375,
+      "1.0": 16.5
+    }
+  },
+  {
+    "question_id": "06600330",
+    "image_id": "2387492",
+    "question": "What type of vehicle is in this photo?",
+    "ground_truth": "suv",
+    "category": "identity",
+    "critical_bbox": [
+      67.0,
+      85.0,
+      356.0,
+      222.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 5.1375,
+      "0.5": 10.275,
+      "0.75": 15.4125,
+      "1.0": 20.55
+    }
+  },
+  {
+    "question_id": "1188149",
+    "image_id": "2409685",
+    "question": "What color is the helmet in the top?",
+    "ground_truth": "blue",
+    "category": "color",
+    "critical_bbox": [
+      212.0,
+      48.0,
+      274.0,
+      106.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 2.175,
+      "0.5": 4.35,
+      "0.75": 6.525,
+      "1.0": 8.7
+    }
+  },
+  {
+    "question_id": "10204459",
+    "image_id": "2380934",
+    "question": "What is the color of the zebra in the middle of the picture?",
+    "ground_truth": "black",
+    "category": "identity",
+    "critical_bbox": [
+      183.0,
+      152.0,
+      315.0,
+      253.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 3.7875,
+      "0.5": 7.575,
+      "0.75": 11.3625,
+      "1.0": 15.15
+    }
+  },
+  {
+    "question_id": "11392858",
+    "image_id": "2377598",
+    "question": "What color is the necklace, blue or black?",
+    "ground_truth": "blue",
+    "category": "color",
+    "critical_bbox": [
+      188.0,
+      179.0,
+      274.0,
+      333.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 3.225,
+      "0.5": 6.45,
+      "0.75": 9.675,
+      "1.0": 12.9
+    }
+  },
+  {
+    "question_id": "13420243",
+    "image_id": "2335072",
+    "question": "Which kind of furniture is made of wood?",
+    "ground_truth": "chair",
+    "category": "material",
+    "critical_bbox": [
+      10.0,
+      286.0,
+      131.0,
+      494.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 4.5375,
+      "0.5": 9.075,
+      "0.75": 13.6125,
+      "1.0": 18.15
+    }
+  },
+  {
+    "question_id": "16184856",
+    "image_id": "2356100",
+    "question": "What is the striped animal called?",
+    "ground_truth": "zebra",
+    "category": "identity",
+    "critical_bbox": [
+      314.0,
+      197.0,
+      475.0,
+      319.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 4.575,
+      "0.5": 9.15,
+      "0.75": 13.725,
+      "1.0": 18.3
+    }
+  },
+  {
+    "question_id": "02251016",
+    "image_id": "2335043",
+    "question": "What color does the food in the bottom of the picture have?",
+    "ground_truth": "green",
+    "category": "color",
+    "critical_bbox": [
+      118.0,
+      223.0,
+      193.0,
+      288.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 2.4375,
+      "0.5": 4.875,
+      "0.75": 7.3125,
+      "1.0": 9.75
+    }
+  },
+  {
+    "question_id": "081030138",
+    "image_id": "2382268",
+    "question": "What kind of clothing is not white?",
+    "ground_truth": "coat",
+    "category": "identity",
+    "critical_bbox": [
+      132.0,
+      130.0,
+      304.0,
+      335.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 6.45,
+      "0.5": 12.9,
+      "0.75": 19.35,
+      "1.0": 24.0
+    }
+  },
+  {
+    "question_id": "14451054",
+    "image_id": "2402483",
+    "question": "What color are the traffic lights on the right?",
+    "ground_truth": "gray",
+    "category": "color",
+    "critical_bbox": [
+      373.0,
+      247.0,
+      428.0,
+      341.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 2.0625,
+      "0.5": 4.125,
+      "0.75": 6.1875,
+      "1.0": 8.25
+    }
+  },
+  {
+    "question_id": "04132070",
+    "image_id": "2326282",
+    "question": "What color is the couch?",
+    "ground_truth": "white",
+    "category": "color",
+    "critical_bbox": [
+      161.0,
+      125.0,
+      271.0,
+      180.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 2.0625,
+      "0.5": 4.125,
+      "0.75": 6.1875,
+      "1.0": 8.25
+    }
+  },
+  {
+    "question_id": "1827566",
+    "image_id": "2321180",
+    "question": "What is the color of the kettle?",
+    "ground_truth": "black",
+    "category": "identity",
+    "critical_bbox": [
+      451.0,
+      165.0,
+      500.0,
+      245.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 1.8375,
+      "0.5": 3.675,
+      "0.75": 5.5125,
+      "1.0": 7.35
+    }
+  },
+  {
+    "question_id": "06121366",
+    "image_id": "2388285",
+    "question": "What color does the motorbike have?",
+    "ground_truth": "silver",
+    "category": "color",
+    "critical_bbox": [
+      257.0,
+      124.0,
+      358.0,
+      232.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 3.7875,
+      "0.5": 7.575,
+      "0.75": 11.3625,
+      "1.0": 15.15
+    }
+  },
+  {
+    "question_id": "00729416",
+    "image_id": "2391042",
+    "question": "What's the bridge made of?",
+    "ground_truth": "concrete",
+    "category": "material",
+    "critical_bbox": [
+      0.0,
+      0.0,
+      230.0,
+      62.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 2.325,
+      "0.5": 4.65,
+      "0.75": 6.975,
+      "1.0": 9.3
+    }
+  },
+  {
+    "question_id": "19417601",
+    "image_id": "2390215",
+    "question": "What kind of clothing is not green?",
+    "ground_truth": "hat",
+    "category": "identity",
+    "critical_bbox": [
+      195.0,
+      56.0,
+      326.0,
+      146.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 3.375,
+      "0.5": 6.75,
+      "0.75": 10.125,
+      "1.0": 13.5
+    }
+  },
+  {
+    "question_id": "16161462",
+    "image_id": "2376280",
+    "question": "What color are the pants?",
+    "ground_truth": "black",
+    "category": "color",
+    "critical_bbox": [
+      33.0,
+      0.0,
+      233.0,
+      146.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 5.475,
+      "0.5": 10.95,
+      "0.75": 16.425,
+      "1.0": 21.9
+    }
+  },
+  {
+    "question_id": "08529419",
+    "image_id": "2348614",
+    "question": "Of which color is the boat made of plastic?",
+    "ground_truth": "gray",
+    "category": "material",
+    "critical_bbox": [
+      101.0,
+      126.0,
+      258.0,
+      162.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 1.35,
+      "0.5": 2.7,
+      "0.75": 4.05,
+      "1.0": 5.4
+    }
+  },
+  {
+    "question_id": "00416722",
+    "image_id": "2399079",
+    "question": "What kind of animal is green?",
+    "ground_truth": "bird",
+    "category": "identity",
+    "critical_bbox": [
+      215.0,
+      108.0,
+      377.0,
+      313.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 6.075,
+      "0.5": 12.15,
+      "0.75": 18.225,
+      "1.0": 24.0
+    }
+  },
+  {
+    "question_id": "08249762",
+    "image_id": "2386080",
+    "question": "What color is the arrow?",
+    "ground_truth": "white",
+    "category": "color",
+    "critical_bbox": [
+      97.0,
+      10.0,
+      234.0,
+      58.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 1.8,
+      "0.5": 3.6,
+      "0.75": 5.4,
+      "1.0": 7.2
+    }
+  },
+  {
+    "question_id": "05179205",
+    "image_id": "2388018",
+    "question": "Which kind of material is the bottle that is not empty made of?",
+    "ground_truth": "glass",
+    "category": "material",
+    "critical_bbox": [
+      310.0,
+      203.0,
+      361.0,
+      374.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 1.9125,
+      "0.5": 3.825,
+      "0.75": 5.7375,
+      "1.0": 7.65
+    }
+  },
+  {
+    "question_id": "187362",
+    "image_id": "2374944",
+    "question": "What type of clothing is white, the cap or the shirt?",
+    "ground_truth": "shirt",
+    "category": "identity",
+    "critical_bbox": [
+      88.0,
+      113.0,
+      232.0,
+      342.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 5.4,
+      "0.5": 10.8,
+      "0.75": 16.2,
+      "1.0": 21.6
+    }
+  },
+  {
+    "question_id": "13421344",
+    "image_id": "2324093",
+    "question": "What color is the box?",
+    "ground_truth": "white",
+    "category": "color",
+    "critical_bbox": [
+      128.0,
+      275.0,
+      207.0,
+      332.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 2.1375,
+      "0.5": 4.275,
+      "0.75": 6.4125,
+      "1.0": 8.55
+    }
+  },
+  {
+    "question_id": "06774702",
+    "image_id": "2349504",
+    "question": "What is the white bag made of?",
+    "ground_truth": "plastic",
+    "category": "material",
+    "critical_bbox": [
+      199.0,
+      328.0,
+      324.0,
+      374.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 1.725,
+      "0.5": 3.45,
+      "0.75": 5.175,
+      "1.0": 6.9
+    }
+  },
+  {
+    "question_id": "11430770",
+    "image_id": "2143",
+    "question": "What kind of vehicle is parked?",
+    "ground_truth": "car",
+    "category": "identity",
+    "critical_bbox": [
+      0.0,
+      378.0,
+      463.0,
+      582.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 7.65,
+      "0.5": 15.3,
+      "0.75": 22.95,
+      "1.0": 24.0
+    }
+  },
+  {
+    "question_id": "19273561",
+    "image_id": "2410351",
+    "question": "What color is the sink, silver or black?",
+    "ground_truth": "silver",
+    "category": "color",
+    "critical_bbox": [
+      257.0,
+      346.0,
+      345.0,
+      383.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 1.3875,
+      "0.5": 2.775,
+      "0.75": 4.1625,
+      "1.0": 5.55
+    }
+  },
+  {
+    "question_id": "01582909",
+    "image_id": "2378055",
+    "question": "Is the white gown made of lace?",
+    "ground_truth": "yes",
+    "category": "material",
+    "critical_bbox": [
+      108.0,
+      145.0,
+      209.0,
+      438.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 3.7875,
+      "0.5": 7.575,
+      "0.75": 11.3625,
+      "1.0": 15.15
+    }
+  },
+  {
+    "question_id": "16747825",
+    "image_id": "2350808",
+    "question": "What is the name of the dark clothing item?",
+    "ground_truth": "wetsuit",
+    "category": "identity",
+    "critical_bbox": [
+      170.0,
+      91.0,
+      298.0,
+      296.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 4.8,
+      "0.5": 9.6,
+      "0.75": 14.4,
+      "1.0": 19.2
+    }
+  },
+  {
+    "question_id": "04969151",
+    "image_id": "2371677",
+    "question": "What color do you think the box is?",
+    "ground_truth": "white",
+    "category": "color",
+    "critical_bbox": [
+      120.0,
+      174.0,
+      315.0,
+      357.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 6.8625,
+      "0.5": 13.725,
+      "0.75": 20.5875,
+      "1.0": 24.0
+    }
+  },
+  {
+    "question_id": "05454766",
+    "image_id": "2354146",
+    "question": "What is the tower made of?",
+    "ground_truth": "brick",
+    "category": "material",
+    "critical_bbox": [
+      79.0,
+      126.0,
+      177.0,
+      409.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 3.675,
+      "0.5": 7.35,
+      "0.75": 11.025,
+      "1.0": 14.7
+    }
+  },
+  {
+    "question_id": "01297407",
+    "image_id": "2363316",
+    "question": "What kind of food is not cooked?",
+    "ground_truth": "onion",
+    "category": "identity",
+    "critical_bbox": [
+      120.0,
+      102.0,
+      404.0,
+      409.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 10.65,
+      "0.5": 21.3,
+      "0.75": 24.0,
+      "1.0": 24.0
+    }
+  },
+  {
+    "question_id": "00866375",
+    "image_id": "2360132",
+    "question": "What color is the headboard?",
+    "ground_truth": "gray",
+    "category": "color",
+    "critical_bbox": [
+      291.0,
+      129.0,
+      499.0,
+      281.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 5.7,
+      "0.5": 11.4,
+      "0.75": 17.1,
+      "1.0": 22.8
+    }
+  },
+  {
+    "question_id": "14223248",
+    "image_id": "2395951",
+    "question": "What is the green vegetable in the scene?",
+    "ground_truth": "lettuce",
+    "category": "identity",
+    "critical_bbox": [
+      0.0,
+      180.0,
+      258.0,
+      332.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 5.7,
+      "0.5": 11.4,
+      "0.75": 17.1,
+      "1.0": 22.8
+    }
+  },
+  {
+    "question_id": "00324617",
+    "image_id": "2378916",
+    "question": "The computer mouse has what color?",
+    "ground_truth": "blue",
+    "category": "color",
+    "critical_bbox": [
+      131.0,
+      219.0,
+      297.0,
+      358.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 5.2125,
+      "0.5": 10.425,
+      "0.75": 15.6375,
+      "1.0": 20.85
+    }
+  },
+  {
+    "question_id": "18546994",
+    "image_id": "2366467",
+    "question": "What type of material is the bowl made of?",
+    "ground_truth": "wood",
+    "category": "material",
+    "critical_bbox": [
+      370.0,
+      19.0,
+      500.0,
+      136.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 4.3875,
+      "0.5": 8.775,
+      "0.75": 13.1625,
+      "1.0": 17.55
+    }
+  },
+  {
+    "question_id": "02625059",
+    "image_id": "2411437",
+    "question": "What kind of furniture is not white?",
+    "ground_truth": "drawer",
+    "category": "identity",
+    "critical_bbox": [
+      209.0,
+      255.0,
+      340.0,
+      327.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 2.7,
+      "0.5": 5.4,
+      "0.75": 8.1,
+      "1.0": 10.8
+    }
+  },
+  {
+    "question_id": "14803789",
+    "image_id": "2318376",
+    "question": "Is the basket made of wicker?",
+    "ground_truth": "no",
+    "category": "material",
+    "critical_bbox": [
+      285.0,
+      257.0,
+      500.0,
+      346.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 3.3375,
+      "0.5": 6.675,
+      "0.75": 10.0125,
+      "1.0": 13.35
+    }
+  },
+  {
+    "question_id": "09161863",
+    "image_id": "2416885",
+    "question": "What is the man doing?",
+    "ground_truth": "surfing",
+    "category": "identity",
+    "critical_bbox": [
+      228.0,
+      137.0,
+      381.0,
+      223.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 3.225,
+      "0.5": 6.45,
+      "0.75": 9.675,
+      "1.0": 12.9
+    }
+  },
+  {
+    "question_id": "18503824",
+    "image_id": "498069",
+    "question": "What color is the mailbox?",
+    "ground_truth": "blue",
+    "category": "color",
+    "critical_bbox": [
+      369.0,
+      369.0,
+      462.0,
+      522.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 3.4875,
+      "0.5": 6.975,
+      "0.75": 10.4625,
+      "1.0": 13.95
+    }
+  },
+  {
+    "question_id": "00935826",
+    "image_id": "2362947",
+    "question": "What is the nightstand made of?",
+    "ground_truth": "metal",
+    "category": "material",
+    "critical_bbox": [
+      53.0,
+      227.0,
+      177.0,
+      332.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 3.9375,
+      "0.5": 7.875,
+      "0.75": 11.8125,
+      "1.0": 15.75
+    }
+  },
+  {
+    "question_id": "06519869",
+    "image_id": "2406004",
+    "question": "What kind of appliance is it?",
+    "ground_truth": "heater",
+    "category": "identity",
+    "critical_bbox": [
+      232.0,
+      237.0,
+      342.0,
+      500.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 4.125,
+      "0.5": 8.25,
+      "0.75": 12.375,
+      "1.0": 16.5
+    }
+  },
+  {
+    "question_id": "01945269",
+    "image_id": "2375580",
+    "question": "What color does that keyboard have?",
+    "ground_truth": "black",
+    "category": "color",
+    "critical_bbox": [
+      278.0,
+      180.0,
+      344.0,
+      213.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 1.2375,
+      "0.5": 2.475,
+      "0.75": 3.7125,
+      "1.0": 4.95
+    }
+  },
+  {
+    "question_id": "15813958",
+    "image_id": "2353354",
+    "question": "What is the sink made of?",
+    "ground_truth": "porcelain",
+    "category": "material",
+    "critical_bbox": [
+      134.0,
+      198.0,
+      240.0,
+      321.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 3.975,
+      "0.5": 7.95,
+      "0.75": 11.925,
+      "1.0": 15.9
+    }
+  },
+  {
+    "question_id": "09226921",
+    "image_id": "713157",
+    "question": "What is the color of the statue?",
+    "ground_truth": "white",
+    "category": "identity",
+    "critical_bbox": [
+      148.0,
+      146.0,
+      433.0,
+      654.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 10.6875,
+      "0.5": 21.375,
+      "0.75": 24.0,
+      "1.0": 24.0
+    }
+  },
+  {
+    "question_id": "011021063",
+    "image_id": "2327592",
+    "question": "What color is the cart?",
+    "ground_truth": "white",
+    "category": "color",
+    "critical_bbox": [
+      157.0,
+      172.0,
+      261.0,
+      310.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 3.9,
+      "0.5": 7.8,
+      "0.75": 11.7,
+      "1.0": 15.6
+    }
+  },
+  {
+    "question_id": "03625313",
+    "image_id": "1054",
+    "question": "What type of furniture is made of wood?",
+    "ground_truth": "table",
+    "category": "material",
+    "critical_bbox": [
+      28.0,
+      189.0,
+      230.0,
+      255.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 2.475,
+      "0.5": 4.95,
+      "0.75": 7.425,
+      "1.0": 9.9
+    }
+  },
+  {
+    "question_id": "17397322",
+    "image_id": "2343353",
+    "question": "The bag on the right has what color?",
+    "ground_truth": "black",
+    "category": "color",
+    "critical_bbox": [
+      238.0,
+      344.0,
+      372.0,
+      473.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 4.8375,
+      "0.5": 9.675,
+      "0.75": 14.5125,
+      "1.0": 19.35
+    }
+  },
+  {
+    "question_id": "15569549",
+    "image_id": "2369303",
+    "question": "Is the dispenser made of bronze brown and large?",
+    "ground_truth": "no",
+    "category": "material",
+    "critical_bbox": [
+      344.0,
+      91.0,
+      392.0,
+      160.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 1.8,
+      "0.5": 3.6,
+      "0.75": 5.4,
+      "1.0": 7.2
+    }
+  },
+  {
+    "question_id": "08816090",
+    "image_id": "2375806",
+    "question": "What kind of furniture is it?",
+    "ground_truth": "cabinet",
+    "category": "identity",
+    "critical_bbox": [
+      201.0,
+      68.0,
+      366.0,
+      209.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 5.2875,
+      "0.5": 10.575,
+      "0.75": 15.8625,
+      "1.0": 21.15
+    }
+  },
+  {
+    "question_id": "01179301",
+    "image_id": "2401028",
+    "question": "What's the cabinet made of?",
+    "ground_truth": "glass",
+    "category": "material",
+    "critical_bbox": [
+      80.0,
+      0.0,
+      184.0,
+      120.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 3.9,
+      "0.5": 7.8,
+      "0.75": 11.7,
+      "1.0": 15.6
+    }
+  },
+  {
+    "question_id": "02639683",
+    "image_id": "2358464",
+    "question": "What type of food is not green, the stew or the rice?",
+    "ground_truth": "rice",
+    "category": "identity",
+    "critical_bbox": [
+      45.0,
+      59.0,
+      186.0,
+      123.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 2.4,
+      "0.5": 4.8,
+      "0.75": 7.2,
+      "1.0": 9.6
+    }
+  },
+  {
+    "question_id": "01671289",
+    "image_id": "1159457",
+    "question": "What is the pink clothing item?",
+    "ground_truth": "jacket",
+    "category": "identity",
+    "critical_bbox": [
+      0.0,
+      225.0,
+      381.0,
+      687.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 14.2875,
+      "0.5": 24.0,
+      "0.75": 24.0,
+      "1.0": 24.0
+    }
+  },
+  {
+    "question_id": "10222743",
+    "image_id": "2395223",
+    "question": "What color does the jacket have?",
+    "ground_truth": "red",
+    "category": "color",
+    "critical_bbox": [
+      0.0,
+      22.0,
+      55.0,
+      94.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 2.0625,
+      "0.5": 4.125,
+      "0.75": 6.1875,
+      "1.0": 8.25
+    }
+  },
+  {
+    "question_id": "14354734",
+    "image_id": "2391318",
+    "question": "What is the man doing?",
+    "ground_truth": "running",
+    "category": "identity",
+    "critical_bbox": [
+      154.0,
+      127.0,
+      216.0,
+      323.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 2.325,
+      "0.5": 4.65,
+      "0.75": 6.975,
+      "1.0": 9.3
+    }
+  },
+  {
+    "question_id": "04274699",
+    "image_id": "2367475",
+    "question": "What color is the uniform, white or orange?",
+    "ground_truth": "white",
+    "category": "color",
+    "critical_bbox": [
+      44.0,
+      105.0,
+      193.0,
+      387.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 5.5875,
+      "0.5": 11.175,
+      "0.75": 16.7625,
+      "1.0": 22.35
+    }
+  },
+  {
+    "question_id": "14270377",
+    "image_id": "2366508",
+    "question": "What's the bridge made of?",
+    "ground_truth": "metal",
+    "category": "material",
+    "critical_bbox": [
+      210.0,
+      218.0,
+      499.0,
+      374.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 5.85,
+      "0.5": 11.7,
+      "0.75": 17.55,
+      "1.0": 23.4
+    }
+  },
+  {
+    "question_id": "15283508",
+    "image_id": "2367181",
+    "question": "What kind of clothing is short sleeved?",
+    "ground_truth": "uniform",
+    "category": "identity",
+    "critical_bbox": [
+      78.0,
+      74.0,
+      279.0,
+      287.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 7.5375,
+      "0.5": 15.075,
+      "0.75": 22.6125,
+      "1.0": 24.0
+    }
+  },
+  {
+    "question_id": "01873723",
+    "image_id": "2409967",
+    "question": "What color is that table?",
+    "ground_truth": "white",
+    "category": "color",
+    "critical_bbox": [
+      206.0,
+      286.0,
+      500.0,
+      375.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 3.3375,
+      "0.5": 6.675,
+      "0.75": 10.0125,
+      "1.0": 13.35
+    }
+  },
+  {
+    "question_id": "17726086",
+    "image_id": "2349040",
+    "question": "Is the hat that is made of straw tall and red?",
+    "ground_truth": "no",
+    "category": "material",
+    "critical_bbox": [
+      142.0,
+      29.0,
+      329.0,
+      143.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 4.275,
+      "0.5": 8.55,
+      "0.75": 12.825,
+      "1.0": 17.1
+    }
+  },
+  {
+    "question_id": "10558851",
+    "image_id": "2391457",
+    "question": "What is the color of the bowl?",
+    "ground_truth": "yellow",
+    "category": "identity",
+    "critical_bbox": [
+      142.0,
+      376.0,
+      238.0,
+      447.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 2.6625,
+      "0.5": 5.325,
+      "0.75": 7.9875,
+      "1.0": 10.65
+    }
+  },
+  {
+    "question_id": "0912046",
+    "image_id": "2406404",
+    "question": "What kind of vehicle is made of metal?",
+    "ground_truth": "bus",
+    "category": "material",
+    "critical_bbox": [
+      323.0,
+      111.0,
+      487.0,
+      252.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 5.2875,
+      "0.5": 10.575,
+      "0.75": 15.8625,
+      "1.0": 21.15
+    }
+  },
+  {
+    "question_id": "12953597",
+    "image_id": "285868",
+    "question": "What type of clothing is black?",
+    "ground_truth": "jacket",
+    "category": "identity",
+    "critical_bbox": [
+      101.0,
+      313.0,
+      643.0,
+      935.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 20.325,
+      "0.5": 24.0,
+      "0.75": 24.0,
+      "1.0": 24.0
+    }
+  },
+  {
+    "question_id": "021054250",
+    "image_id": "2332297",
+    "question": "What color is the toy that is in the middle?",
+    "ground_truth": "white",
+    "category": "color",
+    "critical_bbox": [
+      204.0,
+      124.0,
+      307.0,
+      278.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 3.8625,
+      "0.5": 7.725,
+      "0.75": 11.5875,
+      "1.0": 15.45
+    }
+  },
+  {
+    "question_id": "12140355",
+    "image_id": "2359333",
+    "question": "What is the color of the laptop computer that is made of plastic?",
+    "ground_truth": "white",
+    "category": "material",
+    "critical_bbox": [
+      291.0,
+      21.0,
+      464.0,
+      200.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 6.4875,
+      "0.5": 12.975,
+      "0.75": 19.4625,
+      "1.0": 24.0
+    }
+  },
+  {
+    "question_id": "06183018",
+    "image_id": "2395834",
+    "question": "What is the orange piece of furniture called?",
+    "ground_truth": "bed",
+    "category": "identity",
+    "critical_bbox": [
+      213.0,
+      112.0,
+      471.0,
+      189.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 2.8875,
+      "0.5": 5.775,
+      "0.75": 8.6625,
+      "1.0": 11.55
+    }
+  },
+  {
+    "question_id": "09302219",
+    "image_id": "2371685",
+    "question": "What color is the screen?",
+    "ground_truth": "red",
+    "category": "color",
+    "critical_bbox": [
+      122.0,
+      272.0,
+      201.0,
+      320.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 1.8,
+      "0.5": 3.6,
+      "0.75": 5.4,
+      "1.0": 7.2
+    }
+  },
+  {
+    "question_id": "08471223",
+    "image_id": "2386203",
+    "question": "What color are the shorts?",
+    "ground_truth": "pink",
+    "category": "color",
+    "critical_bbox": [
+      152.0,
+      257.0,
+      300.0,
+      321.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 2.4,
+      "0.5": 4.8,
+      "0.75": 7.2,
+      "1.0": 9.6
+    }
+  },
+  {
+    "question_id": "01178812",
+    "image_id": "2386472",
+    "question": "What kind of furniture is not gray?",
+    "ground_truth": "drawer",
+    "category": "identity",
+    "critical_bbox": [
+      62.0,
+      234.0,
+      342.0,
+      347.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 4.2375,
+      "0.5": 8.475,
+      "0.75": 12.7125,
+      "1.0": 16.95
+    }
+  },
+  {
+    "question_id": "18874420",
+    "image_id": "2403581",
+    "question": "What color is the meat that is not little?",
+    "ground_truth": "brown",
+    "category": "color",
+    "critical_bbox": [
+      114.0,
+      112.0,
+      339.0,
+      321.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 7.8375,
+      "0.5": 15.675,
+      "0.75": 23.5125,
+      "1.0": 24.0
+    }
+  },
+  {
+    "question_id": "19351376",
+    "image_id": "2383947",
+    "question": "What is the food that is mixed?",
+    "ground_truth": "soup",
+    "category": "identity",
+    "critical_bbox": [
+      110.0,
+      114.0,
+      390.0,
+      298.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 6.9,
+      "0.5": 13.8,
+      "0.75": 20.7,
+      "1.0": 24.0
+    }
+  },
+  {
+    "question_id": "13810963",
+    "image_id": "2402632",
+    "question": "What is the fireplace made of, steel or maybe brick?",
+    "ground_truth": "steel",
+    "category": "material",
+    "critical_bbox": [
+      425.0,
+      167.0,
+      499.0,
+      332.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 2.775,
+      "0.5": 5.55,
+      "0.75": 8.325,
+      "1.0": 11.1
+    }
+  },
+  {
+    "question_id": "13483129",
+    "image_id": "2403364",
+    "question": "What kind of fruit is hanging?",
+    "ground_truth": "apple",
+    "category": "identity",
+    "critical_bbox": [
+      158.0,
+      91.0,
+      330.0,
+      265.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 6.45,
+      "0.5": 12.9,
+      "0.75": 19.35,
+      "1.0": 24.0
+    }
+  },
+  {
+    "question_id": "01494763",
+    "image_id": "2376882",
+    "question": "The ear buds have what color?",
+    "ground_truth": "black",
+    "category": "color",
+    "critical_bbox": [
+      27.0,
+      33.0,
+      114.0,
+      304.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 3.2625,
+      "0.5": 6.525,
+      "0.75": 9.7875,
+      "1.0": 13.05
+    }
+  },
+  {
+    "question_id": "01775293",
+    "image_id": "2346673",
+    "question": "What is the shelf made of?",
+    "ground_truth": "glass",
+    "category": "material",
+    "critical_bbox": [
+      243.0,
+      89.0,
+      462.0,
+      227.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 5.175,
+      "0.5": 10.35,
+      "0.75": 15.525,
+      "1.0": 20.7
+    }
+  },
+  {
+    "question_id": "03492559",
+    "image_id": "2409876",
+    "question": "What is the vegetable called?",
+    "ground_truth": "pumpkin",
+    "category": "identity",
+    "critical_bbox": [
+      145.0,
+      218.0,
+      282.0,
+      366.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 5.1375,
+      "0.5": 10.275,
+      "0.75": 15.4125,
+      "1.0": 20.55
+    }
+  },
+  {
+    "question_id": "161036612",
+    "image_id": "2368963",
+    "question": "What color is the curtain in the center?",
+    "ground_truth": "blue",
+    "category": "color",
+    "critical_bbox": [
+      172.0,
+      93.0,
+      259.0,
+      348.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 3.2625,
+      "0.5": 6.525,
+      "0.75": 9.7875,
+      "1.0": 13.05
+    }
+  },
+  {
+    "question_id": "13376811",
+    "image_id": "2322673",
+    "question": "How the white vehicle is called?",
+    "ground_truth": "carriage",
+    "category": "identity",
+    "critical_bbox": [
+      0.0,
+      169.0,
+      199.0,
+      332.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 6.1125,
+      "0.5": 12.225,
+      "0.75": 18.3375,
+      "1.0": 24.0
+    }
+  },
+  {
+    "question_id": "0699037",
+    "image_id": "150543",
+    "question": "What are the doors made of?",
+    "ground_truth": "glass",
+    "category": "material",
+    "critical_bbox": [
+      272.0,
+      102.0,
+      365.0,
+      320.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 3.4875,
+      "0.5": 6.975,
+      "0.75": 10.4625,
+      "1.0": 13.95
+    }
+  },
+  {
+    "question_id": "07696704",
+    "image_id": "2388377",
+    "question": "How the wooden item of furniture is called?",
+    "ground_truth": "chair",
+    "category": "identity",
+    "critical_bbox": [
+      321.0,
+      171.0,
+      477.0,
+      359.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 5.85,
+      "0.5": 11.7,
+      "0.75": 17.55,
+      "1.0": 23.4
+    }
+  },
+  {
+    "question_id": "161037470",
+    "image_id": "2342838",
+    "question": "What color are the speakers?",
+    "ground_truth": "white",
+    "category": "color",
+    "critical_bbox": [
+      65.0,
+      242.0,
+      242.0,
+      323.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 3.0375,
+      "0.5": 6.075,
+      "0.75": 9.1125,
+      "1.0": 12.15
+    }
+  },
+  {
+    "question_id": "00362278",
+    "image_id": "2372454",
+    "question": "What is the item of furniture that is green called?",
+    "ground_truth": "chair",
+    "category": "identity",
+    "critical_bbox": [
+      81.0,
+      28.0,
+      265.0,
+      221.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 6.9,
+      "0.5": 13.8,
+      "0.75": 20.7,
+      "1.0": 24.0
+    }
+  },
+  {
+    "question_id": "03101593",
+    "image_id": "2384975",
+    "question": "What piece of furniture is made of wood?",
+    "ground_truth": "dresser",
+    "category": "material",
+    "critical_bbox": [
+      154.0,
+      132.0,
+      332.0,
+      451.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 6.675,
+      "0.5": 13.35,
+      "0.75": 20.025,
+      "1.0": 24.0
+    }
+  },
+  {
+    "question_id": "18922746",
+    "image_id": "2358811",
+    "question": "What kind of vehicle is it?",
+    "ground_truth": "van",
+    "category": "identity",
+    "critical_bbox": [
+      203.0,
+      50.0,
+      385.0,
+      178.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 4.8,
+      "0.5": 9.6,
+      "0.75": 14.4,
+      "1.0": 19.2
+    }
+  },
+  {
+    "question_id": "16922097",
+    "image_id": "2378471",
+    "question": "What color are the shorts?",
+    "ground_truth": "gray",
+    "category": "color",
+    "critical_bbox": [
+      333.0,
+      134.0,
+      392.0,
+      217.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 2.2125,
+      "0.5": 4.425,
+      "0.75": 6.6375,
+      "1.0": 8.85
+    }
+  },
+  {
+    "question_id": "121032292",
+    "image_id": "2390282",
+    "question": "Which type of clothing is made of leather, the vest or the man hat?",
+    "ground_truth": "vest",
+    "category": "material",
+    "critical_bbox": [
+      226.0,
+      209.0,
+      380.0,
+      346.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 5.1375,
+      "0.5": 10.275,
+      "0.75": 15.4125,
+      "1.0": 20.55
+    }
+  },
+  {
+    "question_id": "12588508",
+    "image_id": "2323989",
+    "question": "What is the color of that necktie?",
+    "ground_truth": "black",
+    "category": "identity",
+    "critical_bbox": [
+      126.0,
+      263.0,
+      162.0,
+      421.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 1.35,
+      "0.5": 2.7,
+      "0.75": 4.05,
+      "1.0": 5.4
+    }
+  },
+  {
+    "question_id": "17184616",
+    "image_id": "4290",
+    "question": "What is the coffee table made of?",
+    "ground_truth": "glass",
+    "category": "material",
+    "critical_bbox": [
+      332.0,
+      274.0,
+      512.0,
+      340.0
+    ],
+    "blur_radii": {
+      "0.0": 0.0,
+      "0.25": 2.475,
+      "0.5": 4.95,
+      "0.75": 7.425,
+      "1.0": 9.9
+    }
+  }
+]
