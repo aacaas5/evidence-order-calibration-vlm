@@ -1,0 +1,218 @@
+{
+  "primary_claims": [
+    {
+      "claim_id": "C1",
+      "claim": "Progressive removal of question-critical evidence reduces VLM task performance.",
+      "evidence": "Critical masking and blur severity curves.",
+      "strength": "strong"
+    },
+    {
+      "claim_id": "C2",
+      "claim": "Native VLM confidence responds to evidence loss in aggregate but is frequently non-monotonic within individual evidence trajectories.",
+      "evidence": "Masking EMVR and blur EMVR.",
+      "strength": "strong"
+    },
+    {
+      "claim_id": "C3",
+      "claim": "Question-critical masking causes substantially larger degradation than matched non-critical masking.",
+      "evidence": "P18 paired bootstrap control.",
+      "strength": "strong"
+    },
+    {
+      "claim_id": "C4",
+      "claim": "Evidence-order regularization reduces evidence-order violations compared with BCE-only training.",
+      "evidence": "Primary masking bootstrap.",
+      "strength": "strong"
+    },
+    {
+      "claim_id": "C5",
+      "claim": "The evidence-order benefit transfers from masking to an unseen local blur degradation.",
+      "evidence": "P19 paired blur-transfer bootstrap.",
+      "strength": "strong"
+    },
+    {
+      "claim_id": "C6",
+      "claim": "The method improves selective prediction over native confidence.",
+      "evidence": "Not supported.",
+      "strength": "do_not_claim"
+    },
+    {
+      "claim_id": "C7",
+      "claim": "The method significantly improves AUROC over BCE-only.",
+      "evidence": "Bootstrap CIs cross zero.",
+      "strength": "do_not_claim"
+    }
+  ],
+  "primary_masking": [
+    {
+      "setting": "masking",
+      "model": "native_confidence",
+      "accuracy": NaN,
+      "auroc": 0.76885,
+      "auprc": NaN,
+      "brier": NaN,
+      "emvr": 0.43608,
+      "trajectory_violation_rate": NaN,
+      "aurc": 0.265415,
+      "status": "primary_frozen"
+    },
+    {
+      "setting": "masking",
+      "model": "bce_only",
+      "accuracy": 0.61044,
+      "auroc": 0.674279,
+      "auprc": 0.723686,
+      "brier": 0.226836,
+      "emvr": 0.329841,
+      "trajectory_violation_rate": 0.812698,
+      "aurc": 0.315096,
+      "status": "primary_frozen"
+    },
+    {
+      "setting": "masking",
+      "model": "bce_plus_order",
+      "accuracy": 0.603556,
+      "auroc": 0.676207,
+      "auprc": 0.722245,
+      "brier": 0.225634,
+      "emvr": 0.302698,
+      "trajectory_violation_rate": 0.767302,
+      "aurc": 0.315798,
+      "status": "primary_frozen"
+    }
+  ],
+  "primary_transfer": [
+    {
+      "model": "bce_only",
+      "accuracy_mean": 0.5978730158730159,
+      "accuracy_std": 0.0599276880112641,
+      "auroc_mean": 0.6049238114348441,
+      "auroc_std": 0.0525804555172948,
+      "auprc_mean": 0.6142049238687128,
+      "brier_mean": 0.3521484732627868,
+      "emvr_mean": 0.4492460317460317,
+      "emvr_std": 0.0437004587589421,
+      "trajectory_violation_rate_mean": 0.9088888888888887,
+      "setting": "mask_train_blur_test",
+      "status": "primary_frozen"
+    },
+    {
+      "model": "bce_plus_order",
+      "accuracy_mean": 0.6025714285714285,
+      "accuracy_std": 0.0884584532940955,
+      "auroc_mean": 0.6204745331384498,
+      "auroc_std": 0.0716210179991883,
+      "auprc_mean": 0.6300418330611548,
+      "brier_mean": 0.3383234083652496,
+      "emvr_mean": 0.4022222222222222,
+      "emvr_std": 0.0346553778351928,
+      "trajectory_violation_rate_mean": 0.8863492063492064,
+      "setting": "mask_train_blur_test",
+      "status": "primary_frozen"
+    },
+    {
+      "model": "native_confidence",
+      "accuracy_mean": NaN,
+      "accuracy_std": NaN,
+      "auroc_mean": 0.7010224917890787,
+      "auroc_std": 0.0832380599317706,
+      "auprc_mean": 0.7109980399588881,
+      "brier_mean": NaN,
+      "emvr_mean": 0.4206746031746031,
+      "emvr_std": 0.0356249986186807,
+      "trajectory_violation_rate_mean": 0.8920634920634921,
+      "setting": "mask_train_blur_test",
+      "status": "primary_frozen"
+    }
+  ],
+  "bootstrap": [
+    {
+      "setting": "masking",
+      "comparison": "bce_plus_order_minus_bce_only",
+      "metric": "emvr",
+      "mean": -0.026989,
+      "lower_95": -0.044034,
+      "upper_95": -0.009943
+    },
+    {
+      "setting": "masking",
+      "comparison": "bce_plus_order_minus_bce_only",
+      "metric": "auroc",
+      "mean": 0.003773,
+      "lower_95": -0.002943,
+      "upper_95": 0.010189
+    },
+    {
+      "setting": "masking",
+      "comparison": "bce_plus_order_minus_bce_only",
+      "metric": "aurc",
+      "mean": 0.000702,
+      "lower_95": -0.004039,
+      "upper_95": 0.007011
+    },
+    {
+      "setting": "mask_train_blur_test",
+      "comparison": "bce_plus_order_minus_bce_only",
+      "metric": "emvr",
+      "mean": -0.04677840909090909,
+      "lower_95": -0.07386363636363635,
+      "upper_95": -0.019886363636363646
+    },
+    {
+      "setting": "mask_train_blur_test",
+      "comparison": "bce_plus_order_minus_bce_only",
+      "metric": "auroc",
+      "mean": 0.0133375441944379,
+      "lower_95": -0.02104775781064767,
+      "upper_95": 0.049351488901702066
+    },
+    {
+      "setting": "mask_train_blur_test",
+      "comparison": "bce_plus_order_minus_bce_only",
+      "metric": "aurc",
+      "mean": -0.013053198686152097,
+      "lower_95": -0.043227167051919875,
+      "upper_95": 0.018787494054806116
+    },
+    {
+      "setting": "mask_train_blur_test",
+      "comparison": "bce_plus_order_minus_bce_only",
+      "metric": "brier",
+      "mean": -0.013884515909881934,
+      "lower_95": -0.04378386209472964,
+      "upper_95": 0.014721322230216185
+    }
+  ],
+  "control": [
+    {
+      "metric": "accuracy_drop_difference",
+      "comparison": "critical_minus_noncritical",
+      "mean": 0.276471,
+      "lower_95": 0.2,
+      "upper_95": 0.347206
+    },
+    {
+      "metric": "confidence_change_difference",
+      "comparison": "critical_minus_noncritical",
+      "mean": -0.252755,
+      "lower_95": -0.3215,
+      "upper_95": -0.18935
+    },
+    {
+      "metric": "entropy_change_difference",
+      "comparison": "critical_minus_noncritical",
+      "mean": 0.542872,
+      "lower_95": 0.42338,
+      "upper_95": 0.66777
+    }
+  ],
+  "important_rules": [
+    "Do not claim selective prediction improvement over native confidence.",
+    "Do not claim statistically significant AUROC improvement.",
+    "Use frozen primary results for main claims.",
+    "Use P20A and P20B only as ablations.",
+    "Describe matched irrelevant regions as matched non-critical regions.",
+    "Describe audit as automated visual quality control with limited human spot-check.",
+    "Qwen remains frozen in all experiments."
+  ]
+}

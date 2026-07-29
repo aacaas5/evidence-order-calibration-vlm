@@ -1,0 +1,4 @@
+metric,comparison,mean,lower_95,upper_95
+accuracy_drop_difference,critical_minus_noncritical,0.276471,0.2,0.347206
+confidence_change_difference,critical_minus_noncritical,-0.252755,-0.3215,-0.18935
+entropy_change_difference,critical_minus_noncritical,0.542872,0.42338,0.66777

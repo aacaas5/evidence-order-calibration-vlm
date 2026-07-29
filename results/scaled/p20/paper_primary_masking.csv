@@ -1,0 +1,4 @@
+setting,model,accuracy,auroc,auprc,brier,emvr,trajectory_violation_rate,aurc,status
+masking,native_confidence,,0.76885,,,0.43608,,0.265415,primary_frozen
+masking,bce_only,0.61044,0.674279,0.723686,0.226836,0.329841,0.812698,0.315096,primary_frozen
+masking,bce_plus_order,0.603556,0.676207,0.722245,0.225634,0.302698,0.767302,0.315798,primary_frozen

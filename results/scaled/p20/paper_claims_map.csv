@@ -1,0 +1,8 @@
+claim_id,claim,evidence,strength
+C1,Progressive removal of question-critical evidence reduces VLM task performance.,Critical masking and blur severity curves.,strong
+C2,Native VLM confidence responds to evidence loss in aggregate but is frequently non-monotonic within individual evidence trajectories.,Masking EMVR and blur EMVR.,strong
+C3,Question-critical masking causes substantially larger degradation than matched non-critical masking.,P18 paired bootstrap control.,strong
+C4,Evidence-order regularization reduces evidence-order violations compared with BCE-only training.,Primary masking bootstrap.,strong
+C5,The evidence-order benefit transfers from masking to an unseen local blur degradation.,P19 paired blur-transfer bootstrap.,strong
+C6,The method improves selective prediction over native confidence.,Not supported.,do_not_claim
+C7,The method significantly improves AUROC over BCE-only.,Bootstrap CIs cross zero.,do_not_claim

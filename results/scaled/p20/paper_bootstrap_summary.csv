@@ -1,0 +1,8 @@
+setting,comparison,metric,mean,lower_95,upper_95
+masking,bce_plus_order_minus_bce_only,emvr,-0.026989,-0.044034,-0.009943
+masking,bce_plus_order_minus_bce_only,auroc,0.003773,-0.002943,0.010189
+masking,bce_plus_order_minus_bce_only,aurc,0.000702,-0.004039,0.007011
+mask_train_blur_test,bce_plus_order_minus_bce_only,emvr,-0.04677840909090909,-0.07386363636363635,-0.019886363636363646
+mask_train_blur_test,bce_plus_order_minus_bce_only,auroc,0.0133375441944379,-0.02104775781064767,0.049351488901702066
+mask_train_blur_test,bce_plus_order_minus_bce_only,aurc,-0.013053198686152097,-0.043227167051919875,0.018787494054806116
+mask_train_blur_test,bce_plus_order_minus_bce_only,brier,-0.013884515909881934,-0.04378386209472964,0.014721322230216185
