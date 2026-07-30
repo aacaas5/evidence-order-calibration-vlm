@@ -1,0 +1,17 @@
+\section{Analysis and Discussion}
+\label{sec:analysis}
+
+\paragraph{Correctness discrimination is not evidence-order consistency.}
+The main conceptual result is the divergence between two reliability objectives. Native confidence has masking AUROC 0.769 and the best AURC, yet its EMVR is 0.436 and 92.0\% of trajectories contain a directional violation. The order-trained head sacrifices neither metric catastrophically, but its supported improvement is specifically structural. A reliability score used to rank a mixed population of answers need not obey the within-question counterfactual order induced by evidence loss.
+
+\paragraph{Why a flat control can have high EMVR.}
+EMVR counts only the sign of each adjacent difference. For the matched non-critical control, accuracy, mean confidence, and mean entropy are almost unchanged from clean to full masking. Tiny stochastic or numerical fluctuations around a flat trajectory can nevertheless yield an upward sign about half the time. Consequently, EMVR without an effect-size curve can be misleading. The P18 conclusion rests on paired changes in accuracy, confidence, and entropy; the control EMVR is reported for completeness.
+
+\paragraph{What transfers.}
+The transfer experiment changes the intervention while retaining local question-critical geometry. The order loss trained on hard gray masking continues to reduce violations under Gaussian blur. The lack of statistically resolved AUROC, Brier, or AURC gains narrows the interpretation: the transferred object is evidence ordering, not generic uncertainty quality. The P20B ablation strengthens this reading because hidden features without the order objective transfer poorly.
+
+\paragraph{The epistemic prior is imperfect.}
+Equation~\ref{eq:desired-order} encodes a useful expectation, not a logical law of every sample. Partial masking can remove distractors, alter segmentation, or accidentally expose language priors; an answer may also remain recoverable from correlated context. We therefore do not equate every violation with a model error. EMVR is most informative in aggregate, together with task degradation and matched controls.
+
+\paragraph{Qualitative failure modes.}
+Cached trajectories exhibit several patterns: clean-correct answers can switch under degradation while confidence rebounds; some correct answers survive full masking through context or priors; wrong clean answers can remain confidently stable; matched non-critical masks often leave answers unchanged; and both blur and masking can produce non-monotonic answer switches. These cases argue against a single scalar interpretation of confidence and motivate reporting behavioral trajectories alongside aggregate discrimination metrics.

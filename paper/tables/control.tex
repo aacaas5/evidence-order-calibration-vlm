@@ -1,0 +1,18 @@
+\begin{table}[t]
+\centering
+\caption{Matched control on 170 valid paired trajectories. Changes are full-mask minus clean except accuracy drop, which is clean minus full.}
+\label{tab:control}
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{lrrr}
+\toprule
+Intervention & Acc. clean & Acc. full & Acc. drop \\
+\midrule
+Critical & 0.641 & 0.359 & 0.282 \\
+Matched non-critical & 0.641 & 0.635 & 0.006 \\
+\midrule
+Paired difference & \multicolumn{2}{r}{critical $-$ non-critical} & 0.276 \\
+95\% CI & \multicolumn{2}{r}{} & [0.200, 0.347] \\
+\bottomrule
+\end{tabular}
+\end{table}

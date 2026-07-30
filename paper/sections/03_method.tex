@@ -1,0 +1,48 @@
+\section{Method}
+\label{sec:method}
+
+\subsection{Question-conditioned evidence trajectories}
+
+Let $f_\theta$ be a frozen VLM, $I$ an image, $q$ a question, and $M_q$ the bounding box of the object judged critical for answering $q$. A corruption operator $C(I,M_q;\lambda)$ removes a severity-dependent fraction of this region. For masking, the side lengths of the centered gray rectangle scale as $\sqrt{\lambda}$, so its area scales linearly with $\lambda$. At $\lambda=0$ the image is unchanged; at $\lambda=1$ the full box is covered. Applying $f_\theta$ at the five severities yields answer and feature tuples $(y_{i,k},x_{i,k})$ for trajectory $i$ and severity index $k$.
+
+The strict normalized correctness label is $z_{i,k}\in\{0,1\}$. We use the frozen VLM's final language-layer representation $h_{i,k}\in\mathbb{R}^{2048}$, mean semantic-token sequence log-confidence $c_{i,k}$, and mean predictive entropy $H_{i,k}$. All tokenizer special/control tokens are excluded from the two token-level aggregates. The combined feature vector is
+\begin{equation}
+x_{i,k}=[h_{i,k};c_{i,k};H_{i,k}]\in\mathbb{R}^{2050}.
+\end{equation}
+
+\subsection{Post-hoc reliability head}
+
+A linear head produces logit $g_{i,k}=w^\top x_{i,k}+b$ and reliability
+\begin{equation}
+R_\phi(x_{i,k})=\sigma(g_{i,k}).
+\end{equation}
+The answer-generating VLM is unchanged. The BCE-only baseline minimizes
+\begin{equation}
+\mathcal{L}_{\mathrm{cls}}=-\sum_{i,k}\left[z_{i,k}\log R_{i,k}+(1-z_{i,k})\log(1-R_{i,k})\right].
+\end{equation}
+The order-aware model adds all within-trajectory severity pairs $(a,b)$ with $a<b$:
+\begin{equation}
+\mathcal{L}_{\mathrm{ord}}=\sum_i\sum_{a<b}\max\left(0,m-[g_{i,a}-g_{i,b}]\right).
+\end{equation}
+The frozen setting is
+\begin{equation}
+\mathcal{L}=\mathcal{L}_{\mathrm{cls}}+\mu\mathcal{L}_{\mathrm{ord}}+\alpha\lVert w\rVert_2^2,
+\end{equation}
+with $\mu=0.3$, margin $m=0.05$, L2 setting $1.0$, and seed 42. These values were fixed before the final control and transfer analyses.
+
+\subsection{Evidence monotonicity violation rate}
+
+For adjacent severities, a violation occurs when reliability rises after more evidence is removed:
+\begin{equation}
+v_{i,k}=\mathbb{1}[R_{i,k+1}>R_{i,k}].
+\end{equation}
+With five states per trajectory,
+\begin{equation}
+\mathrm{EMVR}=\frac{1}{4N}\sum_{i=1}^N\sum_{k=0}^{3}v_{i,k}.
+\label{eq:emvr}
+\end{equation}
+Lower is better. EMVR is a task-specific behavioral diagnostic of evidence-order consistency, not a universal uncertainty or calibration metric. We also report the fraction of trajectories with at least one violation, correctness discrimination (AUROC/AUPRC), Brier score, and area under the risk--coverage curve (AURC).
+
+\subsection{Deployment interpretation}
+
+Trajectories are required to construct the order loss and evaluate EMVR. Once trained, the post-hoc head operates on a single current image--question--answer state. It does not mask the image repeatedly or generate a full trajectory at deployment time.

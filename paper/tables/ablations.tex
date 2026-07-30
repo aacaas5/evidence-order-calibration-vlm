@@ -1,0 +1,19 @@
+\begin{table*}[t]
+\centering
+\caption{P20 feature/objective ablations (means). These are diagnostic ablations, not replacements for the frozen primary results. HS denotes hidden states plus native signals.}
+\label{tab:ablations}
+\small
+\begin{tabular}{llrr|rr}
+\toprule
+& & \multicolumn{2}{c}{Critical masking} & \multicolumn{2}{c}{Mask $\rightarrow$ blur} \\
+Features & Objective & AUROC & EMVR & AUROC & EMVR \\
+\midrule
+Confidence & BCE & \textbf{0.7614} & 0.4364 & \textbf{0.7010} & 0.4207 \\
+Entropy & BCE & 0.7515 & 0.4136 & 0.6829 & 0.4135 \\
+Confidence + entropy & BCE & 0.7612 & 0.4278 & 0.6959 & 0.4107 \\
+Hidden only & BCE & 0.6152 & 0.4093 & 0.5917 & 0.4564 \\
+HS & BCE & 0.6298 & 0.4037 & 0.6068 & 0.4421 \\
+HS & BCE + order & 0.6536 & \textbf{0.3950} & 0.6175 & \textbf{0.3909} \\
+\bottomrule
+\end{tabular}
+\end{table*}

@@ -1,0 +1,17 @@
+\begin{table*}[t]
+\centering
+\caption{Mask-train $\rightarrow$ blur-test grouped-cross-validation means. Lower is better for Brier, EMVR, and TVR. The statistically supported paired result is the order-minus-BCE EMVR difference; other metric intervals cross zero.}
+\label{tab:transfer}
+\small
+\begin{tabular}{lrrrrrr}
+\toprule
+Score/model & Accuracy & AUROC & AUPRC & Brier & EMVR & TVR \\
+\midrule
+Native confidence & -- & \textbf{0.7010} & \textbf{0.7110} & -- & 0.4207 & 0.8921 \\
+BCE-only & 0.5979 & 0.6049 & 0.6142 & 0.3521 & 0.4492 & 0.9089 \\
+BCE + order & \textbf{0.6026} & 0.6205 & 0.6300 & \textbf{0.3383} & \textbf{0.4022} & \textbf{0.8863} \\
+\midrule
+Order $-$ BCE EMVR & \multicolumn{6}{c}{$-0.04678$; 95\% CI [$-0.07386$, $-0.01989$]} \\
+\bottomrule
+\end{tabular}
+\end{table*}

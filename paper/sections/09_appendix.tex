@@ -1,0 +1,10 @@
+\section{Additional Protocol Details}
+
+\subsection{Benchmark audit and taxonomy}
+The 250-candidate scaled set was reviewed by an automated visual-quality procedure that classified 176 examples as accepted, 71 as rejected, and 3 as unsure. A deterministic ten-example human spot-check is retained in \path{results/scaled/p17/human_spotcheck_10.json}. It must not be interpreted as full manual auditing. P17 corrected the category taxonomy: across 880 condition rows, the final counts are color 315, identity 400, shape 60, and material 105; 205 labels changed and zero correctness labels changed.
+
+\subsection{Matched non-critical box search}
+For each accepted critical box, a $41\times41$ deterministic grid of possible top-left placements is evaluated. Candidates retain exactly the critical width and height, remain in image bounds, and satisfy IoU $\le0.05$. The objective sums intersection-area/control-area ratios over all non-critical scene-graph boxes. Ties favor greater center distance from the critical region and then coordinate order. Selection uses seed 42 as experiment metadata but no randomness. Six large-box cases have no valid candidate. The valid controls have mean critical-control IoU 0.00506 and mean overlap score 0.81582; the latter can exceed one because GQA annotations are dense and nested.
+
+\subsection{Statistics}
+All stated intervals use 1,000 trajectory-level paired bootstrap resamples with seed 42. A resampled unit contains every severity state of one question under both compared methods or interventions. This preserves within-trajectory dependence and pairing. Reported intervals are percentile intervals; no condition-level independence assumption or p-value is used.

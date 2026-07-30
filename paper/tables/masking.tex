@@ -1,0 +1,15 @@
+\begin{table*}[t]
+\centering
+\caption{Frozen primary masking results. Lower is better for Brier, EMVR, trajectory violation rate (TVR), and AURC. Native confidence is a score, so learned-head accuracy and Brier are not applicable.}
+\label{tab:masking}
+\small
+\begin{tabular}{lrrrrrrr}
+\toprule
+Score/model & Accuracy & AUROC & AUPRC & Brier & EMVR & TVR & AURC \\
+\midrule
+Native confidence & -- & \textbf{0.7689} & -- & -- & 0.4361 & -- & \textbf{0.2654} \\
+BCE-only & \textbf{0.6104} & 0.6743 & \textbf{0.7237} & 0.2268 & 0.3298 & 0.8127 & 0.3151 \\
+BCE + order & 0.6036 & 0.6762 & 0.7222 & \textbf{0.2256} & \textbf{0.3027} & \textbf{0.7673} & 0.3158 \\
+\bottomrule
+\end{tabular}
+\end{table*}

@@ -1,0 +1,31 @@
+\section{Introduction}
+\label{sec:introduction}
+
+Vision--language models can answer visual questions fluently even when the pixels needed to justify an answer are weak, absent, or contradicted by language priors. Existing work measures object hallucination, visual dependence, uncertainty, and abstention in complementary ways \citep{li2023pope,leng2023vcd,favero2024m3id,srinivasan2024recoverr}. We ask a narrower behavioral question: \emph{when progressively more of the visual evidence required by this particular question is removed, does answer reliability respect the resulting order?}
+
+For a clean image--question pair and a question-critical region, we create an ordered sequence of local evidence states at severities $\lambda\in\{0,.25,.5,.75,1\}$. A reliability score consistent with the intervention should satisfy
+\begin{equation}
+R_0 \ge R_{.25} \ge R_{.5} \ge R_{.75} \ge R_1.
+\label{eq:desired-order}
+\end{equation}
+This requirement differs from ordinary correctness discrimination. A score can rank correct answers above incorrect answers on average and still increase as evidence for one question is removed. Conversely, a highly order-consistent score need not be the best global selector of correct answers. Our experiments show both sides of this distinction.
+
+We use GQA scene graphs \citep{hudson2019gqa,krishna2016visualgenome} to associate questions with object boxes and construct five-level local masking trajectories. The answer model, Qwen2.5-VL-3B-Instruct \citep{bai2025qwen25vl}, remains frozen. We extract its answer, native sequence log-confidence, predictive entropy, and final-layer hidden representation. A linear post-hoc head predicts strict normalized answer correctness; an evidence-order hinge loss additionally supervises the relative logits within each trajectory. Figure~\ref{fig:pipeline} summarizes the protocol. At deployment, the head consumes only the features of the current image, question, and generated answer; the complete trajectory is a source of training and evaluation supervision, not a deployment requirement.
+
+\begin{figure*}[t]
+    \centering
+    \includegraphics[width=\textwidth]{pipeline.png}
+    \caption{Study design. Progressive, local, question-critical evidence loss produces supervision for a post-hoc reliability head while the answer-generating VLM remains frozen.}
+    \label{fig:pipeline}
+\end{figure*}
+
+The evidence manipulation is validated with an equally sized matched non-critical-region control. Destroying critical evidence causes approximately 28 percentage points of accuracy degradation, whereas full non-critical masking causes almost none. The primary learned comparison then isolates the training objective: BCE plus evidence-order supervision significantly lowers the evidence monotonicity violation rate (EMVR) relative to a BCE-only head. Most importantly, this structural benefit transfers from masking to an unseen local Gaussian-blur degradation on held-out question IDs. The transfer does not establish universal calibration: conventional AUROC, Brier, and selective-risk differences are limited or statistically inconclusive, and native confidence retains the best AURC.
+
+Our contributions are threefold:
+\begin{enumerate}
+    \item \textbf{Controlled evidence trajectory protocol.} We construct progressive, question-critical local evidence-loss trajectories and a task-specific diagnostic of order violations, together with matched non-critical controls.
+    \item \textbf{Evidence-order reliability estimator.} We train a lightweight post-hoc estimator with correctness and ordinal evidence-order supervision while keeping the VLM frozen.
+    \item \textbf{Cross-degradation empirical analysis.} Evidence-order supervision reduces violations under masking and retains a statistically supported reduction on unseen local blur, while conventional discrimination and selective-risk gains remain limited.
+\end{enumerate}
+
+We do not claim the first use of ordinal VLM calibration, hidden-state confidence probes, region masking, evidence/non-evidence intervention, or abstention. The contribution is their use in a specific question-conditioned, multi-severity answer-reliability protocol and the accompanying transfer test.

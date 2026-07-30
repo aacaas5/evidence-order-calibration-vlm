@@ -1,0 +1,77 @@
+\section{Results}
+\label{sec:results}
+
+\subsection{Critical evidence loss degrades task performance}
+
+Figure~\ref{fig:severity} shows the aggregate phenomenon. Accuracy falls from 0.642 on clean images to 0.358 under full critical masking, a 28.4-point reduction. Mean native sequence log-confidence decreases from $-0.318$ to $-0.570$, while mean entropy increases from 0.826 to 1.382. Thus native confidence does respond to evidence loss in aggregate; the failure is not complete insensitivity.
+
+\begin{figure*}[t]
+    \centering
+    \includegraphics[width=\textwidth]{critical_mask_severity.png}
+    \caption{Aggregate behavior under progressive masking of question-critical evidence. Accuracy and sequence log-confidence decrease while entropy rises.}
+    \label{fig:severity}
+\end{figure*}
+
+\subsection{Native confidence is trajectory-wise non-monotonic}
+
+Across 704 adjacent pairs, native confidence violates the desired direction 307 times, giving EMVR 0.436. At least one violation occurs in 162/176 trajectories (92.0\%). Restricting to the 113 clean-correct trajectories lowers EMVR to 0.383, but 88.5\% still contain a violation. Figure~\ref{fig:qualitative} illustrates a non-cherry-picked failure type from the cached failure analysis: confidence first increases under light masking and later rebounds under full masking even after the answer has switched from correct to wrong.
+
+\begin{figure*}[t]
+    \centering
+    \includegraphics[width=\textwidth]{qualitative_violation.png}
+    \caption{Example native-confidence violation. The answer is initially correct, changes after additional critical masking, and confidence is non-monotonic across the trajectory.}
+    \label{fig:qualitative}
+\end{figure*}
+
+\subsection{The degradation is evidence-specific}
+
+Table~\ref{tab:control} and Figure~\ref{fig:control} compare critical and equally sized matched non-critical masks on the 170 valid pairs. Critical masking causes a 0.282 accuracy drop; non-critical masking causes 0.006. The paired accuracy-drop difference is 0.276 (95\% CI [0.200, 0.347]). Critical masks also produce substantially larger confidence decreases and entropy increases. This control supports the intended causal interpretation: the main degradation is associated with removing question-relevant evidence rather than merely covering the same number of pixels.
+
+\input{tables/control}
+
+\begin{figure*}[t]
+    \centering
+    \includegraphics[width=\textwidth]{matched_control.png}
+    \caption{Critical versus matched non-critical masking on 170 paired trajectories. Non-critical curves remain nearly flat in aggregate despite a high directional EMVR caused by small fluctuations.}
+    \label{fig:control}
+\end{figure*}
+
+The non-critical confidence curve is nearly flat, yet its EMVR is 0.528 versus 0.434 for critical masking. This does not make non-critical masking more harmful: when adjacent differences are small and noisy around a constant level, their directions approach chance. The primary control statistic is the paired task-degradation magnitude.
+
+\subsection{Evidence-order supervision reduces masking violations}
+
+Table~\ref{tab:masking} reports the frozen primary masking comparison. BCE plus order reduces EMVR from 0.330 to 0.303 and the trajectory violation rate from 0.813 to 0.767. The paired order-minus-BCE EMVR difference is $-0.026989$ (95\% CI [$-0.044034$, $-0.009943$]), supporting a structural improvement. AUROC changes by only $+0.003773$ (95\% CI [$-0.002943$, $0.010189$]) and AURC by $+0.000702$ (95\% CI [$-0.004039$, $0.007011$]); both intervals cross zero. We therefore claim reduced order violations with broadly preserved discrimination, not significant AUROC or AURC improvement.
+
+\input{tables/masking}
+
+\subsection{Ordering transfers from masking to unseen blur}
+
+Local blur produces a 21.6-point clean-to-maximum accuracy loss (0.642 to 0.426), with native blur EMVR 0.420. In the held-out mask-train $\rightarrow$ blur-test experiment (Table~\ref{tab:transfer}), order training reduces mean EMVR from 0.449 to 0.402. The paired difference is $-0.046778$ (95\% CI [$-0.073864$, $-0.019886$]). This statistically supported transfer is the strongest evidence that the objective learns more than a mask-specific score pattern.
+
+The AUROC difference is $+0.013338$ (95\% CI [$-0.021048$, $0.049351$]), the Brier difference is $-0.013885$ (95\% CI [$-0.043784$, $0.014721$]), and the AURC difference is $-0.013053$ (95\% CI [$-0.043227$, $0.018787$]). These conventional metric differences remain statistically inconclusive.
+
+\input{tables/transfer}
+
+\begin{figure}[t]
+    \centering
+    \includegraphics[width=\columnwidth]{emvr_comparison.png}
+    \caption{EMVR under the primary masking experiment and held-out blur transfer. The order head improves on BCE in both settings; native confidence is shown as a behavioral reference, not an identically trained model.}
+    \label{fig:emvr}
+\end{figure}
+
+\subsection{Selective prediction: a negative result}
+
+Native confidence remains the strongest masking selective-risk score: AURC is 0.265 versus 0.315 for BCE and 0.316 for BCE plus order. At approximately 50\% coverage, risk is 0.273 for native confidence and 0.359 for both learned heads. Figure~\ref{fig:risk} shows the complete curves. The proposed objective does not improve selective prediction over native confidence.
+
+\begin{figure}[t]
+    \centering
+    \includegraphics[width=\columnwidth]{risk_coverage.png}
+    \caption{Masking risk--coverage curves. Native confidence ranks correctness better than either learned head despite its higher evidence-order violation rate.}
+    \label{fig:risk}
+\end{figure}
+
+\subsection{Feature and objective ablations}
+
+Table~\ref{tab:ablations} summarizes P20 ablations, which are separate from the frozen primary comparisons above. Confidence-only features discriminate correctness strongly on masking, whereas hidden-only features do not automatically become monotonic. In cross-blur transfer, hidden-only EMVR is 0.456 and full hidden-plus-signals BCE EMVR is 0.442. Adding the order objective to the same full representation yields the best structural transfer EMVR, 0.391. This supports attributing the transfer benefit to the training objective rather than assuming hidden representations are naturally ordered.
+
+\input{tables/ablations}

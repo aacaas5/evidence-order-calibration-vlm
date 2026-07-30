@@ -1,0 +1,23 @@
+\section{Experimental Setup}
+\label{sec:setup}
+
+\paragraph{Data and grounding.}
+We derive a controlled subset from GQA balanced validation questions \citep{hudson2019gqa}, whose scene graphs inherit dense object geometry from Visual Genome \citep{krishna2016visualgenome}. Candidate questions focus on color, identity, material, and shape. Each trajectory uses the first mapped critical object box. The initial scaled set contained 250 candidates: automated visual quality control accepted 176, rejected 71, and marked 3 unsure (70.4\% acceptance). A limited ten-example human spot-check supplemented, but did not replace, this automated audit. We do not describe the benchmark as fully manually audited.
+
+The accepted manifest is frozen at \path{data/gqa/manifests/gqa_evidence_scaled_accepted.json}. The main masking experiment contains 176 trajectories and 880 conditions. A subsequent P17 cleanup corrected 205 category labels without changing any correctness labels; category-specific analysis uses the corrected taxonomy. Overall metrics are unaffected.
+
+\paragraph{Model and generation.}
+The primary model is the non-quantized \texttt{Qwen/Qwen2.5-VL-3B-Instruct} checkpoint \citep{bai2025qwen25vl}. Generation is deterministic (\texttt{do\_sample=False}) with a short-answer prompt. All main experiments freeze the VLM and train only lightweight linear heads. The executed environment used Python 3.14.5, PyTorch 2.11.0+cu128, Transformers 5.16.1, and an NVIDIA GeForce RTX 5060 Laptop GPU with 8,151 MiB; \texttt{device\_map=auto} permitted CPU/disk offload where necessary.
+
+\paragraph{Matched non-critical control.}
+For 170 of 176 accepted samples, a deterministic grid search finds a fully in-bounds box with the same width and height as the critical box and critical-control IoU at most 0.05. Candidates minimize total intersection ratio with non-critical scene-graph objects, then maximize center distance from the critical box. Six samples have no defensible same-size placement and are excluded only from the paired control. The mean critical-control IoU is 0.00506. Thirty-two controls have zero annotated-object overlap; because dense/nested annotations remain, we call them \emph{matched non-critical regions}, not pure background.
+
+\paragraph{Held-out blur transfer.}
+The unseen degradation applies Gaussian blur only within $M_q$ with radius
+\begin{equation}
+r(\lambda)=\min\left(24,0.15\lambda\min(w,h)\right).
+\end{equation}
+Models are trained only on masking trajectories and evaluated on blur trajectories for held-out question IDs using grouped cross-validation. No blur examples or blur-specific hyperparameter tuning enter training.
+
+\paragraph{Splits and uncertainty.}
+Question IDs define groups so all five states of a trajectory remain together. The final comparisons use out-of-fold predictions. Uncertainty for method differences is estimated with 1,000 paired bootstrap resamples (seed 42) at the whole-question-trajectory level; severity rows are never resampled independently. We report percentile 95\% intervals and avoid p-values.
