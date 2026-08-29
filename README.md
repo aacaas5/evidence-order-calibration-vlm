@@ -4,6 +4,10 @@
 
 This repository studies answer-level reliability as question-critical visual evidence is progressively removed. A frozen Qwen2.5-VL-3B-Instruct model generates answers and features; only lightweight post-hoc reliability heads are trained.
 
+**Paper:** [Read the compiled manuscript (PDF)](paper/main.pdf)
+
+[Method](#method) · [Results](#results) · [Paper](#paper) · [Reproduce](#reproducing-results) · [Repository guide](#repository-structure)
+
 ## Motivation
 
 If less evidence is available for answering a particular question, a reliability estimate should generally not increase. For five evidence states,
@@ -34,6 +38,8 @@ where `h` is a frozen final-layer representation, `c_seq` is semantic-token sequ
 
 ![Pipeline](paper/figures/pipeline.png)
 
+*Study design: progressive local removal of question-critical evidence supplies order supervision for a post-hoc reliability head while the answer-generating VLM remains frozen.*
+
 At deployment, the trained head uses one current image/question/answer state. Full five-step trajectories are required only for supervision and evaluation.
 
 ## Experimental pipeline
@@ -61,6 +67,16 @@ The frozen benchmark contains 176 accepted trajectories and 880 masking conditio
 
 The EMVR reduction relative to BCE-only is statistically supported. AUROC and AURC differences between learned heads are not.
 
+![Accuracy, confidence, and entropy under progressive critical masking](paper/figures/critical_mask_severity.png)
+
+*Aggregate behavior under progressive masking: answer accuracy and sequence confidence decrease as critical evidence is removed, while predictive entropy rises.*
+
+### Qualitative trajectory
+
+![Qualitative evidence-order violation](paper/figures/qualitative_violation.png)
+
+*A representative native-confidence violation: the answer changes after additional critical masking, but confidence does not decrease monotonically.*
+
 ### Matched non-critical control
 
 On 170 geometrically valid paired controls, full critical masking reduces accuracy from 0.641 to 0.359, whereas full equally sized non-critical masking changes it from 0.641 to 0.635. The paired accuracy-drop difference is **0.276**, 95% CI **[0.200, 0.347]**.
@@ -68,6 +84,8 @@ On 170 geometrically valid paired controls, full critical masking reduces accura
 Control boxes are called *matched non-critical regions*, not pure background: only 32/170 avoid all annotated non-critical objects, and dense/nested scene-graph boxes produce a mean overlap score of 0.816.
 
 ![Critical versus matched non-critical masking](paper/figures/matched_control.png)
+
+*Matched controls isolate the effect of removing question-critical evidence from the effect of masking an equally sized region.*
 
 ### Held-out blur transfer
 
@@ -80,6 +98,16 @@ The blur operator is local to the critical box. Heads are trained on mask trajec
 | BCE + order | 0.6205 | **0.3383** | **0.4022** | **0.8863** |
 
 The paired EMVR difference is supported; AUROC, Brier, and AURC intervals cross zero.
+
+![Evidence monotonicity violations for masking and blur transfer](paper/figures/emvr_comparison.png)
+
+*Evidence-order supervision lowers EMVR relative to BCE-only under both critical masking and held-out local-blur transfer.*
+
+### Selective prediction
+
+![Masking risk-coverage curves](paper/figures/risk_coverage.png)
+
+*Native confidence remains the strongest score for ranking answer correctness under masking. Evidence-order supervision improves structural monotonicity, not selective-risk performance.*
 
 ## Ablations
 
@@ -152,7 +180,17 @@ The project was developed during June--July 2026. Work progressed from frozen-mo
 
 ## Paper
 
-The manuscript is [Evidence-Order Calibration for Selective Visual Reasoning under Progressive Loss of Question-Critical Evidence](paper/main.pdf), by **MUHAMATHU AMEER ALI AACAAS MUHAMATH**, Department of Electrical Engineering, University of Moratuwa. This repository is a research artifact; it does not claim submission or acceptance at a venue.
+### Evidence-Order Calibration for Selective Visual Reasoning under Progressive Loss of Question-Critical Evidence
+
+By **MUHAMATHU AMEER ALI AACAAS MUHAMATH**, Department of Electrical Engineering, University of Moratuwa.
+
+- [Read or download the compiled paper](paper/main.pdf)
+- [View the LaTeX source](paper/main.tex)
+- [View the bibliography](paper/references.bib)
+- [Browse paper figures](paper/figures)
+- [Browse paper tables](paper/tables)
+
+The paper and repository report the same frozen primary results. `scripts/paper/validate_paper_results.py` checks the paper-facing artifacts against the consolidated result handoff. This repository is a research artifact; it does not claim submission or acceptance at a venue.
 
 ## Citation
 
