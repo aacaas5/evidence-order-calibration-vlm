@@ -149,6 +149,7 @@ See [Experiment Map](docs/EXPERIMENT_MAP.md), [Results Index](docs/RESULTS_INDEX
 
 The project was developed during June--July 2026. Work progressed from frozen-model viability and signal extraction (P0--P2), through synthetic and grounded pilot trajectories (P3--P8), to scaled benchmark construction and masking experiments (P9--P16). The final stages added taxonomy cleanup (P17), matched non-critical controls (P18), held-out local-blur transfer (P19), final ablations and consolidation (P20), and paper/reproducibility polish.
 
+
 ## Paper
 
 The manuscript is [Evidence-Order Calibration for Selective Visual Reasoning under Progressive Loss of Question-Critical Evidence](paper/main.pdf), by **MUHAMATHU AMEER ALI AACAAS MUHAMATH**, Department of Electrical Engineering, University of Moratuwa. This repository is a research artifact; it does not claim submission or acceptance at a venue.
