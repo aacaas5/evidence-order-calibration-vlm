@@ -20,9 +20,15 @@ The answer-generating VLM is unchanged. The BCE-only baseline minimizes
 \begin{equation}
 \mathcal{L}_{\mathrm{cls}}=-\sum_{i,k}\left[z_{i,k}\log R_{i,k}+(1-z_{i,k})\log(1-R_{i,k})\right].
 \end{equation}
-The order-aware model adds all within-trajectory severity pairs $(a,b)$ with $a<b$:
+The order-aware model adds an ordinal hinge loss over adjacent
+severity pairs within each trajectory:
 \begin{equation}
-\mathcal{L}_{\mathrm{ord}}=\sum_i\sum_{a<b}\max\left(0,m-[g_{i,a}-g_{i,b}]\right).
+\mathcal{L}_{\mathrm{ord}}
+=
+\sum_i \sum_{k=0}^{3}
+\max\left(0,\,
+m-\left[g_{i,k}-g_{i,k+1}\right]
+\right).
 \end{equation}
 The frozen setting is
 \begin{equation}
